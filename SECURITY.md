@@ -10,7 +10,7 @@ Trong báo cáo nên có: phiên bản hoặc địa chỉ trang bạn thử, c�
 
 Trong phạm vi: mã trong `web/`, cấu hình triển khai (`netlify.toml`), công cụ trong `tools/` và `content/`.
 
-Ngoài phạm vi: việc người có quyền dùng máy tự sửa dữ liệu trong trình duyệt của chính họ, và các dịch vụ bên thứ ba (Netlify, GitHub, Google Fonts).
+Ngoài phạm vi: việc người có quyền dùng máy tự sửa dữ liệu trong trình duyệt của chính họ, và các dịch vụ bên thứ ba (Netlify, GitHub).
 
 ## Thiết kế
 

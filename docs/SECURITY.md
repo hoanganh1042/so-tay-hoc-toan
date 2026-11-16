@@ -12,7 +12,7 @@ Người dùng là học sinh THPT, phần lớn dưới 18 tuổi. Ứng dụng
 
 Ứng dụng **không** hỏi và không lưu họ tên, lớp cụ thể, trường, thư điện tử, số điện thoại hay bất kỳ mã định danh nào. Tất cả nằm trong trình duyệt của học sinh (IndexedDB và localStorage). Ứng dụng không có mã nào gửi dữ liệu ra ngoài: không `fetch` tới máy chủ khác, không công cụ đo lường, không cookie.
 
-Kết nối ra ngoài duy nhất khi mở trang là tải phông chữ từ Google Fonts (Google thấy địa chỉ IP và loại trình duyệt, không thấy dữ liệu học tập). Liên kết YouTube và liên kết nguồn đề chỉ mở khi học sinh bấm, và trang đặt `Referrer-Policy: no-referrer`.
+Phông chữ (Be Vietnam Pro, giấy phép OFL) được phát từ chính ứng dụng, nên khi mở trang ứng dụng không gửi yêu cầu nào tới bên thứ ba. Liên kết YouTube và liên kết nguồn đề chỉ mở khi học sinh bấm, và trang đặt `Referrer-Policy: no-referrer`.
 
 ## Mô hình đe dọa
 
@@ -33,8 +33,8 @@ Ngoài phạm vi: người có quyền dùng máy và mở công cụ lập trì
 ### 1. Chính sách bảo mật nội dung (CSP)
 
 ```
-default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com;
-style-src-attr 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:;
+default-src 'self'; script-src 'self'; style-src 'self';
+style-src-attr 'unsafe-inline'; font-src 'self'; img-src 'self' data:;
 connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
 ```
 
@@ -57,7 +57,7 @@ connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; fram
 
 ### 4. Service worker
 
-Chỉ xử lý yêu cầu GET cùng nguồn gốc và phông Google; chỉ lưu phản hồi thành công, không lưu phản hồi chuyển hướng; không có `importScripts`, không nhận thông điệp từ trang.
+Chỉ xử lý yêu cầu GET cùng nguồn gốc (kể cả phông chữ tự lưu); yêu cầu tới nguồn khác được bỏ qua; chỉ lưu phản hồi thành công, không lưu phản hồi chuyển hướng; không có `importScripts`, không nhận thông điệp từ trang.
 
 ### 5. Kho mã
 
@@ -68,7 +68,7 @@ Chỉ xử lý yêu cầu GET cùng nguồn gốc và phông Google; chỉ lưu 
 
 ## Giới hạn còn lại
 
-- **Phông chữ bên thứ ba.** Muốn không còn kết nối nào ra ngoài thì tự lưu tệp phông trong `web/` và siết CSP về `style-src 'self'; font-src 'self'`.
+- **Phông chữ bên thứ ba.** Đã xử lý: phông Be Vietnam Pro được lưu trong `web/fonts/` và CSP đặt `font-src 'self'`, nên ứng dụng không còn kết nối nào ra ngoài khi mở trang.
 - **Nguồn gốc dùng chung.** Nếu đặt app ở `ten.github.io/kho/`, mọi trang khác của cùng tài khoản GitHub dùng chung nguồn gốc và đọc, ghi được dữ liệu của app. Nên dùng tên miền con riêng (như bản Netlify hiện tại).
 - **GitHub Pages không đặt được tiêu đề HTTP**, nên ở đó chỉ còn lớp CSP trong thẻ `<meta>` và không có `frame-ancestors`.
 - **Dữ liệu không mã hóa** trên máy và trong tệp sao lưu. Tệp sao lưu chứa câu trả lời phiếu thói quen; học sinh nên giữ tệp cho riêng mình.

@@ -63,6 +63,7 @@ flowchart LR
 | `db.js` | Lớp lưu trữ (IndexedDB và localStorage), làm sạch dữ liệu, sao lưu và khôi phục. |
 | `app.js` | Trạng thái, định tuyến, các màn hình, chấm điểm, lịch ôn lại, bộ luật gợi ý. |
 | `sw.js`, `manifest.webmanifest`, `app/` | Phần PWA: lưu ngoại tuyến, thông tin cài đặt, biểu tượng. |
+| `fonts/` | Phông Be Vietnam Pro tự lưu (woff2, tập con vietnamese và latin), giấy phép OFL trong `fonts/OFL.txt`. |
 
 ## Luồng chạy
 
@@ -77,7 +78,6 @@ flowchart LR
 | Loại yêu cầu | Chiến lược | Lý do |
 |---|---|---|
 | Tệp của app (cùng nguồn) | Mạng trước, mất mạng thì dùng bản đã lưu | Có mạng là có bản mới nhất, không cần học sinh tự cập nhật |
-| Phông chữ Google | Bản đã lưu trước | Phông ít đổi, tải lại tốn dung lượng |
 | Yêu cầu khác nguồn | Không can thiệp | Service worker không lưu thứ nó không kiểm soát |
 
 Khi phát hành bản mới, tăng hằng số `VER` trong `sw.js`. Service worker mới xóa bộ nhớ đệm cũ khi được kích hoạt.

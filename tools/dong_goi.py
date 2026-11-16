@@ -50,6 +50,16 @@ for name in scripts:
     script_hashes.append(sha(body))
     one = one.replace(f'<script src="{name}"></script>', "<script>" + body + "</script>", 1)
 css = (SRC / "app.css").read_text(encoding="utf-8")
+
+
+# Phông chữ tự lưu: bản một file không có thư mục fonts/, nên nhúng thẳng dạng data: URL (trước khi tính mã băm).
+def font_data_url(m):
+    data = (SRC / "fonts" / m.group(1)).read_bytes()
+    return 'url("data:font/woff2;base64,' + base64.b64encode(data).decode() + '")'
+
+
+css = re.sub(r'url\("fonts/([^"]+\.woff2)"\)', font_data_url, css)
+assert 'url("fonts/' not in css
 one = one.replace('<link rel="stylesheet" href="app.css">', "<style>" + css + "</style>", 1)
 icon = base64.b64encode((SRC / "app" / "icon-192.png").read_bytes()).decode()
 one = one.replace('<link rel="manifest" href="manifest.webmanifest">' + NL, "")
@@ -58,8 +68,8 @@ one = one.replace('<link rel="apple-touch-icon" href="app/apple-touch-icon.png">
 m = re.search(r'<meta http-equiv="Content-Security-Policy" content="([^"]*)">', one)
 assert m, "không tìm thấy thẻ CSP trong trang"
 csp = m.group(1)
-assert "script-src 'self'" in csp and "style-src 'self'" in csp
-csp = csp.replace("script-src 'self'", "script-src " + " ".join(script_hashes)).replace("style-src 'self'", "style-src " + sha(css))
+assert "script-src 'self'" in csp and "style-src 'self'" in csp and "font-src 'self'" in csp
+csp = csp.replace("script-src 'self'", "script-src " + " ".join(script_hashes)).replace("style-src 'self'", "style-src " + sha(css)).replace("font-src 'self'", "font-src data:")
 one = one.replace(m.group(0), f'<meta http-equiv="Content-Security-Policy" content="{csp}">')
 assert "<script src=" not in one and 'href="app.css"' not in one
 (OUT / "So_tay_Toan_mot_file.html").write_text(one, encoding="utf-8", newline=NL)
