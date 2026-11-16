@@ -40,6 +40,7 @@ connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; fram
 
 - Chỉ chạy mã từ các tệp của chính trang. Không có mã nội tuyến, không có `on...=`, không `eval`. Vì vậy kể cả khi một chuỗi bẩn lọt vào trang, trình duyệt không chạy nó.
 - `style-src-attr 'unsafe-inline'` là thỏa hiệp duy nhất: thanh tiến độ và độ rộng hình vẽ dùng thuộc tính `style`. Thuộc tính kiểu dáng không chạy được mã.
+- Bản triển khai trên Netlify có thêm hai mã băm `sha256-…` trong `script-src` và `style-src`: đó là mã của huy hiệu "Powered by Netlify" mà gói miễn phí bắt buộc hiển thị. Chỉ đúng hai khối mã đó được phép chạy.
 - Chính sách có ở hai nơi: thẻ `<meta>` trong trang (áp dụng ở mọi máy chủ) và tiêu đề HTTP trong `netlify.toml` (thêm `frame-ancestors`). Kiểm thử bảo đảm hai nơi trùng nhau.
 - Bản một tệp nhúng mã vào trang; `tools/dong_goi.py` thay `'self'` bằng mã băm SHA-256 của từng khối, nên bản đó cũng không cần `unsafe-inline` cho mã.
 

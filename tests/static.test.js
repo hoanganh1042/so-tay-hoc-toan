@@ -15,7 +15,7 @@ test('trang có CSP chặt: chỉ chạy mã từ chính trang, không unsafe-in
   assert.ok(m, 'thiếu thẻ CSP');
   const d = Object.fromEntries(m[1].split(';').map(s => s.trim().split(/\s+/)).map(([k, ...v]) => [k, v.join(' ')]));
   assert.equal(d['default-src'], "'self'");
-  assert.equal(d['script-src'], "'self'");
+  assert.match(d['script-src'], /^'self'( 'sha256-[A-Za-z0-9+/=]+')*$/, 'script-src chỉ được gồm self và mã băm');
   assert.equal(d['object-src'], "'none'");
   assert.equal(d['base-uri'], "'none'");
   assert.equal(d['connect-src'], "'self'");

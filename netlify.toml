@@ -9,10 +9,12 @@
 
 # Tiêu đề bảo mật cho mọi tệp. Chính sách CSP ở đây trùng với thẻ <meta> trong trang, thêm frame-ancestors
 # (không cho trang khác nhúng app vào khung) vì chỉ thị đó không đặt được bằng thẻ <meta>.
+# Hai mã băm sha256 trong script-src và style-src là của huy hiệu "Powered by Netlify" (bắt buộc ở gói miễn phí).
+# Nếu Netlify đổi mã huy hiệu, bảng điều khiển trình duyệt sẽ báo mã băm mới; cập nhật ở đây và ở thẻ <meta> trong trang.
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-BkKP2XO6WOEc3kXOiLr2ZoY83hamalKjPY9xBcbXVuw='; style-src 'self' 'sha256-YTN2KNwP/dL0fL4vc8FEYgUIAY35P5/DcrgsR5B83cY=' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     Referrer-Policy = "no-referrer"
