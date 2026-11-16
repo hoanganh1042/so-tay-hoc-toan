@@ -23,7 +23,7 @@ Nội dung theo Chương trình giáo dục phổ thông 2018, đối chiếu đ
 Cần Python 3 (để chạy máy chủ tệp tĩnh và các bộ sinh) và Node.js 20 trở lên (để kiểm thử). Không cần cài thêm gói nào.
 
 ```bash
-git clone <địa chỉ kho mã>
+git clone https://github.com/hoanganh1042/so-tay-hoc-toan.git
 cd so-tay-hoc-toan
 npm run serve          # mở http://localhost:8765
 ```
