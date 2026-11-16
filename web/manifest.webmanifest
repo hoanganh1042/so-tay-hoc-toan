@@ -1,0 +1,23 @@
+{
+  "name": "Sổ tay học Toán",
+  "short_name": "Sổ tay Toán",
+  "description": "Chẩn đoán lỗ hổng kiến thức Toán theo từng bài, ôn tập theo chương, ôn lại câu sai và luyện đề thi thử THPT.",
+  "lang": "vi",
+  "dir": "ltr",
+  "id": "./WebApp_So_tay_hoc_Toan.html",
+  "start_url": "./WebApp_So_tay_hoc_Toan.html#chan-doan",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0a7c88",
+  "categories": ["education"],
+  "icons": [
+    {"src": "app/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "app/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "app/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Ôn lại hôm nay", "url": "./WebApp_So_tay_hoc_Toan.html#on-lai", "icons": [{"src": "app/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Đề thi thử", "url": "./WebApp_So_tay_hoc_Toan.html#de-thi", "icons": [{"src": "app/icon-192.png", "sizes": "192x192"}]}
+  ]
+}

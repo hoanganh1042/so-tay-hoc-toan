@@ -1,0 +1,174 @@
+# 10-II-3#5
+h Gọi số bút, số vở là x, y; viết bất phương trình về số tiền rồi tìm x lớn nhất trên miền nghiệm.
+y Tổng tiền mua: 8x + 12y ≤ 120 (bất phương trình bậc nhất hai ẩn).
+y Với y cố định, x lớn nhất khi y nhỏ nhất có thể.
+b Điều kiện: x, y nguyên, x ≥ 0, y ≥ 3, 8x + 12y ≤ 120.
+b y nhỏ nhất bằng 3 nên 8x ≤ 120 − 36 = 84, tức x ≤ 10,5.
+b x nguyên nên x lớn nhất bằng 10.
+b Đáp án: 10
+
+# 10-II-4#5
+h Lập hệ bất phương trình cho số áo x, số quần y; lãi lớn nhất đạt tại một đỉnh của miền nghiệm.
+y Bài toán quy hoạch tuyến tính: giá trị lớn nhất của F = ax + by trên miền đa giác đạt tại đỉnh.
+b Hệ: x ≥ 0, y ≥ 0, x + 2y ≤ 60 (giờ cắt), 2x + y ≤ 48 (giờ may). Lãi F = 80x + 100y.
+b Các đỉnh: O(0; 0), (24; 0), (0; 30) và giao điểm của x + 2y = 60 với 2x + y = 48 là (12; 24).
+b F(24; 0) = 1920, F(0; 30) = 3000, F(12; 24) = 960 + 2400 = 3360.
+b Lãi lớn nhất 3360 nghìn đồng khi may 12 áo, 24 quần.
+b Đáp án: 3360
+
+# 10-III-5#6
+h Đặt hệ trục gốc O; tung độ của M bằng R·sin 135°, rồi cộng độ cao của tâm.
+y Điểm M trên đường tròn tâm O bán kính R, góc xOM = α thì M(R cos α; R sin α).
+y sin 135° = sin 45° = √2/2.
+b Tung độ của M so với tâm: 50·sin 135° = 25√2 ≈ 35,36 m.
+b Độ cao so với mặt đất: 55 + 35,36 ≈ 90,36 m.
+b Đáp án: 90,4
+
+# 10-III-6#5
+h Biết một cạnh và hai góc kề: tính góc còn lại rồi dùng định lí sin.
+y Định lí sin: a/sin A = b/sin B = c/sin C.
+y Tổng ba góc của tam giác bằng 180°.
+b Góc C = 180° − 70° − 60° = 50°.
+b AC/sin B = AB/sin C nên AC = 500·sin 60°/sin 50° ≈ 500·0,8660/0,7660 ≈ 565,3 m.
+b Đáp án: 565
+
+# 10-IV-7#6
+h Vectơ vận tốc cùng hướng khi cùng phương và cùng chiều chuyển động, không cần cùng độ dài.
+y Hai vectơ cùng hướng: cùng phương, cùng chiều; độ dài có thể khác nhau.
+y Hai vectơ bằng nhau: cùng hướng và cùng độ dài.
+b A, C, D cùng đi về hướng Bắc nên vectơ vận tốc đôi một cùng hướng; B ngược hướng với cả ba.
+b Số cặp cùng hướng: AC, AD, CD, tức C(3, 2) = 3 cặp.
+b Đáp án: 3
+
+# 10-IV-8#5
+h Hợp lực là tổng hai vectơ lực; dựng hình bình hành (ở đây là hình thoi) rồi tính đường chéo.
+y Quy tắc hình bình hành: F = F₁ + F₂ là đường chéo hình bình hành dựng trên F₁, F₂.
+y Hình thoi cạnh a, góc 60° có đường chéo dài a√3.
+b Hai lực cùng độ lớn nên hình bình hành là hình thoi cạnh 320, góc 60°.
+b Đường chéo ứng với tổng: |F| = 2·320·cos 30° = 320√3 ≈ 554,3 N.
+b Đáp án: 554
+
+# 10-IV-9#6
+h Nhận ra G là trọng tâm tam giác, rồi dùng AG = (2/3)·AM với M là trung điểm BC.
+y GA + GB + GC = 0 ⇔ G là trọng tâm tam giác ABC.
+y Trọng tâm nằm trên trung tuyến AM và AG = (2/3)AM.
+b Tam giác cân tại A nên trung tuyến AM cũng là đường cao: AM = √(50² − 30²) = 40 m.
+b AG = (2/3)·40 ≈ 26,67 m.
+b Đáp án: 26,7
+
+# 10-IV-10#6
+h Tọa độ tàu sau t giờ bằng tọa độ ban đầu cộng t lần vectơ vận tốc; sau đó tính độ dài vectơ.
+y Chuyển động thẳng đều: M(t) = O + t·v.
+y AB = √((x₂ − x₁)² + (y₂ − y₁)²).
+b Sau 2 giờ tàu ở M = (24; 10).
+b MI = √((30 − 24)² + (4 − 10)²) = √72 ≈ 8,49 km.
+b Đáp án: 8,5
+
+# 10-IV-11#6
+h Góc giữa hai dây là góc giữa hai vectơ DA, DB; tính bằng tích vô hướng.
+y cos(u, v) = (u·v)/(|u|·|v|), với u·v = x₁x₂ + y₁y₂.
+b DA = (−3; 4), DB = (4; 4).
+b DA·DB = −12 + 16 = 4; |DA| = 5, |DB| = 4√2.
+b cos ADB = 4/(20√2) ≈ 0,1414 nên góc ADB ≈ 81,87°.
+b Đáp án: 82
+
+# 10-VI-15#5
+h Viết hàm cước theo từng khoảng quãng đường rồi thay x = 40 vào đúng công thức.
+y Hàm số cho bởi nhiều công thức: xác định x thuộc khoảng nào rồi dùng công thức tương ứng.
+b 1 km đầu: 12; 29 km tiếp theo (km 2 đến 30): 29·15 = 435.
+b 10 km còn lại (km 31 đến 40): 10·11 = 110.
+b Tổng: 12 + 435 + 110 = 557 nghìn đồng.
+b Đáp án: 557
+
+# 10-VI-16#5
+h Biểu diễn số quạt bán được theo giá p (hàm bậc nhất), lợi nhuận là hàm bậc hai của p; tìm đỉnh parabol.
+y Hàm bậc hai y = ax² + bx + c với a < 0 đạt lớn nhất tại x = −b/(2a).
+b Giảm (600 − p) nghìn thì bán thêm (600 − p)/2 chiếc: số bán q = 80 + (600 − p)/2 = 380 − p/2.
+b Lợi nhuận L(p) = (p − 400)(380 − p/2) = −p²/2 + 580p − 152000.
+b L đạt lớn nhất tại p = 580/(2·1/2) = 580.
+b Đáp án: 580
+
+# 10-VI-17#6
+h Đưa về bất phương trình bậc hai, xét dấu tam thức để tìm tập nghiệm rồi đếm số nguyên.
+y Tam thức ax² + bx + c (a > 0) không dương giữa hai nghiệm.
+b −x² + 30x − 200 ≥ 21 ⇔ x² − 30x + 221 ≤ 0.
+b Tam thức có hai nghiệm 13 và 17 nên 13 ≤ x ≤ 17.
+b Các giá trị nguyên: 13, 14, 15, 16, 17.
+b Đáp án: 5
+
+# 10-VI-18#6
+h Đặt HC = x, lập phương trình chứa căn từ tổng độ dài, bình phương hai vế khi vế phải không âm.
+y AC = √(x² + 9) theo định lí Pythagore.
+y √f(x) = g(x) ⇔ g(x) ≥ 0 và f(x) = g(x)².
+b AC + CB = 10 ⇔ √(x² + 9) + (8 − x) = 10 ⇔ √(x² + 9) = x + 2.
+b Với x + 2 ≥ 0: x² + 9 = x² + 4x + 4 ⇔ x = 1,25.
+b x = 1,25 thuộc [0; 8], thỏa mãn.
+b Đáp án: 1,25
+
+# 10-VII-19#5
+h Lập phương trình đường thẳng AB, tính khoảng cách từ I đến AB và kiểm tra chân đường vuông góc nằm trên đoạn AB.
+y Khoảng cách từ M(x₀; y₀) đến ax + by + c = 0 là |ax₀ + by₀ + c|/√(a² + b²).
+b AB = (12; −9) cùng phương (4; −3), vectơ pháp tuyến (3; 4): AB: 3x + 4y − 31 = 0.
+b d(I, AB) = |12 + 12 − 31|/5 = 7/5 = 1,4.
+b Hình chiếu của I lên AB ứng với tham số 9,8/15 ∈ [0; 1] nên nằm trên đoạn AB.
+b Đáp án: 1,4
+
+# 10-VII-21#5
+h Đoạn đường trong vùng phủ sóng là dây cung của đường tròn; tính khoảng cách từ tâm đến đường thẳng rồi dùng Pythagore.
+y Dây cung: độ dài 2√(R² − d²), d là khoảng cách từ tâm đến đường thẳng.
+b d = |2 − 1 + 4|/√2 = 5/√2.
+b Độ dài dây: 2√(25 − 12,5) = 2√12,5 ≈ 7,07 km.
+b Đáp án: 7,1
+
+# 10-VII-22#5
+h Đặt elip x²/16 + y²/9 = 1 với trục lớn trên mặt đường; xe chạm cổng tại hoành độ x = 1,2.
+y Elip x²/a² + y²/b² = 1 có trục lớn 2a, trục nhỏ 2b.
+b a = 4, b = 3. Mép xe ở x = 1,2.
+b y = 3√(1 − 1,2²/16) = 3√0,91 ≈ 2,862 m.
+b Đáp án: 2,86
+
+# 10-VIII-23#5
+h Chia việc lập mã thành các bước liên tiếp rồi dùng quy tắc nhân.
+y Quy tắc nhân: công việc gồm các bước liên tiếp thì số cách bằng tích số cách của từng bước.
+b Hai chữ cái khác nhau có thứ tự: 3·2 = 6 cách.
+b Chữ số đầu: 9 cách (khác 0); thứ hai: 9 cách; thứ ba: 8 cách, tổng 648.
+b Số mã: 6·648 = 3888.
+b Đáp án: 3888
+
+# 10-VIII-24#5
+h Hình chữ nhật nội tiếp đường tròn có hai đường chéo là hai đường kính; đếm số cách chọn 2 đường kính.
+y Tứ giác nội tiếp là hình chữ nhật ⇔ hai đường chéo là hai đường kính.
+y Số tổ hợp chập k của n: C(n, k).
+b 12 điểm chia đều tạo thành 6 đường kính.
+b Mỗi cách chọn 2 đường kính cho 1 hình chữ nhật: C(6, 2) = 15.
+b Đáp án: 15
+
+# 10-VIII-25#5
+h Khai triển nhị thức Newton, giữ 3 số hạng đầu rồi nhân với 100.
+y (1 + x)⁵ = 1 + 5x + 10x² + 10x³ + 5x⁴ + x⁵.
+b (1,06)⁵ ≈ 1 + 5·0,06 + 10·0,06² = 1 + 0,3 + 0,036 = 1,336.
+b Số tiền ≈ 100·1,336 = 133,6 triệu đồng.
+b Đáp án: 134
+
+# 10-IX-26#6
+h Dùng biến cố đối: tích không chia hết cho 5 khi cả ba số đều không là bội của 5.
+y P(A) = 1 − P(Ā).
+y Từ 1 đến 25 có 5 bội của 5.
+b |Ω| = C(25, 3) = 2300. Ā: ba số đều thuộc 20 số không chia hết cho 5: C(20, 3) = 1140.
+b P = 1 − 1140/2300 ≈ 0,504.
+b Đáp án: 0,50
+
+# 10-IX-27#6
+h Ít nhất 60 nghìn đồng xảy ra khi có ít nhất một bao 50 nghìn; dùng biến cố đối.
+y P(A) = 1 − P(Ā).
+b Ā: cả hai bao đều 10 nghìn (chỉ được 20 nghìn): C(7, 2) = 21 cách trên C(10, 2) = 45.
+b P = 1 − 21/45 = 24/45 ≈ 0,53.
+b Đáp án: 0,53
+
+# 10-CD-1#5
+h Gọi số vé ba loại là x, y, z; lập hệ ba phương trình bậc nhất ba ẩn và giải bằng phép thế.
+y Hệ ba phương trình bậc nhất ba ẩn: khử dần ẩn bằng phép thế hoặc cộng đại số.
+b x + y + z = 200; 100x + 60y + 40z = 15600; x = y + z.
+b Từ phương trình 1 và 3: x = 100, y + z = 100.
+b 60y + 40z = 5600 và z = 100 − y ⇒ 20y = 1600 ⇒ y = 80.
+b Đáp án: 80

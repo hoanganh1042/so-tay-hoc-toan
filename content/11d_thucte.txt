@@ -1,0 +1,246 @@
+# 11-I-1#6
+h Đổi thời gian ra số vòng, số vòng ra góc quay (radian), rồi dùng công thức độ dài cung.
+y Một vòng ứng với 2π rad.
+y Độ dài cung: l = Rα (α tính bằng radian).
+b 25 phút ứng với 25/20 = 1,25 vòng, tức α = 2,5π rad.
+b l = 40·2,5π = 100π ≈ 314,2 m.
+b Đáp án: 314
+
+# 11-I-2#6
+h Tính tan α, tan β từ tam giác vuông rồi dùng công thức tan của hiệu.
+y tan(α − β) = (tan α − tan β)/(1 + tan α·tan β).
+b tan α = 6/4 = 1,5; tan β = 2/4 = 0,5.
+b tan(α − β) = (1,5 − 0,5)/(1 + 0,75) = 1/1,75 ≈ 0,571.
+b Đáp án: 0,57
+
+# 11-I-3#6
+h Đưa về bất phương trình cos(πt/6) ≥ 1/2, giải trên đúng khoảng của u = πt/6.
+y cos u ≥ 1/2 với u ∈ [0; 2π] ⇔ u ∈ [0; π/3] ∪ [5π/3; 2π].
+b h ≥ 4 ⇔ cos(πt/6) ≥ 1/2, với u = πt/6 ∈ [0; 2π].
+b u ∈ [0; π/3] ⇔ t ∈ [0; 2]; u ∈ [5π/3; 2π] ⇔ t ∈ [10; 12].
+b Tổng thời gian: 2 + 2 = 4 giờ.
+b Đáp án: 4
+
+# 11-I-4#5
+h Giải phương trình cos(πt/15) = −1/2, chọn nghiệm dương nhỏ nhất.
+y cos u = −1/2 ⇔ u = ±2π/3 + k2π.
+b 50 − 40cos(πt/15) = 70 ⇔ cos(πt/15) = −1/2.
+b Nghiệm dương nhỏ nhất: πt/15 = 2π/3 ⇔ t = 10.
+b Đáp án: 10
+
+# 11-II-5#6
+h Lập công thức truy hồi uₙ₊₁ = 0,8uₙ + 100 rồi tính lần lượt.
+y Dãy số cho bởi hệ thức truy hồi: tính từng số hạng từ số hạng trước.
+b u₀ = 1000, uₙ₊₁ = 0,8uₙ + 100.
+b u₁ = 900, u₂ = 820, u₃ = 0,8·820 + 100 = 756.
+b Đáp án: 756
+
+# 11-II-6#5
+h Số ghế các hàng lập cấp số cộng; giải bất phương trình Sₙ ≥ 1000 với n nguyên dương.
+y Sₙ = n[2u₁ + (n − 1)d]/2.
+b Sₙ = n(40 + 3(n − 1))/2 ≥ 1000 ⇔ 3n² + 37n − 2000 ≥ 0.
+b Nghiệm dương của 3n² + 37n − 2000 = 0 là n ≈ 20,4.
+b Kiểm tra: S₂₀ = 970 < 1000, S₂₁ = 1050 ≥ 1000. Vậy cần 21 hàng.
+b Đáp án: 21
+
+# 11-II-7#5
+h Giá trị sau n năm là cấp số nhân công bội 0,88; giải bất phương trình mũ.
+y Cấp số nhân: uₙ = u₁·qⁿ⁻¹; giá trị sau n năm: 500·0,88ⁿ.
+b 500·0,88ⁿ < 200 ⇔ 0,88ⁿ < 0,4 ⇔ n > ln 0,4/ln 0,88 ≈ 7,17.
+b Kiểm tra: 0,88⁷ ≈ 0,409; 0,88⁸ ≈ 0,360. Vậy n = 8.
+b Đáp án: 8
+
+# 11-III-8#6
+h Cộng tần số các nhóm có đầu mút trái từ 50 trở lên rồi chia cho cỡ mẫu.
+y Tần số tương đối của một nhóm = tần số/cỡ mẫu.
+b Số cây có đường kính ≥ 50 cm: 18 + 9 + 3 = 30.
+b Tỉ lệ: 30/50 = 60%.
+b Đáp án: 60
+
+# 11-III-9#5
+h Nhóm chứa mốt là nhóm có tần số lớn nhất; áp dụng công thức mốt với tần số hai nhóm kề.
+y Mₒ = a + (mₖ − mₖ₋₁)/((mₖ − mₖ₋₁) + (mₖ − mₖ₊₁))·h.
+b Nhóm chứa mốt [30; 32): a = 30, h = 2, mₖ = 11, mₖ₋₁ = 9, mₖ₊₁ = 6.
+b Mₒ = 30 + 2/(2 + 5)·2 ≈ 30,57.
+b Đáp án: 30,6
+
+# 11-IV-10#6
+h Ba điểm không thẳng hàng xác định duy nhất một mặt phẳng; không có 4 điểm đồng phẳng nên mỗi bộ 3 điểm cho một mặt phẳng khác nhau.
+y Qua ba điểm không thẳng hàng có đúng một mặt phẳng.
+b Không có 4 điểm đồng phẳng nên cũng không có 3 điểm thẳng hàng, và hai bộ 3 điểm khác nhau cho hai mặt phẳng khác nhau.
+b Số mặt phẳng: C(6, 3) = 20.
+b Đáp án: 20
+
+# 11-IV-11#6
+h Với mỗi cạnh, phân loại 11 cạnh còn lại: song song, cắt nhau, chéo nhau.
+y Hai đường thẳng chéo nhau khi không cùng nằm trong một mặt phẳng.
+y Mỗi cạnh của hình hộp song song với 3 cạnh, cắt 4 cạnh.
+b Mỗi cạnh chéo nhau với 11 − 3 − 4 = 4 cạnh.
+b Số cặp: 12·4/2 = 24 (mỗi cặp được đếm hai lần).
+b Đáp án: 24
+
+# 11-IV-12#5
+h Mặt phẳng song song với một đường thẳng cắt các mặt chứa đường thẳng đó theo giao tuyến song song; dùng định lí Thalès trong từng mặt.
+y (P) ∥ a, a ⊂ (Q) thì giao tuyến của (P) và (Q) song song với a.
+y Định lí Thalès trong tam giác.
+b Trong (ABC): MN ∥ AC (N ∈ BC), MN/AC = BM/BA = 2/3 ⇒ MN = 60.
+b Trong (ABD): MQ ∥ BD (Q ∈ AD), MQ/BD = AM/AB = 1/3 ⇒ MQ = 20.
+b Chu vi: 2(60 + 20) = 160 cm.
+b Đáp án: 160
+
+# 11-IV-13#6
+h Mặt phẳng song song với đáy cắt hình chóp theo đa giác đồng dạng với đáy, tỉ số bằng tỉ số khoảng cách tới đỉnh.
+y Thiết diện song song với đáy đồng dạng với đáy, tỉ số k = h′/h (h′ là khoảng cách từ đỉnh).
+y Diện tích tỉ lệ k².
+b Khoảng cách từ đỉnh đến sàn: 9 − 3 = 6 m, k = 6/9 = 2/3.
+b Cạnh sàn: 12·2/3 = 8 m, diện tích 64 m².
+b Đáp án: 64
+
+# 11-IV-14#6
+h Bóng nắng là hình chiếu song song theo phương tia nắng; hai đoạn thẳng song song có tỉ số độ dài được giữ nguyên.
+y Phép chiếu song song giữ nguyên tỉ số độ dài của hai đoạn thẳng song song (hoặc cùng nằm trên một đường thẳng).
+b Cột cờ và tòa nhà song song nên chiều cao/bóng như nhau: 6/4 = H/18.
+b H = 18·1,5 = 27 m.
+b Đáp án: 27
+
+# 11-V-15#6
+h Lượng thuốc sau lần uống thứ n là tổng của một cấp số nhân; tính giới hạn khi n → +∞.
+y Cấp số nhân lùi vô hạn |q| < 1: S = u₁/(1 − q).
+b Sau lần uống thứ n: 100 + 100·0,25 + … + 100·0,25ⁿ⁻¹.
+b Giới hạn: 100/(1 − 0,25) ≈ 133,3 mg.
+b Đáp án: 133
+
+# 11-V-16#5
+h Lập C(t) = lượng muối/thể tích nước, rồi tính giới hạn khi t → +∞.
+y Giới hạn của phân thức bậc nhất khi t → +∞ bằng tỉ số hệ số của t.
+b Sau t phút: muối 30·25t = 750t (g), nước 5000 + 25t (lít).
+b C(t) = 750t/(5000 + 25t) = 30t/(200 + t) → 30 khi t → +∞.
+b Đáp án: 30
+
+# 11-V-17#6
+h Liên tục tại x = 10 khi giới hạn bên phải bằng giá trị f(10).
+y f liên tục tại x₀ ⇔ lim f(x) khi x → x₀ bằng f(x₀).
+b f(10) = 20 + 80 = 100 và giới hạn bên trái cũng bằng 100.
+b Giới hạn bên phải: a + 50. Cần a + 50 = 100 ⇒ a = 50.
+b Đáp án: 50
+
+# 11-VI-18#5
+h Thay t = 2000 vào công thức lũy thừa với số mũ thực rồi đổi ra phần trăm.
+y aˣ với a > 0 xác định với mọi số thực x; dùng máy tính để tính giá trị.
+b m(2000)/m₀ = (1/2)^(2000/5730) = 2^(−0,349…).
+b ≈ 0,785, tức khoảng 78,5%.
+b Đáp án: 78,5
+
+# 11-VI-19#5
+h Cường độ tăng 25 lần; dùng log(ab) = log a + log b.
+y log(ab) = log a + log b.
+b L′ = 10·log(25I/I₀) = 10·log 25 + 10·log(I/I₀) = 70 + 10·log 25.
+b 10·log 25 ≈ 13,98 nên L′ ≈ 83,98 dB.
+b Đáp án: 84
+
+# 11-VI-20#5
+h Giải bất phương trình lôgarit ln(1 + x) ≥ 2,5 bằng cách mũ hóa (hàm eˣ đồng biến).
+y ln u ≥ c ⇔ u ≥ eᶜ (u > 0).
+b 200 + 40·ln(1 + x) ≥ 300 ⇔ ln(1 + x) ≥ 2,5.
+b 1 + x ≥ e^2,5 ≈ 12,18 ⇔ x ≥ 11,18.
+b Đáp án: 11,2
+
+# 11-VI-21#5
+h Lập bất phương trình mũ 1,2·1,015ⁿ > 1,5 rồi lôgarit hóa hai vế.
+y aⁿ > b (a > 1) ⇔ n > logₐ b.
+b 1,015ⁿ > 1,25 ⇔ n > ln 1,25/ln 1,015 ≈ 14,99.
+b n nguyên nên n = 15 (kiểm tra 1,015¹⁵ ≈ 1,2502 > 1,25).
+b Đáp án: 15
+
+# 11-VII-22#5
+h A′C′ song song với AC nên góc cần tìm bằng góc giữa hai đường chéo AC, BD của đáy.
+y Góc giữa a và b bằng góc giữa a′ ∥ a và b.
+y Góc giữa hai đường thẳng thuộc [0°; 90°].
+b A′C′ ∥ AC nên góc (BD, A′C′) = góc (BD, AC).
+b Đặt A(0; 0), C(8; 6), B(8; 0), D(0; 6): AC = (8; 6), BD = (−8; 6), cos = |−64 + 36|/100 = 0,28.
+b Góc ≈ 73,74°.
+b Đáp án: 74
+
+# 11-VII-23#6
+h SO vuông góc mặt đất nên OA = OB = OC: O là tâm đường tròn ngoại tiếp tam giác đều ABC.
+y SO ⊥ (ABC) thì SO vuông góc với mọi đường thẳng trong (ABC).
+y Tam giác đều cạnh a có bán kính ngoại tiếp a/√3.
+b OA = √(10² − 8²) = 6 m, tương tự OB = OC = 6.
+b Cạnh a = 6√3 ≈ 10,39 m.
+b Đáp án: 10,4
+
+# 11-VII-24#5
+h Hình chiếu của sợi dây lên sàn là đường chéo sàn; góc cần tìm có tan bằng chiều cao/đường chéo sàn.
+y Góc giữa đường thẳng và mặt phẳng là góc giữa nó và hình chiếu của nó lên mặt phẳng.
+b Đường chéo sàn: √(8² + 6²) = 10 m.
+b tan φ = 4/10 ⇒ φ ≈ 21,8°.
+b Đáp án: 21,8
+
+# 11-VII-25#5
+h Dựng mặt cắt vuông góc với đường nóc: được tam giác cân, góc ở đỉnh là góc phẳng nhị diện.
+y Góc phẳng nhị diện: hai tia cùng vuông góc với cạnh tại một điểm, mỗi tia nằm trên một mặt.
+b Mặt cắt là tam giác cân đáy 8 m, cao 1,5 m.
+b Nửa góc ở đỉnh: tan = 4/1,5 ⇒ ≈ 69,44°.
+b Góc nhị diện ≈ 138,9°.
+b Đáp án: 139
+
+# 11-VII-26#5
+h Hạ OH vuông góc với trung đoạn SM của mặt bên; OH là đường cao của tam giác vuông SOM.
+y Trong tam giác vuông: 1/OH² = 1/OS² + 1/OM².
+b M là trung điểm cạnh đáy: OM = 2, SO = 3.
+b OH = OS·OM/√(OS² + OM²) = 6/√13 ≈ 1,664 m.
+b Đáp án: 1,66
+
+# 11-VII-27#5
+h Tính chiều cao từ cạnh bên qua hình thang chứa hai nửa đường chéo đáy, rồi dùng công thức thể tích chóp cụt.
+y V = h(S + S′ + √(SS′))/3.
+y Hình chiếu cạnh bên trên đáy lớn dài (nửa đường chéo đáy lớn − nửa đường chéo đáy nhỏ).
+b Nửa đường chéo: 2√2 và √2, hiệu √2. h = √(2,5² − 2) = √4,25 ≈ 2,062 m.
+b V = h(16 + 4 + 8)/3 ≈ 19,24 m³.
+b Chi phí ≈ 1,6·19,24 ≈ 30,8 triệu đồng.
+b Đáp án: 31
+
+# 11-VIII-28#6
+h Chia thành ba trường hợp xung khắc (hệ thống nào không phát hiện), mỗi trường hợp là giao của các biến cố độc lập.
+y A, B độc lập thì P(AB) = P(A)P(B).
+y Các biến cố xung khắc: P(A ∪ B) = P(A) + P(B).
+b Chỉ hệ thống 3 bỏ sót: 0,9·0,8·0,3 = 0,216; chỉ hệ thống 2 bỏ sót: 0,9·0,2·0,7 = 0,126; chỉ hệ thống 1 bỏ sót: 0,1·0,8·0,7 = 0,056.
+b Tổng: 0,398 ≈ 0,40.
+b Đáp án: 0,40
+
+# 11-VIII-29#5
+h Dùng công thức cộng xác suất cho hai biến cố không xung khắc.
+y P(A ∪ B) = P(A) + P(B) − P(AB).
+b P = 25/40 + 18/40 − 9/40 = 34/40 = 0,85.
+b Đáp án: 0,85
+
+# 11-VIII-30#5
+h Tách thành hai trường hợp xung khắc: đúng 2 con và cả 3 con, rồi dùng quy tắc nhân cho các biến cố độc lập.
+y A, B, C độc lập thì P(ABC) = P(A)P(B)P(C).
+b Đúng 2 con: 3·0,7²·0,3 = 0,441.
+b Cả 3 con: 0,7³ = 0,343.
+b Tổng: 0,784 ≈ 0,78.
+b Đáp án: 0,78
+
+# 11-IX-31#5
+h Vận tốc tức thời là đạo hàm của quãng đường; tính bằng định nghĩa (giới hạn tỉ số gia số) hoặc công thức.
+y v(t₀) = s′(t₀) = lim (s(t) − s(t₀))/(t − t₀) khi t → t₀.
+b (s(t) − s(3))/(t − 3) = 4,9(t² − 9)/(t − 3) = 4,9(t + 3).
+b Khi t → 3: v(3) = 4,9·6 = 29,4 m/s.
+b Đáp án: 29,4
+
+# 11-IX-32#6
+h Tính đạo hàm P′(t), khi đó v(t) là hàm bậc hai; tìm đỉnh parabol.
+y (tⁿ)′ = n·tⁿ⁻¹.
+y Hàm bậc hai at² + bt + c (a < 0) lớn nhất tại t = −b/(2a).
+b P′(t) = t² − 20t + 75 ⇒ v(t) = −t² + 20t − 75.
+b v lớn nhất tại t = 10 (v(10) = 25).
+b Đáp án: 10
+
+# 11-IX-33#6
+h v lớn nhất khi v′(t) = h″(t) đổi dấu từ dương sang âm.
+y h″(t) = (h′(t))′.
+b v(t) = h′(t) = −t³/8 + 3t²/2.
+b v′(t) = h″(t) = −3t²/8 + 3t = 0 ⇔ t = 0 hoặc t = 8; v′ > 0 trên (0; 8), v′ < 0 khi t > 8.
+b Cây tăng nhanh nhất tại t = 8.
+b Đáp án: 8

@@ -1,0 +1,42 @@
+# Cấu hình triển khai trên Netlify. Trang là web tĩnh, không có bước build: thư mục web/ được đưa lên nguyên trạng.
+[build]
+  publish = "web"
+
+# Giữ nguyên đường dẫn tệp .html. Nếu Netlify đổi sang "đường dẫn đẹp", service worker sẽ lưu một phản hồi
+# chuyển hướng và app không mở được khi mất mạng.
+[build.processing.html]
+  pretty_urls = false
+
+# Tiêu đề bảo mật cho mọi tệp. Chính sách CSP ở đây trùng với thẻ <meta> trong trang, thêm frame-ancestors
+# (không cho trang khác nhúng app vào khung) vì chỉ thị đó không đặt được bằng thẻ <meta>.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "no-referrer"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), bluetooth=(), browsing-topics=()"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains"
+
+# Service worker và trang chính luôn được hỏi lại máy chủ để học sinh nhận bản mới ngay khi có mạng.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/WebApp_So_tay_hoc_Toan.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json; charset=utf-8"

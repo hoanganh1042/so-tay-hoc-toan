@@ -1,0 +1,29 @@
+# 12-II-7#5
+h Viết tọa độ ba hình chiếu, rồi tính thể tích tứ diện có một đỉnh ở gốc bằng tích có hướng.
+y Hình chiếu của M(x; y; z) lên (Oxy), (Oyz), (Ozx) lần lượt là (x; y; 0), (0; y; z), (x; 0; z).
+y Thể tích tứ diện OABC bằng |[OA, OB]·OC|/6.
+b A₁(1; 2; 0), A₂(0; 2; 3), A₃(1; 0; 3).
+b [OA₁, OA₂] = (2·3 − 0·2; 0·0 − 1·3; 1·2 − 2·0) = (6; −3; 2).
+b (6; −3; 2)·(1; 0; 3) = 6 + 0 + 6 = 12, nên V = 12/6 = 2.
+b Đáp án: 2
+
+# 12-II-8#5
+h Tính độ dài đoạn AB bằng công thức khoảng cách, rồi chia cho tốc độ.
+y AB = √((x_B − x_A)² + (y_B − y_A)² + (z_B − z_A)²).
+y Thời gian = quãng đường : tốc độ.
+b AB = √(120² + 160² + 0²) = √40000 = 200 (m).
+b Thời gian bay: 200 : 10 = 20 (giây).
+b Đáp án: 20
+
+# 12-I-2#5
+h Giá trị lớn nhất trên đoạn là số lớn nhất trong các giá trị tại hai đầu mút và tại điểm cực trị.
+y Hàm liên tục trên [a; b]: so sánh f tại a, b và tại các điểm tới hạn trong (a; b).
+b So sánh f(1) = 2, f(2) = 5, f(3) = −1.
+b Số lớn nhất là 5.
+b Đáp án: 5
+
+# 12-I-5#5
+h Nhớ ý nghĩa vật lí của đạo hàm.
+y Vận tốc tức thời v(t₀) = s'(t₀); gia tốc a(t₀) = s''(t₀).
+b Vận tốc tức thời tại t₀ là đạo hàm của quãng đường tại t₀.
+b Đáp án: s'(t₀)

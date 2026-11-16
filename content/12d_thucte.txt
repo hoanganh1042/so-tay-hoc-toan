@@ -1,0 +1,145 @@
+# 12-I-1#5
+h Xét dấu R′(t) trên [0; 15].
+y R′ > 0 trên khoảng thì R đồng biến; R′ < 0 thì R nghịch biến.
+b R′(t) = −3t² + 24t + 60 = −3(t − 10)(t + 2).
+b Trên [0; 15]: R′ > 0 khi t < 10, R′ < 0 khi t > 10. Vậy a = 10.
+b Đáp án: 10
+
+# 12-I-2#6
+h Lợi nhuận = doanh thu − chi phí; khảo sát hàm bậc ba trên [1; 40], so sánh hai số nguyên kề điểm cực đại.
+y Doanh thu x nghìn sản phẩm với giá p nghìn đồng là x·p triệu đồng.
+y Giá trị lớn nhất trên đoạn đạt tại điểm cực trị hoặc đầu mút.
+b L(x) = x(150 − 2x) − C(x) = −0,01x³ − 2,5x² + 96x − 400.
+b L′(x) = −0,03x² − 5x + 96 = 0 ⇒ x ≈ 17,39 (nghiệm dương), L′ đổi dấu từ + sang −.
+b x nguyên: L(17) ≈ 460,37; L(18) ≈ 459,68. Vậy x = 17.
+b Đáp án: 17
+
+# 12-I-3#5
+h Tìm tiệm cận ngang y = 500, rồi giải N(t) = 450.
+y Đồ thị y = (ax + b)/(cx + d) có tiệm cận ngang y = a/c.
+b lim N(t) = 500 khi t → +∞, 90% là 450.
+b (500t + 300)/(t + 2) = 450 ⇔ 500t + 300 = 450t + 900 ⇔ t = 12.
+b Đáp án: 12
+
+# 12-I-4#5
+h Giải y′ = 0 để tìm hai điểm cực trị, rồi tính độ dài đoạn nối.
+y Điểm cực trị: y′ đổi dấu.
+y AB = √((x₂ − x₁)² + (y₂ − y₁)²).
+b y′ = 3x² − 3 = 0 ⇔ x = ±1: hai điểm A(−1; 4), B(1; 0).
+b AB = √(4 + 16) = √20 ≈ 4,47.
+b Đáp án: 4,47
+
+# 12-I-5#6
+h Tổng chi phí = (chi phí mỗi giờ)·(số giờ = 300/v); khảo sát hàm theo v.
+y Hàm T(v) = av + b/v (a, b > 0) nhỏ nhất tại v = √(b/a) (bất đẳng thức Cô-si hoặc đạo hàm).
+b T(v) = (300/v)(0,05v² + 320) = 15v + 96000/v.
+b T′(v) = 15 − 96000/v² = 0 ⇔ v = 80 ∈ [60; 100].
+b Đáp án: 80
+
+# 12-II-6#5
+h Đèn cân bằng: tổng ba lực căng cân bằng với trọng lực; thành phần nằm ngang triệt tiêu, thành phần thẳng đứng cộng lại bằng 60 N.
+y Vật cân bằng: tổng các vectơ lực bằng 0.
+y Thành phần thẳng đứng của lực F tạo với phương thẳng đứng góc α là F·cos α.
+b 3·T·cos 30° = 60.
+b T = 20/cos 30° = 40/√3 ≈ 23,09 N.
+b Đáp án: 23,1
+
+# 12-II-7#6
+h Tâm trần là tâm hình chữ nhật trần ở độ cao 3 m; hạ xuống 0,5 m theo phương Oz.
+y Trung điểm/tâm: trung bình cộng tọa độ.
+b Tâm trần: (3; 2,5; 3). Bóng đèn: (3; 2,5; 2,5).
+b a + b + c = 3 + 2,5 + 2,5 = 8.
+b Đáp án: 8
+
+# 12-II-8#6
+h Tính hai vectơ DA, DB theo tọa độ rồi dùng công thức cos góc giữa hai vectơ.
+y cos(u, v) = (x₁x₂ + y₁y₂ + z₁z₂)/(|u|·|v|).
+b DA = (−1,5; −0,7; 0,8), DB = (1,5; −0,7; 0,8).
+b DA·DB = −2,25 + 0,49 + 0,64 = −1,12; |DA|² = |DB|² = 3,38.
+b cos = −1,12/3,38 ≈ −0,331 ⇒ góc ≈ 109,4°.
+b Đáp án: 109
+
+# 12-III-9#5
+h Tìm Q₁ (vị trí n/4 = 10) và Q₃ (vị trí 3n/4 = 30) bằng công thức nội suy trong nhóm chứa chúng.
+y Qₖ = a + (kn/4 − C)/m·h, C là tần số tích lũy trước nhóm.
+y ΔQ = Q₃ − Q₁.
+b Q₁ thuộc [20; 30): Q₁ = 20 + (10 − 5)/12·10 ≈ 24,17.
+b Q₃ thuộc [30; 40): Q₃ = 30 + (30 − 17)/14·10 ≈ 39,29.
+b ΔQ ≈ 15,12.
+b Đáp án: 15,1
+
+# 12-III-10#5
+h Dùng giá trị đại diện là trung điểm nhóm, tính số trung bình, trung bình bình phương rồi phương sai.
+y s² = (Σmᵢxᵢ²)/n − x̄²; s = √s².
+b Giá trị đại diện 40, 60, 80, 100. x̄ = (120 + 300 + 640 + 400)/20 = 73.
+b Trung bình bình phương: (4800 + 18000 + 51200 + 40000)/20 = 5700.
+b s² = 5700 − 73² = 371 ⇒ s ≈ 19,26.
+b Đáp án: 19,3
+
+# 12-IV-11#5
+h Chiều cao h(t) là một nguyên hàm của v(t); tìm hằng số C từ h(0) = 10.
+y ∫tⁿdt = tⁿ⁺¹/(n + 1) + C.
+b h(t) = 0,1t³ − 0,005t⁴ + C, h(0) = 10 ⇒ C = 10.
+b h(10) = 100 − 50 + 10 = 60 cm.
+b Đáp án: 60
+
+# 12-IV-12#5
+h Đổi đơn vị, lập v(t) = v₀ + at, tìm thời gian phanh rồi tích phân vận tốc.
+y Quãng đường từ t = a đến t = b: s = ∫ₐᵇ v(t)dt (v ≥ 0).
+y 1 m/s = 3,6 km/h.
+b 72 km/h = 20 m/s, 36 km/h = 10 m/s; v(t) = 20 − 4t = 10 ⇔ t = 2,5 s.
+b s = ∫₀^2,5 (20 − 4t)dt = 50 − 12,5 = 37,5 m.
+b Đáp án: 37,5
+
+# 12-IV-13#5
+h Diện tích hình parabol tính bằng tích phân (bằng 2/3 diện tích hình chữ nhật bao quanh); phần gỗ là phần còn lại.
+y Đặt parabol y = 2 − (32/9)x² trên [−0,75; 0,75]: S = ∫ y dx.
+y Kết quả quen thuộc: S = (2/3)·đáy·chiều cao.
+b S kính = (2/3)·1,5·2 = 2 m²; S gỗ = 3 − 2 = 1 m².
+b Chi phí: 2·0,8 + 1·1,2 = 2,8 triệu đồng.
+b Đáp án: 2,8
+
+# 12-V-14#5
+h Áp dụng công thức khoảng cách từ một điểm đến mặt phẳng.
+y d(M, (P)) = |ax₀ + by₀ + cz₀ + d|/√(a² + b² + c²).
+b d = |3·4 + 4·2 − 40|/√(9 + 16) = 20/5 = 4.
+b Đáp án: 4
+
+# 12-V-15#5
+h Khoảng cách từ O đến đường thẳng AB tính bằng tích có hướng.
+y d(M, Δ) = |[AM, u]|/|u|, u là vectơ chỉ phương của Δ.
+b u = AB = (4; 2; 2), AO = (0; 0; −1).
+b [AO, u] = (2; −4; 0), độ dài √20.
+b d = √20/√24 ≈ 0,913 km.
+b Đáp án: 0,91
+
+# 12-V-16#5
+h Góc giữa hai mặt phẳng tính qua hai vectơ pháp tuyến.
+y cos((P), (Q)) = |n₁·n₂|/(|n₁|·|n₂|).
+b n(P) = (2; 1; 2), n(Oxy) = (0; 0; 1).
+b cos φ = 2/3 ⇒ φ ≈ 48,19°.
+b Đáp án: 48,2
+
+# 12-V-17#5
+h Giao của mặt cầu với mặt phẳng là đường tròn có bán kính r = √(R² − d²).
+y Mặt phẳng cách tâm d < R cắt mặt cầu theo đường tròn bán kính √(R² − d²).
+b d(I, (Oxy)) = 5.
+b r = √(169 − 25) = 12 km.
+b Đáp án: 12
+
+# 12-VI-18#5
+h Dùng định nghĩa xác suất có điều kiện P(A|B) = P(AB)/P(B), tính từng xác suất theo thứ tự bốc.
+y P(A|B) = P(AB)/P(B).
+y Bốc không hoàn lại: P(B) không phụ thuộc thứ tự bốc, bằng 4/12.
+b P(AB) = (4/12)(3/11) = 1/11; P(B) = 4/12 = 1/3.
+b P(A|B) = (1/11)/(1/3) = 3/11 ≈ 0,27.
+b Đáp án: 0,27
+
+# 12-VI-19#5
+h Dùng công thức Bayes: H là biến cố “con bắt ra là một trong hai con được chuyển sang”, T là “con bắt ra màu trắng”.
+y P(H|T) = P(H)P(T|H)/P(T).
+y Mỗi con chuyển sang là trắng với xác suất 6/10.
+b Chuồng B lúc sau có 10 con: P(H) = 2/10, P(T|H) = 0,6 ⇒ P(HT) = 0,12.
+b Xác suất toàn phần: P(T) = P(H̄)·3/8 + P(H)·0,6 = 0,8·3/8 + 0,12 = 0,42.
+b P(H|T) = 0,12/0,42 ≈ 0,286.
+b Đáp án: 0,29

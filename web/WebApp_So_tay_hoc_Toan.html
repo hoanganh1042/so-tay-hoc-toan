@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="vi" data-type="software" data-radius="soft" data-buttons="solid" data-motion>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="page-type" content="software">
+<meta name="site-kind" content="software">
+<title>Sổ tay học Toán</title>
+<meta name="theme-color" content="#f4f7fb">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="app/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="app/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Sổ tay Toán">
+<script src="boot.js"></script>
+<meta name="description" content="Web app chẩn đoán lỗ hổng kiến thức Toán theo từng bài học, ôn tập theo chương và luyện đề thi thử tốt nghiệp THPT theo cấu trúc mới.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="skip" href="#view">Bỏ qua thanh điều hướng</a>
+    <a class="brand" href="#chan-doan" aria-label="Sổ tay Toán, trang chính"><span class="mark" aria-hidden="true">∑</span>Sổ tay Toán</a>
+    <nav class="tabs" aria-label="Các mục">
+      <a href="#chan-doan" data-tab="chan-doan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2M8.5 11l1.8 1.8 3.4-3.6"/></svg>Chẩn đoán</a>
+      <a href="#on-tap" data-tab="on-tap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5v13c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z"/><path d="M12 6v13"/></svg>Ôn tập<span class="nbadge" id="rv-badge" title="Câu đến hạn ôn lại" hidden></span></a>
+      <a href="#cong-thuc" data-tab="cong-thuc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 13.5l2.5.5 3 5.5 4-15h7.5"/><path d="M14.5 12.5l5 6M19.5 12.5l-5 6"/></svg>Công thức</a>
+      <a href="#de-thi" data-tab="de-thi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3.5" width="14" height="17" rx="2"/><path d="M8.5 8h7M8.5 12h7M8.5 16h4"/></svg>Đề thi</a>
+      <a href="#so-tay" data-tab="so-tay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3.5" width="14" height="17" rx="2"/><path d="M9 3.5v17M12 8h4M12 11.5h4"/></svg>Sổ tay</a>
+    </nav>
+    <div class="hd-right">
+    <button type="button" class="btn sm install-btn" id="b-install" hidden>Cài app</button>
+    <a class="icon-btn" href="#huong-dan" id="b-help" aria-label="Hướng dẫn sử dụng" title="Hướng dẫn sử dụng">?</a>
+    <button type="button" class="theme-btn" id="b-theme" aria-label="Đổi giao diện sáng hoặc tối"></button>
+    </div>
+  </div>
+</header>
+
+<main id="view" class="wrap" tabindex="-1"></main>
+
+<footer class="site">
+  <div class="wrap">
+    <span class="brandline">Sổ tay Toán · Đề tài nghiên cứu khoa học, THPT Lagi · 2026</span>
+    <span class="small" id="ios-hint" hidden>Cài vào iPhone: mở bằng Safari, bấm Chia sẻ rồi chọn Thêm vào MH chính.</span>
+    <span class="measure">Câu hỏi và bài tập do nhóm tự soạn theo yêu cầu cần đạt của Chương trình GDPT 2018, chưa được giáo viên duyệt. Mục lục theo bộ sách bạn chọn: Kết nối tri thức, Chân trời sáng tạo hoặc Cánh diều; bài tập tự soạn cùng dạng, không chép từ sách giáo khoa, sách bài tập.</span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="data_them.js"></script>
+<script src="mucdo.js"></script>
+<script src="sach.js"></script>
+<script src="dethi_them.js"></script>
+<script src="dethi_mucdo.js"></script>
+<script src="thucte.js"></script>
+<script src="chuong.js"></script>
+<script src="bosung.js"></script>
+<script src="hinh.js"></script>
+<script src="hinh_bosung.js"></script>
+<script src="phantich.js"></script>
+<script src="loigiai_10.js"></script>
+<script src="loigiai_11.js"></script>
+<script src="loigiai_12.js"></script>
+<script src="loigiai_dethi.js"></script>
+<script src="congthuc.js"></script>
+<script src="view_congthuc.js"></script>
+<script src="db.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

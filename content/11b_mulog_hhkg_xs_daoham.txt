@@ -1,0 +1,681 @@
+# 11-VI-18#d
+h Nhân hai lũy thừa cùng cơ số: giữ cơ số, cộng số mũ.
+y aᵐ·aⁿ = aᵐ⁺ⁿ.
+b 2³·2⁴ = 2³⁺⁴ = 2⁷.
+b Đáp án: 2⁷
+
+# 11-VI-18#0
+h Lũy thừa với số mũ hữu tỉ: viết dưới dạng căn.
+y a^(m/n) = (ⁿ√a)ᵐ với a > 0.
+b 8^(2/3) = (∛8)² = 2².
+b = 4.
+b Đáp án: 4
+
+# 11-VI-18#1
+h Lũy thừa của lũy thừa: nhân các số mũ.
+y (aᵐ)ⁿ = aᵐⁿ.
+b (aᵐ)ⁿ = aᵐ·aᵐ·…·aᵐ (n lần) = aᵐⁿ.
+b Đáp án: aᵐⁿ
+
+# 11-VI-18#2
+h Đối chiếu từng đẳng thức với định nghĩa và tính chất lũy thừa.
+y a⁰ = 1; a⁻ⁿ = 1/aⁿ; a^(1/n) = ⁿ√a; aᵐ·aⁿ = aᵐ⁺ⁿ.
+b a) Định nghĩa a⁰ = 1. Đúng.
+b b) a⁻² = 1/a². Đúng.
+b c) a^(1/2) = √a. Đúng.
+b d) aᵐ·aⁿ = aᵐ⁺ⁿ, không phải aᵐⁿ (ví dụ 2¹·2¹ = 4 nhưng 2¹·¹ = 2). Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VI-18#3
+h Đổi lũy thừa mũ 1/n thành căn bậc n.
+y a^(1/n) = ⁿ√a.
+b 27^(1/3) = ∛27 = 3; 16^(1/2) = √16 = 4.
+b 3 + 4 = 7.
+b Đáp án: 7
+
+# 11-VI-18#4
+h Lãi kép: mỗi năm số tiền nhân thêm (1 + r).
+y Công thức lãi kép: A = A₀(1 + r)ⁿ.
+b A = 100·1,06² = 100·1,1236 = 112,36.
+b Làm tròn đến hàng đơn vị: 112.
+b Đáp án: 112
+
+# 11-VI-19#d
+h Tìm số mũ để 2 lũy thừa lên được 8.
+y log_a b = α ⇔ a^α = b.
+b 2³ = 8 nên log₂ 8 = 3.
+b Đáp án: 3
+
+# 11-VI-19#0
+h Nhớ quy tắc lôgarit của một tích.
+y log_a(bc) = log_a b + log_a c (a > 0, a ≠ 1; b, c > 0).
+b log(ab) = log a + log b.
+b Đáp án: log a + log b
+
+# 11-VI-19#1
+h Viết 81 thành lũy thừa của 3.
+y log_a(aᵏ) = k.
+b 81 = 3⁴.
+b log₃ 81 = 4.
+b Đáp án: 4
+
+# 11-VI-19#2
+h Đối chiếu từng đẳng thức với định nghĩa và quy tắc lôgarit.
+y log_a 1 = 0; log_a a = 1; log_a(b/c) = log_a b − log_a c.
+b a) 2⁰ = 1 nên log₂ 1 = 0. Đúng.
+b b) 10² = 100 nên log 100 = 2. Đúng.
+b c) ln e = 1. Đúng.
+b d) log₂(8/2) = 3 − 1 = 2, còn log₂ 8/log₂ 2 = 3. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VI-19#3
+h Hiệu hai lôgarit cùng cơ số bằng lôgarit của thương (hoặc tính từng số).
+y log_a b − log_a c = log_a(b/c).
+b log₂ 64 − log₂ 4 = log₂ 16.
+b = 4.
+b Đáp án: 4
+
+# 11-VI-19#4
+h Thay nồng độ vào công thức pH và dùng log 10ᵏ = k.
+y log 10ᵏ = k.
+b pH = −log 10⁻³ = −(−3).
+b = 3.
+b Đáp án: 3
+
+# 11-VI-20#d
+h Hàm mũ y = aˣ đồng biến khi a > 1, nghịch biến khi 0 < a < 1.
+y y = aˣ có tập xác định ℝ, tập giá trị (0; +∞), đồ thị đi qua (0; 1).
+b a = 2 > 1 nên hàm đồng biến trên ℝ.
+b Các phương án khác sai: tập xác định ℝ, đồ thị qua (0; 1) chứ không qua (1; 0).
+b Đáp án: Đồng biến trên ℝ
+
+# 11-VI-20#0
+h Biểu thức trong lôgarit phải dương.
+y y = log_a u xác định khi u > 0.
+b x − 1 > 0 ⇔ x > 1.
+b Đáp án: (1; +∞)
+
+# 11-VI-20#1
+h Cơ số nằm giữa 0 và 1 nên hàm mũ nghịch biến.
+y y = aˣ với 0 < a < 1: nghịch biến trên ℝ, luôn dương.
+b a = 1/2 ∈ (0; 1).
+b Đáp án: Nghịch biến trên ℝ
+
+# 11-VI-20#2
+h Kiểm tra tập xác định, chiều biến thiên và các điểm đặc biệt của hàm lôgarit.
+y y = log_a x: tập xác định (0; +∞); a > 1 thì đồng biến; đồ thị qua (1; 0) và (a; 1).
+b a) Tập xác định (0; +∞). Đúng.
+b b) Cơ số 3 > 1 nên đồng biến. Đúng.
+b c) log₃ 1 = 0. Đúng.
+b d) log₃ 3 = 1 nên đồ thị qua (3; 1), không qua (3; 0). Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VI-20#3
+h Thay t = 3 vào mô hình tăng trưởng mũ.
+y Sau mỗi giờ số vi khuẩn gấp đôi.
+b N(3) = 100·2³ = 100·8.
+b Đáp án: 800
+
+# 11-VI-20#4
+h Thay x = 2 vào hàm số.
+y 3² = 3·3.
+b y(2) = 3² = 9.
+b Đáp án: 9
+
+# 11-VI-21#d
+h Đưa hai vế về cùng cơ số rồi so sánh số mũ.
+y a^f(x) = aᵏ ⇔ f(x) = k (a > 0, a ≠ 1).
+b 8 = 2³ nên 2ˣ = 2³.
+b x = 3.
+b Đáp án: x = 3
+
+# 11-VI-21#0
+h Chuyển phương trình lôgarit cơ bản về dạng mũ.
+y log_a x = b ⇔ x = aᵇ.
+b x = 2³ = 8.
+b Đáp án: x = 8
+
+# 11-VI-21#1
+h Đưa về cùng cơ số; cơ số lớn hơn 1 nên giữ chiều bất đẳng thức.
+y a > 1: a^f > a^g ⇔ f > g.
+b 9 = 3², nên 3ˣ > 3² ⇔ x > 2.
+b Đáp án: x > 2
+
+# 11-VI-21#2
+h Phương trình mũ dạng bậc hai theo 2ˣ: đặt ẩn phụ t = 2ˣ > 0.
+y 4ˣ = (2ˣ)²; sau khi tìm t, giải 2ˣ = t.
+b a) Đặt t = 2ˣ, điều kiện t > 0. Đúng.
+b b) Thay vào: t² − 3t + 2 = 0. Đúng.
+b c) t = 1 ⇒ x = 0; t = 2 ⇒ x = 1. Đúng.
+b d) Tổng các nghiệm là 0 + 1 = 1 ≠ 3. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VI-21#3
+h Chuyển phương trình lôgarit về dạng mũ, nhớ điều kiện.
+y log_a u = b ⇔ u = aᵇ (u > 0).
+b Điều kiện x + 1 > 0.
+b x + 1 = 3² = 9 ⇔ x = 8 (thỏa điều kiện).
+b Đáp án: 8
+
+# 11-VI-21#4
+h Giải bất phương trình lôgarit cơ số lớn hơn 1, kết hợp điều kiện, rồi đếm số nguyên.
+y a > 1: log_a x < b ⇔ 0 < x < aᵇ.
+b log₂ x < 3 ⇔ 0 < x < 8.
+b Các số nguyên: 1, 2, …, 7.
+b Đáp án: 7
+
+# 11-VII-22#d
+h Nhớ định nghĩa góc giữa hai đường thẳng trong không gian.
+y Góc giữa hai đường thẳng là góc giữa hai đường cùng đi qua một điểm và lần lượt song song với chúng, luôn từ 0° đến 90°.
+b Góc giữa hai đường thẳng không vượt quá 90°, và bằng 0° khi song song hoặc trùng.
+b Đáp án: [0°; 90°]
+
+# 11-VII-22#0
+h Thay B'C' bằng đường thẳng song song với nó và cắt AB.
+y Góc (a, b) = góc (a, b') nếu b' // b.
+b B'C' // BC.
+b Góc (AB, B'C') = góc (AB, BC) = 90° (ABCD là hình vuông).
+b Đáp án: 90°
+
+# 11-VII-22#1
+h Thay A'D' bằng AD (song song) để đưa hai đường về cùng mặt đáy.
+y Góc (a, b) = góc (a, b') nếu b' // b; đường chéo hình vuông tạo với cạnh góc 45°.
+b A'D' // AD.
+b Góc (AC, A'D') = góc (AC, AD) = góc CAD = 45°.
+b Đáp án: 45°
+
+# 11-VII-22#2
+h Dùng các đường song song trong hình lập phương để đưa từng cặp về cùng một mặt phẳng.
+y Đường thẳng vuông góc với một mặt phẳng thì vuông góc với mọi đường nằm trong mặt đó.
+y Hai đường chéo của hình vuông vuông góc với nhau.
+b a) CC' // AA' ⊥ AB nên AB ⊥ CC'. Đúng.
+b b) C'D' // AB nên góc bằng 0°. Đúng.
+b c) B'D' // BD ⊥ AC nên góc bằng 90°. Đúng.
+b d) AA' ⊥ (ABCD) ⊃ BD nên góc bằng 90°, không phải 45°. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VII-22#3
+h Chứng minh CD vuông góc với một mặt phẳng chứa AB bằng trung điểm M của CD.
+y Trong tam giác đều, trung tuyến cũng là đường cao.
+y d ⊥ hai đường cắt nhau trong (P) ⇒ d ⊥ (P) ⇒ d ⊥ mọi đường trong (P).
+b Gọi M là trung điểm CD; tam giác ACD và BCD đều nên AM ⊥ CD, BM ⊥ CD.
+b Suy ra CD ⊥ (ABM), mà AB ⊂ (ABM), nên CD ⊥ AB.
+b Đáp án: 90
+
+# 11-VII-22#4
+h Nhận ra A'C', BC', A'B đều là đường chéo của các mặt hình lập phương.
+y Các đường chéo mặt hình lập phương cạnh a đều dài a√2.
+b A'C' = BC' = A'B = a√2 nên tam giác A'BC' đều.
+b Góc giữa A'C' và BC' là góc A'C'B = 60°.
+b Đáp án: 60
+
+# 11-VII-23#d
+h Nhớ điều kiện để đường thẳng vuông góc với mặt phẳng.
+y d ⊥ a, d ⊥ b với a, b cắt nhau và nằm trong (P) ⇒ d ⊥ (P).
+b Hai đường song song là chưa đủ; cần hai đường cắt nhau.
+b Đáp án: Vuông góc với hai đường thẳng cắt nhau trong (P)
+
+# 11-VII-23#0
+h Tìm hai đường cắt nhau trong một mặt phẳng cùng vuông góc với BC.
+y SA ⊥ (ABCD) ⇒ SA ⊥ mọi đường trong đáy.
+b BC ⊥ AB (hình vuông) và BC ⊥ SA (SA ⊥ đáy).
+b AB, SA cắt nhau tại A và nằm trong (SAB) nên BC ⊥ (SAB).
+b Đáp án: (SAB)
+
+# 11-VII-23#1
+h Đường vuông góc với mặt phẳng thì vuông góc với mọi đường nằm trong mặt phẳng đó.
+y d ⊥ (P), a ⊂ (P) ⇒ d ⊥ a.
+b BC ⊂ (ABC) nên SA ⊥ BC.
+b Đáp án: SA ⊥ BC
+
+# 11-VII-23#2
+h Dùng SA ⊥ đáy và tính chất hình vuông để chứng minh các quan hệ vuông góc.
+y BD ⊥ AC (đường chéo hình vuông); CD ⊥ AD.
+y Qua một điểm chỉ có một đường thẳng vuông góc với một mặt phẳng.
+b a) BD ⊂ (ABCD) nên SA ⊥ BD. Đúng.
+b b) BD ⊥ AC và BD ⊥ SA, AC cắt SA nên BD ⊥ (SAC). Đúng.
+b c) CD ⊥ AD và CD ⊥ SA nên CD ⊥ (SAD). Đúng.
+b d) SA đã vuông góc với đáy, SC khác SA (cùng qua S) nên SC không vuông góc với đáy. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VII-23#3
+h SA ⊥ (ABC) nên SA ⊥ AB; tam giác SAB vuông tại A, dùng Pythagore.
+y SB² = SA² + AB².
+b SB² = 9 + 16 = 25.
+b SB = 5.
+b Đáp án: 5
+
+# 11-VII-23#4
+h Đường chéo hình lập phương cạnh a bằng a√3 (Pythagore hai lần).
+y AC'² = AB² + AD² + AA'² vì CC' ⊥ (ABCD).
+b AC'² = 4 + 4 + 4 = 12, AC' = 2√3 ≈ 3,464.
+b Làm tròn: 3,46.
+b Đáp án: 3,46
+
+# 11-VII-24#d
+h Góc giữa đường thẳng và mặt phẳng là góc giữa đường thẳng và hình chiếu của nó trên mặt phẳng.
+y SA ⊥ (ABCD) nên hình chiếu của S là A, hình chiếu của SC là AC.
+b Góc (SC, (ABCD)) = góc giữa SC và AC = góc SCA.
+b Đáp án: Góc SCA
+
+# 11-VII-24#0
+h Hình chiếu vuông góc của một điểm là chân đường vuông góc hạ từ điểm đó.
+y SA ⊥ (ABCD) tại A.
+b Chân đường vuông góc từ S xuống đáy là A.
+b Đáp án: A
+
+# 11-VII-24#1
+h Xác định góc SCA rồi tính trong tam giác vuông SAC.
+y tan góc SCA = SA/AC; đường chéo hình vuông cạnh a là a√2.
+b AC = a√2 = SA.
+b tan SCA = 1 nên góc bằng 45°.
+b Đáp án: 45°
+
+# 11-VII-24#2
+h Hình chiếu của SB lên đáy là AB; tính góc SBA trong tam giác vuông SAB.
+y Góc (SB, (ABC)) = góc SBA; tan SBA = SA/AB.
+b a) Hình chiếu của S là A, của B là B: hình chiếu của SB là AB. Đúng.
+b b) Góc giữa SB và (ABC) là góc SBA. Đúng.
+b c) tan SBA = 2/2 = 1 nên góc bằng 45°. Đúng.
+b d) tan = 1, không phải 2. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VII-24#3
+h Hình chiếu của AC' trên đáy là AC; tính góc C'AC.
+y tan góc C'AC = CC'/AC.
+b Với cạnh a: CC' = a, AC = a√2.
+b tan = 1/√2, góc ≈ 35,26°.
+b Làm tròn: 35.
+b Đáp án: 35
+
+# 11-VII-24#4
+h Góc giữa SB và đáy là góc SBA; tính bằng tan.
+y tan SBA = SA/AB.
+b tan = 1/√3.
+b Góc bằng 30°.
+b Đáp án: 30
+
+# 11-VII-25#d
+h Nhớ điều kiện để hai mặt phẳng vuông góc.
+y Nếu (P) chứa một đường thẳng vuông góc với (Q) thì (P) ⊥ (Q).
+b Đây là định lí điều kiện vuông góc của hai mặt phẳng.
+b Đáp án: (P) chứa một đường thẳng vuông góc với (Q)
+
+# 11-VII-25#0
+h Mặt phẳng nào chứa SA (đường vuông góc với đáy) thì vuông góc với đáy.
+y (P) ⊃ d, d ⊥ (Q) ⇒ (P) ⊥ (Q).
+b (SAB) chứa SA ⊥ (ABCD).
+b Các mặt (SBD), (SBC), (SCD) không chứa SA.
+b Đáp án: (SAB)
+
+# 11-VII-25#1
+h Nhớ định nghĩa hình chóp đều.
+y Hình chóp đều: đáy là đa giác đều, chân đường cao trùng với tâm đáy (các cạnh bên bằng nhau).
+b Đáy hình vuông là chưa đủ; cần thêm chân đường cao tại tâm.
+b Đáp án: Đáy là đa giác đều và chân đường cao trùng tâm đáy
+
+# 11-VII-25#2
+h Dùng SA ⊥ đáy và AB ⊥ AD để chứng minh các cặp mặt vuông góc; xác định góc nhị diện qua CD.
+y Góc phẳng nhị diện [S, CD, A]: hai tia trong hai mặt cùng vuông góc với CD tại một điểm.
+y CD ⊥ (SAD) ⇒ CD ⊥ SD và CD ⊥ AD.
+b a) (SAD) chứa SA ⊥ (ABCD). Đúng.
+b b) AB ⊥ AD, AB ⊥ SA ⇒ AB ⊥ (SAD); (SAB) chứa AB nên (SAB) ⊥ (SAD). Đúng.
+b c) DS ⊥ CD và DA ⊥ CD tại D nên góc phẳng là góc SDA. Đúng.
+b d) tan SDA = SA/AD = 2/2 = 1 nên góc bằng 45°. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VII-25#3
+h Giao tuyến là BC; tìm hai đường vuông góc với BC trong hai mặt để có góc phẳng nhị diện.
+y BC ⊥ (SAB) ⇒ BC ⊥ SB và BC ⊥ AB; góc giữa (SBC) và đáy là góc SBA.
+b tan SBA = SA/AB = 2√3/2 = √3.
+b Góc bằng 60°.
+b Đáp án: 60
+
+# 11-VII-25#4
+h Mặt bên lăng trụ đứng là hình chữ nhật; cộng diện tích ba mặt bên.
+y S_xq = chu vi đáy × chiều cao.
+b Chu vi đáy 3·2 = 6; chiều cao 3.
+b S_xq = 6·3 = 18.
+b Đáp án: 18
+
+# 11-VII-26#d
+h Khoảng cách từ điểm đến mặt phẳng là độ dài đoạn vuông góc hạ từ điểm đó.
+y SA ⊥ (ABCD) tại A nên d(S, (ABCD)) = SA.
+b A là hình chiếu vuông góc của S trên đáy.
+b Đáp án: SA
+
+# 11-VII-26#0
+h Hai mặt phẳng song song: khoảng cách bằng khoảng cách từ một điểm của mặt này đến mặt kia.
+y AA' ⊥ (A'B'C'D') nên d = AA'.
+b d((ABCD), (A'B'C'D')) = AA' = a.
+b Đáp án: a
+
+# 11-VII-26#1
+h Tìm mặt phẳng qua A vuông góc với (SBC), rồi hạ vuông góc xuống giao tuyến.
+y BC ⊥ AB, BC ⊥ SA ⇒ BC ⊥ (SAB) ⇒ (SBC) ⊥ (SAB) theo giao tuyến SB.
+y Trong (SAB), AH ⊥ SB ⇒ AH ⊥ (SBC).
+b BC ⊥ (SAB) nên BC ⊥ AH.
+b AH ⊥ SB và AH ⊥ BC nên AH ⊥ (SBC).
+b Đáp án: AH với H là hình chiếu của A trên SB
+
+# 11-VII-26#2
+h Dùng các cạnh vuông góc của hình lập phương để xác định đoạn vuông góc chung hoặc đoạn vuông góc.
+y Khoảng cách giữa hai đường song song bằng khoảng cách từ một điểm trên đường này đến đường kia.
+y Đoạn vuông góc chung của hai đường chéo nhau vuông góc với cả hai.
+b a) AA' ⊥ (A'B'C'D') nên d = AA' = 2. Đúng.
+b b) AA' // CC', khoảng cách là AC = 2√2. Đúng.
+b c) BC ⊥ AB và BC ⊥ CC' nên BC là đoạn vuông góc chung: d = 2. Đúng.
+b d) AB ⊥ (BCC'B') nên d(A, (BCC'B')) = AB = 2 ≠ 2√2. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VII-26#3
+h Như dạng chuẩn: hạ AH ⊥ SB, AH chính là khoảng cách; tính AH trong tam giác vuông SAB.
+y Hệ thức lượng: AH = SA·AB/SB (đường cao ứng với cạnh huyền).
+b SB = √(4 + 4) = 2√2.
+b AH = 2·2/(2√2) = √2 ≈ 1,414.
+b Làm tròn: 1,41.
+b Đáp án: 1,41
+
+# 11-VII-26#4
+h AC ⊥ BD và AC ⊥ BB' nên AC ⊥ (BDD'B'); khoảng cách là AO với O tâm đáy.
+y d(A, (BDD'B')) = AO = AC/2.
+b AC = 3√2, AO = 3√2/2 ≈ 2,121.
+b Làm tròn: 2,12.
+b Đáp án: 2,12
+
+# 11-VII-27#d
+h Nhớ công thức thể tích khối chóp.
+y V_chóp = ⅓Bh; V_lăng trụ = Bh.
+b Khối chóp bằng một phần ba khối lăng trụ cùng đáy, cùng chiều cao.
+b Đáp án: ⅓Bh
+
+# 11-VII-27#0
+h Áp dụng công thức thể tích khối lăng trụ.
+y V = Bh.
+b V = 6·4 = 24.
+b Đáp án: 24
+
+# 11-VII-27#1
+h Đáy hình vuông cạnh 2; áp dụng công thức khối chóp.
+y V = ⅓Bh.
+b B = 2² = 4.
+b V = ⅓·4·3 = 4.
+b Đáp án: 4
+
+# 11-VII-27#2
+h Dùng các công thức thể tích, đường chéo, diện tích toàn phần của hình hộp chữ nhật và thể tích tứ diện vuông.
+y V = abc; d = √(a² + b² + c²); S_tp = 2(ab + bc + ca).
+y Tứ diện có ba cạnh đôi một vuông góc a, b, c: V = ⅙abc.
+b a) V = 2·3·4 = 24. Đúng.
+b b) d = √(4 + 9 + 16) = √29. Đúng.
+b c) S_tp = 2(6 + 12 + 8) = 52. Đúng.
+b d) V_tứ diện = ⅙·24 = 4 ≠ 8. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VII-27#3
+h SA là đường cao; tính diện tích đáy tam giác vuông cân rồi áp dụng công thức.
+y V = ⅓Bh; tam giác vuông có diện tích bằng nửa tích hai cạnh góc vuông.
+b B = ½·2·2 = 2.
+b V = ⅓·2·3 = 2.
+b Đáp án: 2
+
+# 11-VII-27#4
+h Áp dụng công thức thể tích khối chóp cụt đều.
+y V = ⅓h(B + B' + √(BB')).
+b √(16·4) = 8.
+b V = ⅓·3·(16 + 4 + 8) = 28.
+b Đáp án: 28
+
+# 11-VIII-28#d
+h Nhớ định nghĩa biến cố hợp.
+y A ∪ B xảy ra khi ít nhất một trong hai biến cố A, B xảy ra.
+b A ∪ B: A xảy ra hoặc B xảy ra.
+b Đáp án: A hoặc B xảy ra
+
+# 11-VIII-28#0
+h Nhớ định nghĩa hai biến cố xung khắc.
+y A, B xung khắc khi chúng không thể cùng xảy ra: A ∩ B = ∅.
+b Xung khắc là không có kết quả chung.
+b Đáp án: A ∩ B = ∅
+
+# 11-VIII-28#1
+h Viết A, B thành tập hợp các kết quả rồi lấy giao.
+y A ∩ B gồm các kết quả thuộc cả A và B.
+b A = {2; 4; 6}, B = {4; 5; 6}.
+b A ∩ B = {4; 6}.
+b Đáp án: {4; 6}
+
+# 11-VIII-28#2
+h Liệt kê không gian mẫu {SS, SN, NS, NN}, viết A, B rồi kiểm tra từng ý.
+y A, B độc lập khi việc xảy ra của biến cố này không ảnh hưởng xác suất của biến cố kia (P(AB) = P(A)P(B)).
+y Xung khắc khi A ∩ B = ∅.
+b a) Hai lần gieo không ảnh hưởng nhau: P(AB) = 1/4 = ½·½. Đúng.
+b b) A = {SS, SN}, B = {SS, NS} nên A ∩ B = {SS}. Đúng.
+b c) A ∪ B = {SS, SN, NS}: 3 kết quả. Đúng.
+b d) A ∩ B ≠ ∅ nên không xung khắc. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VIII-28#3
+h Viết A, B thành tập hợp rồi lấy hợp.
+y A ∪ B gồm các kết quả thuộc ít nhất một biến cố.
+b A = {2; 4; 6}, B = {4; 5; 6}.
+b A ∪ B = {2; 4; 5; 6}.
+b Đáp án: 4
+
+# 11-VIII-28#4
+h Viết A, B thành tập hợp rồi lấy giao.
+y A ∩ B gồm các kết quả thuộc cả hai.
+b A ∩ B = {4; 6}.
+b Đáp án: 2
+
+# 11-VIII-29#d
+h Xung khắc nghĩa là không có phần chung, nên xác suất hợp bằng tổng.
+y P(A ∪ B) = P(A) + P(B) − P(AB), với P(AB) = 0 khi xung khắc.
+b P(A ∪ B) = P(A) + P(B).
+b Đáp án: P(A) + P(B)
+
+# 11-VIII-29#0
+h Áp dụng công thức cộng xác suất tổng quát.
+y P(A ∪ B) = P(A) + P(B) − P(AB).
+b 0,4 + 0,3 − 0,1 = 0,6.
+b Đáp án: 0,6
+
+# 11-VIII-29#1
+h "Thích ít nhất một môn" là biến cố hợp; dùng công thức cộng (bao hàm – loại trừ).
+y n(A ∪ B) = n(A) + n(B) − n(A ∩ B).
+b n = 25 + 20 − 10 = 35.
+b P = 35/40 = 7/8.
+b Đáp án: 7/8
+
+# 11-VIII-29#2
+h Viết các biến cố thành tập hợp, tính xác suất và dùng công thức cộng.
+y P(A ∪ B) = P(A) + P(B) − P(AB).
+b a) A = {2; 4; 6}: P = 3/6 = 1/2. Đúng.
+b b) B = {5; 6}: P = 2/6 = 1/3. Đúng.
+b c) AB = {6}: P = 1/6. Đúng.
+b d) P(A ∪ B) = 1/2 + 1/3 − 1/6 = 2/3 ≠ 5/6. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VIII-29#3
+h Hai biến cố xung khắc: cộng xác suất.
+y P(A ∪ B) = P(A) + P(B) khi A, B xung khắc.
+b 0,5 + 0,4 = 0,9.
+b Đáp án: 0,9
+
+# 11-VIII-29#4
+h Át và Cơ không xung khắc (có Át Cơ), nên trừ phần chung.
+y P(A ∪ B) = P(A) + P(B) − P(AB).
+b P(Át) = 4/52, P(Cơ) = 13/52, P(Át Cơ) = 1/52.
+b P = 16/52 ≈ 0,3077.
+b Làm tròn: 0,31.
+b Đáp án: 0,31
+
+# 11-VIII-30#d
+h Nhớ quy tắc nhân cho hai biến cố độc lập.
+y A, B độc lập ⇔ P(AB) = P(A)·P(B).
+b Đây là công thức nhân xác suất.
+b Đáp án: P(AB) = P(A)·P(B)
+
+# 11-VIII-30#0
+h Hai xạ thủ bắn độc lập: nhân xác suất.
+y P(AB) = P(A)P(B).
+b P = 0,8·0,7 = 0,56.
+b Đáp án: 0,56
+
+# 11-VIII-30#1
+h "Ít nhất một" nên dùng biến cố đối "cả hai trượt".
+y P(ít nhất một) = 1 − P(không ai trúng); các biến cố đối cũng độc lập.
+b P(cả hai trượt) = 0,2·0,3 = 0,06.
+b P = 1 − 0,06 = 0,94.
+b Đáp án: 0,94
+
+# 11-VIII-30#2
+h Gọi xác suất hỏng của hai máy là 0,1 và 0,2; dùng quy tắc nhân và biến cố đối.
+y Đúng một máy hỏng: (máy 1 hỏng, máy 2 tốt) hoặc (máy 1 tốt, máy 2 hỏng), hai trường hợp xung khắc.
+b a) 0,1·0,2 = 0,02. Đúng.
+b b) 0,9·0,8 = 0,72. Đúng.
+b c) 0,1·0,8 + 0,9·0,2 = 0,08 + 0,18 = 0,26. Đúng.
+b d) 1 − 0,72 = 0,28 ≠ 0,3. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VIII-30#3
+h Hai lần gieo độc lập: nhân xác suất mỗi lần.
+y P(AB) = P(A)P(B).
+b P = (1/6)·(1/6) = 1/36 ≈ 0,0278.
+b Làm tròn: 0,03.
+b Đáp án: 0,03
+
+# 11-VIII-30#4
+h Hai câu chọn độc lập, mỗi câu đúng với xác suất 1/4.
+y P(AB) = P(A)P(B).
+b P = (1/4)² = 0,0625.
+b Làm tròn: 0,06.
+b Đáp án: 0,06
+
+# 11-IX-31#d
+h Tính đạo hàm rồi thay x = 3.
+y (x²)' = 2x.
+b y'(3) = 2·3 = 6.
+b Đáp án: 6
+
+# 11-IX-31#0
+h Hệ số góc tiếp tuyến tại x₀ là f'(x₀).
+y Ý nghĩa hình học của đạo hàm: k = f'(x₀).
+b y' = 2x, y'(1) = 2.
+b Đáp án: 2
+
+# 11-IX-31#1
+h Nhớ ý nghĩa vật lí của đạo hàm.
+y Đạo hàm của quãng đường theo thời gian là vận tốc tức thời; đạo hàm của vận tốc là gia tốc.
+b s'(t) = v(t).
+b Đáp án: Vận tốc tức thời
+
+# 11-IX-31#2
+h Viết phương trình tiếp tuyến tại M, rồi kiểm tra từng ý.
+y Tiếp tuyến tại M(x₀; y₀): y = f'(x₀)(x − x₀) + y₀.
+b a) y' = 3x², y'(1) = 3. Đúng.
+b b) y = 3(x − 1) + 1 = 3x − 2. Đúng.
+b c) Tại x = 0, y = −2 ≠ 0 nên không qua O. Sai.
+b d) Hệ số góc 3 > 0. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-IX-31#3
+h Vận tốc là đạo hàm của vị trí; tính v(t) rồi thay t = 3.
+y v(t) = s'(t).
+b v(t) = 3t² − 6t.
+b v(3) = 27 − 18 = 9.
+b Đáp án: 9
+
+# 11-IX-31#4
+h Viết phương trình tiếp tuyến tại x₀ = 2, rồi cho x = 0 để tìm giao điểm với trục tung.
+y Tiếp tuyến: y = f'(x₀)(x − x₀) + f(x₀).
+b f(2) = 4, f'(2) = 4.
+b Tiếp tuyến: y = 4(x − 2) + 4 = 4x − 4.
+b Cho x = 0: y = −4.
+b Đáp án: −4
+
+# 11-IX-32#d
+h Áp dụng công thức đạo hàm lũy thừa.
+y (xⁿ)' = n·xⁿ⁻¹.
+b (x³)' = 3x².
+b Đáp án: 3x²
+
+# 11-IX-32#0
+h Nhớ đạo hàm của hàm lượng giác cơ bản.
+y (sin x)' = cos x; (cos x)' = −sin x.
+b (sin x)' = cos x.
+b Đáp án: cos x
+
+# 11-IX-32#1
+h Hàm hợp e^u với u = 2x.
+y (e^u)' = u'·e^u.
+b u = 2x, u' = 2.
+b y' = 2e²ˣ.
+b Đáp án: 2e²ˣ
+
+# 11-IX-32#2
+h Dùng quy tắc đạo hàm của tích, rồi thay giá trị.
+y (uv)' = u'v + uv'; (ln x)' = 1/x.
+b a) ln x xác định khi x > 0. Đúng.
+b b) y' = 1·ln x + x·(1/x) = ln x + 1. Đúng.
+b c) y'(1) = 0 + 1 = 1. Đúng.
+b d) y'(e) = 1 + 1 = 2 ≠ 1. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-IX-32#3
+h Đạo hàm từng hạng tử rồi thay x = 1.
+y (u + v)' = u' + v'.
+b y' = 2x + 3.
+b y'(1) = 5.
+b Đáp án: 5
+
+# 11-IX-32#4
+h Dùng quy tắc đạo hàm của thương (hoặc công thức nhanh cho hàm bậc nhất trên bậc nhất).
+y ((ax + b)/(cx + d))' = (ad − bc)/(cx + d)².
+b ad − bc = 2·(−1) − 1·1 = −3, nên y' = −3/(x − 1)².
+b y'(2) = −3/1 = −3.
+b Đáp án: −3
+
+# 11-IX-33#d
+h Lấy đạo hàm hai lần.
+y y'' = (y')'.
+b y' = 3x².
+b y'' = 6x.
+b Đáp án: 6x
+
+# 11-IX-33#0
+h Lấy đạo hàm hai lần của sin x.
+y (sin x)' = cos x; (cos x)' = −sin x.
+b y' = cos x.
+b y'' = −sin x.
+b Đáp án: −sin x
+
+# 11-IX-33#1
+h Gia tốc là đạo hàm cấp hai của quãng đường.
+y a(t) = s''(t).
+b s' = 3t², s'' = 6t.
+b a(2) = 12.
+b Đáp án: 12
+
+# 11-IX-33#2
+h Lấy đạo hàm cấp một (vận tốc) và cấp hai (gia tốc), rồi thay giá trị.
+y v(t) = s'(t); a(t) = v'(t) = s''(t).
+b a) v(t) = 3t² − 12t + 9. Đúng.
+b b) a(t) = 6t − 12. Đúng.
+b c) a(2) = 12 − 12 = 0. Đúng.
+b d) v(1) = 3 − 12 + 9 = 0 ≠ 1. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-IX-33#3
+h Lấy đạo hàm hai lần rồi thay x = 1.
+y (xⁿ)' = nxⁿ⁻¹.
+b y' = 4x³, y'' = 12x².
+b y''(1) = 12.
+b Đáp án: 12
+
+# 11-IX-33#4
+h Gia tốc là đạo hàm cấp hai của quãng đường.
+y a(t) = s''(t).
+b s' = 4t + 1.
+b s'' = 4 (không đổi).
+b Đáp án: 4

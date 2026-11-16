@@ -1,0 +1,473 @@
+# 10-II-3#6
+h Bờ của miền nghiệm ax + by ≥ c là đường thẳng ax + by = c.
+y Miền nghiệm của bất phương trình bậc nhất hai ẩn là nửa mặt phẳng có bờ ax + by = c.
+b Thay dấu ≥ bằng dấu = được đường bờ x − 2y = 4.
+b Đáp án: x − 2y = 4
+
+# 10-II-3#7
+h Thay tọa độ từng điểm vào vế trái, kiểm tra có nhỏ hơn 6 không.
+y Điểm M(x₀; y₀) thuộc miền nghiệm khi tọa độ thỏa mãn bất phương trình.
+b (2; 1): 7; (0; 6): 6; (1; 2): 5 < 6; (3; 0): 9.
+b Chỉ (1; 2) thỏa mãn.
+b Đáp án: (1; 2)
+
+# 10-II-3#8
+h Thay x = 0, y = 0 vào từng bất phương trình.
+y (0; 0) là nghiệm khi 0 thỏa mãn bất đẳng thức với hằng số ở vế phải.
+b 0 > 1 sai; 0 ≥ 2 sai; 0 < 3 đúng; 0 > 0 sai.
+b Đáp án: x − y < 3
+
+# 10-II-4#6
+h Mỗi bất phương trình trong hệ phải là bậc nhất đối với x và y.
+y Bất phương trình bậc nhất hai ẩn có dạng ax + by < c (hoặc ≤, >, ≥).
+b Các hệ còn lại chứa x², xy hoặc x³.
+b Chỉ hệ x + y ≤ 3, x − y > 1 gồm hai bất phương trình bậc nhất.
+b Đáp án: x + y ≤ 3 và x − y > 1
+
+# 10-II-4#7
+h Kiểm tra điểm thỏa mãn đồng thời cả ba bất phương trình.
+y Điểm thuộc miền nghiệm của hệ khi thỏa mãn mọi bất phương trình của hệ.
+b (−1; 2) và (2; −1) có tọa độ âm; (3; 2) có x + y = 5 > 4.
+b (1; 2) thỏa mãn cả ba.
+b Đáp án: (1; 2)
+
+# 10-II-4#8
+h Xác định các đỉnh của miền nghiệm rồi tính F tại các đỉnh.
+y Giá trị lớn nhất của F = ax + by trên miền đa giác đạt tại một đỉnh.
+b Các đỉnh: (0; 0), (2; 0), (2; 1), (0; 3).
+b F lần lượt bằng 0, 4, 5, 3. Lớn nhất là 5.
+b Đáp án: 5
+
+# 10-II-4#9
+h Tìm ba đỉnh của tam giác rồi tính diện tích tam giác vuông.
+y Đường 2x + y = 4 cắt các trục tại (2; 0) và (0; 4).
+b Tam giác vuông tại O với hai cạnh góc vuông 2 và 4.
+b Diện tích: (1/2)·2·4 = 4.
+b Đáp án: 4
+
+# 10-II-3#9
+h Thay tọa độ vào vế trái và so sánh với 6; đếm các cặp nguyên dương thỏa mãn.
+y Điểm nằm trên bờ khi 2x − 3y = 6.
+b a) 0 ≤ 6: đúng.
+b b) 2·3 − 0 = 6: đúng.
+b c) 12 − 3 = 9 > 6: sai.
+b d) y = 1, x ∈ {1; 2; 3}: 2x − 3 ≤ 6 luôn đúng, chỉ có 3 cặp: sai.
+b Kết luận: a Đúng, b Đúng, c Sai, d Sai.
+
+# 10-II-4#10
+h Lập hệ x + 2y ≤ 10, 2x + y ≤ 12, x, y ≥ 0; tìm đỉnh, rồi xét các điểm nguyên gần đỉnh tối ưu.
+y Giá trị lớn nhất của F trên miền đa giác đạt tại đỉnh; với nghiệm nguyên phải xét các điểm nguyên trong miền.
+b a) 2 + 6 = 8 ≤ 10, 4 + 3 = 7 ≤ 12: đúng.
+b b) Giao của x + 2y = 10 và 2x + y = 12 là (14/3; 8/3), không phải (4; 3): sai.
+b c) Đỉnh: (0; 0), (6; 0), (14/3; 8/3), (0; 5): tứ giác, đúng.
+b d) Các điểm nguyên: F(4; 3) = 1200 + 1200 = 2400 nghìn đồng là lớn nhất: đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# 10-III-5#7
+h Dùng công thức góc bù: cos(180° − α) = −cos α.
+y cos(180° − α) = −cos α; cos 60° = 1/2.
+b cos 120° = −cos 60° = −1/2.
+b Đáp án: −1/2
+
+# 10-III-5#8
+h Nhớ cặp góc bù: sin bằng nhau, cos và tan đối nhau.
+y Hai góc bù nhau có sin bằng nhau, côsin đối nhau.
+b sin(180° − α) = sin α.
+b Đáp án: sin(180° − α) = sin α
+
+# 10-III-6#6
+h Nhớ định lí côsin cho cạnh đối diện góc A.
+y a² = b² + c² − 2bc·cos A.
+b Đáp án là b² + c² − 2bc·cos A.
+b Đáp án: b² + c² − 2bc·cos A
+
+# 10-III-6#7
+h Công thức diện tích theo hai cạnh và góc xen giữa.
+y S = (1/2)·ab·sin C.
+b Góc C xen giữa hai cạnh a và b nên S = (1/2)ab·sin C.
+b Đáp án: (1/2)·ab·sin C
+
+# 10-III-6#8
+h Nhớ định lí sin.
+y a/sin A = b/sin B = c/sin C = 2R.
+b a/sin A = 2R.
+b Đáp án: 2R
+
+# 10-III-6#9
+h Biết hai cạnh và góc xen giữa: dùng định lí côsin.
+y BC² = AB² + AC² − 2·AB·AC·cos A.
+b BC² = 64 + 25 − 2·8·5·(1/2) = 49.
+b BC = 7.
+b Đáp án: 7
+
+# 10-III-5#9
+h Dùng sin²α + cos²α = 1 và dấu của cos α với góc tù.
+y Góc tù có cos α < 0, tan α < 0.
+y tan α = sin α/cos α.
+b a) Góc tù nên cos α < 0: đúng.
+b b) cos²α = 1 − 16/25 = 9/25, cos α = −3/5: đúng.
+b c) tan α = (4/5)/(−3/5) = −4/3: sai.
+b d) 4/5 − 3/5 − 4/3 = 1/5 − 4/3 = −17/15: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-III-6#10
+h Tính BC bằng định lí côsin, diện tích bằng công thức sin, rồi suy ra R và đường cao.
+y a² = b² + c² − 2bc·cos A; S = (1/2)bc·sin A; a = 2R·sin A; h = 2S/a.
+b a) BC² = 36 + 100 + 60 = 196, BC = 14: đúng.
+b b) S = (1/2)·6·10·(√3/2) = 15√3: đúng.
+b c) R = 14/(2·sin 120°) = 14/√3 ≈ 8,08: sai.
+b d) h = 30√3/14 ≈ 3,71 < 4: sai.
+b Kết luận: a Đúng, b Đúng, c Sai, d Sai.
+
+# 10-III-6#11
+h Quãng đường hai tàu là hai cạnh, góc giữa hai hướng là góc xen giữa: dùng định lí côsin.
+y c² = a² + b² − 2ab·cos C.
+b Sau 2 giờ: 40 km và 60 km.
+b d² = 1600 + 3600 − 2·40·60·cos 70° ≈ 3558,3 ⇒ d ≈ 59,65 km.
+b Đáp án: 59,7
+
+# 10-III-6#12
+h Tính khoảng cách nằm ngang từ góc hạ, rồi tính phần cột cao hơn tầm mắt từ góc nâng.
+y Trong tam giác vuông: cạnh đối = cạnh kề·tan góc.
+b Khoảng cách ngang: d = 30/tan 25° ≈ 64,34 m.
+b Phần cột cao hơn tầm mắt: d·tan 40° ≈ 53,98 m.
+b Chiều cao cột ≈ 30 + 53,98 ≈ 83,98 m.
+b Đáp án: 84
+
+# 10-VI-16#6
+h Trục đối xứng của parabol y = ax² + bx + c là x = −b/(2a).
+y Trục đối xứng: x = −b/(2a).
+b x = 4/2 = 2.
+b Đáp án: x = 2
+
+# 10-VII-19#6
+h Hệ số của x và y là tọa độ một vectơ pháp tuyến.
+y ax + by + c = 0 có vectơ pháp tuyến n = (a; b).
+b n = (2; −3).
+b Đáp án: (2; −3)
+
+# 10-VII-21#6
+h So sánh với dạng (x − a)² + (y − b)² = R².
+y Tâm I(a; b), bán kính R.
+b a = 1, b = −2, R² = 9 nên R = 3.
+b Đáp án: I(1; −2), R = 3
+
+# 10-VII-22#6
+h Elip x²/a² + y²/b² = 1 (a > b > 0) có trục lớn 2a.
+y Độ dài trục lớn 2a, trục nhỏ 2b.
+b a = 5 nên trục lớn dài 10.
+b Đáp án: 10
+
+# 10-VII-21#7
+h Đưa về dạng chính tắc để đọc tâm, bán kính; so sánh khoảng cách từ tâm đến đường thẳng với bán kính.
+y x² + y² − 2ax − 2by + c = 0 có tâm (a; b), R² = a² + b² − c.
+y Tiếp xúc ⇔ d(I, Δ) = R.
+b a) a = 2, b = −1: đúng.
+b b) R² = 4 + 1 + 4 = 9: đúng.
+b c) (5 − 2)² + 0² = 9: đúng.
+b d) d = |6 − 4 + 8|/5 = 2 < 3 nên cắt, không tiếp xúc: sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-VIII-24#6
+h Số hoán vị của n phần tử là n!.
+y Pₙ = n!.
+b 5! = 120.
+b Đáp án: 120
+
+# 10-VIII-25#6
+h Khai triển (a + b)ⁿ có n + 1 số hạng.
+y Công thức nhị thức Newton với n = 4.
+b 4 + 1 = 5 số hạng.
+b Đáp án: 5
+
+# 10-VIII-24#7
+h Chọn không phân biệt thứ tự: dùng tổ hợp.
+y C(n, k) = n!/(k!(n − k)!).
+b C(10, 3) = 120.
+b Đáp án: 120
+
+# 10-VIII-24#8
+h Dùng quy tắc cộng, quy tắc nhân, chỉnh hợp (có thứ tự) và phần bù cho tổ hợp.
+y Chọn có phân biệt vai trò: A(n, k); không phân biệt: C(n, k).
+b a) 15 + 10 = 25: đúng.
+b b) 15·10 = 150: đúng.
+b c) A(25, 2) = 600: sai.
+b d) C(25, 3) − C(15, 3) − C(10, 3) = 2300 − 455 − 120 = 1725: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-IX-26#7
+h Liệt kê các kết quả có thể.
+y Không gian mẫu Ω là tập mọi kết quả có thể.
+b Ω = {1; 2; 3; 4; 5; 6}, có 6 phần tử.
+b Đáp án: 6
+
+# 10-IX-26#8
+h Hai biến cố đối có tổng xác suất bằng 1.
+y P(A) + P(Ā) = 1.
+b P(Ā) = 1 − P(A).
+b Đáp án: 1 − P(A)
+
+# 10-IX-27#7
+h Đếm số kết quả của không gian mẫu và số kết quả thuận lợi.
+y P(A) = n(A)/n(Ω).
+b Ω = {SS; SN; NS; NN}, chỉ SS thuận lợi.
+b P = 1/4.
+b Đáp án: 1/4
+
+# 10-IX-26#9
+h Nhớ tính chất của xác suất.
+y P(∅) = 0, P(Ω) = 1, 0 ≤ P(A) ≤ 1.
+b 0 ≤ P(A) ≤ 1.
+b Đáp án: 0 ≤ P(A) ≤ 1
+
+# 10-IX-27#8
+h Đếm bằng tổ hợp.
+y P = C(4, 2)/C(10, 2).
+b C(4, 2) = 6, C(10, 2) = 45.
+b P = 6/45 = 2/15.
+b Đáp án: 2/15
+
+# 10-IX-26#10
+h Liệt kê các cặp (i; j) thuận lợi; dùng biến cố đối cho "ít nhất một lần".
+y P(A) = n(A)/36; P(A) = 1 − P(Ā).
+b a) 6·6 = 36: đúng.
+b b) 6 cặp có tổng 7: P = 6/36: đúng.
+b c) Tổng 10, 11, 12 có 3 + 2 + 1 = 6 cặp: đúng.
+b d) 1 − 25/36 = 11/36 ≠ 1/3: sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-IX-27#9
+h Đếm theo tính chẵn lẻ của các thẻ được chọn.
+y Tổng ba số lẻ khi có 1 hoặc 3 số lẻ.
+b a) C(10, 3) = 120: đúng.
+b b) C(5, 3)/120 = 10/120 = 1/12: đúng.
+b c) C(5, 3) + 5·C(5, 2) = 60, P = 1/2, không lớn hơn 1/2: sai.
+b d) C(9, 2)/120 = 36/120 = 0,3: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-CD-1#6
+h Mỗi phương trình phải là bậc nhất đối với x, y, z và hệ có 3 phương trình.
+y Phương trình bậc nhất ba ẩn: ax + by + cz = d (a, b, c không đồng thời bằng 0).
+b Chỉ hệ thứ hai gồm 3 phương trình bậc nhất ba ẩn.
+b Đáp án: x + y + z = 1; 2x − y = 3; x + 3z = 0
+
+# 10-CD-1#7
+h Thay z = 3 rồi giải hệ hai ẩn còn lại.
+y Phép thế.
+b z = 3 ⇒ x + y = 3, x − y = −1 ⇒ x = 1, y = 2.
+b Đáp án: (1; 2; 3)
+
+# 10-CD-1#8
+h Giải ngược từ phương trình cuối lên.
+y Hệ dạng tam giác: tìm z, rồi y, rồi x.
+b z = 1, y = 2, x = 4 − 3 = 1.
+b Đáp án: (1; 2; 1)
+
+# 10-CD-1#9
+h Nhớ ý tưởng của phương pháp Gauss.
+y Khử dần ẩn để được hệ tam giác tương đương.
+b Đưa hệ về dạng tam giác bằng cách khử dần ẩn.
+b Đáp án: Đưa hệ về dạng tam giác bằng cách khử dần ẩn
+
+# 10-CD-1#10
+h Thay x = 1, y = −1, z = 2 vào từng phương trình.
+y Bộ số là nghiệm khi thay vào được đẳng thức đúng.
+b Các vế trái lần lượt bằng 2, 4, 3, 0; chỉ 2x + y + z = 3 đúng.
+b Đáp án: 2x + y + z = 3
+
+# 10-CD-1#11
+h Phương trình 0 = 5 không có nghiệm.
+y Hệ tương đương chứa phương trình vô nghiệm thì vô nghiệm.
+b 0 = 5 vô lí nên hệ vô nghiệm.
+b Đáp án: vô nghiệm
+
+# 10-CD-1#12
+h Khử dần ẩn bằng phương pháp Gauss.
+y Cộng, trừ các phương trình để khử ẩn.
+b Cộng phương trình 1 và 3: 2x + 3y = 8; cộng 2 và 3: 3x + y = 5.
+b Giải: x = 1, y = 2, z = 3.
+b Đáp án: (1; 2; 3)
+
+# 10-CD-1#13
+h Gọi giá ba loại là t, c, l; lập hệ ba phương trình rồi trừ vế để khử nhanh.
+y Trừ hai phương trình có cùng hệ số để khử ẩn.
+b (2t + c + l) − (t + c + l) = 110 − 80 ⇒ t = 30.
+b Đáp án: 30 nghìn đồng
+
+# 10-CD-1#14
+h Hai phương trình đầu mâu thuẫn nhau.
+y Trừ hai phương trình được 0 = 2.
+b Trừ phương trình 2 cho phương trình 1: 0 = 2, vô lí.
+b Hệ vô nghiệm.
+b Đáp án: vô nghiệm
+
+# 10-CD-1#15
+h Kiểm tra bộ số bằng cách thay vào, giải hệ bằng phương pháp Gauss để biết nghiệm duy nhất.
+y Hệ có nghiệm duy nhất khi khử được về dạng tam giác với hệ số chéo khác 0.
+b a) 1 − 1 + 2 = 2; 1 + 1 + 4 = 6; 2 − 1 − 2 = −1: đúng.
+b b) Khử ẩn được hệ tam giác, nghiệm duy nhất (1; −1; 2): đúng.
+b c) xyz = −2: sai.
+b d) 1 + 1 + 4 = 6: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-CD-1#16
+h Lập hệ ba phương trình bậc nhất ba ẩn, giải bằng phương pháp Gauss.
+y Chia mỗi phương trình cho ước chung để số nhỏ hơn.
+b a) Viết đúng phương trình ngày 1: đúng.
+b b) Giải hệ được a = 50, b = 40, c = 30: đúng.
+b c) c = 30 < b = 40: sai.
+b d) 600 + 320 + 750 = 1670 nghìn đồng, không phải 1,7 triệu: sai.
+b Kết luận: a Đúng, b Đúng, c Sai, d Sai.
+
+# 10-CD-1#17
+h Nhận ra hai phương trình tương đương nên hệ chỉ còn 2 phương trình độc lập cho 3 ẩn.
+y Hệ có ít phương trình độc lập hơn số ẩn và có nghiệm thì có vô số nghiệm.
+b a) Nhân phương trình 1 với 2 được phương trình 2: đúng.
+b b) Chỉ còn 2 phương trình độc lập: không có nghiệm duy nhất, sai.
+b c) 2 + 2 − 3 = 1; 2 − 1 + 3 = 4: đúng.
+b d) Có nghiệm và còn một ẩn tự do: vô số nghiệm, đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# 10-CD-1#18
+h Lập hệ ba phương trình bậc nhất ba ẩn rồi giải bằng phương pháp Gauss.
+y Khử dần ẩn để đưa về hệ tam giác.
+b 20x + 30y + 10z = 1750; 25x + 20y + 15z = 1850; 10x + 40y + 20z = 2100.
+b Giải hệ được x = 30, y = 25, z = 40.
+b Đáp án: 40
+
+# 10-CD-1#19
+h Lập hệ ba phương trình theo a, b, c từ ba điểm, giải rồi tìm đỉnh parabol.
+y Đỉnh parabol: x = −b/(2a).
+b c = 1; 4a + 2b = 2,4; 16a + 4b = 2,8 ⇒ a = −0,25, b = 1,7.
+b Đỉnh tại x = 3,4: y = 1 + 1,7·3,4 − 0,25·3,4² = 3,89 m.
+b Đáp án: 3,89
+
+# 10-VI-15#6
+h Biểu thức dưới căn phải không âm.
+y √A xác định khi A ≥ 0.
+b x − 2 ≥ 0 ⇔ x ≥ 2.
+b Đáp án: [2; +∞)
+
+# 10-VI-15#7
+h Mẫu phải khác 0.
+y Phân thức xác định khi mẫu khác 0.
+b x² − 4 ≠ 0 ⇔ x ≠ ±2.
+b Đáp án: ℝ \ {−2; 2}
+
+# 10-VI-15#8
+h Tính từng giá trị rồi trừ.
+y Thay x vào công thức hàm số.
+b f(−1) = 7, f(1) = 3.
+b f(−1) − f(1) = 4.
+b Đáp án: 4
+
+# 10-VI-15#9
+h Xác định x thuộc khoảng nào rồi dùng đúng công thức; giải phương trình trên từng khoảng.
+y Hàm số cho bởi nhiều công thức.
+b a) 2 ≥ 1: f(2) = 3, đúng.
+b b) −2 < 1: f(−2) = 4, đúng.
+b c) 0 < 1: f(0) = 0, sai.
+b d) x ≥ 1: 2x − 1 = 4 ⇒ x = 2,5; x < 1: x² = 4 ⇒ x = −2. Hai nghiệm: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-VI-16#7
+h Đỉnh I(−b/(2a); f(−b/(2a))).
+y x đỉnh = −b/(2a).
+b x = 1, y = 1 − 2 + 3 = 2.
+b Đáp án: (1; 2)
+
+# 10-VI-16#8
+h a < 0: hàm số đồng biến bên trái đỉnh.
+y a < 0: đồng biến trên (−∞; −b/(2a)).
+b −b/(2a) = 2 nên đồng biến trên (−∞; 2).
+b Đáp án: (−∞; 2)
+
+# 10-VI-16#9
+h Tìm đỉnh, nghiệm; xét chiều biến thiên trên đoạn đã cho.
+y a > 0: hàm số đồng biến trên (−b/(2a); +∞).
+b a) x = 4/2 = 2: đúng.
+b b) y(2) = −1: đúng.
+b c) x² − 4x + 3 = 0 ⇔ x = 1 hoặc 3: đúng.
+b d) Trên [3; 5] hàm số đồng biến, nhỏ nhất y(3) = 0: sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-VI-16#10
+h h là hàm bậc hai với a < 0: lớn nhất tại đỉnh.
+y Đỉnh tại t = −b/(2a).
+b t = 19,6/9,8 = 2.
+b h(2) = −19,6 + 39,2 + 1,5 = 21,1 m.
+b Đáp án: 21,1
+
+# 10-VI-17#7
+h a > 0: tam thức âm giữa hai nghiệm.
+y Hai nghiệm 2 và 3.
+b f(x) < 0 ⇔ 2 < x < 3.
+b Đáp án: 2 < x < 3
+
+# 10-VI-17#8
+h Cần a > 0 và Δ < 0.
+y Δ < 0 thì f(x) cùng dấu a với mọi x.
+b x² + x + 1 có Δ = −3 < 0, a = 1 > 0.
+b Đáp án: x² + x + 1
+
+# 10-VI-17#9
+h a > 0: tam thức không âm ngoài khoảng hai nghiệm.
+y Nghiệm ±3.
+b x ≤ −3 hoặc x ≥ 3.
+b Đáp án: (−∞; −3] ∪ [3; +∞)
+
+# 10-VI-17#10
+h Tìm nghiệm, lập bảng xét dấu (a < 0: dương giữa hai nghiệm).
+y a < 0: f(x) > 0 giữa hai nghiệm, âm ngoài.
+b a) −1 − 2 + 3 = 0; −9 + 6 + 3 = 0: đúng.
+b b) Dương giữa hai nghiệm: đúng.
+b c) f(2,5) = 1,75 > 0: sai.
+b d) x ∈ {0; 1; 2}: chỉ 3 số: sai.
+b Kết luận: a Đúng, b Đúng, c Sai, d Sai.
+
+# 10-VI-17#11
+h Lập bất phương trình bậc hai p(500 − 5p) ≥ 12000 rồi xét dấu tam thức.
+y Tam thức a > 0 không dương giữa hai nghiệm.
+b p(500 − 5p) ≥ 12000 ⇔ p² − 100p + 2400 ≤ 0 ⇔ 40 ≤ p ≤ 60.
+b Giá cao nhất 60 nghìn đồng.
+b Đáp án: 60
+
+# 10-VI-18#7
+h Bình phương hai vế.
+y (√A)² = A.
+b 2x + 3 = x² (kèm điều kiện x ≥ 0).
+b Đáp án: 2x + 3 = x²
+
+# 10-VI-18#8
+h Bình phương hai vế.
+y √A = b (b ≥ 0) ⇔ A = b².
+b x + 1 = 9 ⇔ x = 8.
+b Đáp án: 8
+
+# 10-VI-18#9
+h √A = √B ⇔ A = B và B ≥ 0.
+y √A = √B ⇔ B ≥ 0, A = B.
+b x² − 1 = 2x − 1 ⇔ x² − 2x = 0, cùng điều kiện 2x − 1 ≥ 0.
+b Đáp án: x² − 2x = 0 với x ≥ 1/2
+
+# 10-VI-18#10
+h Đặt điều kiện vế phải không âm, bình phương, đối chiếu điều kiện.
+y √A = B ⇔ B ≥ 0 và A = B².
+b a) Vế trái không âm nên cần x + 1 ≥ 0: đúng.
+b b) x + 7 = x² + 2x + 1 ⇔ x² + x − 6 = 0: đúng.
+b c) x = −3 không thỏa x ≥ −1, chỉ x = 2: sai.
+b d) Chỉ có nghiệm 2: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-VI-18#11
+h Bình phương hai vế phương trình chứa căn, chọn nghiệm dương.
+y √A = b (b > 0) ⇔ A = b².
+b x² + (x + 7)² = 169 ⇔ x² + 7x − 60 = 0 ⇔ x = 5 hoặc x = −12.
+b x > 0 nên x = 5.
+b Đáp án: 5
+
+# 10-IV-9#7
+h Tính chất trung điểm.
+y M là trung điểm AB ⇔ OA + OB = 2OM với mọi O.
+b OA + OB = 2OM.
+b Đáp án: 2OM

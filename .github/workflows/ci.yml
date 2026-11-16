@@ -1,0 +1,41 @@
+name: Kiểm tra
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Kiểm thử và đóng gói
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kiểm tra cú pháp mã giao diện
+        run: for f in web/app.js web/db.js web/boot.js web/view_congthuc.js web/sw.js; do node --check "$f"; done
+      - name: Kiểm thử tự động
+        run: npm test
+      - name: Kiểm tra lời giải và công thức
+        run: npm run check
+      - name: Lời giải trong web/ khớp với nguồn trong content/
+        run: |
+          python content/build.py
+          git diff --exit-code -- web/
+      - name: Đóng gói thử
+        run: python tools/dong_goi.py

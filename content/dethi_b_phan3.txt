@@ -1,0 +1,233 @@
+# III-1#0
+h AB song song với mặt phẳng (SCD) chứa SC, nên quy về khoảng cách từ A đến (SCD).
+y d(a, b) = d(a, (P)) khi a // (P) ⊃ b.
+y CD ⊥ (SAD) ⇒ hạ AH ⊥ SD thì AH ⊥ (SCD).
+b AB // CD ⊂ (SCD) nên d(AB, SC) = d(A, (SCD)) = AH.
+b AH = SA·AD/√(SA² + AD²) = 4/(2√2) = √2 ≈ 1,41.
+b Đáp án: 1,41
+
+# III-1#1
+h AA' vuông góc với đáy nên khoảng cách đến BC là đường cao AH của tam giác ABC.
+y AH ⊥ BC và AH ⊥ AA' nên AH là đoạn vuông góc chung.
+y Tam giác vuông: AH = AB·AC/BC.
+b BC = √(9 + 16) = 5.
+b AH = 3·4/5 = 2,4.
+b Đáp án: 2,4
+
+# III-1#2
+h Tứ diện vuông tại O: dùng công thức nghịch đảo bình phương.
+y 1/d² = 1/OA² + 1/OB² + 1/OC².
+b 1/d² = 1/4 + 1/9 + 1/36 = 14/36 = 7/18.
+b d = √(18/7) ≈ 1,60.
+b Đáp án: 1,6
+
+# III-1#3
+h Kim tự tháp là khối chóp tứ giác đều: V = ⅓Bh; đổi đơn vị sang nghìn m³.
+y V = ⅓Bh, đáy là hình vuông.
+b B = 230² = 52 900 m².
+b V = ⅓·52 900·146 ≈ 2 574 467 m³ ≈ 2574 nghìn m³.
+b Đáp án: 2574
+
+# III-1#4
+h Tứ diện AA'BD có ba cạnh tại A đôi một vuông góc: dùng công thức tứ diện vuông.
+y 1/d² = 1/AA'² + 1/AB² + 1/AD².
+b 1/d² = 3/36 nên d² = 12.
+b d = 2√3 ≈ 3,46.
+b Đáp án: 3,46
+
+# III-1#5
+h Tìm chiều cao từ cạnh bên và nửa đường chéo đáy, rồi tính thể tích.
+y h² = cạnh bên² − (nửa đường chéo đáy)²; V = ⅓Bh.
+b Nửa đường chéo đáy: 3√2, bình phương 18; h = √(25 − 18) = √7.
+b V = ⅓·36·√7 = 12√7 ≈ 31,75 ≈ 31,7.
+b Đáp án: 31,7
+
+# III-2#0
+h Thể tích khối tròn xoay quanh Ox.
+y V = π∫ₐᵇ f²(x)dx.
+b V = π∫₀⁴ x dx = π·16/2 = 8π.
+b 8π ≈ 25,13 ≈ 25,1.
+b Đáp án: 25,1
+
+# III-2#1
+h Đặt hệ trục có đỉnh cổng trên Oy, chân cổng trên Ox, lập phương trình parabol rồi tích phân.
+y Parabol qua (−2; 0), (2; 0), đỉnh (0; 4): y = 4 − x².
+y S = ∫₋₂² (4 − x²)dx.
+b S = [4x − x³/3]₋₂² = 2(8 − 8/3) = 32/3.
+b 32/3 ≈ 10,67 ≈ 10,7.
+b Đáp án: 10,7
+
+# III-2#2
+h Tính diện tích theo đơn vị trục, rồi đổi sang m² (1 đơn vị² = 100 m²).
+y S = ∫ₐᵇ |f(x)|dx; x² − 4x ≤ 0 trên [0; 4].
+b S = ∫₀⁴ (4x − x²)dx = 32 − 64/3 = 32/3 đơn vị².
+b 32/3·100 ≈ 1066,7 ≈ 1067 m².
+b Đáp án: 1067
+
+# III-2#3
+h Thể tích khối tròn xoay quanh Ox.
+y V = π∫ₐᵇ f²(x)dx.
+b V = π∫₀³ (x + 1)dx = π(9/2 + 3) = 7,5π.
+b 7,5π ≈ 23,56 ≈ 23,6.
+b Đáp án: 23,6
+
+# III-2#4
+h Tìm hoành độ giao điểm, xác định đường nằm trên, rồi tích phân hiệu.
+y S = ∫ₐᵇ |f − g|dx; trên (−1; 2): x + 2 ≥ x².
+b x² = x + 2 ⇔ x = −1 hoặc x = 2.
+b S = [x²/2 + 2x − x³/3]₋₁² = 10/3 + 7/6 = 9/2.
+b Đáp án: 4,5
+
+# III-3#0
+h Lập hàm lợi nhuận = doanh thu − chi phí, rồi tìm giá trị lớn nhất bằng đạo hàm.
+y Doanh thu x·p(x); lợi nhuận P(x) = x·p(x) − C(x).
+b P(x) = 1000x − 0,25x² − 200x − 50 000 = −0,25x² + 800x − 50 000.
+b P'(x) = −0,5x + 800 = 0 ⇔ x = 1600 ∈ (0; 2000], là điểm cực đại.
+b Đáp án: 1600
+
+# III-3#1
+h Biểu diễn chiều cao qua cạnh đáy nhờ thể tích, lập hàm diện tích rồi tìm giá trị nhỏ nhất.
+y Hộp không nắp: S = x² + 4xh, với h = 32/x².
+b S(x) = x² + 128/x, x > 0.
+b S'(x) = 2x − 128/x² = 0 ⇔ x³ = 64 ⇔ x = 4.
+b S(4) = 16 + 32 = 48.
+b Đáp án: 48
+
+# III-3#2
+h Giải bất phương trình bậc hai P(x) > 0 rồi lấy số nguyên nhỏ nhất.
+y Tam thức a < 0 dương giữa hai nghiệm.
+b −0,1x² + 60x − 5000 > 0 ⇔ x² − 600x + 50 000 < 0.
+b Nghiệm x = 100 và x = 500, nên 100 < x < 500.
+b Số nguyên nhỏ nhất là 101.
+b Đáp án: 101
+
+# III-3#3
+h Thời gian đi 400/v giờ; tổng chi phí = thời gian × chi phí mỗi giờ; tìm v làm chi phí nhỏ nhất.
+y T(v) = (400/v)(0,01v³ + 540), v > 0.
+b T(v) = 4v² + 216 000/v.
+b T'(v) = 8v − 216 000/v² = 0 ⇔ v³ = 27 000 ⇔ v = 30; T' đổi dấu − sang +.
+b Đáp án: 30
+
+# III-3#4
+h Biểu diễn thể tích hộp theo x, tìm giá trị lớn nhất trên (0; 3).
+y V(x) = x(6 − 2x)².
+b V'(x) = (6 − 2x)(6 − 6x) = 0 ⇔ x = 1 (x = 3 loại).
+b V(1) = 1·16 = 16.
+b Đáp án: 16
+
+# III-4#0
+h Đặt x bàn, y ghế; lập hệ ràng buộc, tìm các đỉnh, tính lãi tại các đỉnh.
+y F = 300x + 200y trên miền 2x + y ≤ 100, x + y ≤ 80, x, y ≥ 0.
+b Các đỉnh (0; 0), (50; 0), (20; 60), (0; 80).
+b F = 0; 15 000; 18 000; 16 000 nghìn đồng.
+b Lớn nhất 18 000 nghìn = 18 triệu đồng.
+b Đáp án: 18
+
+# III-4#1
+h Đặt x ha rau A, y ha rau B; lập hệ ràng buộc và so sánh lãi tại các đỉnh.
+y F = 40x + 60y trên miền x + y ≤ 8, x + 2y ≤ 12, x, y ≥ 0.
+b Các đỉnh (0; 0), (8; 0), (4; 4), (0; 6).
+b F = 0; 320; 400; 360.
+b Đáp án: 400
+
+# III-4#2
+h Bài toán chi phí nhỏ nhất: miền nghiệm không bị chặn nhưng giá trị nhỏ nhất vẫn đạt tại một đỉnh.
+y F = 20x + 30y trên miền x + 3y ≥ 6, 2x + 2y ≥ 8, x, y ≥ 0.
+b Các đỉnh (6; 0), (3; 1), (0; 4).
+b F = 120; 90; 120.
+b Đáp án: 90
+
+# III-4#3
+h Đặt x hộp A, y hộp B; lập hệ ràng buộc, so sánh lãi tại các đỉnh.
+y F = 50x + 40y trên miền 2x + y ≤ 60, x + y ≤ 40, x, y ≥ 0.
+b Giao hai đường bờ: (20; 20). Các đỉnh (0; 0), (30; 0), (20; 20), (0; 40).
+b F = 0; 1500; 1800; 1600.
+b Đáp án: 1800
+
+# III-4#4
+h Gọi giá trà, cà phê, nước cam là x, y, z; lập hệ ba phương trình (chia 10) rồi giải bằng Gauss.
+y x + 2y + z = 70; 2x + y + z = 65; x + y + 2z = 75.
+y Cộng ba phương trình: 4(x + y + z) = 210.
+b x + y + z = 52,5.
+b Trừ từng phương trình: y = 17,5; x = 12,5; z = 22,5.
+b Thử lại: 12,5 + 35 + 22,5 = 70.
+b Đáp án: 22,5
+
+# III-5#0
+h Chọn mẫu xếp (nam đầu hoặc nữ đầu), rồi hoán vị nam và nữ trong các vị trí của mình.
+y Quy tắc nhân; hoán vị n! .
+b Có 2 mẫu xếp xen kẽ.
+b Mỗi mẫu: 3!·3! = 36 cách; tổng 2·36 = 72.
+b Đáp án: 72
+
+# III-5#1
+h Chia lần lượt: chọn 2 quyển cho bạn thứ nhất, 2 cho bạn thứ hai, còn lại cho bạn thứ ba.
+y Các bạn phân biệt nên dùng quy tắc nhân các tổ hợp.
+b C₆²·C₄²·C₂² = 15·6·1.
+b Đáp án: 90
+
+# III-5#2
+h Chia trường hợp theo chữ số tận cùng 0 hoặc 5; ưu tiên chữ số đầu khác 0.
+y Quy tắc cộng giữa các trường hợp, quy tắc nhân trong mỗi trường hợp.
+b Tận cùng 0: ba chữ số đầu chọn từ 5 chữ số còn lại: A₅³ = 60.
+b Tận cùng 5: chữ số đầu có 4 cách (khác 0, 5), hai chữ số giữa A₄² = 12: 48.
+b 60 + 48 = 108.
+b Đáp án: 108
+
+# III-5#3
+h Đếm mọi bộ 3 điểm rồi trừ các bộ thẳng hàng.
+y Số tam giác = C₁₀³ − (số bộ 3 điểm thẳng hàng).
+b C₁₀³ = 120; bộ thẳng hàng C₄³ = 4.
+b 120 − 4 = 116.
+b Đáp án: 116
+
+# III-5#4
+h Chọn chức vụ có thứ tự trước, rồi chọn nhóm ủy viên không thứ tự.
+y Chức vụ khác nhau: chỉnh hợp; ủy viên như nhau: tổ hợp.
+b Lớp trưởng, lớp phó: 10·9 = 90.
+b 2 ủy viên từ 8 bạn còn lại: C₈² = 28; tổng 90·28 = 2520.
+b Đáp án: 2520
+
+# III-5#5
+h Số lớn hơn 400 khi chữ số hàng trăm là 4, 5 hoặc 6; ưu tiên hàng trăm.
+y Quy tắc nhân, chữ số khác nhau.
+b Hàng trăm: 3 cách; hàng chục: 5 cách; hàng đơn vị: 4 cách.
+b 3·5·4 = 60.
+b Đáp án: 60
+
+# III-6#0
+h Bộ ba tăng dần a, a + d, a + 2d; đếm theo công sai d.
+y n(Ω) = C₂₀³ = 1140.
+y Với công sai d, số đầu a thỏa a + 2d ≤ 20: có 20 − 2d cách.
+b Tổng với d = 1, …, 9: Σ(20 − 2d) = 180 − 90 = 90.
+b P = 90/1140 ≈ 0,079 ≈ 0,08.
+b Đáp án: 0,08
+
+# III-6#1
+h Đủ ba màu với 4 bi: một màu có 2 bi, hai màu còn lại mỗi màu 1 bi; chia 3 trường hợp.
+y n(Ω) = C₁₅⁴ = 1365.
+b 2 đỏ: C₄²·5·6 = 180; 2 xanh: 4·C₅²·6 = 240; 2 vàng: 4·5·C₆² = 300.
+b n(A) = 720; P = 720/1365 ≈ 0,527.
+b Đáp án: 0,53
+
+# III-6#2
+h Điều kiện "có ít nhất một mặt 6" thu hẹp không gian mẫu; đếm trong đó các kết quả tổng ≥ 10.
+y P(A | B) = n(AB)/n(B).
+b n(B) = 36 − 25 = 11.
+b AB: (6;4), (4;6), (6;5), (5;6), (6;6): 5 kết quả.
+b P = 5/11 ≈ 0,45.
+b Đáp án: 0,45
+
+# III-6#3
+h "Ít nhất một" nên dùng biến cố đối "không có bi đỏ".
+y P(A) = 1 − P(Ā).
+b P(Ā) = C₇³/C₁₂³ = 35/220.
+b P = 185/220 ≈ 0,84.
+b Đáp án: 0,84
+
+# III-6#4
+h Biết kết quả (đúng một viên trúng), tìm nguồn: xác suất có điều kiện.
+y P(A | B) = P(AB)/P(B); hai xạ thủ độc lập.
+b P(đúng một viên) = 0,8·0,3 + 0,2·0,7 = 0,38.
+b P(người 1 trúng, người 2 trượt) = 0,24; P = 0,24/0,38 ≈ 0,63.
+b Đáp án: 0,63

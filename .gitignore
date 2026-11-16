@@ -1,0 +1,29 @@
+# Bản đóng gói, tạo lại bằng: py -I tools/dong_goi.py
+ban_phat_hanh/
+dist/
+
+# Đề tham khảo của các Sở GD&ĐT và cụm trường: chỉ dùng để xem dạng bài, không phát hành lại.
+de_tham_khao/
+
+# Báo cáo đề tài và hình của báo cáo: tài liệu dự thi, không thuộc mã nguồn.
+*.docx
+*.doc
+*.pdf
+Hinh/
+
+# Dữ liệu khảo sát (nếu có) không bao giờ đưa lên kho mã.
+khao_sat/
+*.xlsx
+*.csv
+
+# Tệp cục bộ của công cụ và máy cá nhân
+.claude/
+.netlify/
+.env
+.env.*
+node_modules/
+__pycache__/
+*.pyc
+~$*
+Thumbs.db
+.DS_Store

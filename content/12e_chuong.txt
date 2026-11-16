@@ -1,0 +1,134 @@
+# 12-I-3#6
+h Tiệm cận đứng tại nghiệm của mẫu (không là nghiệm của tử).
+y y = (ax + b)/(cx + d) có tiệm cận đứng x = −d/c.
+b Mẫu bằng 0 khi x = 3, tử khác 0: tiệm cận đứng x = 3.
+b Đáp án: x = 3
+
+# 12-II-7#7
+h Hệ số của i, j, k là tọa độ của vectơ.
+y u = xi + yj + zk ⇔ u = (x; y; z).
+b u = (1; 2; −1).
+b Đáp án: (1; 2; −1)
+
+# 12-II-8#7
+h Áp dụng biểu thức tọa độ của tổng, độ dài, tích vô hướng và côsin góc.
+y a·b = x₁x₂ + y₁y₂ + z₁z₂; cos(a, b) = a·b/(|a||b|).
+b a) Cộng từng tọa độ: đúng.
+b b) |a| = √(1 + 4 + 4) = 3: đúng.
+b c) a·b = 2 + 0 − 2 = 0: sai.
+b d) a·d = 2 + 4 − 2 = 4, |d| = 3: cos = 4/9, đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 12-III-9#6
+h R = đầu mút phải nhóm cuối − đầu mút trái nhóm đầu.
+y R = aₖ₊₁ − a₁.
+b R = 35 − 10 = 25.
+b Đáp án: 25
+
+# 12-III-10#6
+h Nhớ định nghĩa độ lệch chuẩn.
+y s = √s².
+b Độ lệch chuẩn là căn bậc hai số học của phương sai.
+b Đáp án: căn bậc hai số học của phương sai
+
+# 12-III-9#7
+h Nhớ định nghĩa khoảng tứ phân vị.
+y ΔQ = Q₃ − Q₁.
+b ΔQ = Q₃ − Q₁.
+b Đáp án: Q₃ − Q₁
+
+# 12-III-10#7
+h Dùng giá trị đại diện 5,5; 6,5; 7,5; 8,5 để tính trung bình, phương sai.
+y s² = Σmᵢxᵢ²/n − x̄²; s = √s².
+b a) 9 − 5 = 4: đúng.
+b b) (11 + 39 + 60 + 34)/20 = 7,2: đúng.
+b c) Σmᵢxᵢ²/n = 52,65; s² = 52,65 − 51,84 = 0,81: đúng.
+b d) s = 0,9: sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-III-9#8
+h Dùng công thức tứ phân vị cho mẫu ghép nhóm.
+y Qₖ = a + (kn/4 − C)/m·h.
+b a) 20 − 0 = 20: đúng.
+b b) Q₁ = 5 + (10 − 8)/14·5 ≈ 5,71: đúng.
+b c) Q₃ = 10 + (30 − 22)/12·5 ≈ 13,33: sai.
+b d) ΔQ ≈ 7,62 < 8: sai.
+b Kết luận: a Đúng, b Đúng, c Sai, d Sai.
+
+# 12-IV-11#6
+h Dùng ∫xⁿdx = xⁿ⁺¹/(n + 1) + C.
+y ∫k·f(x)dx = k∫f(x)dx.
+b ∫2x dx = 2·x²/2 + C = x² + C.
+b Đáp án: x² + C
+
+# 12-IV-12#6
+h Tích phân có hai cận bằng nhau.
+y ∫ₐᵃ f(x)dx = F(a) − F(a) = 0.
+b Bằng 0.
+b Đáp án: 0
+
+# 12-IV-13#6
+h Diện tích luôn dương: lấy trị tuyệt đối của f.
+y S = ∫ₐᵇ |f(x)|dx.
+b S = ∫ₐᵇ |f(x)|dx.
+b Đáp án: ∫ₐᵇ |f(x)|dx
+
+# 12-V-14#6
+h Thay tọa độ từng điểm vào phương trình.
+y M ∈ (P) khi tọa độ thỏa mãn phương trình.
+b (1; 0; 0): 1 − 1 = 0, thỏa mãn.
+b Đáp án: (1; 0; 0)
+
+# 12-V-15#6
+h Hệ số của t là tọa độ vectơ chỉ phương.
+y x = x₀ + at, y = y₀ + bt, z = z₀ + ct có u = (a; b; c).
+b u = (2; −1; 1).
+b Đáp án: (2; −1; 1)
+
+# 12-V-17#6
+h Dạng x² + y² + z² = R².
+y R = √16.
+b R = 4.
+b Đáp án: 4
+
+# 12-VI-18#6
+h Nhớ định nghĩa xác suất có điều kiện.
+y P(A|B) = P(AB)/P(B).
+b P(A|B) = P(AB)/P(B).
+b Đáp án: P(AB)/P(B)
+
+# 12-VI-18#7
+h Độc lập: P(AB) = P(A)P(B).
+y P(A|B) = P(A)P(B)/P(B).
+b P(A|B) = P(A).
+b Đáp án: P(A)
+
+# 12-VI-19#6
+h Chia A theo B và B̄.
+y A = AB ∪ AB̄ (xung khắc).
+b P(A) = P(B)P(A|B) + P(B̄)P(A|B̄).
+b Đáp án: P(A) = P(B)P(A|B) + P(B̄)P(A|B̄)
+
+# 12-VI-19#7
+h Viết P(AB) theo hai cách.
+y P(AB) = P(B)P(A|B) = P(A)P(B|A).
+b P(B|A) = P(B)P(A|B)/P(A).
+b Đáp án: P(B)P(A|B)/P(A)
+
+# 12-VI-18#8
+h Áp dụng định nghĩa.
+y P(A|B) = P(AB)/P(B).
+b 0,12/0,4 = 0,3.
+b Đáp án: 0,3
+
+# 12-VI-19#8
+h Dùng công thức xác suất toàn phần.
+y P(L) = P(I)P(L|I) + P(II)P(L|II).
+b 0,7·0,02 + 0,3·0,05 = 0,014 + 0,015 = 0,029.
+b Đáp án: 0,029
+
+# 12-I-3#7
+h Tiệm cận ngang y = a/c của hàm phân thức bậc nhất.
+y y = (ax + b)/(cx + d) có tiệm cận ngang y = a/c.
+b y = 2/1 = 2.
+b Đáp án: y = 2

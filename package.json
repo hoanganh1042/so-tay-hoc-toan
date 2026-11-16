@@ -1,0 +1,16 @@
+{
+  "name": "so-tay-hoc-toan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web app chẩn đoán lỗ hổng kiến thức Toán THPT theo từng bài học, ôn tập theo chương, tra công thức và luyện đề thi thử. Chạy hoàn toàn trên trình duyệt, không cần máy chủ.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\"",
+    "check": "node tools/kiemtra.js && node tools/kiemtra_congthuc.js",
+    "serve": "python -m http.server 8765 --directory web",
+    "package": "python tools/dong_goi.py"
+  }
+}

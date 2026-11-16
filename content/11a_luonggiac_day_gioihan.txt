@@ -1,0 +1,712 @@
+# 11-I-1#d
+h Đổi đơn vị từ độ sang radian.
+y π rad = 180°; α (rad) = a°·π/180.
+b 180° = 180·π/180 = π rad.
+b Đáp án: π
+
+# 11-I-1#0
+h Đổi đơn vị từ radian sang độ.
+y a° = α·180/π.
+b 3π/4 rad = 3·180°/4 = 135°.
+b Đáp án: 135°
+
+# 11-I-1#1
+h Xác định góc phần tư rồi dùng bảng dấu các giá trị lượng giác.
+y Góc phần tư II (π/2 < α < π): sin > 0; cos, tan, cot < 0.
+b α thuộc góc phần tư II: điểm biểu diễn có tung độ dương, hoành độ âm.
+b Nên sin α > 0, còn cos α, tan α, cot α đều âm.
+b Đáp án: sin α > 0
+
+# 11-I-1#2
+h Từ cos α và góc phần tư I tìm sin α, rồi suy ra tan, cot và dùng công thức góc bù.
+y sin²α + cos²α = 1; tan α = sin α/cos α; cot α = 1/tan α.
+y Góc bù: sin(π − α) = sin α.
+b a) sin²α = 1 − 9/25 = 16/25, α thuộc góc phần tư I nên sin α = 4/5. Đúng.
+b b) tan α = (4/5)/(3/5) = 4/3. Đúng.
+b c) cot α = 3/4 ≠ 4/3. Sai.
+b d) sin(π − α) = sin α = 4/5. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-I-1#3
+h Độ dài cung bằng bán kính nhân số đo radian.
+y l = R·α (α tính bằng radian).
+b l = 10·1,5 = 15 (cm).
+b Đáp án: 15
+
+# 11-I-1#4
+h Dùng hằng đẳng thức lượng giác cơ bản và giá trị đặc biệt.
+y sin²x + cos²x = 1 với mọi x; tan(π/4) = 1.
+b sin²(π/7) + cos²(π/7) = 1.
+b Cộng tan(π/4) = 1 được 2.
+b Đáp án: 2
+
+# 11-I-2#d
+h Nhớ đúng công thức nhân đôi.
+y sin 2a = 2 sin a cos a; cos 2a = cos²a − sin²a = 2cos²a − 1 = 1 − 2sin²a.
+b sin 2a = sin(a + a) = sin a cos a + cos a sin a = 2 sin a cos a.
+b Đáp án: sin 2a = 2 sin a cos a
+
+# 11-I-2#0
+h Nhớ công thức cộng của côsin (dấu ngược với dấu trong góc).
+y cos(a + b) = cos a cos b − sin a sin b; cos(a − b) = cos a cos b + sin a sin b.
+b Áp dụng công thức cộng.
+b Đáp án: cos a cos b − sin a sin b
+
+# 11-I-2#1
+h Tách 75° = 45° + 30° rồi dùng công thức cộng của sin.
+y sin(a + b) = sin a cos b + cos a sin b.
+b sin 75° = sin 45° cos 30° + cos 45° sin 30° = (√2/2)(√3/2) + (√2/2)(1/2).
+b = √6/4 + √2/4.
+b Đáp án: (√6 + √2)/4
+
+# 11-I-2#2
+h Tìm cos a từ sin a và góc phần tư II, rồi dùng công thức nhân đôi, xét dấu tan 2a.
+y sin 2a = 2 sin a cos a; cos 2a = 1 − 2sin²a; tan 2a = sin 2a/cos 2a.
+b a) cos²a = 1 − 9/25 = 16/25, góc phần tư II nên cos a = −4/5. Đúng.
+b b) sin 2a = 2·(3/5)·(−4/5) = −24/25. Đúng.
+b c) cos 2a = 1 − 2·9/25 = 7/25. Đúng.
+b d) tan 2a = (−24/25)/(7/25) = −24/7 < 0. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-I-2#3
+h Nhận ra biểu thức là vế phải của công thức nhân đôi của côsin.
+y cos²a − sin²a = cos 2a.
+b cos²15° − sin²15° = cos 30° = √3/2.
+b √3/2 ≈ 0,866 ≈ 0,87.
+b Đáp án: 0,87
+
+# 11-I-2#4
+h Nhận ra biểu thức là công thức nhân đôi của sin.
+y 2 sin a cos a = sin 2a.
+b 2 sin 15° cos 15° = sin 30° = 1/2.
+b Đáp án: 0,5
+
+# 11-I-3#d
+h Nhớ chu kì của các hàm lượng giác cơ bản.
+y sin, cos có chu kì 2π; tan, cot có chu kì π.
+b sin(x + 2π) = sin x và 2π là số dương nhỏ nhất có tính chất này.
+b Đáp án: 2π
+
+# 11-I-3#0
+h Hàm chẵn khi f(−x) = f(x) với mọi x thuộc tập xác định (đối xứng).
+y cos(−x) = cos x; sin, tan, cot là hàm lẻ.
+b cos(−x) = cos x nên y = cos x là hàm chẵn.
+b Đáp án: y = cos x
+
+# 11-I-3#1
+h Từ miền giá trị của sin x suy ra miền giá trị của biểu thức bậc nhất theo sin x.
+y −1 ≤ sin x ≤ 1.
+b −3 ≤ 3 sin x ≤ 3.
+b −2 ≤ 3 sin x + 1 ≤ 4, và các giá trị biên đạt được.
+b Đáp án: [−2; 4]
+
+# 11-I-3#2
+h Kiểm tra tập xác định, giá trị lớn nhất, chu kì và tính chẵn lẻ của y = 2 cos x.
+y cos x xác định trên ℝ, −1 ≤ cos x ≤ 1, chu kì 2π, là hàm chẵn.
+y Nhân với hằng số không làm đổi chu kì và tính chẵn lẻ.
+b a) cos x xác định với mọi x. Đúng.
+b b) 2 cos x ≤ 2, đạt khi cos x = 1. Đúng.
+b c) Chu kì vẫn là 2π. Sai.
+b d) 2cos(−x) = 2cos x nên là hàm chẵn. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-I-3#3
+h Hàm y = sin(ax) có chu kì 2π/|a|.
+y T = 2π/|a|.
+b T = 2π/2 = π ≈ 3,14.
+b Đáp án: 3,14
+
+# 11-I-3#4
+h Biểu thức lớn nhất khi −3 cos x lớn nhất, tức cos x nhỏ nhất.
+y −1 ≤ cos x ≤ 1.
+b cos x = −1 (ví dụ x = π) cho y = 5 + 3 = 8.
+b Đáp án: 8
+
+# 11-I-4#d
+h Đưa về sin x = sin α với α là góc đặc biệt rồi dùng công thức nghiệm.
+y sin x = sin α ⇔ x = α + k2π hoặc x = π − α + k2π (k ∈ ℤ).
+b 1/2 = sin(π/6).
+b x = π/6 + k2π hoặc x = π − π/6 + k2π = 5π/6 + k2π.
+b Đáp án: x = π/6 + k2π hoặc x = 5π/6 + k2π
+
+# 11-I-4#0
+h Trường hợp đặc biệt của phương trình cos x = 0.
+y Trên đường tròn lượng giác, cos x = 0 tại hai điểm đối xứng qua O ứng với π/2 và −π/2, cách nhau π.
+b cos x = 0 ⇔ x = π/2 + kπ (k ∈ ℤ).
+b Đáp án: x = π/2 + kπ
+
+# 11-I-4#1
+h Đưa về tan x = tan α rồi dùng công thức nghiệm với chu kì π.
+y tan x = tan α ⇔ x = α + kπ (k ∈ ℤ).
+b 1 = tan(π/4).
+b x = π/4 + kπ.
+b Đáp án: x = π/4 + kπ
+
+# 11-I-4#2
+h Đưa về phương trình cơ bản rồi liệt kê nghiệm trong đoạn đã cho.
+y sin x = 1/2 ⇔ x = π/6 + k2π hoặc x = 5π/6 + k2π.
+y Chọn k để nghiệm thuộc [0; 2π].
+b a) 2 sin x − 1 = 0 ⇔ sin x = 1/2. Đúng.
+b b) sin(π/6) = 1/2. Đúng.
+b c) sin(5π/6) = 1/2. Đúng.
+b d) Trên [0; 2π] chỉ có π/6 và 5π/6 (k = 0); k = 1 cho các giá trị lớn hơn 2π. Có 2 nghiệm. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-I-4#3
+h Giải phương trình cơ bản rồi đếm nghiệm trong đoạn [0; 4π] (hai vòng tròn lượng giác).
+y cos x = cos α ⇔ x = ±α + k2π.
+y Mỗi chu kì 2π phương trình cos x = 1/2 có 2 nghiệm.
+b cos x = 1/2 ⇔ x = ±π/3 + k2π.
+b Trong [0; 4π]: π/3, 5π/3, 7π/3, 11π/3.
+b Đáp án: 4
+
+# 11-I-4#4
+h Độ cao lớn nhất khi sin(πt/15) = 1; tìm thời điểm dương nhỏ nhất.
+y −1 ≤ sin u ≤ 1; sin u = 1 ⇔ u = π/2 + k2π.
+b h lớn nhất khi sin(πt/15) = 1 ⇔ πt/15 = π/2 + k2π.
+b t = 7,5 + 30k; lần đầu (t > 0 nhỏ nhất) ứng với k = 0: t = 7,5.
+b Đáp án: 7,5
+
+# 11-II-5#d
+h Thay n = 3 vào công thức số hạng tổng quát.
+y uₙ cho bởi công thức: u_k = giá trị của biểu thức tại n = k.
+b u₃ = 2·3 + 1 = 7.
+b Đáp án: 7
+
+# 11-II-5#0
+h Dãy giảm khi uₙ₊₁ < uₙ với mọi n; kiểm tra từng dãy.
+y Xét hiệu uₙ₊₁ − uₙ hoặc thương uₙ₊₁/uₙ (khi các số hạng dương).
+b uₙ = 1/n: 1/(n + 1) < 1/n với mọi n ≥ 1 nên giảm.
+b (−1)ⁿ đổi dấu liên tục (không đơn điệu); n² và 2n tăng.
+b Đáp án: uₙ = 1/n
+
+# 11-II-5#1
+h Dãy cho bằng hệ thức truy hồi: tính lần lượt từng số hạng.
+y uₙ₊₁ = 2uₙ + 1: số hạng sau tính từ số hạng ngay trước.
+b u₂ = 2·1 + 1 = 3.
+b u₃ = 2·3 + 1 = 7.
+b Đáp án: 7
+
+# 11-II-5#2
+h Tính số hạng cụ thể, so sánh u₁ với u₂ để xét tính tăng, và biến đổi về dạng bình phương để tìm chặn dưới.
+y Dãy tăng khi uₙ₊₁ > uₙ với mọi n; chỉ cần một cặp vi phạm là không tăng.
+y uₙ = n² − 4n = (n − 2)² − 4.
+b a) u₁ = 1 − 4 = −3. Đúng.
+b b) u₄ = 16 − 16 = 0. Đúng.
+b c) u₂ = −4 < u₁ = −3 nên dãy không tăng. Sai.
+b d) uₙ = (n − 2)² − 4 ≥ −4 với mọi n. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-II-5#3
+h Thay n = 8 vào công thức.
+y u_k: thay n = k.
+b u₈ = 9/10 = 0,9.
+b Đáp án: 0,9
+
+# 11-II-5#4
+h Giải phương trình uₙ = 25 với ẩn n nguyên dương.
+y Số a là số hạng thứ n khi uₙ = a và n ∈ ℕ*.
+b 3n − 5 = 25 ⇔ n = 10.
+b Đáp án: 10
+
+# 11-II-6#d
+h Dùng công thức số hạng tổng quát của cấp số cộng.
+y uₙ = u₁ + (n − 1)d.
+b u₅ = 2 + 4·3 = 14.
+b Đáp án: 14
+
+# 11-II-6#0
+h Kiểm tra hiệu hai số hạng liên tiếp có không đổi hay không.
+y (uₙ) là cấp số cộng ⇔ uₙ₊₁ − uₙ = d không đổi.
+b 2; 5; 8; 11 có hiệu luôn bằng 3.
+b Các dãy còn lại có hiệu thay đổi (3, 5, 7…; 0,5; 1; 1,5…; 1, 2, 4…).
+b Đáp án: 2; 5; 8; 11
+
+# 11-II-6#1
+h Dùng công thức tổng n số hạng đầu của cấp số cộng.
+y Sₙ = n(u₁ + uₙ)/2 = n[2u₁ + (n − 1)d]/2.
+b u₁₀ = 1 + 9·2 = 19.
+b S₁₀ = 10(1 + 19)/2 = 100.
+b Đáp án: 100
+
+# 11-II-6#2
+h Tính số hạng, tổng bằng công thức, rồi dựa vào dấu công sai để xét tính tăng giảm.
+y uₙ = u₁ + (n − 1)d; Sₙ = n[2u₁ + (n − 1)d]/2.
+y d > 0: dãy tăng; d < 0: dãy giảm.
+b a) u₂ = 5 − 2 = 3. Đúng.
+b b) u₁₀ = 5 + 9·(−2) = −13. Đúng.
+b c) S₅ = 5(10 − 8)/2 = 5. Đúng.
+b d) d = −2 < 0 nên dãy giảm. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-II-6#3
+h Lập hệ hai phương trình theo u₁ và d từ hai số hạng đã biết.
+y uₙ = u₁ + (n − 1)d; u₇ − u₃ = 4d.
+b 4d = 19 − 7 = 12 nên d = 3; u₁ = u₃ − 2d = 1.
+b u₂₀ = 1 + 19·3 = 58.
+b Đáp án: 58
+
+# 11-II-6#4
+h Số ghế các hàng lập thành cấp số cộng u₁ = 15, d = 2; tổng số ghế là S₂₀.
+y Sₙ = n[2u₁ + (n − 1)d]/2.
+b S₂₀ = 20(2·15 + 19·2)/2 = 10·68.
+b Đáp án: 680
+
+# 11-II-7#d
+h Dùng công thức số hạng tổng quát của cấp số nhân.
+y uₙ = u₁·qⁿ⁻¹.
+b u₅ = 3·2⁴ = 48.
+b Đáp án: 48
+
+# 11-II-7#0
+h Kiểm tra thương hai số hạng liên tiếp có không đổi.
+y (uₙ) là cấp số nhân ⇔ uₙ₊₁ = uₙ·q với q không đổi.
+b 1; 2; 4; 8: mỗi số gấp đôi số trước, q = 2.
+b Các dãy khác không có thương không đổi.
+b Đáp án: 1; 2; 4; 8
+
+# 11-II-7#1
+h Dùng công thức tổng n số hạng đầu của cấp số nhân.
+y Sₙ = u₁(qⁿ − 1)/(q − 1), q ≠ 1.
+b S₅ = 1·(2⁵ − 1)/(2 − 1) = 31.
+b Đáp án: 31
+
+# 11-II-7#2
+h Tính số hạng và tổng bằng công thức; so sánh công thức số hạng tổng quát.
+y uₙ = u₁qⁿ⁻¹; Sₙ = u₁(qⁿ − 1)/(q − 1).
+b a) u₂ = 2·3 = 6. Đúng.
+b b) u₄ = 2·3³ = 54. Đúng.
+b c) S₃ = 2 + 6 + 18 = 26. Đúng.
+b d) uₙ = 2·3ⁿ⁻¹ (với n = 1 công thức 2·3ⁿ cho 6 ≠ 2). Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-II-7#3
+h Lương mỗi năm gấp 1,05 lần năm trước: cấp số nhân u₁ = 8, q = 1,05; cần u₃.
+y Tăng r% mỗi kì: nhân với (1 + r) mỗi kì.
+b u₃ = 8·1,05² = 8·1,1025 = 8,82.
+b Đáp án: 8,82
+
+# 11-II-7#4
+h Lập hệ từ u₂ và u₅ để tìm q và u₁, rồi tính tổng.
+y u₅/u₂ = q³.
+y Sₙ = u₁(qⁿ − 1)/(q − 1).
+b q³ = 48/6 = 8 nên q = 2; u₁ = 6/2 = 3.
+b S₆ = 3(2⁶ − 1)/(2 − 1) = 3·63 = 189.
+b Đáp án: 189
+
+# 11-III-8#d
+h Giá trị đại diện là trung điểm của nhóm.
+y Nhóm [a; b) có giá trị đại diện (a + b)/2.
+b (10 + 20)/2 = 15.
+b Đáp án: 15
+
+# 11-III-8#0
+h Độ dài nhóm bằng hiệu hai đầu mút.
+y Nhóm [a; b) có độ dài b − a.
+b 25 − 20 = 5.
+b Đáp án: 5
+
+# 11-III-8#1
+h Mỗi số liệu thuộc đúng một nhóm, nên cộng tần số các nhóm được toàn bộ số liệu.
+y n = n₁ + n₂ + … + n_k (cỡ mẫu).
+b Tổng các tần số là số phần tử của mẫu.
+b Đáp án: Cỡ mẫu
+
+# 11-III-8#2
+h Đọc bảng: cộng tần số, tính trung điểm nhóm, tìm nhóm tần số lớn nhất và đếm số bạn theo điều kiện.
+y Cỡ mẫu là tổng tần số; giá trị đại diện là trung điểm nhóm.
+b a) 5 + 12 + 8 + 5 = 30. Đúng.
+b b) (155 + 160)/2 = 157,5. Đúng.
+b c) Tần số lớn nhất là 12 thuộc [155; 160). Sai.
+b d) Từ 160 cm trở lên: 8 + 5 = 13. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-III-8#3
+h Tần số tương đối bằng tần số của nhóm chia cho cỡ mẫu.
+y fᵢ = nᵢ/n.
+b n = 30, n₂ = 12.
+b f = 12/30 = 0,4.
+b Đáp án: 0,4
+
+# 11-III-8#4
+h Cao dưới 160 cm gồm hai nhóm đầu.
+y Cộng tần số các nhóm thỏa điều kiện (cũng là tần số tích lũy).
+b 5 + 12 = 17.
+b Đáp án: 17
+
+# 11-III-9#d
+h Tính số trung bình bằng giá trị đại diện của mỗi nhóm.
+y x̄ = Σnᵢxᵢ/n với xᵢ là trung điểm nhóm.
+b Giá trị đại diện: 5 và 15.
+b x̄ = (5·4 + 15·6)/10 = 110/10 = 11.
+b Đáp án: 11
+
+# 11-III-9#0
+h Nhớ định nghĩa nhóm chứa mốt.
+y Nhóm chứa mốt là nhóm có tần số lớn nhất.
+b Mốt nằm ở nơi số liệu tập trung nhiều nhất.
+b Đáp án: Có tần số lớn nhất
+
+# 11-III-9#1
+h Tìm nhóm đầu tiên có tần số tích lũy ≥ n/2.
+y Nhóm chứa trung vị: nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng n/2.
+b n = 30, n/2 = 15.
+b Tần số tích lũy: 5, 17, … nên nhóm thứ hai [155; 160) chứa trung vị.
+b Đáp án: [155; 160)
+
+# 11-III-9#2
+h Tính cỡ mẫu, xác định nhóm chứa mốt, tính số trung bình và mốt bằng công thức để kiểm tra.
+y x̄ = Σnᵢxᵢ/n; M₀ = u_m + (n_m − n_m−1)/[(n_m − n_m−1) + (n_m − n_m+1)]·h.
+b a) 10 + 18 + 8 + 4 = 40. Đúng.
+b b) Tần số lớn nhất 18 thuộc [2; 4). Đúng.
+b c) x̄ = (1·10 + 3·18 + 5·8 + 7·4)/40 = 132/40 = 3,3. Đúng.
+b d) M₀ = 2 + 8/(8 + 10)·2 ≈ 2,89 ≠ 3,5. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-III-9#3
+h Xác định nhóm chứa mốt rồi áp dụng công thức nội suy mốt.
+y M₀ = u_m + (n_m − n_m−1)/[(n_m − n_m−1) + (n_m − n_m+1)]·h.
+b Nhóm chứa mốt [2; 4): n_m = 18, nhóm trước 10, nhóm sau 8, h = 2.
+b M₀ = 2 + 8/(8 + 10)·2 = 2 + 16/18 ≈ 2,889.
+b Làm tròn: 2,89.
+b Đáp án: 2,89
+
+# 11-III-9#4
+h Xác định nhóm chứa trung vị rồi áp dụng công thức nội suy.
+y Mₑ = u_m + (n/2 − C)/n_m·h, C là tần số tích lũy trước nhóm.
+b n/2 = 15; nhóm [155; 160), C = 5, n_m = 12, h = 5.
+b Mₑ = 155 + 10/12·5 ≈ 159,17.
+b Làm tròn đến hàng đơn vị: 159.
+b Đáp án: 159
+
+# 11-IV-10#d
+h Nhớ tính chất thừa nhận về sự xác định mặt phẳng.
+y Có một và chỉ một mặt phẳng đi qua ba điểm không thẳng hàng.
+b Đây là tính chất thừa nhận của hình học không gian.
+b Đáp án: 1
+
+# 11-IV-10#0
+h Đếm mặt đáy và các mặt bên của hình chóp.
+y Hình chóp n-giác có n mặt bên tam giác và 1 mặt đáy.
+b 4 mặt bên + 1 mặt đáy = 5.
+b Đáp án: 5
+
+# 11-IV-10#1
+h Tìm giao tuyến của hai mặt phẳng bằng cách tìm hai điểm chung.
+y Giao tuyến là đường thẳng đi qua hai điểm chung phân biệt của hai mặt phẳng.
+b S là điểm chung thứ nhất.
+b O ∈ AC ⊂ (SAC) và O ∈ BD ⊂ (SBD) nên O là điểm chung thứ hai.
+b Giao tuyến là SO.
+b Đáp án: SO
+
+# 11-IV-10#2
+h Nhớ cấu tạo tứ diện: 4 đỉnh không đồng phẳng, 4 mặt tam giác, 6 cạnh.
+y Tứ diện ABCD có các mặt ABC, ABD, ACD, BCD và các cạnh AB, AC, AD, BC, BD, CD.
+b a) Có 4 mặt. Đúng.
+b b) Có 6 cạnh. Đúng.
+b c) Bốn đỉnh tứ diện không đồng phẳng. Sai.
+b d) Mỗi mặt là một tam giác. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-IV-10#3
+h Đếm cạnh đáy và cạnh bên.
+y Hình chóp n-giác có 2n cạnh (n cạnh đáy, n cạnh bên).
+b 5 + 5 = 10.
+b Đáp án: 10
+
+# 11-IV-10#4
+h Mỗi bộ ba đỉnh không thẳng hàng xác định một mặt phẳng; đếm số bộ ba.
+y Số tổ hợp chập 3 của 4: C₄³.
+b C₄³ = 4 (chính là bốn mặt của tứ diện).
+b Đáp án: 4
+
+# 11-IV-11#d
+h Nhớ định nghĩa vị trí tương đối của hai đường thẳng trong không gian.
+y Không đồng phẳng thì chéo nhau; đồng phẳng mà không có điểm chung thì song song.
+b Hai đường thẳng không cùng nằm trong một mặt phẳng là hai đường chéo nhau.
+b Đáp án: Chéo nhau
+
+# 11-IV-11#0
+h Hai mặt phẳng có điểm chung S và chứa hai đường thẳng song song thì giao tuyến song song với hai đường đó.
+y Định lí giao tuyến: (P) ⊃ a, (Q) ⊃ b, a // b thì giao tuyến (nếu có) song song với a và b.
+b S là điểm chung của (SAB) và (SCD).
+b AB ⊂ (SAB), CD ⊂ (SCD), AB // CD (đáy là hình bình hành).
+b Giao tuyến là đường thẳng qua S và song song với AB.
+b Đáp án: AB
+
+# 11-IV-11#1
+h Xét AB và CD có cùng nằm trong một mặt phẳng hay không.
+y Bốn đỉnh tứ diện không đồng phẳng.
+b Nếu AB, CD đồng phẳng thì A, B, C, D đồng phẳng, mâu thuẫn.
+b Vậy AB và CD chéo nhau.
+b Đáp án: Chéo nhau
+
+# 11-IV-11#2
+h Dùng đường trung bình trong tam giác ABC, rồi xét vị trí của MN với CD và BD.
+y Đường trung bình song song và bằng nửa cạnh đáy.
+y Đường thẳng nằm trong (ABC) và đường thẳng cắt (ABC) tại điểm không thuộc nó thì chéo nhau.
+b a) MN là đường trung bình của tam giác ABC nên MN // BC. Đúng.
+b b) MN = BC/2. Đúng.
+b c) MN ⊂ (ABC), CD cắt (ABC) tại C ∉ MN, nên MN và CD chéo nhau. Đúng.
+b d) BD cắt (ABC) tại B ∉ MN, nên MN và BD chéo nhau, không cắt. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-IV-11#3
+h MN là đường trung bình của tam giác ABC.
+y MN = BC/2.
+b BC = 6 nên MN = 3.
+b Đáp án: 3
+
+# 11-IV-11#4
+h 12 cạnh hình hộp chia thành 3 nhóm, mỗi nhóm 4 cạnh song song với nhau.
+y Các cạnh cùng phương trong hình hộp song song (các mặt là hình bình hành).
+b Một cạnh thuộc một nhóm 4 cạnh; trừ chính nó còn 3 cạnh.
+b Đáp án: 3
+
+# 11-IV-12#d
+h Nhớ điều kiện đủ để đường thẳng song song với mặt phẳng.
+y Nếu d ⊄ (P) và d // a với a ⊂ (P) thì d // (P).
+b Đây là định lí về điều kiện song song.
+b Đáp án: d không nằm trong (P) và song song với một đường thẳng nằm trong (P)
+
+# 11-IV-12#0
+h Tìm trong các mặt phẳng một đường thẳng song song với AB.
+y d ⊄ (P), d // a ⊂ (P) thì d // (P).
+b AB // CD (đáy hình bình hành), CD ⊂ (SCD), AB ⊄ (SCD).
+b Do đó AB // (SCD).
+b Đáp án: (SCD)
+
+# 11-IV-12#1
+h MN là đường trung bình của tam giác SAB nên song song AB; tìm mặt phẳng chứa AB mà không chứa MN.
+y d ⊄ (P), d // a ⊂ (P) thì d // (P).
+b MN // AB, AB ⊂ (ABCD), MN ⊄ (ABCD).
+b Do đó MN // (ABCD).
+b Đáp án: (ABCD)
+
+# 11-IV-12#2
+h Dùng định lí: mặt phẳng chứa đường thẳng song song với mặt phẳng kia thì cắt theo giao tuyến song song.
+y a // (P), (Q) ⊃ a, (Q) cắt (P) theo giao tuyến b thì b // a.
+y Đường thẳng qua trung điểm một cạnh, song song cạnh thứ hai thì đi qua trung điểm cạnh thứ ba.
+b a) BC // AD ⊂ (SAD), BC ⊄ (SAD) nên BC // (SAD). Đúng.
+b b) (MBC) chứa BC // (SAD), cắt (SAD) theo MN nên MN // BC // AD. Đúng.
+b c) Trong tam giác SAD, MN // AD và M là trung điểm SA nên N là trung điểm SD. Đúng.
+b d) MN là đường trung bình nên MN = AD/2. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-IV-12#3
+h Mặt phẳng song song với (ABC) cắt (SAB) theo giao tuyến song song với AB; dùng định lí Thalès.
+y Hai mặt phẳng song song bị mặt thứ ba cắt theo hai giao tuyến song song.
+y Thalès: MN // AB ⇒ SN/SB = SM/SA.
+b SM = 2MA nên SM/SA = 2/3.
+b MN // AB nên SN/SB = 2/3 ≈ 0,667.
+b Đáp án: 0,67
+
+# 11-IV-12#4
+h Giao tuyến của (MBC) và (SAD) song song với AD; MN là đường trung bình của tam giác SAD.
+y BC // (SAD) ⇒ giao tuyến MN // BC // AD.
+b M là trung điểm SA, MN // AD nên N là trung điểm SD.
+b MN = AD/2 = 4.
+b Đáp án: 4
+
+# 11-IV-13#d
+h Nhớ điều kiện đủ để hai mặt phẳng song song.
+y Nếu (P) chứa hai đường thẳng cắt nhau a, b và a, b cùng song song với (Q) thì (P) // (Q).
+b Hai đường thẳng phải cắt nhau; hai đường song song chưa đủ.
+b Đáp án: (P) chứa hai đường thẳng cắt nhau cùng song song với (Q)
+
+# 11-IV-13#0
+h Hình hộp có 6 mặt, đối diện nhau từng đôi một và song song.
+y Các mặt đối diện của hình hộp song song.
+b 6 mặt chia thành 3 cặp đối diện.
+b Đáp án: 3
+
+# 11-IV-13#1
+h Nhớ tính chất các mặt bên của hình lăng trụ.
+y Các cạnh bên song song và bằng nhau nên mỗi mặt bên là hình bình hành.
+b Mặt bên có hai cạnh bên song song, bằng nhau.
+b Đáp án: Hình bình hành
+
+# 11-IV-13#2
+h Dùng tính chất hình hộp: mặt đối diện song song; hai mặt chéo có giao tuyến.
+y Hai mặt phẳng có điểm chung thì không song song.
+b a) Hai đáy đối diện song song. Đúng.
+b b) Hai mặt bên đối diện song song. Đúng.
+b c) ACC'A' là hình bình hành nên AA' = CC' (vectơ). Đúng.
+b d) (ACC'A') và (BDD'B') có chung giao tuyến OO' (O, O' là tâm hai đáy) nên cắt nhau. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-IV-13#3
+h Hình hộp có ba cặp mặt đối diện.
+y Hình hộp là lăng trụ có đáy là hình bình hành: 2 đáy + 4 mặt bên.
+b 2 + 4 = 6.
+b Đáp án: 6
+
+# 11-IV-13#4
+h Định lí Thalès trong không gian: ba mặt phẳng song song chắn trên hai cát tuyến các đoạn tương ứng tỉ lệ.
+y AB/A'B' = BC/B'C' = AC/A'C'.
+b 2/4 = 3/B'C'.
+b B'C' = 6.
+b Đáp án: 6
+
+# 11-IV-14#d
+h Phép chiếu song song bảo toàn tỉ số độ dài hai đoạn thẳng cùng phương.
+y M là trung điểm AB ⇒ M' là trung điểm A'B'.
+b AM/MB = 1 nên A'M'/M'B' = 1.
+b Đáp án: Trung điểm của hình chiếu
+
+# 11-IV-14#0
+h Liệt kê tính chất được bảo toàn và tìm tính chất không có trong danh sách.
+y Bảo toàn: thẳng hàng, song song, tỉ số đoạn thẳng cùng phương. Không bảo toàn: độ dài, góc.
+b Góc vuông có thể thành góc nhọn hoặc tù trên hình biểu diễn.
+b Đáp án: Độ lớn góc
+
+# 11-IV-14#1
+h Hình vuông có các cặp cạnh song song; phép chiếu giữ tính song song nhưng không giữ góc và độ dài.
+y Hình biểu diễn của hình bình hành (kể cả hình vuông) là một hình bình hành.
+b Ảnh có hai cặp cạnh song song nên là hình bình hành.
+b Đáp án: Hình bình hành
+
+# 11-IV-14#2
+h Đối chiếu từng ý với các tính chất của phép chiếu song song.
+y Bảo toàn: song song (hoặc trùng), tỉ số đoạn cùng phương, trung điểm. Không bảo toàn góc, độ dài.
+b a) Đúng (tính chất).
+b b) Đúng (tính chất).
+b c) Góc không bảo toàn, tam giác đều có thể thành tam giác thường. Sai.
+b d) Hệ quả của bảo toàn tỉ số. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-IV-14#3
+h Phép chiếu song song giữ tỉ số AM/AB.
+y A'M'/A'B' = AM/AB.
+b A'M' = A'B'/4 = 8/4 = 2.
+b Đáp án: 2
+
+# 11-IV-14#4
+h Trọng tâm chia trung tuyến theo tỉ số 2/3; tỉ số này được bảo toàn.
+y AG/AM = 2/3; phép chiếu song song giữ tỉ số đoạn thẳng cùng phương.
+b A'G'/A'M' = AG/AM = 2/3 ≈ 0,667.
+b Đáp án: 0,67
+
+# 11-V-15#d
+h Giới hạn cơ bản của dãy 1/n.
+y lim 1/n = 0; tổng quát lim 1/nᵏ = 0 (k > 0).
+b Khi n tăng vô hạn, 1/n nhỏ tùy ý.
+b Đáp án: 0
+
+# 11-V-15#0
+h Phân thức bậc nhất trên bậc nhất: chia cả tử và mẫu cho n.
+y lim c/n = 0.
+b (2n + 1)/(n − 3) = (2 + 1/n)/(1 − 3/n).
+b → (2 + 0)/(1 − 0) = 2.
+b Đáp án: 2
+
+# 11-V-15#1
+h Giới hạn của qⁿ với |q| < 1.
+y lim qⁿ = 0 khi |q| < 1.
+b |1/2| < 1 nên (1/2)ⁿ → 0.
+b Đáp án: 0
+
+# 11-V-15#2
+h Nhận dạng cấp số nhân lùi vô hạn rồi dùng công thức tổng.
+y Cấp số nhân lùi vô hạn (|q| < 1): S = u₁/(1 − q).
+b a) Mỗi số hạng bằng 1/3 số trước: q = 1/3. Đúng.
+b b) |1/3| < 1. Đúng.
+b c) S = 1/(1 − 1/3) = 3/2. Đúng.
+b d) S = 3/2 ≠ 2. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-V-15#3
+h Tử và mẫu cùng bậc 2: chia cho n².
+y lim c/n² = 0; kết quả bằng tỉ số hệ số bậc cao nhất.
+b (3 − 1/n²)/(1 + 2/n²) → 3/1.
+b Đáp án: 3
+
+# 11-V-15#4
+h Nhận dạng cấp số nhân lùi vô hạn u₁ = 4, q = 1/2.
+y S = u₁/(1 − q).
+b S = 4/(1 − 1/2) = 8.
+b Đáp án: 8
+
+# 11-V-16#d
+h Dạng 0/0: phân tích tử thành nhân tử rồi rút gọn.
+y x² − 4 = (x − 2)(x + 2); khi x → 2 thì x ≠ 2 nên được giản ước.
+b (x² − 4)/(x − 2) = x + 2 với x ≠ 2.
+b lim (x + 2) = 4 khi x → 2.
+b Đáp án: 4
+
+# 11-V-16#0
+h Giới hạn ở vô cực của phân thức cùng bậc: chia cho x.
+y lim c/x = 0 khi x → ±∞.
+b (2 − 1/x)/(1 + 1/x) → 2.
+b Đáp án: 2
+
+# 11-V-16#1
+h Giới hạn một bên: tử là hằng dương, mẫu dương và tiến về 0.
+y lim 1/u = +∞ khi u → 0⁺.
+b x → 1⁺ nên x − 1 → 0⁺.
+b 1/(x − 1) → +∞.
+b Đáp án: +∞
+
+# 11-V-16#2
+h Rút gọn f(x) = x + 1 khi x ≠ 1, rồi tính các giới hạn.
+y Giới hạn tại x₀ không phụ thuộc giá trị (hay sự xác định) của f tại x₀.
+b a) Mẫu bằng 0 tại x = 1 nên f không xác định tại 1. Đúng.
+b b) lim (x + 1) = 2 khi x → 1. Đúng.
+b c) lim f(x) = 0 + 1 = 1 khi x → 0. Đúng.
+b d) x + 1 → +∞ khi x → +∞. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-V-16#3
+h Dạng 0/0: phân tích hằng đẳng thức và rút gọn.
+y x² − 9 = (x − 3)(x + 3).
+b (x² − 9)/(x − 3) = x + 3 với x ≠ 3.
+b → 6 khi x → 3.
+b Đáp án: 6
+
+# 11-V-16#4
+h Dạng 0/0 có căn: nhân cả tử và mẫu với biểu thức liên hợp.
+y (√A − B)(√A + B) = A − B².
+b (√(x + 4) − 2)/x = (x + 4 − 4)/[x(√(x + 4) + 2)] = 1/(√(x + 4) + 2).
+b Khi x → 0: 1/(2 + 2) = 1/4.
+b Đáp án: 0,25
+
+# 11-V-17#d
+h Nhớ tính liên tục của các hàm sơ cấp cơ bản.
+y Hàm đa thức liên tục trên ℝ; hàm phân thức liên tục trên từng khoảng xác định.
+b Hàm đa thức xác định và liên tục tại mọi điểm.
+b Đáp án: Liên tục trên ℝ
+
+# 11-V-17#0
+h Hàm phân thức liên tục trên từng khoảng của tập xác định.
+y Tập xác định ℝ \ {1} = (−∞; 1) ∪ (1; +∞).
+b Hàm liên tục trên (−∞; 1) và trên (1; +∞).
+b Đáp án: (−∞; 1) và (1; +∞)
+
+# 11-V-17#1
+h Nhớ hệ quả của định lí giá trị trung gian.
+y f liên tục trên [a; b], f(a)·f(b) < 0 ⇒ tồn tại c ∈ (a; b) với f(c) = 0.
+b Đồ thị liên tục đi từ phía dưới lên phía trên trục hoành (hoặc ngược lại) phải cắt trục hoành.
+b Đáp án: f(x) = 0 có ít nhất một nghiệm trong (a; b)
+
+# 11-V-17#2
+h Tính f(1), giới hạn trái, giới hạn phải rồi lập điều kiện liên tục.
+y f liên tục tại x₀ ⇔ lim trái = lim phải = f(x₀).
+b a) f(1) = 1 + 1 = 2. Đúng.
+b b) Phải: lim (x² + 1) = 2. Đúng.
+b c) Trái: lim (2x + m) = 2 + m. Đúng.
+b d) Liên tục khi 2 + m = 2 ⇔ m = 0, không phải m = 1. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-V-17#3
+h Hàm cho bởi hai công thức: liên tục tại điểm nối khi hai giới hạn một bên bằng giá trị tại đó.
+y lim (x → 1⁻) f = lim (x → 1⁺) f = f(1).
+b f(1) = 2; lim phải = 2; lim trái = 2 + m.
+b 2 + m = 2 ⇔ m = 0.
+b Đáp án: 0
+
+# 11-V-17#4
+h Tính giới hạn tại x = 2 (dạng 0/0) rồi cho bằng f(2).
+y f liên tục tại x₀ ⇔ lim f(x) = f(x₀).
+b lim (x² − 4)/(x − 2) = lim (x + 2) = 4.
+b Liên tục khi a = 4.
+b Đáp án: 4

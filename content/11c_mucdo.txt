@@ -1,0 +1,118 @@
+# 11-I-1#5
+h Tính góc quay theo radian rồi dùng công thức độ dài cung l = Rα.
+y Một vòng ứng với góc 2π rad.
+y Độ dài cung tròn bán kính R, số đo α (rad): l = Rα.
+b Trong 10 giây bánh xe quay 10·2/5 = 4 vòng, tức α = 8π rad.
+b R = 25 cm = 0,25 m nên l = 0,25·8π = 2π ≈ 6,28 m.
+b Đáp án: 6,3
+
+# 11-I-2#5
+h Dùng công thức hạ bậc để tính sin²a từ cos 2a, rồi xét dấu sin a.
+y cos 2a = 1 − 2sin²a.
+y Với 0 < a < π/2 thì sin a > 0.
+b sin²a = (1 − 1/3)/2 = 1/3.
+b sin a = √(1/3) ≈ 0,577.
+b Đáp án: 0,58
+
+# 11-I-3#5
+h Đưa về bất phương trình sin(πt/12) ≥ 1/2 rồi tìm các t thỏa mãn trên [0; 24].
+y sin u ≥ 1/2 với u ∈ [0; 2π] ⇔ π/6 ≤ u ≤ 5π/6.
+b 25 + 4sin(πt/12) ≥ 27 ⇔ sin(πt/12) ≥ 1/2.
+b Với t ∈ [0; 24] thì u = πt/12 ∈ [0; 2π], nên π/6 ≤ πt/12 ≤ 5π/6 ⇔ 2 ≤ t ≤ 10.
+b Khoảng thời gian dài 10 − 2 = 8 giờ.
+b Đáp án: 8
+
+# 11-II-5#5
+h Giải bất phương trình uₙ < 1,8 với n nguyên dương.
+y Với n ≥ 1 thì n + 3 > 0, nhân hai vế với n + 3 không đổi chiều.
+b (2n + 1)/(n + 3) < 1,8 ⇔ 2n + 1 < 1,8n + 5,4 ⇔ 0,2n < 4,4 ⇔ n < 22.
+b n nguyên dương nên n = 1, 2, …, 21.
+b Đáp án: 21
+
+# 11-III-8#5
+h Lấy nửa trên của nhóm [7; 8) cộng với các nhóm từ 8 điểm trở lên.
+y Coi số liệu phân bố đều trong nhóm: đoạn [7,5; 8) chiếm một nửa nhóm [7; 8).
+b Ước lượng trong [7,5; 8): 14/2 = 7 học sinh.
+b Từ 8 điểm trở lên: 8 + 4 = 12 học sinh.
+b Tổng: 7 + 12 = 19 học sinh.
+b Đáp án: 19
+
+# 11-IV-10#5
+h Tìm giao tuyến chứa AM: AM nằm trong (SAC), mà (SAC) cắt (SBD) theo SO.
+y Giao điểm của đường thẳng với mặt phẳng: chọn mặt phẳng phụ chứa đường thẳng, tìm giao tuyến.
+y Trọng tâm chia mỗi trung tuyến theo tỉ số 2 : 1 tính từ đỉnh.
+b (SAC) ∩ (SBD) = SO, nên I = AM ∩ SO.
+b Trong tam giác SAC, AM và SO là hai trung tuyến, nên I là trọng tâm.
+b AI/AM = 2/3 ≈ 0,67.
+b Đáp án: 0,67
+
+# 11-IV-11#5
+h MN, NP, PQ, QM là các đường trung bình của các tam giác trong tứ diện.
+y Đường trung bình của tam giác song song và bằng nửa cạnh thứ ba.
+b MN = PQ = AC/2 = 3 (đường trung bình của tam giác ABC và ACD).
+b NP = QM = BD/2 = 4 (đường trung bình của tam giác BCD và ABD).
+b Chu vi = 2(3 + 4) = 14.
+b Đáp án: 14
+
+# 11-IV-13#5
+h Mặt phẳng song song với đáy cắt hình chóp theo tam giác đồng dạng với đáy, tỉ số k = SM/SA.
+y Định lí Thalès trong không gian: SM/SA = SN/SB = SP/SC.
+y Tỉ số diện tích hai tam giác đồng dạng bằng k².
+b k = SM/SA = 6/9 = 2/3.
+b S(MNP) = k²·S(ABC) = (4/9)·27 = 12.
+b Đáp án: 12
+
+# 11-IV-14#5
+h Phép chiếu song song giữ nguyên tỉ số độ dài của hai đoạn thẳng cùng nằm trên một đường thẳng.
+y G thuộc trung tuyến AM và AG = (2/3)AM.
+b Ảnh A', G', M' thẳng hàng và A'G'/A'M' = AG/AM = 2/3.
+b A'G' = (2/3)·9 = 6 (cm).
+b Đáp án: 6
+
+# 11-V-15#5
+h Quãng đường gồm lần rơi đầu và các lần nảy lên rồi rơi xuống; các độ cao lập thành cấp số nhân lùi vô hạn.
+y Tổng cấp số nhân lùi vô hạn: S = u₁/(1 − q) với |q| < 1.
+b Các độ cao nảy: 7,5; 5,625; … là cấp số nhân u₁ = 7,5, q = 3/4.
+b Tổng độ cao nảy: 7,5/(1 − 3/4) = 30; mỗi lần nảy đi lên rồi rơi xuống nên tính 2 lần: 60.
+b Tổng quãng đường: 10 + 60 = 70 (m).
+b Đáp án: 70
+
+# 11-V-17#5
+h f liên tục tại 1 khi giới hạn tại 1 bằng f(1); rút gọn phân thức để tính giới hạn.
+y f liên tục tại x₀ ⇔ lim f(x) khi x → x₀ bằng f(x₀).
+b x² − 3x + 2 = (x − 1)(x − 2), nên với x ≠ 1: f(x) = x − 2.
+b lim f(x) khi x → 1 bằng −1.
+b 2m + 1 = −1 ⇔ m = −1.
+b Đáp án: −1
+
+# 11-VII-23#5
+h SA vuông góc với đáy nên tam giác SAC vuông tại A; tính AC trước.
+y SA ⊥ (ABC) thì SA ⊥ AC.
+y Định lí Pythagore.
+b AC² = AB² + BC² = 9 + 144 = 153.
+b SC² = SA² + AC² = 16 + 153 = 169.
+b SC = 13.
+b Đáp án: 13
+
+# 11-VIII-28#5
+h Đếm |A|, |B|, |A ∩ B| rồi dùng quy tắc cộng mở rộng.
+y |A ∪ B| = |A| + |B| − |A ∩ B|.
+b A = {(1;6), (2;5), (3;4), (4;3), (5;2), (6;1)}: 6 kết quả.
+b B: 36 − 25 = 11 kết quả (trừ các kết quả không có mặt 1 nào).
+b A ∩ B = {(1;6), (6;1)}: 2 kết quả.
+b |A ∪ B| = 6 + 11 − 2 = 15.
+b Đáp án: 15
+
+# 11-IX-32#5
+h Vận tốc là đạo hàm của li độ theo thời gian; dùng đạo hàm hàm hợp.
+y v(t) = x'(t); (cos u)' = −u'·sin u.
+b v(t) = −4·2·sin 2t = −8 sin 2t.
+b v(π/4) = −8 sin(π/2) = −8 (cm/s).
+b Đáp án: −8
+
+# 11-IX-33#5
+h Tìm thời điểm v(t) = 0 đầu tiên, rồi tính gia tốc a(t) = s''(t) tại đó.
+y v(t) = s'(t), a(t) = v'(t) = s''(t).
+b v(t) = 3t² − 12t + 9 = 3(t − 1)(t − 3), bằng 0 lần đầu tại t = 1.
+b a(t) = 6t − 12, nên a(1) = −6 (m/s²).
+b Đáp án: −6

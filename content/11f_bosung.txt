@@ -1,0 +1,170 @@
+# 11-I-1#7
+h Điểm biểu diễn góc α có tọa độ (cos α; sin α); tìm α có cos α = −1/2 và sin α > 0.
+y M(cos α; sin α) trên đường tròn lượng giác.
+y cos(2π/3) = −1/2, sin(2π/3) = √3/2 > 0.
+b M ở góc phần tư II nên sin α > 0; cos α = −1/2.
+b α = 2π/3 thỏa mãn; −2π/3 có sin âm (góc phần tư III), 5π/6 có cos = −√3/2.
+b Đáp án: 2π/3
+
+# 11-I-3#7
+h Đọc giá trị tại x = 0 và chu kì trên đồ thị rồi đối chiếu từng hàm.
+y y = A cos x có tập giá trị [−|A|; |A|], chu kì 2π.
+y Tại x = 0: 2cos 0 = 2, cos 0 = 1, 2sin 0 = 0, −2cos 0 = −2.
+b Đồ thị qua (0; 2), giá trị lớn nhất 2, nhỏ nhất −2 nên loại y = cos 2x, y = 2sin x, y = −2cos x.
+b Đồ thị có chu kì 2π, đạt −2 tại x = π: khớp với y = 2cos x.
+b Đáp án: y = 2cos x
+
+# 11-I-4#6
+h Giải sin x = 1/2, liệt kê các nghiệm trong [0; 2π] rồi cộng lại.
+y sin x = sin α ⇔ x = α + k2π hoặc x = π − α + k2π.
+b sin x = 1/2 ⇔ x = π/6 + k2π hoặc x = 5π/6 + k2π.
+b Trên [0; 2π]: x = π/6 và x = 5π/6.
+b Tổng: π/6 + 5π/6 = π ≈ 3,14.
+b Đáp án: 3,14
+
+# 11-III-9#12
+h Tìm nhóm có tần số lớn nhất rồi áp dụng công thức mốt của mẫu ghép nhóm.
+y Mₒ = a + (mₖ − mₖ₋₁)/((mₖ − mₖ₋₁) + (mₖ − mₖ₊₁))·h.
+b Nhóm chứa mốt là [4; 6) với tần số 18; nhóm trước 12, nhóm sau 10; h = 2.
+b Mₒ = 4 + 6/(6 + 8)·2 ≈ 4,86 giờ.
+b Đáp án: 4,86 giờ
+
+# 11-III-9#13
+h Tính n/2, cộng dồn tần số để tìm nhóm chứa trung vị, rồi dùng công thức trung vị.
+y Mₑ = a + (n/2 − (m₁ + … + mₖ₋₁))/mₖ·h.
+b n/2 = 25; tần số cộng dồn 6; 20; 40 nên nhóm chứa trung vị là [30; 40).
+b Mₑ = 30 + (25 − 20)/20·10 = 32,5 phút.
+b Đáp án: 32,5
+
+# 11-IV-10#7
+h Tìm một đường thẳng nằm trong (BCD) và cùng mặt phẳng với MN, rồi lấy giao điểm của chúng.
+y Nếu a ⊂ (Q), MN cắt a tại I thì I = MN ∩ (Q).
+y MN và BC cùng nằm trong (ABC).
+b MN và BC cùng nằm trong (ABC); AM/AB = 1/2 ≠ AN/AC = 2/3 nên MN không song song BC, hai đường cắt nhau tại I.
+b I thuộc BC ⊂ (BCD) nên I là giao điểm của MN với (BCD).
+b Đáp án: giao điểm của MN và BC
+
+# 11-IV-11#7
+h Gọi M là trung điểm AB; xét tỉ số MG₁/MC và MG₂/MD trong tam giác MCD.
+y Trọng tâm nằm trên trung tuyến và chia trung tuyến theo tỉ số MG/MC = 1/3.
+y Định lí Thalès đảo trong tam giác.
+b M là trung điểm AB thì G₁ ∈ MC, G₂ ∈ MD và MG₁/MC = MG₂/MD = 1/3.
+b Trong tam giác MCD suy ra G₁G₂ ∥ CD.
+b Đáp án: CD
+
+# 11-IV-12#6
+h Dùng đường trung bình trong các tam giác SAB, SAC; xét mặt phẳng (MNC) có chứa CD hay không.
+y Đường trung bình song song với cạnh thứ ba.
+y d ∥ a, a ⊂ (P), d ⊄ (P) ⇒ d ∥ (P).
+b a) MN ∥ AB ⊂ (ABCD), MN ⊄ (ABCD): đúng.
+b b) MN ∥ AB và AB ∥ CD nên MN ∥ CD: đúng.
+b c) OM là đường trung bình của tam giác SAC nên SC ∥ OM ⊂ (MBD): đúng.
+b d) MN ∥ CD nên (MNC) chứa đường thẳng CD, cắt SD tại D chứ không tại trung điểm: sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-VII-22#6
+h Gọi P là trung điểm AC; PM ∥ AB, PN ∥ CD nên góc cần tìm là góc giữa PM và PN.
+y Đường trung bình: PM ∥ AB, PM = AB/2; PN ∥ CD, PN = CD/2.
+y Góc giữa hai đường thẳng thuộc [0°; 90°].
+b PM = PN = 3; cos MPN = (9 + 9 − 27)/(2·3·3) = −1/2 nên góc MPN = 120°.
+b Góc giữa AB và CD bằng 180° − 120° = 60°.
+b Đáp án: 60°
+
+# 11-VII-23#7
+h Chứng minh BC vuông góc với hai đường cắt nhau trong (SAB); từ đó suy ra AH vuông góc với BC.
+y d ⊥ hai đường thẳng cắt nhau trong (P) thì d ⊥ (P).
+y SA ⊥ (ABC) ⇒ SA vuông góc với mọi đường trong (ABC).
+b a) BC ⊥ AB, BC ⊥ SA nên BC ⊥ (SAB): đúng.
+b b) Nếu AB ⊥ SC thì cùng với AB ⊥ SA ta có AB ⊥ (SAC), suy ra AB ⊥ AC, vô lí vì góc BAC nhọn: sai.
+b c) AH ⊂ (SAB) nên AH ⊥ BC; lại có AH ⊥ SB nên AH ⊥ (SBC): đúng.
+b d) AC² = 4 + 8 = 12, SC = √(4 + 12) = 4: đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# 11-VII-24#6
+h Tìm hình chiếu vuông góc của C trên (SAB) (chính là B), góc cần tìm là góc CSB.
+y BC ⊥ AB, BC ⊥ SA ⇒ BC ⊥ (SAB).
+y Góc giữa SC và (SAB) là góc giữa SC và hình chiếu SB.
+b BC ⊥ (SAB) nên hình chiếu của C trên (SAB) là B; góc cần tìm là góc CSB.
+b SB = √(9 + 16) = 5; tam giác SBC vuông tại B: tan CSB = BC/SB = 3/5.
+b Góc CSB ≈ 30,96°, làm tròn được 31°.
+b Đáp án: 31
+
+# 11-VII-25#6
+h Gọi M là trung điểm BC; góc phẳng nhị diện là góc SMO.
+y OM ⊥ BC, SM ⊥ BC ⇒ góc SMO là góc phẳng của nhị diện [S, BC, A].
+b OM = AB/2 = 1, SO = √3.
+b tan SMO = SO/OM = √3 nên góc SMO = 60°.
+b Đáp án: 60°
+
+# 11-VII-26#6
+h BD ⊥ (SAC); gọi O là tâm đáy, kẻ OH ⊥ SC thì OH là đoạn vuông góc chung.
+y BD ⊥ AC, BD ⊥ SA ⇒ BD ⊥ (SAC).
+y Hai tam giác vuông OHC và SAC đồng dạng: OH/SA = OC/SC.
+b BD ⊥ (SAC) nên BD ⊥ OH; OH ⊥ SC nên d(BD, SC) = OH.
+b OC = √2, SC = √(9 + 8) = √17.
+b OH = SA·OC/SC = 3√2/√17 ≈ 1,03.
+b Đáp án: 1,03
+
+# 11-VII-26#7
+h Gọi M là trung điểm BC; BC ⊥ (AA′M); kẻ AH ⊥ A′M thì AH là khoảng cách cần tìm.
+y BC ⊥ AM, BC ⊥ AA′ ⇒ BC ⊥ (AA′M).
+y Trong tam giác vuông: 1/AH² = 1/AA′² + 1/AM².
+b AM = 2·√3/2 = √3, AA′ = 3.
+b AH = AA′·AM/√(AA′² + AM²) = 3√3/√12 = 1,5 dm.
+b Đáp án: 1,5
+
+# 11-VII-27#6
+h Đường cao của tam giác đều SAB (kẻ từ S) là đường cao của hình chóp.
+y (SAB) ⊥ (ABCD), SH ⊥ AB ⇒ SH ⊥ (ABCD).
+y Đường cao tam giác đều cạnh a: a√3/2; V = (1/3)·B·h.
+b H là trung điểm AB, SH = 4·√3/2 = 2√3.
+b V = (1/3)·4·3·2√3 = 8√3 ≈ 13,86.
+b Đáp án: 13,9
+
+# 11-VII-27#7
+h Góc giữa A′C và đáy là góc A′CA; từ đó tìm AA′ rồi tính thể tích.
+y AA′ ⊥ (ABC) nên hình chiếu của A′C trên đáy là AC.
+y V = S_đáy·h.
+b AC = √(9 + 16) = 5; góc A′CA = 45° nên AA′ = AC = 5.
+b V = (1/2)·3·4·5 = 30.
+b Đáp án: 30
+
+# 11-VIII-30#8
+h Nhân xác suất dọc theo nhánh của sơ đồ cây (hai biến cố độc lập), cộng các nhánh thuận lợi.
+y A, B độc lập ⇒ P(AB) = P(A)·P(B).
+y P(ít nhất một) = 1 − P(không có cái nào).
+b a) 0,6·0,7 = 0,42: đúng.
+b b) 0,4·0,7 + 0,6·0,3 = 0,28 + 0,18 = 0,46: đúng.
+b c) 1 − 0,42 = 0,58 ≠ 0,52: sai.
+b d) 0,4·0,3 = 0,12 > 0,1: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-IX-31#7
+h f′(1) bằng hệ số góc của tiếp tuyến tại điểm có hoành độ 1; tính hệ số góc qua hai điểm.
+y Hệ số góc tiếp tuyến tại x₀ là f′(x₀).
+y Đường thẳng qua (x₁; y₁), (x₂; y₂) có hệ số góc (y₂ − y₁)/(x₂ − x₁).
+b Hệ số góc của d: (3 − 1)/(2 − 1) = 2.
+b Vậy f′(1) = 2.
+b Đáp án: 2
+
+# 11-II-6#8
+h Số lon các hàng lập thành cấp số cộng u₁ = 3, d = 2; giải Sₙ = 120.
+y Sₙ = n[2u₁ + (n − 1)d]/2.
+b Sₙ = n(6 + 2n − 2)/2 = n(n + 2).
+b n(n + 2) = 120 ⇔ n² + 2n − 120 = 0 ⇔ n = 10 (loại n = −12).
+b Đáp án: 10
+
+# 11-VI-20#6
+h Đồ thị đi qua (0; 1), (1; 3) và đồng biến: đối chiếu từng hàm.
+y y = aˣ (a > 1) đồng biến, đi qua (0; 1) và (1; a).
+b Đồ thị đi qua (0; 1) nên loại y = log₃ x (không xác định tại 0) và y = x³ (qua gốc O).
+b Đồ thị đồng biến và qua (1; 3) nên là y = 3ˣ.
+b Đáp án: y = 3ˣ
+
+# 11-V-15#8
+h Quãng đường gồm lần rơi đầu 10 m và các lần nảy lên rồi rơi xuống: tổng một cấp số nhân lùi vô hạn.
+y Cấp số nhân lùi vô hạn (|q| < 1): S = u₁/(1 − q).
+b Các độ cao nảy lên: 7,5; 7,5·(3/4); … là cấp số nhân với u₁ = 7,5, q = 3/4; tổng = 7,5/(1/4) = 30.
+b Mỗi lần nảy, bóng đi lên rồi rơi xuống cùng độ cao: 2·30 = 60.
+b Tổng: 10 + 60 = 70 m.
+b Đáp án: 70

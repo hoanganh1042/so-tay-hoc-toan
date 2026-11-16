@@ -1,0 +1,559 @@
+# I-1#0
+h Tìm nguyên hàm của lũy thừa bằng công thức, chú ý hệ số.
+y ∫xⁿdx = xⁿ⁺¹/(n + 1) + C; ∫k·f(x)dx = k∫f(x)dx.
+b ∫3x²dx = 3·x³/3 + C = x³ + C.
+b Kiểm tra: (x³)' = 3x².
+b Đáp án: x³ + C
+
+# I-1#1
+h Nguyên hàm của tổng bằng tổng các nguyên hàm.
+y ∫(f + g)dx = ∫f dx + ∫g dx; ∫eˣdx = eˣ + C; ∫2x dx = x² + C.
+b ∫eˣdx = eˣ; ∫2x dx = x².
+b ∫(eˣ + 2x)dx = eˣ + x² + C.
+b Đáp án: eˣ + x² + C
+
+# I-1#2
+h Dùng bảng nguyên hàm cho từng hạng tử; trên (0; +∞) thì ln|x| = ln x.
+y ∫cos x dx = sin x + C; ∫(1/x)dx = ln|x| + C.
+b ∫cos x dx = sin x; ∫(1/x)dx = ln x (x > 0).
+b Đáp án: sin x + ln x + C
+
+# I-1#3
+h Nguyên hàm của e^(kx) có thêm hệ số 1/k.
+y ∫e^(ax + b)dx = (1/a)e^(ax + b) + C (a ≠ 0).
+b ∫e²ˣdx = ½e²ˣ + C.
+b Kiểm tra: (½e²ˣ)' = ½·2e²ˣ = e²ˣ.
+b Đáp án: ½e²ˣ + C
+
+# I-1#4
+h Tìm họ nguyên hàm, dùng F(0) = 3 xác định hằng số rồi thay x = 2.
+y ∫(2x + 1)dx = x² + x + C.
+b F(x) = x² + x + C; F(0) = C = 3.
+b F(2) = 4 + 2 + 3 = 9.
+b Đáp án: 9
+
+# I-2#0
+h Tích phân bằng hiệu giá trị nguyên hàm tại hai cận.
+y ∫ₐᵇ f(x)dx = F(b) − F(a).
+b ∫₁⁴ f(x)dx = F(4) − F(1) = 10 − 3 = 7.
+b Đáp án: 7
+
+# I-2#1
+h Diện tích hình phẳng luôn dùng tích phân của giá trị tuyệt đối; chú ý hàm đổi dấu trong đoạn.
+y S = ∫ₐᵇ |f(x)|dx.
+y Chỉ đưa |…| ra ngoài khi f không đổi dấu trên [a; b].
+b x² − 4 đổi dấu tại x = 2 ∈ [0; 3] nên không thể viết |∫(x² − 4)dx|.
+b Công thức đúng: S = ∫₀³ |x² − 4|dx.
+b Đáp án: S = ∫₀³ |x² − 4| dx
+
+# I-2#2
+h Áp dụng công thức thể tích khối tròn xoay quanh Ox.
+y V = π∫ₐᵇ f²(x)dx.
+b f²(x) = (√x)² = x.
+b V = π∫₀⁴ x dx.
+b Đáp án: V = π∫₀⁴ x dx
+
+# I-2#3
+h Dùng tính chất cộng đoạn của tích phân.
+y ∫ₐᶜ f = ∫ₐᵇ f + ∫ᵦᶜ f.
+b ∫₀⁵ f = ∫₀² f + ∫₂⁵ f = 3 + (−1) = 2.
+b Đáp án: 2
+
+# I-2#4
+h y = x³ ≥ 0 trên [0; 2] nên diện tích bằng tích phân thường, không cần trị tuyệt đối.
+y S = ∫ₐᵇ |f(x)|dx; bỏ dấu trị tuyệt đối khi f(x) ≥ 0 trên [a; b].
+y Nguyên hàm của x³ là x⁴/4.
+b Trên [0; 2], x³ ≥ 0 nên S = ∫₀² x³dx.
+b S = [x⁴/4]₀² = 16/4 − 0 = 4.
+b Đáp án: 4
+
+# I-3#0
+h Khoảng biến thiên của mẫu ghép nhóm: đầu mút phải nhóm cuối trừ đầu mút trái nhóm đầu.
+y R = a_k+1 − a₁.
+b R = 30 − 5 = 25.
+b Đáp án: 25
+
+# I-3#1
+h Tìm nhóm chứa Q₁ bằng tần số tích lũy rồi dùng công thức nội suy.
+y Q₁ = u_m + (n/4 − C)/n_m·h.
+b n = 30, n/4 = 7,5; tích lũy 4, 12 nên nhóm [15; 20), C = 4, n_m = 8, h = 5.
+b Q₁ = 15 + 3,5/8·5 = 15 + 2,1875 ≈ 17,2.
+b Đáp án: 17,2
+
+# I-3#2
+h Dùng giá trị đại diện để tính trung bình, phương sai rồi lấy căn.
+y x̄ = Σnᵢxᵢ/n; s² = Σnᵢ(xᵢ − x̄)²/n; s = √s².
+b Giá trị đại diện 42,5; 47,5; 52,5. x̄ = (127,5 + 190 + 157,5)/10 = 47,5.
+b s² = (3·25 + 4·0 + 3·25)/10 = 15.
+b s = √15 ≈ 3,87.
+b Đáp án: 3,87
+
+# I-3#3
+h Khoảng tứ phân vị là hiệu Q₃ − Q₁.
+y Δ_Q = Q₃ − Q₁.
+b Δ_Q = 20 − 12,5 = 7,5.
+b Đáp án: 7,5
+
+# I-3#4
+h Độ lệch chuẩn là căn bậc hai của phương sai.
+y s = √(s²).
+b s = √6,25 = 2,5.
+b Đáp án: 2,5
+
+# I-4#0
+h Tính số trung bình bằng giá trị đại diện (trung điểm) của mỗi nhóm.
+y x̄ = Σnᵢxᵢ/n.
+b Giá trị đại diện 1, 3, 5, 7.
+b x̄ = (8 + 45 + 85 + 70)/50 = 208/50 = 4,16 ≈ 4,2.
+b Đáp án: 4,2
+
+# I-4#1
+h Tìm nhóm đầu tiên có tần số tích lũy ≥ n/2.
+y Nhóm chứa trung vị: tích lũy ≥ n/2 lần đầu tiên.
+b n/2 = 22,5; tích lũy 7; 19; 34.
+b Nhóm thứ ba [30; 35).
+b Đáp án: [30; 35)
+
+# I-4#2
+h Xác định nhóm chứa mốt (tần số lớn nhất) rồi áp dụng công thức nội suy.
+y M₀ = u_m + (n_m − n_m−1)/[(n_m − n_m−1) + (n_m − n_m+1)]·h.
+b Nhóm [7; 8): n_m = 16, nhóm trước 10, nhóm sau 7, h = 1.
+b M₀ = 7 + 6/(6 + 9) = 7,40.
+b Đáp án: 7,40
+
+# I-4#3
+h Xác định nhóm chứa trung vị rồi dùng công thức nội suy.
+y Mₑ = u_m + (n/2 − C)/n_m·h.
+b n/2 = 20; tích lũy 3; 10; 22 nên nhóm [6; 7), C = 10, n_m = 12.
+b Mₑ = 6 + 10/12 ≈ 6,83.
+b Đáp án: 6,83
+
+# I-5#0
+h Phương trình chính tắc: vectơ chỉ phương là bộ mẫu số.
+y (x − x₀)/a = (y − y₀)/b = (z − z₀)/c có vectơ chỉ phương (a; b; c).
+b Các mẫu số 2; −1; 4.
+b Đáp án: u = (2; −1; 4)
+
+# I-5#1
+h Phương trình tham số: điểm đi qua là hằng số, vectơ chỉ phương là hệ số của t.
+y x = x₀ + at, y = y₀ + bt, z = z₀ + ct.
+b Thay M(1; −2; 3), u = (2; 1; −1).
+b x = 1 + 2t, y = −2 + t, z = 3 − t.
+b Đáp án: x = 1 + 2t, y = −2 + t, z = 3 − t
+
+# I-5#2
+h Đường thẳng qua hai điểm nhận vectơ AB làm vectơ chỉ phương.
+y AB = (x_B − x_A; y_B − y_A; z_B − z_A).
+b AB = (3 − 1; 1 − 2; 2 + 1) = (2; −1; 3).
+b Đáp án: u = (2; −1; 3)
+
+# I-5#3
+h Thay từng điểm vào phương trình tham số: tìm t từ một tọa độ rồi kiểm tra hai tọa độ còn lại.
+y Điểm thuộc đường thẳng khi có cùng một giá trị t thỏa cả ba phương trình.
+b (1; 3; 4): x = 2 − t = 1 cho t = 1; khi đó y = 1 + 2 = 3, z = 3 + 1 = 4. Khớp.
+b (2; 1; 4): x = 2 cho t = 0 nhưng z = 3 ≠ 4, loại; (1; 2; 3) và (3; −1; 3) cũng không khớp.
+b Đáp án: (1; 3; 4)
+
+# I-6#0
+h Vectơ pháp tuyến đọc từ hệ số của x, y, z.
+y ax + by + cz + d = 0 có n = (a; b; c).
+b n = (2; −1; 3).
+b Đáp án: n = (2; −1; 3)
+
+# I-6#1
+h Mặt phẳng qua một điểm, biết vectơ pháp tuyến.
+y a(x − x₀) + b(y − y₀) + c(z − z₀) = 0.
+b 3(x − 1) + 2(y − 0) − (z + 2) = 0.
+b 3x + 2y − z − 5 = 0.
+b Đáp án: 3x + 2y − z − 5 = 0
+
+# I-6#2
+h Đọc tâm và bán kính từ phương trình chính tắc của mặt cầu; chú ý dấu khi viết (x + 3) = (x − (−3)).
+y (x − a)² + (y − b)² + (z − c)² = R² có tâm I(a; b; c), bán kính R.
+b (x + 3)² = (x − (−3))² nên a = −3; y² cho b = 0; (z − 2)² cho c = 2.
+b R² = 16 nên R = 4 (không phải 16).
+b Đáp án: I(−3; 0; 2), R = 4
+
+# I-6#3
+h Thay tọa độ điểm vào công thức khoảng cách đến mặt phẳng.
+y d = |ax₀ + by₀ + cz₀ + d|/√(a² + b² + c²).
+b Tử: |2 − 2 + 6 + 3| = 9; mẫu: √(4 + 1 + 4) = 3.
+b d = 3.
+b Đáp án: 3
+
+# I-7#0
+h Đọc bảng biến thiên: hàm nghịch biến trên khoảng mà f'(x) < 0.
+y Khoảng đơn điệu là khoảng của biến x, không phải của giá trị f.
+b f'(x) < 0 trên (−1; 1).
+b (−1; 3) là khoảng chứa giá trị, không phải khoảng của x.
+b Đáp án: (−1; 1)
+
+# I-7#1
+h Cực tiểu tại điểm f' đổi dấu từ − sang +; giá trị cực tiểu là f tại đó.
+y Phân biệt điểm cực tiểu (x) và giá trị cực tiểu (y).
+b f' đổi dấu − sang + tại x = 1.
+b Giá trị cực tiểu f(1) = −1.
+b Đáp án: −1
+
+# I-7#2
+h Đếm nghiệm của f' mà tại đó f' đổi dấu; nghiệm bội chẵn không làm đổi dấu.
+y (x + 2)² ≥ 0 nên dấu của f' chỉ phụ thuộc x − 1.
+b f' = 0 tại x = 1 và x = −2.
+b Tại x = −2 (nghiệm kép) f' không đổi dấu; tại x = 1 f' đổi dấu.
+b Đáp án: 1
+
+# I-7#3
+h Tính y', xét dấu và chọn khoảng nằm trọn trong miền y' > 0.
+y y' > 0 trên khoảng K thì hàm đồng biến trên K.
+b y' = 3x² − 6x = 3x(x − 2).
+b y' > 0 ⇔ x < 0 hoặc x > 2.
+b Chỉ (2; +∞) thỏa.
+b Đáp án: (2; +∞)
+
+# I-7#4
+h Lập bảng xét dấu f' qua ba nghiệm đơn, đếm số lần f' đổi dấu từ + sang −.
+y Nghiệm đơn làm f' đổi dấu; + sang − là cực đại.
+b Nghiệm −3, 0, 1. Dấu f': (−∞; −3) âm, (−3; 0) dương, (0; 1) âm, (1; +∞) dương.
+b Đổi dấu + sang − chỉ tại x = 0.
+b Đáp án: 1
+
+# I-8#0
+h Tiệm cận đứng tại nghiệm của mẫu (tử khác 0 tại đó).
+y y = (ax + b)/(cx + d): tiệm cận đứng x = −d/c.
+b x + 3 = 0 ⇔ x = −3; tử tại −3 bằng −7 ≠ 0.
+b Đáp án: x = −3
+
+# I-8#1
+h Tiệm cận ngang của hàm phân thức bậc nhất trên bậc nhất là y = a/c.
+y lim y khi x → ±∞ bằng tỉ số hệ số của x.
+b y → 1/2.
+b Đáp án: y = 1/2
+
+# I-8#2
+h Đạo hàm hàm phân thức bậc nhất: công thức nhanh (ad − bc)/(cx + d)².
+y ((ax + b)/(cx + d))' = (ad − bc)/(cx + d)².
+b a = 1, b = 1, c = 1, d = −2: ad − bc = −2 − 1 = −3.
+b y' = −3/(x − 2)².
+b Đáp án: y' = −3/(x − 2)²
+
+# I-8#3
+h Chia đa thức để tách phần bậc nhất; phần dư tiến về 0 ở vô cực.
+y y = ax + b + r(x) với r(x) → 0 thì y = ax + b là tiệm cận xiên.
+b x² + 1 = (x − 1)(x + 1) + 2 nên y = x + 1 + 2/(x − 1).
+b 2/(x − 1) → 0 khi x → ±∞.
+b Đáp án: y = x + 1
+
+# I-8#4
+h Dùng quy tắc đạo hàm của tích.
+y (uv)' = u'v + uv'; (ln x)' = 1/x.
+b y' = 1·ln x + x·(1/x).
+b = ln x + 1.
+b Đáp án: y' = ln x + 1
+
+# I-9#0
+h Đưa hai vế về cùng cơ số 3.
+y a^f = a^g ⇔ f = g.
+b 27 = 3³ nên x − 1 = 3.
+b x = 4.
+b Đáp án: x = 4
+
+# I-9#1
+h Đặt điều kiện, đưa về bất phương trình đại số; cơ số 2 > 1 nên giữ chiều.
+y a > 1: log_a u < b ⇔ 0 < u < aᵇ.
+b 0 < x − 1 < 2³ = 8.
+b 1 < x < 9.
+b Đáp án: (1; 9)
+
+# I-9#2
+h Chuyển về dạng mũ.
+y log_a u = b ⇔ u = aᵇ (u > 0).
+b 2x + 1 = 3² = 9.
+b x = 4 (thỏa 2x + 1 > 0).
+b Đáp án: x = 4
+
+# I-9#3
+h Đưa về cùng cơ số; cơ số lớn hơn 1 giữ chiều bất đẳng thức.
+y a > 1: aᶠ > aᵍ ⇔ f > g.
+b 2ˣ > 2³ ⇔ x > 3.
+b Đáp án: (3; +∞)
+
+# I-9#4
+h Tách lôgarit của tích thành tổng.
+y log_a(bc) = log_a b + log_a c.
+b log₂(8a) = log₂ 8 + log₂ a = 3 + log₂ a.
+b Đáp án: 3 + log₂a
+
+# I-10#0
+h Dùng công thức số hạng tổng quát của cấp số cộng.
+y uₙ = u₁ + (n − 1)d.
+b u₅ = 4 + 4·(−3) = −8.
+b Đáp án: −8
+
+# I-10#1
+h Nhớ công thức số hạng tổng quát của cấp số nhân.
+y uₙ = u₁·qⁿ⁻¹.
+b uₙ = 2·3ⁿ⁻¹.
+b Đáp án: uₙ = 2·3ⁿ⁻¹
+
+# I-10#2
+h Biểu diễn u₄ theo u₁ và d.
+y uₙ = u₁ + (n − 1)d.
+b 2 + 3d = 11.
+b d = 3.
+b Đáp án: 3
+
+# I-10#3
+h Dùng công thức tổng n số hạng đầu của cấp số nhân.
+y Sₙ = u₁(qⁿ − 1)/(q − 1).
+b S₁₀ = (2¹⁰ − 1)/1 = 1023.
+b Đáp án: 1023
+
+# I-11#0
+h Đưa về tan x = tan α, nghiệm lặp theo chu kì π.
+y tan x = tan α ⇔ x = α + kπ.
+b 1 = tan(π/4).
+b x = π/4 + kπ.
+b Đáp án: {π/4 + kπ | k ∈ ℤ}
+
+# I-11#1
+h Trường hợp đặc biệt cos x = −1.
+y cos x = −1 ⇔ x = π + k2π.
+b Trên đường tròn lượng giác, chỉ có điểm (−1; 0) có hoành độ −1.
+b Đáp án: x = π + k2π
+
+# I-11#2
+h Đưa về sin x = sin α với α là góc đặc biệt rồi dùng công thức nghiệm.
+y sin x = sin α ⇔ x = α + k2π hoặc x = π − α + k2π (k ∈ ℤ).
+y sin(π/3) = √3/2.
+b √3/2 = sin(π/3).
+b x = π/3 + k2π hoặc x = π − π/3 + k2π = 2π/3 + k2π.
+b Đáp án: x = π/3 + k2π hoặc x = 2π/3 + k2π (k ∈ ℤ)
+
+# I-11#3
+h Nhớ công thức cộng; côsin của hiệu mang dấu cộng.
+y cos(a − b) = cos a cos b + sin a sin b; sin(a − b) = sin a cos b − cos a sin b.
+b Đối chiếu: chỉ cos(a − b) = cos a cos b + sin a sin b đúng.
+b Đáp án: cos(a − b) = cos a cos b + sin a sin b
+
+# I-12#0
+h Tìm hai đường cắt nhau trong một mặt phẳng cùng vuông góc với BD.
+y Đường chéo hình vuông vuông góc nhau; SA ⊥ đáy ⇒ SA ⊥ BD.
+b BD ⊥ AC và BD ⊥ SA.
+b AC, SA cắt nhau tại A, nằm trong (SAC) nên BD ⊥ (SAC).
+b Đáp án: (SAC)
+
+# I-12#1
+h Tìm mặt phẳng chứa một đường song song với AB nhưng không chứa AB.
+y d ⊄ (P), d // a ⊂ (P) ⇒ d // (P).
+b AB // A'B' ⊂ (A'B'C'D'), AB ⊄ (A'B'C'D').
+b Đáp án: (A'B'C'D')
+
+# I-12#2
+h Hai vectơ nối đuôi nhau: quy tắc ba điểm.
+y AB + BC' = AC' (điểm cuối của vectơ đầu là điểm đầu của vectơ sau).
+b Vectơ AB kết thúc tại B, vectơ BC' bắt đầu tại B nên hai vectơ nối đuôi nhau.
+b Tổng là vectơ đi từ điểm đầu A đến điểm cuối C'.
+b Đáp án: Vectơ AC'
+
+# I-12#3
+h Áp dụng công thức thể tích khối chóp.
+y V = ⅓Bh.
+b V = ⅓·6·5 = 10.
+b Đáp án: 10
+
+# I-12#4
+h Nhân vectơ với số rồi trừ theo từng tọa độ.
+y k(a₁; a₂; a₃) = (ka₁; ka₂; ka₃).
+b 2a = (2; −4; 6).
+b 2a − b = (2 − 2; −4 − 0; 6 + 1) = (0; −4; 7).
+b Đáp án: (0; −4; 7)
+
+# I-12#5
+h Thể tích lăng trụ bằng diện tích đáy nhân chiều cao.
+y V = Bh.
+b B = 3² = 9.
+b V = 9·4 = 36.
+b Đáp án: 36
+
+# II-1#0
+h Lập bảng biến thiên của hàm bậc ba, tìm giá trị lớn nhất trên đoạn bằng cách so sánh điểm tới hạn và đầu mút.
+y Giá trị lớn nhất trên [a; b]: so sánh f tại các nghiệm của f' trong đoạn và tại a, b.
+b a) f'(x) = 3x² − 12. Đúng.
+b b) 3x² − 12 = 0 ⇔ x = ±2: hai nghiệm. Sai.
+b c) f(2) = 8 − 24 + 1 = −15. Đúng.
+b d) f(−3) = 10, f(−2) = 17, f(2) = −15, f(3) = −8: max = 17. Đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# II-1#1
+h Tính f', xét dấu trên (0; +∞), rồi tìm giá trị nhỏ nhất trên [1; e].
+y (ln x)' = 1/x; so sánh f tại điểm tới hạn và hai đầu mút.
+b a) f'(x) = 1 − 2/x. Đúng.
+b b) 1 − 2/x = 0 ⇔ x = 2. Đúng.
+b c) Khi x > 2, f'(x) > 0 nên hàm đồng biến trên (2; +∞). Sai.
+b d) f(1) = 1, f(2) = 2 − 2ln 2 ≈ 0,61, f(e) = e − 2 ≈ 0,72: min = 2 − 2ln 2. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# II-1#2
+h Giải f'(x) = 0 trên [0; π] và so sánh các giá trị để tìm giá trị nhỏ nhất.
+y (cos x)' = −sin x; sin x = 1/2 có hai nghiệm π/6, 5π/6 trên [0; π].
+b a) f'(x) = 1 − 2sin x. Đúng.
+b b) sin x = 1/2 ⇔ x = π/6 hoặc 5π/6, đều thuộc [0; π]. Đúng.
+b c) f(π/6) = π/6 + 2·(√3/2) = π/6 + √3. Đúng.
+b d) f(0) = 2, f(5π/6) = 5π/6 − √3 ≈ 0,89, f(π) = π − 2 ≈ 1,14: min = 5π/6 − √3. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-1#3
+h Khảo sát hàm phân thức bậc nhất: tập xác định, đạo hàm, chiều biến thiên, tâm đối xứng.
+y y' = (ad − bc)/(cx + d)²; tâm đối xứng là giao hai tiệm cận x = −d/c, y = a/c.
+b a) Mẫu khác 0 ⇔ x ≠ 1. Đúng.
+b b) ad − bc = 2·(−1) − 1·1 = −3 nên y' = −3/(x − 1)². Đúng.
+b c) y' < 0 nên nghịch biến trên từng khoảng. Sai.
+b d) Tiệm cận x = 1, y = 2 nên tâm I(1; 2). Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# II-1#4
+h Khảo sát hàm trùng phương: giải f' = 0, xác định cực đại, cực tiểu, rồi so sánh trên đoạn [0; 2].
+y Hàm trùng phương a > 0 có ba cực trị khi ab < 0: cực đại tại x = 0.
+b a) f'(x) = 4x³ − 4x. Đúng.
+b b) 4x(x² − 1) = 0 ⇔ x = 0, ±1; f' đổi dấu tại cả ba điểm. Đúng.
+b c) Cực đại tại x = 0: f(0) = 3, không phải 2. Sai.
+b d) f(0) = 3, f(1) = 2, f(2) = 11 nên min = 2. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# II-2#0
+h Xe dừng khi v = 0; quãng đường là tích phân vận tốc trên khoảng thời gian tương ứng.
+y s = ∫ₐᵇ v(t)dt khi v ≥ 0.
+b a) 20 − 4t = 0 ⇔ t = 5. Đúng.
+b b) Quãng đường từ 0 đến 5 giây là ∫₀⁵ (20 − 4t)dt. Đúng.
+b c) [20t − 2t²]₀⁵ = 100 − 50 = 50 m, không phải 60. Sai.
+b d) 2 giây cuối là t từ 3 đến 5: 50 − (60 − 18) = 8 m. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# II-2#1
+h Tốc độ bơm là hàm bậc hai (tìm đỉnh); lượng nước là tích phân của tốc độ bơm.
+y Lượng nước sau T giờ: V(T) = ∫₀ᵀ r(t)dt (bể ban đầu rỗng).
+b a) r(t) = −t² + 8t đạt max tại đỉnh t = 4. Đúng.
+b b) r(4) = −16 + 32 = 16. Đúng.
+b c) ∫₀³ (−t² + 8t)dt = −9 + 36 = 27 m³, không phải 30. Sai.
+b d) ∫₀⁶ (−t² + 8t)dt = −72 + 144 = 72 > 70. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# II-2#2
+h Vận tốc là nguyên hàm của gia tốc (dùng vận tốc ban đầu để tìm C); quãng đường là tích phân của vận tốc.
+y v(t) = ∫a(t)dt; s = ∫ₐᵇ v(t)dt.
+b a) v(t) = 3t² + C, v(0) = 2 nên v(t) = 3t² + 2. Đúng.
+b b) v(2) = 12 + 2 = 14. Đúng.
+b c) ∫₀² (3t² + 2)dt = 8 + 4 = 12. Đúng.
+b d) ∫₂³ (3t² + 2)dt = (27 + 6) − (8 + 4) = 21, không phải 19. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-2#3
+h Thay giá trị vào hàm công suất; điện năng là tích phân công suất theo thời gian.
+y Điện năng từ a đến b: ∫ₐᵇ P(t)dt; nguyên hàm của 60 − 20t là 60t − 10t².
+b a) P(0) = 60. Đúng.
+b b) P(1) = 40. Đúng.
+b c) ∫₀² P(t)dt = 120 − 40 = 80 kWh, không phải 100. Sai.
+b d) Giờ thứ nhất: 60 − 10 = 50; giờ thứ hai: 80 − 50 = 30; chênh 20 kWh. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# II-2#4
+h Tốc độ chảy là hàm bậc nhất giảm; lượng nước chảy ra là tích phân tốc độ.
+y Lượng chảy ra từ a đến b: ∫ₐᵇ r(t)dt; còn lại = 500 − lượng chảy ra.
+b a) r(t) có hệ số −0,5 < 0 nên giảm dần. Đúng.
+b b) Đúng theo ý nghĩa tích phân của tốc độ. Đúng.
+b c) ∫₀¹⁰ (20 − 0,5t)dt = 200 − 25 = 175. Đúng.
+b d) ∫₀⁴⁰ (20 − 0,5t)dt = 800 − 400 = 400 nên còn 100 lít, không phải 200. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-3#0
+h Vẽ sơ đồ cây hai dây chuyền; dùng xác suất toàn phần cho P(phế phẩm) và Bayes cho chiều ngược lại.
+y P(L) = P(I)P(L | I) + P(II)P(L | II); P(I | L) = P(I)P(L | I)/P(L).
+b a) P(I) = 0,6. Đúng.
+b b) P(L | II) = 0,05. Đúng.
+b c) P(L) = 0,018 + 0,02 = 0,038. Đúng.
+b d) P(I | L) = 0,018/0,038 ≈ 0,47 < 0,5. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-3#1
+h Sơ đồ cây: tham gia/không tham gia rồi giỏi/không giỏi; dùng xác suất toàn phần và Bayes.
+y P(G) = P(T)P(G | T) + P(T̄)P(G | T̄); P(T | G) = P(T)P(G | T)/P(G).
+b a) 1 − 0,4 = 0,6. Đúng.
+b b) 0,4·0,7 + 0,6·0,3 = 0,28 + 0,18 = 0,46. Đúng.
+b c) 0,28/0,46 ≈ 0,609 ≈ 0,61. Đúng.
+b d) P(G | T̄) = 0,3; còn 0,18 là P(G ∩ T̄). Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-3#2
+h Bài toán xét nghiệm kinh điển: xác suất toàn phần cho P(+), Bayes cho P(bệnh | +).
+y P(+) = P(B)P(+ | B) + P(B̄)P(+ | B̄); P(B | +) = P(B)P(+ | B)/P(+).
+y Tỉ lệ mắc thấp làm P(B | +) nhỏ dù xét nghiệm nhạy.
+b a) 0,05·0,95 + 0,95·0,1 = 0,0475 + 0,095 = 0,1425. Đúng.
+b b) 0,0475/0,1425 = 1/3 ≈ 0,33. Đúng.
+b c) P(− | B̄) = 1 − 0,1 = 0,9. Đúng.
+b d) 1/3 < 0,5. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-3#3
+h Sơ đồ cây nam/nữ rồi đi xe buýt/không; dùng xác suất toàn phần và Bayes.
+y P(X) = P(N)P(X | N) + P(Nữ)P(X | Nữ); P(N | X) = P(N)P(X | N)/P(X).
+b a) 1 − 0,4 = 0,6. Đúng.
+b b) Đề cho P(X | N) = 0,3. Đúng.
+b c) 0,4·0,3 + 0,6·0,2 = 0,12 + 0,12 = 0,24. Đúng.
+b d) P(N | X) = 0,12/0,24 = 0,5 ≠ 0,6. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-3#4
+h Phân hai trường hợp theo màu bi chuyển sang (hệ biến cố đầy đủ), cập nhật hộp II rồi dùng xác suất toàn phần và Bayes.
+y Chuyển đỏ: hộp II có 5 đỏ, 1 xanh; chuyển xanh: 4 đỏ, 2 xanh.
+y P(Đ) = P(đ)P(Đ | đ) + P(x)P(Đ | x).
+b a) P(chuyển đỏ) = 3/5 = 0,6. Đúng.
+b b) Hộp II có 5 đỏ trong 6 bi: 5/6. Đúng.
+b c) 0,6·5/6 + 0,4·4/6 = 1/2 + 4/15 = 23/30. Đúng.
+b d) P(xanh chuyển | Đ) = (0,4·4/6)/(23/30) = (8/30)/(23/30) = 8/23 ≈ 0,35 < 0,4. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-4#0
+h Đọc vị trí theo t, tốc độ là độ dài vectơ dời mỗi giây, khoảng cách nhỏ nhất là khoảng cách từ C đến đường bay.
+y Chuyển động thẳng đều M = A + t·u: tốc độ |u|.
+y d(C, Δ) = |[AC, u]|/|u| (tích có hướng), kiểm tra chân đường vuông góc ứng với t ≥ 0.
+b a) t = 2: (6; 8; 10). Đúng.
+b b) u = (3; 4; 0), |u| = 5 m/s. Sai.
+b c) Theo vị trí M(3t; 4t; 10). Đúng.
+b d) AC = (10; 0; 0), [AC, u] = (0; 0; 40), d = 40/5 = 8 (ứng với t = 1,2 > 0). Đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# II-4#1
+h Vùng phủ sóng là khối cầu; so sánh khoảng cách từ tâm với bán kính; mặt phẳng cắt mặt cầu theo đường tròn bán kính √(R² − d²).
+y Điểm M thuộc khối cầu ⇔ IM ≤ R; r = √(R² − d²).
+b a) Khối cầu tâm I bán kính 5. Đúng.
+b b) IA = √(9 + 16 + 0) = 5 = R. Đúng.
+b c) IB = 6 > 5 nên B ở ngoài. Sai.
+b d) d(I, (Oxy)) = 1, r = √(25 − 1) = 2√6. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# II-4#2
+h Tính vectơ AB, nhận xét cao độ không đổi; khoảng cách gần nhất từ O đến đoạn thẳng AB.
+y Điểm M trên AB: M = A + t·AB, t ∈ [0; 1]; OM² là hàm bậc hai của t.
+b a) AB = (−10; 10; 0). Đúng.
+b b) Thành phần z của AB bằng 0 nên z luôn bằng 6. Đúng.
+b c) |AB| = √(100 + 100) = 10√2. Đúng.
+b d) M(10 − 10t; 10t; 6), OM² = (10 − 10t)² + 100t² + 36 nhỏ nhất tại t = ½: OM = √86 ≈ 9,27 > 9. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-4#3
+h Hình chiếu lên mặt đất cho z = 0; tính vectơ, độ dài, và góc giữa đường thẳng với mặt phẳng (Oxy) bằng sin.
+y sin(CD, (Oxy)) = |u·k|/|u| với k = (0; 0; 1).
+b a) (2; 3; 0). Đúng.
+b b) CD = D − C = (−4; 3; 2). Đúng.
+b c) |CD| = √(16 + 9 + 4) = √29. Đúng.
+b d) sin φ = 2/√29 ≈ 0,371 < sin 30° = 0,5 nên φ ≈ 21,8° < 30°. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-4#4
+h Vị trí theo t: độ cao là tọa độ z; tốc độ là độ dài vectơ dời mỗi giờ.
+y M = A + t·u với u = (2; 2; 1); AM = t·|u|.
+b a) t = 1: z = 2. Đúng.
+b b) |u| = √(4 + 4 + 1) = 3 km/h. Đúng.
+b c) t = 2 cho (5; 6; 3). Đúng.
+b d) z = 1 + t = 4 ⇔ t = 3; AM = 3·3 = 9 km, không phải 6. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.

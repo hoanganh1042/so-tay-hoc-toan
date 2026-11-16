@@ -1,0 +1,172 @@
+# 12-I-1#6
+h Tìm khoảng mà dòng y′ mang dấu âm (mũi tên đi xuống); khoảng ghi theo biến x.
+y f′(x) < 0 trên K ⇒ f nghịch biến trên K.
+b Trên (−1; 3), y′ < 0 nên hàm số nghịch biến.
+b (−2; 4) là các giá trị của y, không phải khoảng của x.
+b Đáp án: (−1; 3)
+
+# 12-I-1#7
+h Điểm cực tiểu là điểm "đáy" của đồ thị; giá trị cực tiểu là tung độ của điểm đó.
+y Giá trị cực tiểu y_CT = f(x_CT), khác với điểm cực tiểu x_CT.
+b Đồ thị có điểm cực tiểu (1; −1).
+b Giá trị cực tiểu là −1 (x = 1 là điểm cực tiểu).
+b Đáp án: −1
+
+# 12-I-1#8
+h Đọc dấu f′ trên từng khoảng; điểm cực trị là nơi f′ đổi dấu.
+y f′ đổi dấu từ + sang − tại x₀ ⇒ x₀ là điểm cực đại.
+y f′ không đổi dấu qua x₀ ⇒ x₀ không là điểm cực trị.
+b a) f′ > 0 trên (3; +∞): đúng.
+b b) f′ không đổi dấu qua x = 0 nên chỉ có hai điểm cực trị x = −2 và x = 3: sai.
+b c) f′ đổi dấu từ + sang − qua x = −2: đúng.
+b d) f′ ≤ 0 trên [−2; 3] (chỉ bằng 0 tại x = 0) nên f nghịch biến trên đoạn đó, f(−1) > f(2): đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# 12-I-2#7
+h Đặt hai đỉnh trên parabol là (±x; 12 − x²), lập hàm diện tích rồi tìm giá trị lớn nhất bằng đạo hàm.
+y S(x) = 2x(12 − x²) với 0 < x < √12.
+y Giá trị lớn nhất trên khoảng: lập bảng biến thiên.
+b S(x) = 24x − 2x³, S′(x) = 24 − 6x² = 0 ⇔ x = 2.
+b S′ đổi dấu từ + sang − tại x = 2 nên S lớn nhất bằng S(2) = 4·8 = 32 m².
+b Đáp án: 32
+
+# 12-I-3#8
+h Tiệm cận ngang là đường thẳng nằm ngang mà đồ thị tiến sát khi x → ±∞.
+y y = y₀ là tiệm cận ngang nếu lim f(x) = y₀ khi x → +∞ hoặc x → −∞.
+b Khi x → ±∞ đồ thị tiến sát đường thẳng y = 2.
+b x = −1 là tiệm cận đứng, không phải tiệm cận ngang.
+b Đáp án: y = 2
+
+# 12-I-4#6
+h Đọc dáng đồ thị (hệ số a), giao với trục tung và hai điểm cực trị rồi loại dần.
+y Bậc ba có nhánh phải đi xuống ⇒ a < 0.
+y Giao điểm với trục tung là (0; d).
+b Nhánh phải đi xuống nên a < 0, loại y = x³ − 3x² − 1; đồ thị qua (0; −1) nên loại y = −x³ + 3x + 1.
+b Hai điểm cực trị tại x = 0 và x = 2: y′ = −3x² + 6x có nghiệm 0 và 2, khớp với y = −x³ + 3x² − 1 (y(2) = 3).
+b Đáp án: y = −x³ + 3x² − 1
+
+# 12-II-6#6
+h Dùng quy tắc hình bình hành cho AB + AD rồi quy tắc hình bình hành lần nữa với AA′.
+y Quy tắc hình hộp: AB + AD + AA′ = AC′ (vectơ).
+b AB + AD = AC (hình bình hành ABCD).
+b AC + AA′ = AC′ (hình bình hành ACC′A′).
+b Đáp án: AC′
+
+# 12-II-7#8
+h Tìm tọa độ B′ rồi lấy trung điểm của đường chéo OB′.
+y Tâm hình hộp là trung điểm mỗi đường chéo.
+y Trung điểm: ((x₁ + x₂)/2; (y₁ + y₂)/2; (z₁ + z₂)/2).
+b B′(3; 4; 2).
+b I là trung điểm OB′: I(1,5; 2; 1).
+b Đáp án: (1,5; 2; 1)
+
+# 12-II-8#8
+h Dùng ABCD là hình vuông để tìm C; tính tọa độ vectơ, độ dài, tích vô hướng.
+y AB + AD = AC (vectơ).
+y u·v > 0 ⇒ góc (u, v) nhọn.
+b a) AC = AB + AD = (4; 4; 0) nên C(4; 4; 0): đúng.
+b b) SC = (4 − 2; 4 − 2; 0 − 3) = (2; 2; −3): sai.
+b c) SA = (−2; −2; −3), |SA| = √(4 + 4 + 9) = √17: đúng.
+b d) SA·SC = −4 − 4 + 9 = 1 > 0 nên góc nhọn: sai.
+b Kết luận: a Đúng, b Sai, c Đúng, d Sai.
+
+# 12-III-9#9
+h Tính Q₁ (vị trí n/4) và Q₃ (vị trí 3n/4) bằng công thức nội suy trong nhóm, rồi lấy Q₃ − Q₁.
+y Q₁ = a + (n/4 − cf)/m·h; Q₃ = a + (3n/4 − cf)/m·h (cf: tần số cộng dồn các nhóm trước).
+b Tần số cộng dồn: 4; 14; 28; 36; 40.
+b Q₁ thuộc [10; 20): Q₁ = 10 + (10 − 4)/10·10 = 16.
+b Q₃ thuộc [30; 40): Q₃ = 30 + (30 − 28)/8·10 = 32,5.
+b ΔQ = 32,5 − 16 = 16,5.
+b Đáp án: 16,5
+
+# 12-III-10#8
+h Lấy giá trị đại diện là trung điểm mỗi nhóm, tính số trung bình, phương sai rồi khai căn.
+y s² = (1/n)Σmᵢxᵢ² − x̄²; s = √s².
+b Giá trị đại diện 3; 5; 7; 9 với tần số 3; 7; 6; 4.
+b x̄ = (9 + 35 + 42 + 36)/20 = 6,1.
+b s² = (27 + 175 + 294 + 324)/20 − 6,1² = 41 − 37,21 = 3,79.
+b s = √3,79 ≈ 1,95.
+b Đáp án: 1,95
+
+# 12-IV-13#7
+h Đặt hệ trục có Ox chứa cạnh trên hình chữ nhật, gốc ở trung điểm; viết phương trình parabol và tính tích phân.
+y Diện tích phần giới hạn bởi y = f(x) ≥ 0 và Ox trên [a; b]: ∫ₐᵇ f(x)dx.
+b Parabol y = 1,2 − 0,3x² (qua (±2; 0), đỉnh (0; 1,2)).
+b Phần parabol: ∫₋₂² (1,2 − 0,3x²)dx = 4,8 − 1,6 = 3,2 m².
+b Diện tích biển: 4·1 + 3,2 = 7,2 m².
+b Đáp án: 7,2
+
+# 12-IV-13#8
+h Tìm hoành độ giao điểm, xác định đồ thị nằm trên rồi tính tích phân của hiệu.
+y S = ∫ₐᵇ |f(x) − g(x)|dx.
+b x² − 2x = x ⇔ x = 0 hoặc x = 3; trên [0; 3] đường thẳng nằm trên parabol.
+b S = ∫₀³ (3x − x²)dx = 27/2 − 9 = 9/2.
+b Đáp án: 9/2
+
+# 12-IV-13#9
+h Dùng công thức thể tích khối tròn xoay V = π∫ₐᵇ f²(x)dx.
+y V = π∫ₐᵇ [f(x)]²dx.
+y (√x + 1)² = x + 2√x + 1.
+b V = π∫₀⁹ (x + 2√x + 1)dx = π(81/2 + (4/3)·27 + 9).
+b V = 85,5π ≈ 268,6 dm³, làm tròn 269.
+b Đáp án: 269
+
+# 12-IV-12#7
+h Quãng đường là tích phân của vận tốc, bằng diện tích phần dưới đồ thị v(t).
+y s = ∫ v(t)dt; gia tốc a = v′(t).
+y Tốc độ trung bình = tổng quãng đường / tổng thời gian.
+b a) v = 3t trên [0; 4]: ∫₀⁴ 3t dt = 24 m: đúng.
+b b) a = 12/4 = 3 m/s²: đúng.
+b c) 24 + 6·12 + (1/2)·3·12 = 24 + 72 + 18 = 114 m: sai.
+b d) 114/13 ≈ 8,77 < 9: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 12-V-14#7
+h Viết phương trình đoạn chắn x/a + y/b + z/c = 1 rồi quy đồng mẫu.
+y Mặt phẳng qua (a; 0; 0), (0; b; 0), (0; 0; c): x/a + y/b + z/c = 1.
+b (ABC): x/3 + y/2 + z/6 = 1.
+b Nhân hai vế với 6: 2x + 3y + z − 6 = 0.
+b Đáp án: 2x + 3y + z − 6 = 0
+
+# 12-V-15#7
+h Viết phương trình tham số; quãng đường bay bằng tốc độ nhân thời gian; tìm điểm trên đường bay gần T nhất bằng hình chiếu vuông góc.
+y d(T, d) = |[AT, u]|/|u|.
+y Hình chiếu H của T lên d thỏa mãn TH ⊥ u.
+b a) Qua A(0; 0; 1), vectơ chỉ phương (3; 4; 0): đúng.
+b b) Sau 10 phút bay 5 km = |u| nên ở A + u = (3; 4; 1): đúng.
+b c) AT = (10; 0; 0), [AT, u] = (0; 0; 40), d = 40/5 = 8 km: đúng.
+b d) H(3t; 4t; 1) với TH·u = 0: 9t − 30 + 16t = 0 ⇒ t = 1,2, H(3,6; 4,8; 1), AH = 6 km, mất 12 phút: sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-V-16#6
+h Tính tọa độ hai vectơ AM, BM rồi dùng công thức côsin góc giữa hai vectơ.
+y cos(u, v) = u·v/(|u|·|v|).
+b AM = (4; 3; −6), BM = (−4; 3; −6); |AM| = |BM| = √61.
+b AM·BM = −16 + 9 + 36 = 29, cos AMB = 29/61.
+b Góc AMB ≈ 61,6°, làm tròn được 62°.
+b Đáp án: 62
+
+# 12-V-17#7
+h Mặt cầu tiếp xúc với mặt phẳng tọa độ thì khoảng cách từ tâm đến mặt phẳng đó bằng bán kính.
+y d(I, (Oxy)) = |z_I|, d(I, (Oxz)) = |y_I|, d(I, (Oyz)) = |x_I|.
+y Mặt cầu tâm I(a; b; c), bán kính R: (x − a)² + (y − b)² + (z − c)² = R².
+b Bóng nằm trong phòng (x, y, z ≥ 0) và tiếp xúc ba mặt nên I(1,5; 1,5; 1,5).
+b R² = 1,5² = 2,25.
+b Đáp án: (x − 1,5)² + (y − 1,5)² + (z − 1,5)² = 2,25
+
+# 12-VI-19#9
+h Đọc xác suất trên sơ đồ cây; dùng công thức xác suất toàn phần và công thức Bayes.
+y P(A) = P(B)P(A|B) + P(B̄)P(A|B̄).
+y P(B|A) = P(B)P(A|B)/P(A).
+b a) Đây là xác suất có điều kiện cho trên nhánh ca ngày: 0,02: đúng.
+b b) P = 0,55·0,02 + 0,45·0,06 = 0,011 + 0,027 = 0,038: đúng.
+b c) P(ca ngày | phế phẩm) = 0,011/0,038 ≈ 0,29 < 0,5: sai.
+b d) P(ca đêm | đạt chuẩn) = 0,45·0,94/0,962 = 0,423/0,962 ≈ 0,44 > 0,4: sai.
+b Kết luận: a Đúng, b Đúng, c Sai, d Sai.
+
+# 12-VI-18#9
+h Thu hẹp không gian mẫu về những khách đã mua hàng rồi đếm số khách nữ trong đó.
+y P(A|B) = n(AB)/n(B) khi các kết quả đồng khả năng.
+b Số khách đã mua: 45 + 60 = 105, trong đó 60 khách nữ.
+b P = 60/105 = 4/7.
+b Đáp án: 4/7

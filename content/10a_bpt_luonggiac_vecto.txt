@@ -1,0 +1,947 @@
+# 10-II-3#d
+h Thay từng cặp số vào bất phương trình, cặp nào cho mệnh đề đúng là nghiệm.
+y (x₀; y₀) là nghiệm của ax + by > c khi ax₀ + by₀ > c đúng.
+b (1; 1): 2 − 1 = 1 > 3 sai; (0; −3): 0 + 3 = 3 > 3 sai; (1; 0): 2 > 3 sai.
+b (2; 0): 4 − 0 = 4 > 3 đúng.
+b Đáp án: (2; 0)
+
+# 10-II-3#0
+h Bất phương trình bậc nhất hai ẩn chỉ chứa x, y ở bậc một, không có tích xy, không có ẩn ở mẫu.
+y Dạng ax + by < c (hoặc ≤, >, ≥), a, b không đồng thời bằng 0.
+b xy, x², 1/x đều không phải bậc nhất.
+b 2x − 3y ≤ 5 đúng dạng với a = 2, b = −3.
+b Đáp án: 2x − 3y ≤ 5
+
+# 10-II-3#1
+h Thay tọa độ từng điểm vào bất phương trình.
+y Điểm thuộc miền nghiệm khi tọa độ thỏa bất phương trình.
+b (0; 0): 0 + 0 = 0 ≤ 2 đúng.
+b Các điểm khác cho tổng 3 > 2.
+b Đáp án: (0; 0)
+
+# 10-II-3#2
+h Thay từng điểm vào bất phương trình; đường bờ là đường thẳng 3x + 2y = 12.
+y Điểm là nghiệm khi thỏa bất phương trình; điểm thuộc đường bờ khi thỏa phương trình.
+b a) 0 ≤ 12. Đúng.
+b b) 12 ≤ 12. Đúng.
+b c) 6 + 8 = 14 > 12. Sai.
+b d) 3·0 + 2·6 = 12 nên (0; 6) thuộc đường bờ. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-II-3#3
+h Liệt kê theo từng giá trị của x các giá trị y nguyên dương thỏa mãn.
+y x, y ≥ 1 và x + y ≤ 4 nên y ≤ 4 − x.
+b x = 1: y ∈ {1; 2; 3} (3 cặp).
+b x = 2: y ∈ {1; 2} (2 cặp); x = 3: y = 1 (1 cặp).
+b Tổng 3 + 2 + 1 = 6.
+b Đáp án: 6
+
+# 10-II-3#4
+h Lập bất phương trình chi phí với số bút đã cố định, giải tìm số vở lớn nhất.
+y Tổng chi ≤ số tiền có: 10x + 15y ≤ 300.
+b Với x = 12: 120 + 15y ≤ 300 ⇔ 15y ≤ 180 ⇔ y ≤ 12.
+b Số vở là số nguyên lớn nhất: y = 12.
+b Đáp án: 12
+
+# 10-II-4#d
+h Bài toán quy hoạch tuyến tính: tìm các đỉnh của miền nghiệm rồi so sánh F tại các đỉnh.
+y F = ax + by đạt giá trị lớn nhất, nhỏ nhất trên miền đa giác tại một đỉnh.
+y Đỉnh là giao điểm của hai đường bờ: giải hệ hai phương trình.
+b Giao x + 2y = 4 và 2x + y = 5: x = 2, y = 1.
+b Các đỉnh: (0; 0), (2,5; 0), (2; 1), (0; 2).
+b F lần lượt bằng 0; 2,5; 3; 2. Lớn nhất bằng 3.
+b Đáp án: 3
+
+# 10-II-4#0
+h Thay từng điểm vào cả ba bất phương trình của hệ.
+y Điểm thuộc miền nghiệm của hệ khi thỏa đồng thời mọi bất phương trình.
+b (−1; 1) vi phạm x ≥ 0; (2; 2) và (4; 0) vi phạm x + y ≤ 3.
+b (1; 1): 2 ≤ 3, 1 ≥ 0, 1 ≥ 0 đều đúng.
+b Đáp án: (1; 1)
+
+# 10-II-4#1
+h Tính F tại các đỉnh của tam giác rồi chọn giá trị lớn nhất.
+y Giá trị lớn nhất của F trên miền đa giác đạt tại một đỉnh.
+b F(O) = 0, F(A) = 6, F(B) = 4.
+b Đáp án: 6
+
+# 10-II-4#2
+h Vẽ miền nghiệm, xác định các đỉnh, rồi kiểm tra từng ý.
+y Đỉnh là giao các đường bờ: x + y = 5 và x − y = −1 cắt nhau tại (2; 3).
+y F đạt max tại một đỉnh.
+b a) O thỏa cả bốn bất phương trình (0 ≤ 5, 0 ≥ −1). Đúng.
+b b) (2; 3): 5 ≤ 5 và −1 ≥ −1. Đúng.
+b c) Các đỉnh (0; 0), (5; 0), (2; 3), (0; 1): là tứ giác. Đúng.
+b d) F = x + 2y tại các đỉnh: 0; 5; 8; 2. Lớn nhất bằng 8, không phải 10. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-II-4#3
+h Dùng bốn đỉnh của miền nghiệm, tính F = x − y tại từng đỉnh.
+y Giá trị nhỏ nhất của F trên miền đa giác đạt tại một đỉnh.
+b Các đỉnh (0; 0), (5; 0), (2; 3), (0; 1).
+b F = 0; 5; −1; −1.
+b Giá trị nhỏ nhất là −1.
+b Đáp án: −1
+
+# 10-II-4#4
+h Đặt ẩn số sản phẩm mỗi loại, lập hệ ràng buộc và hàm lãi, rồi tìm giá trị lớn nhất tại các đỉnh.
+y Mô hình: x, y ≥ 0; x + 2y ≤ 12 (giờ máy); 2x + y ≤ 12 (nguyên liệu); F = 3x + 5y.
+y Giao hai đường bờ: x + 2y = 12, 2x + y = 12 cho (4; 4).
+b Các đỉnh: (0; 0), (6; 0), (4; 4), (0; 6).
+b F = 0; 18; 32; 30.
+b Lãi lớn nhất 32 triệu đồng khi làm 4 sản phẩm mỗi loại.
+b Đáp án: 32
+
+# 10-III-5#d
+h Dùng quan hệ giữa hai góc bù nhau.
+y sin(180° − α) = sin α.
+b sin 150° = sin(180° − 30°) = sin 30°.
+b = 1/2.
+b Đáp án: 1/2
+
+# 10-III-5#0
+h Góc bù: côsin đổi dấu.
+y cos(180° − α) = −cos α.
+b cos 120° = −cos 60° = −1/2.
+b Đáp án: −1/2
+
+# 10-III-5#1
+h Xét dấu theo vị trí điểm M trên nửa đường tròn đơn vị khi góc tù.
+y Với góc tù: sin α > 0, cos α < 0, tan α < 0, cot α < 0.
+b Điểm M nằm bên trái trục tung nên hoành độ (cos α) âm.
+b Đáp án: cos α < 0
+
+# 10-III-5#2
+h Dùng góc bù 135° = 180° − 45° và các giá trị đặc biệt.
+y sin(180° − α) = sin α; cos(180° − α) = −cos α; tan = sin/cos.
+b a) sin 135° = sin 45° = √2/2. Đúng.
+b b) cos 135° = −√2/2. Sai.
+b c) tan 135° = (√2/2)/(−√2/2) = −1. Đúng.
+b d) Đẳng thức đúng với mọi α. Đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# 10-III-5#3
+h Thay giá trị lượng giác của góc đặc biệt.
+y sin 30° = 1/2, cos 60° = 1/2, tan 45° = 1.
+b sin²30° = 1/4, cos²60° = 1/4.
+b 1/4 + 1/4 + 1 = 1,5.
+b Đáp án: 1,5
+
+# 10-III-5#4
+h Dùng sin²α + cos²α = 1, chọn dấu theo góc tù.
+y Góc tù có sin α > 0.
+b sin²α = 1 − 9/25 = 16/25.
+b sin α = 4/5 = 0,8.
+b Đáp án: 0,8
+
+# 10-III-6#d
+h Biết hai cạnh và góc xen giữa: dùng định lí côsin.
+y a² = b² + c² − 2bc·cos A.
+b BC² = 9 + 25 − 2·3·5·½ = 34 − 15 = 19.
+b BC = √19.
+b Đáp án: √19
+
+# 10-III-6#0
+h Biết ba cạnh, tìm góc: dùng hệ quả định lí côsin.
+y cos C = (a² + b² − c²)/(2ab).
+b cos C = (25 + 9 − 49)/30 = −15/30 = −1/2.
+b C = 120°.
+b Đáp án: 120°
+
+# 10-III-6#1
+h Biết hai cạnh và góc xen giữa: công thức diện tích dùng sin.
+y S = ½·b·c·sin A.
+b S = ½·4·6·sin 30° = 12·½.
+b Đáp án: 6
+
+# 10-III-6#2
+h Dùng định lí sin để tìm R, rồi tính cạnh khi biết góc.
+y a/sin A = b/sin B = 2R.
+b a) 2R = 6/sin 30° = 12 nên R = 6. Đúng.
+b b) b = 2R·sin B = 12·1 = 12. Đúng.
+b c) sin 30° = 1/2. Đúng.
+b d) R = 6 ≠ 12. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-III-6#3
+h Biết ba cạnh: dùng công thức Heron.
+y S = √(p(p − a)(p − b)(p − c)), p là nửa chu vi.
+b p = (13 + 14 + 15)/2 = 21.
+b S = √(21·8·7·6) = √7056 = 84.
+b Đáp án: 84
+
+# 10-III-6#4
+h Tính góc C, rồi dùng định lí sin trong tam giác ABC để tìm AC.
+y Tổng ba góc 180°; AC/sin B = AB/sin C.
+b C = 180° − 60° − 75° = 45°.
+b AC = 100·sin 75°/sin 45° ≈ 100·0,9659/0,7071 ≈ 136,6.
+b Làm tròn: 137.
+b Đáp án: 137
+
+# 10-IV-7#d
+h Tìm vectơ cùng hướng và cùng độ dài với AB trong hình bình hành.
+y Hai vectơ bằng nhau khi cùng hướng và cùng độ dài.
+b AB // DC, AB = DC, hướng từ A sang B trùng hướng từ D sang C.
+b Đáp án: Vectơ DC
+
+# 10-IV-7#0
+h Mỗi cặp điểm cho hai vectơ ngược hướng.
+y Vectơ có hướng: AB khác BA.
+b Có 3 cặp điểm (AB, BC, CA).
+b Mỗi cặp cho 2 vectơ: 3·2 = 6.
+b Đáp án: 6
+
+# 10-IV-7#1
+h Nhớ định nghĩa hai vectơ bằng nhau.
+y a = b ⇔ a, b cùng hướng và |a| = |b|.
+b Cùng độ dài chưa đủ, cần cùng hướng.
+b Đáp án: Chúng cùng hướng và cùng độ dài
+
+# 10-IV-7#2
+h Dùng tính chất lục giác đều: các cạnh đối song song, tâm O là trung điểm các đường chéo chính, cạnh bằng bán kính.
+y Lục giác đều tâm O gồm 6 tam giác đều chung đỉnh O.
+b a) ABDE là hình chữ nhật nên AB // ED, AB = ED và cùng hướng. Đúng.
+b b) O là trung điểm AD nên OA = DO (cùng hướng từ D về A). Đúng.
+b c) Tam giác OAB đều nên AB = OA. Đúng.
+b d) AB và CD không song song (hợp góc 60°). Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-IV-7#3
+h Độ dài vectơ AC là độ dài đường chéo hình vuông.
+y Đường chéo hình vuông cạnh a bằng a√2.
+b |AC| = 4√2 ≈ 5,657.
+b Làm tròn: 5,66.
+b Đáp án: 5,66
+
+# 10-IV-7#4
+h Độ dài vectơ BD là đường chéo hình chữ nhật; dùng Pythagore.
+y BD² = AB² + AD².
+b BD = √(9 + 16) = 5.
+b Đáp án: 5
+
+# 10-IV-8#d
+h Dùng quy tắc trung điểm.
+y M là trung điểm BC ⇒ AB + AC = 2AM với mọi điểm A.
+b AB + AC = (AM + MB) + (AM + MC) = 2AM + (MB + MC) = 2AM.
+b Đáp án: 2·vectơ AM
+
+# 10-IV-8#0
+h Quy tắc ba điểm (nối đuôi).
+y AB + BC = AC.
+b Điểm cuối của vectơ thứ nhất là điểm đầu của vectơ thứ hai nên tổng là AC.
+b Đáp án: Vectơ AC
+
+# 10-IV-8#1
+h Nhớ đẳng thức vectơ đặc trưng của trọng tâm.
+y G là trọng tâm tam giác ABC ⇔ GA + GB + GC = 0.
+b GA = GB = GC là tính chất tâm đường tròn ngoại tiếp.
+b Đáp án: GA + GB + GC = 0
+
+# 10-IV-8#2
+h Dùng quy tắc hình bình hành cho tổng, quy tắc hiệu cho hiệu, rồi tính độ dài.
+y AB + AD = AC (hình bình hành); AB − AD = DB.
+y Đường chéo hình vuông cạnh a dài a√2.
+b a) Quy tắc hình bình hành. Đúng.
+b b) |AC| = 2√2. Đúng.
+b c) AB − AD = DA + AB = DB. Đúng.
+b d) |DB| = 2√2 ≠ 2. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-IV-8#3
+h Dùng quy tắc trung điểm: AB + AC = 2AM, M trung điểm BC.
+y Đường trung tuyến của tam giác đều cạnh a dài a√3/2.
+b AM = 3√3/2.
+b |AB + AC| = 2AM = 3√3 ≈ 5,196.
+b Làm tròn: 5,2.
+b Đáp án: 5,2
+
+# 10-IV-8#4
+h Hiệu hai vectơ chung gốc là vectơ nối hai điểm cuối.
+y AB − AC = CB.
+b |CB| = 3 (cạnh tam giác đều).
+b Đáp án: 3
+
+# 10-IV-9#d
+h Hai vectơ chung điểm đầu, cùng phương thì ba điểm thẳng hàng.
+y A, B, C thẳng hàng ⇔ AB = k·AC.
+b AB = −3AC nên AB, AC cùng phương và chung điểm A.
+b Vậy A, B, C thẳng hàng.
+b Đáp án: Thẳng hàng
+
+# 10-IV-9#0
+h Dùng tính chất trung điểm với điểm M bất kỳ.
+y I là trung điểm AB ⇔ MA + MB = 2MI với mọi M.
+b MA + MB = (MI + IA) + (MI + IB) = 2MI + (IA + IB) = 2MI.
+b Đáp án: 2·vectơ MI
+
+# 10-IV-9#1
+h Độ dài của k·a bằng |k|·|a|.
+y |ka| = |k|·|a|.
+b |−3a| = 3·2 = 6.
+b Đáp án: 6
+
+# 10-IV-9#2
+h Nhớ tính chất của vectơ k·a: cùng phương a, cùng hướng khi k > 0, độ dài |k|·|a|.
+y k > 0: ka cùng hướng a; k < 0: ngược hướng.
+b a) u = 2a cùng phương a. Đúng.
+b b) k = 2 > 0 nên cùng hướng, không ngược hướng. Sai.
+b c) |u| = 2|a|. Đúng.
+b d) u − 2a = 0. Đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# 10-IV-9#3
+h AM = (1/3)AB cho biết M nằm trên đoạn AB và AM bằng một phần ba AB.
+y AM = (1/3)AB ⇒ AM = AB/3 (độ dài), M nằm giữa A và B.
+b AM = 6/3 = 2.
+b MB = 6 − 2 = 4.
+b Đáp án: 4
+
+# 10-IV-9#4
+h C là trung điểm nên AC bằng nửa AB và cùng hướng.
+y AC = ½AB.
+b AB = 2AC nên k = 2.
+b Đáp án: 2
+
+# 10-IV-10#d
+h Tọa độ vectơ AB bằng tọa độ điểm cuối trừ điểm đầu.
+y AB = (x_B − x_A; y_B − y_A).
+b AB = (3 − 1; −4 − 2) = (2; −6).
+b Đáp án: (2; −6)
+
+# 10-IV-10#0
+h Trung điểm có tọa độ là trung bình cộng.
+y I((x_A + x_B)/2; (y_A + y_B)/2).
+b x = (1 + 5)/2 = 3; y = (3 − 1)/2 = 1.
+b Đáp án: (3; 1)
+
+# 10-IV-10#1
+h Nhân và cộng vectơ theo từng tọa độ.
+y k(x; y) = (kx; ky); (x₁; y₁) + (x₂; y₂) = (x₁ + x₂; y₁ + y₂).
+b 2b = (2; 6).
+b a + 2b = (2 + 2; −1 + 6) = (4; 5).
+b Đáp án: (4; 5)
+
+# 10-IV-10#2
+h Tính các vectơ, kiểm tra cùng phương để xét thẳng hàng, tính trọng tâm và độ dài.
+y A, B, C thẳng hàng ⇔ AC = k·AB.
+y |(x; y)| = √(x² + y²).
+b a) AB = (2; 2). Đúng.
+b b) AC = (4; 4) = 2AB nên A, B, C thẳng hàng. Đúng.
+b c) Trung bình cộng tọa độ: ((0 + 2 + 4)/3; (1 + 3 + 5)/3) = (2; 3). Đúng.
+b d) |AB| = √8 = 2√2 ≠ 4. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-IV-10#3
+h Tính độ dài ba cạnh bằng công thức khoảng cách rồi cộng.
+y AB = √((x_B − x_A)² + (y_B − y_A)²).
+b AB = 3, AC = 4.
+b BC = √(9 + 16) = 5.
+b Chu vi 3 + 4 + 5 = 12.
+b Đáp án: 12
+
+# 10-IV-10#4
+h Hai vectơ cùng phương khi tọa độ tỉ lệ.
+y a = (a₁; a₂), b = (b₁; b₂) cùng phương ⇔ a₁b₂ − a₂b₁ = 0.
+b m·6 − 2·3 = 0.
+b m = 1.
+b Đáp án: 1
+
+# 10-IV-11#d
+h Công của lực là tích vô hướng của vectơ lực và vectơ dịch chuyển.
+y A = F·d = x₁x₂ + y₁y₂.
+b A = 3·5 + 4·0 = 15 (J).
+b Đáp án: 15 J
+
+# 10-IV-11#0
+h Tính tích vô hướng theo tọa độ; bằng 0 thì vuông góc.
+y a·b = a₁b₁ + a₂b₂; a ⊥ b ⇔ a·b = 0.
+b a·b = 1·4 + 2·(−2) = 0.
+b Đáp án: a ⊥ b
+
+# 10-IV-11#1
+h Dùng định nghĩa tích vô hướng qua độ dài và góc.
+y a·b = |a|·|b|·cos(a, b).
+b a·b = 3·4·cos 60° = 12·½.
+b Đáp án: 6
+
+# 10-IV-11#2
+h Tính tích vô hướng, độ dài, rồi côsin góc.
+y cos(a, b) = a·b/(|a|·|b|).
+b a) a·b = 1·1 + 1·0 = 1. Đúng.
+b b) |a| = √2. Đúng.
+b c) cos = 1/(√2·1) = 1/√2 nên góc 45°. Đúng.
+b d) a·b = 1 ≠ 0 nên không vuông góc. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-IV-11#3
+h Hai vectơ AB, AC chung gốc A tạo góc 60°.
+y a·b = |a|·|b|·cos(a, b).
+b AB·AC = 2·2·cos 60° = 2.
+b Đáp án: 2
+
+# 10-IV-11#4
+h Điều kiện vuông góc: tích vô hướng bằng 0.
+y a ⊥ b ⇔ a₁b₁ + a₂b₂ = 0.
+b 2m + 3·(−4) = 0.
+b m = 6.
+b Đáp án: 6
+
+# 10-VI-15#d
+h Hàm phân thức xác định khi mẫu khác 0.
+y y = 1/u xác định khi u ≠ 0.
+b x − 2 ≠ 0 ⇔ x ≠ 2.
+b Đáp án: ℝ \ {2}
+
+# 10-VI-15#0
+h Căn bậc hai xác định khi biểu thức dưới căn không âm.
+y √u xác định khi u ≥ 0.
+b x − 1 ≥ 0 ⇔ x ≥ 1.
+b Đáp án: [1; +∞)
+
+# 10-VI-15#1
+h Hàm bậc nhất y = ax + b đồng biến khi a > 0, nghịch biến khi a < 0.
+y Xét dấu hệ số a.
+b a = −2 < 0.
+b Đáp án: Nghịch biến trên ℝ
+
+# 10-VI-15#2
+h Tính giá trị, kiểm tra điểm, tính chẵn và chiều biến thiên của hàm bậc hai.
+y f(−x) = f(x): hàm chẵn; y = x² − 1 là parabol đỉnh (0; −1), a > 0.
+b a) f(2) = 4 − 1 = 3. Đúng.
+b b) f(1) = 0 nên (1; 0) thuộc đồ thị. Đúng.
+b c) f(−x) = x² − 1 = f(x). Đúng.
+b d) f giảm trên (−∞; 0), tăng trên (0; +∞), không đồng biến trên ℝ. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-VI-15#3
+h Thay x = −1 vào hàm số.
+y f(a): thay x = a.
+b f(−1) = 2·(−1) + 3 = 1.
+b Đáp án: 1
+
+# 10-VI-15#4
+h Lập hàm cước theo quãng đường: km đầu giá riêng, các km sau giá đều.
+y Với x ≥ 1 km: y = 12 + 10(x − 1).
+b x = 5: y = 12 + 10·4 = 52.
+b Đáp án: 52
+
+# 10-VI-16#d
+h Parabol y = ax² + bx + c có trục đối xứng x = −b/(2a).
+y Trục đối xứng đi qua đỉnh.
+b x = −(−4)/(2·1) = 2.
+b Đáp án: x = 2
+
+# 10-VI-16#0
+h Tìm hoành độ đỉnh rồi thay vào để có tung độ.
+y Đỉnh I(−b/(2a); f(−b/(2a))).
+b x = 2/2 = 1.
+b y = 1 − 2 + 3 = 2.
+b Đáp án: (1; 2)
+
+# 10-VI-16#1
+h a < 0 nên hàm đồng biến bên trái đỉnh.
+y a < 0: đồng biến trên (−∞; −b/(2a)), nghịch biến trên (−b/(2a); +∞).
+b Đỉnh x = −2/(2·(−1)) = 1.
+b Đồng biến trên (−∞; 1).
+b Đáp án: (−∞; 1)
+
+# 10-VI-16#2
+h Xác định hướng bề lõm, đỉnh, giao với trục hoành và giá trị nhỏ nhất của parabol.
+y a > 0: bề lõm hướng lên, giá trị nhỏ nhất bằng tung độ đỉnh.
+b a) a = 1 > 0. Đúng.
+b b) x = 3, y = 9 − 18 + 5 = −4: I(3; −4). Đúng.
+b c) x² − 6x + 5 = 0 ⇔ x = 1 hoặc x = 5. Đúng.
+b d) Giá trị nhỏ nhất là −4, không phải −3. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-VI-16#3
+h Độ cao là hàm bậc hai có a < 0; lớn nhất tại đỉnh.
+y Đỉnh t = −b/(2a).
+b t = −20/(2·(−5)) = 2.
+b h(2) = −20 + 40 + 1 = 21.
+b Đáp án: 21
+
+# 10-VI-16#4
+h Biểu diễn diện tích theo một cạnh, được hàm bậc hai, tìm giá trị lớn nhất tại đỉnh.
+y Nửa chu vi 20: cạnh x thì cạnh kia 20 − x.
+b S(x) = x(20 − x) = −x² + 20x.
+b Đỉnh x = 10, S = 100.
+b Đáp án: 100
+
+# 10-VI-17#d
+h Tìm nghiệm tam thức, dùng quy tắc "trong trái ngoài cùng".
+y a > 0: f(x) < 0 giữa hai nghiệm, f(x) > 0 ngoài khoảng hai nghiệm.
+b x² − 5x + 6 = 0 ⇔ x = 2 hoặc x = 3.
+b f(x) < 0 ⇔ 2 < x < 3.
+b Đáp án: 2 < x < 3
+
+# 10-VI-17#0
+h Tính Δ; Δ < 0 thì tam thức cùng dấu với a với mọi x.
+y Δ < 0 ⇒ f(x) cùng dấu a với mọi x.
+b Δ = 1 − 4 = −3 < 0, a = 1 > 0.
+b Đáp án: Luôn dương
+
+# 10-VI-17#1
+h Đưa về x² ≤ 4 và giải.
+y x² ≤ k² ⇔ −k ≤ x ≤ k (k > 0).
+b −x² + 4 ≥ 0 ⇔ x² ≤ 4 ⇔ −2 ≤ x ≤ 2.
+b Đáp án: [−2; 2]
+
+# 10-VI-17#2
+h Tính Δ, tìm nghiệm và dùng quy tắc xét dấu.
+y Δ = b² − 4ac; a > 0: âm giữa hai nghiệm, dương ngoài.
+b a) Δ = 16 − 12 = 4. Đúng.
+b b) Nghiệm 1 và 3; f < 0 trên (1; 3). Đúng.
+b c) f(0) = 3 > 0. Sai.
+b d) f ≥ 0 khi x ≤ 1 hoặc x ≥ 3. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-VI-17#3
+h Giải bất phương trình bậc hai rồi đếm số nguyên trong tập nghiệm.
+y a > 0: f(x) ≤ 0 trên đoạn giữa hai nghiệm.
+b x² − 5x + 4 = 0 ⇔ x = 1 hoặc x = 4.
+b Tập nghiệm [1; 4] gồm các số nguyên 1, 2, 3, 4.
+b Đáp án: 4
+
+# 10-VI-17#4
+h Tam thức dương với mọi x khi a > 0 và Δ < 0.
+y f(x) > 0 ∀x ⇔ a > 0 và Δ' = b'² − ac < 0.
+b Δ' = 1 − m < 0 ⇔ m > 1.
+b Số nguyên nhỏ nhất thỏa là 2.
+b Đáp án: 2
+
+# 10-VI-18#d
+h Phương trình √A = B: đặt điều kiện B ≥ 0, bình phương rồi đối chiếu.
+y √A = B ⇔ B ≥ 0 và A = B².
+b Điều kiện x + 1 ≥ 0 ⇔ x ≥ −1.
+b x + 3 = x² + 2x + 1 ⇔ x² + x − 2 = 0 ⇔ x = 1 hoặc x = −2.
+b Loại x = −2; nhận x = 1.
+b Đáp án: x = 1
+
+# 10-VI-18#0
+h Hai căn bằng nhau: cho hai biểu thức dưới căn bằng nhau, kèm điều kiện không âm.
+y √A = √B ⇔ A = B và A ≥ 0 (hoặc B ≥ 0).
+b 2x − 1 = x + 2 ⇔ x = 3.
+b Kiểm tra: x + 2 = 5 ≥ 0, nhận.
+b Đáp án: x = 3
+
+# 10-VI-18#1
+h Bình phương hai vế, giải phương trình bậc hai, rồi kiểm tra điều kiện.
+y √A = √B ⇔ A = B và B ≥ 0.
+b x² − 3x + 2 = x − 1 ⇔ x² − 4x + 3 = 0 ⇔ x = 1 hoặc x = 3.
+b x − 1 ≥ 0 đúng với cả hai giá trị.
+b Đáp án: 2
+
+# 10-VI-18#2
+h Đặt điều kiện vế phải không âm, bình phương, giải rồi loại nghiệm ngoại lai.
+y √A = B ⇔ B ≥ 0 và A = B².
+b a) Cần x − 1 ≥ 0 ⇔ x ≥ 1. Đúng.
+b b) x + 1 = (x − 1)² = x² − 2x + 1. Đúng.
+b c) x² − 3x = 0 ⇔ x = 0 (loại) hoặc x = 3: chỉ 1 nghiệm. Sai.
+b d) Nghiệm là x = 3. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-VI-18#3
+h Cho hai biểu thức dưới căn bằng nhau, giải và kiểm tra điều kiện rồi cộng nghiệm.
+y √A = √B ⇔ A = B và B ≥ 0.
+b x² + 2x + 4 = 2x + 13 ⇔ x² = 9 ⇔ x = ±3.
+b 2x + 13 = 19 hoặc 7, đều dương: nhận cả hai.
+b Tổng 3 + (−3) = 0.
+b Đáp án: 0
+
+# 10-VI-18#4
+h Đặt điều kiện x − 1 ≥ 0, bình phương, giải, loại nghiệm không thỏa.
+y √A = B ⇔ B ≥ 0 và A = B².
+b 3x + 1 = x² − 2x + 1 ⇔ x² − 5x = 0 ⇔ x = 0 hoặc x = 5.
+b Điều kiện x ≥ 1 loại x = 0.
+b Đáp án: 5
+
+# 10-VII-19#d
+h Vectơ pháp tuyến đọc từ hệ số của x và y trong phương trình tổng quát.
+y ax + by + c = 0 có vectơ pháp tuyến n = (a; b).
+b a = 2, b = −3.
+b Đáp án: n = (2; −3)
+
+# 10-VII-19#0
+h Biết một điểm và vectơ pháp tuyến: dùng dạng a(x − x₀) + b(y − y₀) = 0.
+y Đi qua M(x₀; y₀), pháp tuyến (a; b): a(x − x₀) + b(y − y₀) = 0.
+b 3(x − 1) − (y − 2) = 0.
+b 3x − 3 − y + 2 = 0 ⇔ 3x − y − 1 = 0.
+b Đáp án: 3x − y − 1 = 0
+
+# 10-VII-19#1
+h Lấy AB làm vectơ chỉ phương (có thể rút gọn), điểm đi qua là A.
+y Phương trình tham số: x = x₀ + u₁t, y = y₀ + u₂t.
+b AB = (2; 4), cùng phương với u = (1; 2).
+b Qua A(1; 1): x = 1 + t, y = 1 + 2t.
+b Đáp án: x = 1 + t, y = 1 + 2t
+
+# 10-VII-19#2
+h Đọc vectơ chỉ phương, tìm vectơ pháp tuyến, kiểm tra điểm và lập phương trình tổng quát.
+y u = (u₁; u₂) ⇒ n = (u₂; −u₁) là một vectơ pháp tuyến.
+b a) Hệ số của t: u = (1; 3). Đúng.
+b b) t = 1 cho (3; 2). Đúng.
+b c) Pháp tuyến là (3; −1); (1; 3) là chỉ phương, không vuông góc với chính nó. Sai.
+b d) 3(x − 2) − (y + 1) = 0 ⇔ 3x − y − 7 = 0. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-VII-19#3
+h Tìm giao điểm với hai trục, tam giác OAB vuông tại O.
+y Giao với Ox: cho y = 0; giao với Oy: cho x = 0.
+b A(3; 0), B(0; 6).
+b S = ½·OA·OB = ½·3·6 = 9.
+b Đáp án: 9
+
+# 10-VII-19#4
+h Lập phương trình đường thẳng y = 15x + 12 rồi giải y = 192.
+y Hàm bậc nhất có đồ thị là đường thẳng; hệ số góc là giá mỗi km.
+b 15x + 12 = 192.
+b 15x = 180 ⇔ x = 12.
+b Đáp án: 12
+
+# 10-VII-21#d
+h Đọc tâm và bán kính từ phương trình dạng (x − a)² + (y − b)² = R².
+y Tâm I(a; b), bán kính R = √(R²).
+b (y + 1)² = (y − (−1))² nên b = −1.
+b I(2; −1), R = √16 = 4.
+b Đáp án: I(2; −1), R = 4
+
+# 10-VII-21#0
+h Phương trình đường tròn dạng khai triển cần hệ số x², y² bằng nhau, không có xy và a² + b² − c > 0.
+y x² + y² − 2ax − 2by + c = 0 là đường tròn ⇔ a² + b² − c > 0.
+b Loại phương án có 2y² và có 2xy.
+b x² + y² − 2x + 4y + 1: a = 1, b = −2, c = 1, a² + b² − c = 4 > 0.
+b x² + y² − 2x + 4y + 6: 1 + 4 − 6 = −1 < 0, loại.
+b Đáp án: x² + y² − 2x + 4y + 1 = 0
+
+# 10-VII-21#1
+h Bán kính bằng khoảng cách từ tâm đến điểm đi qua.
+y R = IA; phương trình (x − a)² + (y − b)² = R².
+b IA = √(3² + 4²) = 5.
+b (x − 1)² + (y − 3)² = 25.
+b Đáp án: (x − 1)² + (y − 3)² = 25
+
+# 10-VII-21#2
+h Tìm tâm, bán kính; so sánh IA với R; tiếp tuyến tại A nhận IA làm pháp tuyến.
+y Tâm I(a; b), R = √(a² + b² − c); tiếp tuyến tại A ∈ (C) có pháp tuyến IA.
+b a) −2a = −4, −2b = 6 nên I(2; −3). Đúng.
+b b) R = √(4 + 9 + 12) = 5. Đúng.
+b c) IA = √(9 + 16) = 5 = R nên A nằm trên (C). Sai.
+b d) IA = (3; 4): 3(x − 5) + 4(y − 1) = 0 ⇔ 3x + 4y − 19 = 0. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-VII-21#3
+h Đường thẳng tiếp xúc đường tròn khi khoảng cách từ tâm đến đường thẳng bằng bán kính.
+y d(I, Δ) = |ax₀ + by₀ + c|/√(a² + b²).
+b Tâm O, R = 2; d(O, Δ) = |m|/5.
+b |m|/5 = 2, m > 0 nên m = 10.
+b Đáp án: 10
+
+# 10-VII-21#4
+h Thay hoành độ vào phương trình đường tròn, chọn nghiệm ứng với nửa trên.
+y (x − 0)² + (y − 20)² = 18²; nửa trên ứng với y > 20.
+b (y − 20)² = 324 − 10,8² = 324 − 116,64 = 207,36.
+b y − 20 = 14,4 nên y = 34,4.
+b Đáp án: 34,4
+
+# 10-VII-22#d
+h Tính c từ a² và b², tiêu cự là 2c.
+y Elip: c² = a² − b²; tiêu cự 2c.
+b a² = 25, b² = 9, c² = 16, c = 4.
+b Tiêu cự 2c = 8.
+b Đáp án: 8
+
+# 10-VII-22#0
+h Nhớ dạng chính tắc của parabol.
+y Parabol chính tắc: y² = 2px với p > 0 (trục đối xứng là Ox, mở về phía dương).
+b y² = 6x có 2p = 6, p = 3 > 0.
+b Đáp án: y² = 6x
+
+# 10-VII-22#1
+h Với hypebol, c² = a² + b²; tiêu điểm nằm trên Ox.
+y Hypebol x²/a² − y²/b² = 1 có tiêu điểm F₁(−c; 0), F₂(c; 0), c² = a² + b².
+b c² = 16 + 9 = 25, c = 5.
+b Đáp án: F₁(−5; 0), F₂(5; 0)
+
+# 10-VII-22#2
+h Từ y² = 2px tìm p, suy ra tiêu điểm, đường chuẩn; dùng tính chất MF = d(M, đường chuẩn).
+y Tiêu điểm F(p/2; 0), đường chuẩn x = −p/2; MF = x_M + p/2.
+b a) 2p = 8, p = 4: F(2; 0). Đúng.
+b b) Đường chuẩn x = −2. Sai.
+b c) 4² = 16 = 8·2. Đúng.
+b d) MF = 2 + 2 = 4. Đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# 10-VII-22#3
+h Từ trục lớn và tiêu cự tìm a, c, rồi tính b.
+y Trục lớn 2a, tiêu cự 2c, trục nhỏ 2b, b² = a² − c².
+b a = 5, c = 3.
+b b² = 25 − 9 = 16, b = 4.
+b Trục nhỏ 2b = 8.
+b Đáp án: 8
+
+# 10-VII-22#4
+h Đặt hệ trục tại tâm chân vòm, lập phương trình elip rồi thay x = 12.
+y Elip x²/a² + y²/b² = 1 với a là nửa chiều rộng, b là chiều cao.
+b a = 20, b = 15: x²/400 + y²/225 = 1.
+b y² = 225(1 − 144/400) = 225·0,64 = 144.
+b y = 12.
+b Đáp án: 12
+
+# 10-VIII-23#d
+h Chọn áo rồi chọn quần: hai công đoạn liên tiếp, dùng quy tắc nhân.
+y Quy tắc nhân: công việc gồm hai công đoạn có m và n cách thì có m·n cách.
+b 3·4 = 12.
+b Đáp án: 12
+
+# 10-VIII-23#0
+h Đi qua hai chặng liên tiếp: quy tắc nhân.
+y Quy tắc nhân.
+b 3·2 = 6.
+b Đáp án: 6
+
+# 10-VIII-23#1
+h Chọn nam hoặc nữ: hai phương án loại trừ nhau, dùng quy tắc cộng.
+y Quy tắc cộng: m + n cách khi các phương án không trùng nhau.
+b 15 + 12 = 27.
+b Đáp án: 27
+
+# 10-VIII-23#2
+h Chọn lần lượt hàng chục, hàng đơn vị (khác nhau); với số chẵn ưu tiên chọn hàng đơn vị trước.
+y Quy tắc nhân; ưu tiên vị trí có ràng buộc.
+b a) Hàng chục: 4 cách. Đúng.
+b b) Hàng đơn vị khác hàng chục: 3 cách. Đúng.
+b c) 4·3 = 12, không phải 16. Sai.
+b d) Hàng đơn vị chẵn (2 hoặc 4): 2 cách, hàng chục 3 cách: 6 số. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-VIII-23#3
+h Mỗi vị trí chọn độc lập từ 5 chữ số (được lặp).
+y Quy tắc nhân.
+b 5·5·5 = 125.
+b Đáp án: 125
+
+# 10-VIII-23#4
+h Chọn lần lượt hàng trăm (khác 0), hàng chục, hàng đơn vị (khác các chữ số đã chọn).
+y Ưu tiên vị trí có ràng buộc (hàng trăm khác 0).
+b Hàng trăm: 9 cách (1 đến 9).
+b Hàng chục: 9 cách (thêm 0, trừ chữ số đã dùng); hàng đơn vị: 8 cách.
+b 9·9·8 = 648.
+b Đáp án: 648
+
+# 10-VIII-24#d
+h Chọn 2 người cho 2 chức vụ khác nhau: có thứ tự, dùng chỉnh hợp.
+y Aₙᵏ = n!/(n − k)!.
+b A₁₀² = 10·9 = 90.
+b Đáp án: 90
+
+# 10-VIII-24#0
+h Xếp tất cả 5 bạn vào 5 vị trí: hoán vị.
+y Pₙ = n!.
+b 5! = 120.
+b Đáp án: 120
+
+# 10-VIII-24#1
+h Chọn 3 bạn không phân biệt vai trò: tổ hợp.
+y Cₙᵏ = n!/(k!(n − k)!).
+b C₇³ = 7·6·5/6 = 35.
+b Đáp án: 35
+
+# 10-VIII-24#2
+h Chọn 2 người không thứ tự: dùng tổ hợp; chọn mỗi giới một người: quy tắc nhân.
+y Cₙ² = n(n − 1)/2.
+b a) C₁₈² = 18·17/2 = 153. Đúng.
+b b) 10·8 = 80. Đúng.
+b c) C₁₀² = 45. Đúng.
+b d) C₈² = 28 ≠ 56. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-VIII-24#3
+h Tính từng số bằng công thức rồi cộng.
+y Cₙᵏ = n!/(k!(n − k)!); Aₙᵏ = n!/(n − k)!.
+b C₆² = 15; A₅² = 20.
+b 15 + 20 = 35.
+b Đáp án: 35
+
+# 10-VIII-24#4
+h Mỗi cặp đỉnh cho một đoạn thẳng; trừ đi các cạnh để còn đường chéo.
+y Số đường chéo của n-giác lồi: Cₙ² − n.
+b C₈² = 28.
+b 28 − 8 = 20.
+b Đáp án: 20
+
+# 10-VIII-25#d
+h Khai triển (a + b)ⁿ có n + 1 số hạng.
+y (a + b)ⁿ = Σ Cₙᵏaⁿ⁻ᵏbᵏ, k = 0, 1, …, n.
+b n = 4 nên có 5 số hạng.
+b Đáp án: 5
+
+# 10-VIII-25#0
+h Số hạng tổng quát C₄ᵏx⁴⁻ᵏ·2ᵏ; chọn k để số mũ của x bằng 2.
+y Số hạng tổng quát của (a + b)ⁿ: Cₙᵏaⁿ⁻ᵏbᵏ.
+b 4 − k = 2 ⇔ k = 2.
+b Hệ số: C₄²·2² = 6·4 = 24.
+b Đáp án: 24
+
+# 10-VIII-25#1
+h Số hạng thứ ba ứng với k = 2.
+y Số hạng thứ k + 1: Cₙᵏaⁿ⁻ᵏbᵏ.
+b C₅²a³b² = 10a³b².
+b Đáp án: 10a³b²
+
+# 10-VIII-25#2
+h Dùng công thức khai triển (1 + x)⁵ và thay x = 1 để tính tổng hệ số.
+y (1 + x)ⁿ = Σ Cₙᵏxᵏ; tổng các hệ số bằng giá trị tại x = 1.
+b a) n + 1 = 6 số hạng. Đúng.
+b b) C₅³ = 10. Đúng.
+b c) 2⁵ = 32. Đúng.
+b d) C₅⁴x⁴ = 5x⁴, không phải 4x⁴. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-VIII-25#3
+h Số hạng tổng quát C₄ᵏ(2x)⁴⁻ᵏ(−1)ᵏ; chọn k để số mũ x là 3.
+y Chú ý dấu của (−1)ᵏ và hệ số 2 ở lũy thừa.
+b 4 − k = 3 ⇔ k = 1.
+b C₄¹·2³·(−1) = 4·8·(−1) = −32.
+b Đáp án: −32
+
+# 10-VIII-25#4
+h Tổng các hệ số bằng giá trị đa thức tại x = 1.
+y P(1) = tổng các hệ số.
+b (2·1 + 1)⁴ = 3⁴ = 81.
+b Đáp án: 81
+
+# 10-IX-26#d
+h Đếm kết quả thuận lợi chia cho số kết quả có thể.
+y P(A) = n(A)/n(Ω) khi các kết quả đồng khả năng.
+b Ω có 6 kết quả; A = {2; 4; 6}.
+b P = 3/6 = 1/2.
+b Đáp án: 1/2
+
+# 10-IX-26#0
+h Liệt kê kết quả hai lần gieo đồng xu.
+y Quy tắc nhân: 2·2.
+b Ω = {SS; SN; NS; NN}.
+b Đáp án: 4
+
+# 10-IX-26#1
+h Biến cố đối có xác suất bù với 1.
+y P(Ā) = 1 − P(A).
+b A và Ā không cùng xảy ra và luôn có một trong hai xảy ra.
+b Đáp án: 1 − P(A)
+
+# 10-IX-26#2
+h Không gian mẫu 36 kết quả; đếm số kết quả thuận lợi cho từng biến cố.
+y P(A) = n(A)/36.
+b a) 6·6 = 36. Đúng.
+b b) Tổng 7: (1;6), (2;5), (3;4), (4;3), (5;2), (6;1): 6/36 = 1/6. Đúng.
+b c) Giống nhau: 6 kết quả: 1/6. Đúng.
+b d) Tổng 12 chỉ có (6; 6): 1/36 ≠ 1/18. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-IX-26#3
+h Đếm bằng tổ hợp: chọn 2 bi đỏ trong 5, chia cho số cách chọn 2 bi trong 8.
+y P = n(A)/n(Ω), dùng Cₙᵏ khi chọn không thứ tự.
+b n(Ω) = C₈² = 28; n(A) = C₅² = 10.
+b P = 10/28 ≈ 0,357.
+b Làm tròn: 0,36.
+b Đáp án: 0,36
+
+# 10-IX-26#4
+h Đếm các bội của 3 trong 1 đến 20.
+y Số bội của 3 không vượt quá 20 là phần nguyên của 20/3.
+b {3; 6; 9; 12; 15; 18}: 6 số.
+b P = 6/20 = 0,3.
+b Đáp án: 0,3
+
+# 10-IX-27#d
+h Chọn 2 bạn không thứ tự; số cách thuận lợi theo quy tắc nhân.
+y n(Ω) = C₁₀²; n(A) = C₄¹·C₆¹.
+b n(Ω) = 45, n(A) = 24.
+b P = 24/45 = 8/15.
+b Đáp án: 8/15
+
+# 10-IX-27#0
+h Cố định An ở vị trí đầu, xếp hai bạn còn lại.
+y n(Ω) = 3!; n(A) = 2!.
+b P = 2/6 = 1/3.
+b Đáp án: 1/3
+
+# 10-IX-27#1
+h "Ít nhất một" nên dùng biến cố đối "không có bi trắng".
+y P(A) = 1 − P(Ā).
+b n(Ω) = C₉³ = 84; n(Ā) = C₅³ = 10.
+b P = 1 − 10/84 = 74/84 = 37/42.
+b Đáp án: 37/42
+
+# 10-IX-27#2
+h Đếm bằng tổ hợp, dùng biến cố đối cho "ít nhất một nam".
+y n(Ω) = C₃₀²; P(ít nhất 1 nam) = 1 − P(2 nữ).
+b a) C₃₀² = 30·29/2 = 435. Đúng.
+b b) C₁₂² = 66. Đúng.
+b c) P = 66/435. Đúng.
+b d) 1 − 66/435 ≈ 0,848 > 0,8. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 10-IX-27#3
+h Gộp An và Bình thành một khối, xếp 4 phần tử, rồi đổi chỗ hai bạn trong khối.
+y n(Ω) = 5!; kỹ thuật "buộc" các phần tử đứng cạnh nhau.
+b n(A) = 4!·2 = 48; n(Ω) = 120.
+b P = 48/120 = 0,4.
+b Đáp án: 0,4
+
+# 10-IX-27#4
+h Tổng hai xúc xắc chia hết cho 5 khi tổng bằng 5 hoặc 10; liệt kê.
+y n(Ω) = 36.
+b Tổng 5: (1;4), (2;3), (3;2), (4;1): 4 cách.
+b Tổng 10: (4;6), (5;5), (6;4): 3 cách.
+b P = 7/36 ≈ 0,194, làm tròn 0,19.
+b Đáp án: 0,19
+
+# 10-CD-1#d
+h Hệ đã có dạng tam giác: giải ngược từ phương trình cuối lên.
+y Phương pháp Gauss: dạng tam giác thì thay dần từ dưới lên.
+b z = 3.
+b y = 5 − z = 2; x = 6 − y − z = 1.
+b Đáp án: (1; 2; 3)
+
+# 10-CD-1#0
+h Mỗi phương trình phải là bậc nhất đối với các ẩn (không có x², xy, √x).
+y Phương trình bậc nhất ba ẩn: ax + by + cz = d.
+b Phương án có x², xy, √x không phải bậc nhất.
+b Hệ {x + y − z = 1; 2x − y + z = 3; x + 3y = 2} thỏa (phương trình thứ ba có hệ số của z bằng 0).
+b Đáp án: {x + y − z = 1; 2x − y + z = 3; x + 3y = 2}
+
+# 10-CD-1#1
+h Khử z bằng cách cộng phương trình thứ ba với hai phương trình kia, được hệ hai ẩn.
+y Phương pháp Gauss: cộng/trừ các phương trình để khử dần ẩn.
+b (1) + (3): 2x + 3y = −1; (2) + (3): 3x + y = 2.
+b Từ 3x + y = 2: y = 2 − 3x; thay vào: 2x + 6 − 9x = −1 ⇔ x = 1, y = −1.
+b z = 2 − x − y = 2.
+b Đáp án: (1; −1; 2)
+
+# 10-CD-1#2
+h Thay tọa độ ba điểm vào y = ax² + bx + c, được hệ ba phương trình bậc nhất ẩn a, b, c.
+y Điểm (x₀; y₀) thuộc parabol ⇔ y₀ = ax₀² + bx₀ + c.
+b a) A(0; 1): c = 1. Đúng.
+b b) B(1; 2): a + b + c = 2 ⇒ a + b = 1. Đúng.
+b c) C(2; 5): 4a + 2b + 1 = 5 ⇒ 2a + b = 2; kết hợp được a = 1, b = 0, nên (P): y = x² + 1. Sai.
+b d) 3² + 1 = 10. Đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 10-CD-1#3
+h Gọi giá bút, vở, thước là x, y, z; mỗi bạn cho một phương trình; giải hệ ba ẩn.
+y Lập hệ: 2x + 3y + z = 42; x + 2y + 2z = 29; 3x + y + z = 27.
+y Khử z: trừ từng cặp phương trình.
+b (1) − (3): −x + 2y = 15 ⇒ x = 2y − 15.
+b 2·(3) − (2): 5x = 25 ⇒ x = 5, nên y = 10, z = 27 − 15 − 10 = 2.
+b Thử lại (2): 5 + 20 + 4 = 29.
+b Đáp án: 10
+
+# 10-CD-1#4
+h Gọi sĩ số ba lớp là a, b, c; lập hệ ba phương trình bậc nhất rồi giải.
+y a + b + c = 120; a = b + 2; a + c = 2b + 6.
+b Thay a = b + 2 vào (3): c = b + 4.
+b Thay vào (1): (b + 2) + b + (b + 4) = 120 ⇔ 3b = 114 ⇔ b = 38.
+b c = 42 (a = 40).
+b Đáp án: 42

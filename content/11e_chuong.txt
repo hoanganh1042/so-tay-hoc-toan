@@ -1,0 +1,176 @@
+# 11-II-5#7
+h Thay n = 3 vào công thức số hạng tổng quát.
+y uₙ cho bởi công thức theo n.
+b u₃ = 2·3 + 1 = 7.
+b Đáp án: 7
+
+# 11-II-6#6
+h Kiểm tra hiệu hai số hạng liên tiếp có không đổi.
+y Cấp số cộng: uₙ₊₁ − uₙ = d không đổi.
+b 1; 4; 7; 10 có hiệu không đổi bằng 3.
+b Đáp án: 1; 4; 7; 10
+
+# 11-II-7#6
+h Dùng uₙ = u₁·qⁿ⁻¹.
+y uₙ = u₁qⁿ⁻¹.
+b u₄ = 3·2³ = 24.
+b Đáp án: 24
+
+# 11-II-6#7
+h Dùng công thức số hạng tổng quát và công thức tổng.
+y uₙ = u₁ + (n − 1)d; Sₙ = n(u₁ + uₙ)/2.
+b a) 2 + 3 = 5: đúng.
+b b) uₙ = 2 + 3(n − 1) = 3n − 1: đúng.
+b c) u₁₀ = 29, S₁₀ = 10·31/2 = 155: đúng.
+b d) 3n − 1 = 2026 ⇒ n = 2027/3 không nguyên: sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 11-III-8#7
+h Độ dài nhóm [a; b) là b − a.
+y Độ dài nhóm: b − a.
+b 20 − 10 = 10.
+b Đáp án: 10
+
+# 11-III-8#8
+h Giá trị đại diện là trung điểm của nhóm.
+y xᵢ = (a + b)/2.
+b Giá trị đại diện là (a + b)/2.
+b Đáp án: (a + b)/2
+
+# 11-III-9#6
+h Nhớ công thức số trung bình có trọng số.
+y x̄ = Σmᵢxᵢ/n.
+b x̄ = (m₁x₁ + … + mₖxₖ)/n.
+b Đáp án: (m₁x₁ + m₂x₂ + … + mₖxₖ)/n
+
+# 11-III-9#7
+h Mốt gắn với tần số lớn nhất.
+y Mốt ở nhóm có tần số lớn nhất.
+b Nhóm chứa mốt là nhóm có tần số lớn nhất.
+b Đáp án: có tần số lớn nhất
+
+# 11-III-9#8
+h Dùng giá trị đại diện để tính số trung bình; công thức mốt với nhóm có tần số lớn nhất.
+y x̄ = Σmᵢxᵢ/n; Mₒ = a + (mₖ − mₖ₋₁)/((mₖ − mₖ₋₁) + (mₖ − mₖ₊₁))·h.
+b a) 6 + 14 + 12 + 8 = 40: đúng.
+b b) x̄ = (60 + 420 + 600 + 560)/40 = 41: sai.
+b c) Tần số 14 lớn nhất: đúng.
+b d) Mₒ = 20 + 8/(8 + 2)·20 = 36: đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# 11-III-9#9
+h Đọc tần số, tính số trung bình bằng giá trị đại diện, trung vị bằng công thức nội suy.
+y Mₑ = a + (n/2 − C)/m·h.
+b a) Tần số 10 lớn nhất: đúng.
+b b) (9 + 6)/30 = 50%: đúng.
+b c) x̄ = (212,5 + 475 + 472,5 + 345)/30 ≈ 50,17: sai.
+b d) n/2 = 15 thuộc nhóm [45; 50): 45 + (15 − 5)/10·5 = 50: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-III-9#10
+h n/2 = 15 rơi vào nhóm [6; 8); áp dụng công thức trung vị.
+y Mₑ = a + (n/2 − C)/m·h, C là tần số tích lũy trước nhóm.
+b Tần số tích lũy: 5, 14, 26, 30 ⇒ nhóm chứa trung vị [6; 8).
+b Mₑ = 6 + (15 − 14)/12·2 ≈ 6,17.
+b Đáp án: 6,17
+
+# 11-III-9#11
+h 3n/4 = 30 rơi vào nhóm [50; 60); áp dụng công thức tứ phân vị.
+y Q₃ = a + (3n/4 − C)/m·h.
+b Tần số tích lũy: 6, 18, 33, 40 ⇒ Q₃ thuộc [50; 60).
+b Q₃ = 50 + (30 − 18)/15·10 = 58.
+b Đáp án: 58
+
+# 11-V-15#7
+h Nhớ giới hạn cơ bản.
+y lim 1/n = 0.
+b lim 1/n = 0.
+b Đáp án: 0
+
+# 11-V-16#6
+h Hàm đa thức liên tục: thay trực tiếp x = 2.
+y lim (x → x₀) f(x) = f(x₀) với f liên tục.
+b 3·2 + 1 = 7.
+b Đáp án: 7
+
+# 11-V-17#7
+h Hàm đa thức liên tục trên ℝ.
+y Đa thức liên tục trên ℝ; phân thức, tan x, √x chỉ liên tục trên tập xác định.
+b Chỉ y = x³ − 2x + 1 xác định và liên tục trên ℝ.
+b Đáp án: y = x³ − 2x + 1
+
+# 11-V-17#8
+h Rút gọn f(x) = x + 2 với x ≠ 2, so sánh giới hạn với f(2).
+y f liên tục tại x₀ ⇔ lim f(x) = f(x₀).
+b a) f(x) = x + 2 → 4: đúng.
+b b) Cần m = 4: đúng.
+b c) m = 3 ≠ 4 nên gián đoạn tại 2: sai.
+b d) (x + 2)/x → 1: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-VIII-28#7
+h Nhớ định nghĩa hai biến cố xung khắc.
+y A, B xung khắc khi không thể cùng xảy ra.
+b A ∩ B = ∅.
+b Đáp án: A ∩ B = ∅
+
+# 11-VIII-29#6
+h Công thức cộng cho biến cố xung khắc.
+y A, B xung khắc: P(A ∪ B) = P(A) + P(B).
+b P(A ∪ B) = P(A) + P(B).
+b Đáp án: P(A) + P(B)
+
+# 11-VIII-30#6
+h Công thức nhân cho hai biến cố độc lập.
+y P(AB) = P(A)P(B).
+b 0,5·0,4 = 0,2.
+b Đáp án: 0,2
+
+# 11-VIII-29#7
+h Dùng công thức cộng tổng quát.
+y P(A ∪ B) = P(A) + P(B) − P(AB).
+b 0,6 + 0,5 − 0,3 = 0,8.
+b Đáp án: 0,8
+
+# 11-VIII-30#7
+h Dùng quy tắc nhân cho các biến cố độc lập và biến cố đối.
+y P(AB) = P(A)P(B) khi A, B độc lập.
+b a) 0,8·0,6 = 0,48: đúng.
+b b) 0,2·0,4 = 0,08: đúng.
+b c) 0,8·0,4 + 0,2·0,6 = 0,44: sai.
+b d) 1 − 0,08 = 0,92: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# 11-VIII-29#8
+h Tính xác suất học ít nhất một ngoại ngữ bằng công thức cộng, rồi lấy phần bù.
+y P(A ∪ B) = P(A) + P(B) − P(AB); P(không) = 1 − P(A ∪ B).
+b Số em học ít nhất một ngoại ngữ: 24 + 15 − 9 = 30.
+b P = 1 − 30/40 = 0,25.
+b Đáp án: 0,25
+
+# 11-IX-32#7
+h Công thức (xⁿ)′ = n·xⁿ⁻¹.
+y (xⁿ)′ = nxⁿ⁻¹.
+b (x³)′ = 3x².
+b Đáp án: 3x²
+
+# 11-IX-32#8
+h Nhớ bảng đạo hàm lượng giác.
+y (sin x)′ = cos x.
+b y′ = cos x.
+b Đáp án: cos x
+
+# 11-IX-31#6
+h Nhớ ý nghĩa vật lí của đạo hàm.
+y v(t₀) = s′(t₀).
+b s′(t₀) là vận tốc tức thời tại thời điểm t₀.
+b Đáp án: vận tốc tức thời tại t₀
+
+# 11-IX-33#7
+h Tính đạo hàm cấp một, cấp hai; tiếp tuyến y = f′(x₀)(x − x₀) + f(x₀).
+y (xⁿ)′ = nxⁿ⁻¹; f″ = (f′)′.
+b a) Đúng theo công thức.
+b b) f′(1) = 3 − 6 = −3: đúng.
+b c) f″(x) = 6x − 6, f″(2) = 6: sai.
+b d) f(1) = 0, y = −3(x − 1) = −3x + 3: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.

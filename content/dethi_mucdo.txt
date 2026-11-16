@@ -1,0 +1,229 @@
+# I-1#5
+h Viết f thành tổng các hàm có trong bảng nguyên hàm, tìm họ nguyên hàm rồi dùng F(1) = 2 để tìm hằng số.
+y (x² + 1)/x² = 1 + 1/x² = 1 + x⁻².
+y ∫xⁿdx = xⁿ⁺¹/(n + 1) + C (n ≠ −1), nên ∫x⁻²dx = −1/x + C.
+b F(x) = x − 1/x + C.
+b F(1) = 1 − 1 + C = C = 2, nên F(x) = x − 1/x + 2.
+b F(2) = 2 − 1/2 + 2 = 7/2.
+b Đáp án: 7/2
+
+# I-2#5
+h Tìm hoành độ giao điểm làm cận, xét hàm nào nằm trên rồi tích phân hiệu.
+y Diện tích giữa hai đồ thị trên [a; b]: S = ∫|f(x) − g(x)|dx.
+b x² = 2x ⇔ x = 0 hoặc x = 2.
+b Trên [0; 2] có 2x ≥ x², nên S = ∫₀²(2x − x²)dx.
+b S = [x² − x³/3] từ 0 đến 2 = 4 − 8/3 = 4/3.
+b Đáp án: 4/3
+
+# I-3#5
+h Lấy giá trị đại diện là trung điểm mỗi nhóm, tính số trung bình rồi dùng công thức phương sai.
+y Giá trị đại diện của nhóm [a; b) là (a + b)/2.
+y Phương sai: s² = (n₁x₁² + … + nₖxₖ²)/n − x̄².
+b Giá trị đại diện: 5, 15, 25; n = 20.
+b x̄ = (4·5 + 10·15 + 6·25)/20 = 320/20 = 16.
+b (4·25 + 10·225 + 6·625)/20 = 6100/20 = 305.
+b s² = 305 − 16² = 305 − 256 = 49.
+b Đáp án: 49
+
+# I-4#4
+h Tìm nhóm chứa trung vị bằng tần số tích lũy, rồi dùng công thức nội suy.
+y Trung vị: Mₑ = uₘ + (n/2 − C)/nₘ·(uₘ₊₁ − uₘ), với [uₘ; uₘ₊₁) là nhóm chứa trung vị, C là tần số tích lũy trước nhóm đó.
+b n = 40, n/2 = 20. Tần số tích lũy: 5; 17; 32; 40, nên nhóm chứa trung vị là [60; 70).
+b Mₑ = 60 + (20 − 17)/15·10 = 60 + 2 = 62.
+b Đáp án: 62
+
+# I-5#4
+h Đường thẳng vuông góc với (P) nhận vectơ pháp tuyến của (P) làm vectơ chỉ phương; thay tham số vào phương trình (P) để tìm giao điểm.
+y d ⊥ (P) thì vectơ chỉ phương của d là n = (1; 2; 2).
+b d: x = 1 + t, y = 2 + 2t, z = 3 + 2t.
+b Thay vào (P): (1 + t) + 2(2 + 2t) + 2(3 + 2t) − 2 = 9 + 9t = 0 ⇔ t = −1.
+b H(0; 0; 1), nên a + b + c = 1.
+b Đáp án: 1
+
+# I-6#4
+h A, B, C nằm trên ba trục nên dùng phương trình mặt phẳng theo đoạn chắn, rồi tính khoảng cách từ O.
+y Mặt phẳng cắt các trục tại (a; 0; 0), (0; b; 0), (0; 0; c): x/a + y/b + z/c = 1.
+y d(M, (P)) = |Ax₀ + By₀ + Cz₀ + D|/√(A² + B² + C²).
+b (ABC): x/1 + y/2 + z/3 = 1 ⇔ 6x + 3y + 2z − 6 = 0.
+b d(O, (ABC)) = |−6|/√(36 + 9 + 4) = 6/7.
+b Đáp án: 6/7
+
+# I-7#5
+h Hàm bậc ba đồng biến trên ℝ khi đạo hàm (tam thức bậc hai) không âm với mọi x.
+y ax² + bx + c ≥ 0 với mọi x (a > 0) ⇔ Δ ≤ 0.
+b y' = 3x² − 6x + m.
+b y' ≥ 0 với mọi x ⇔ Δ' = 9 − 3m ≤ 0 ⇔ m ≥ 3.
+b m nguyên thuộc [−10; 10] và m ≥ 3: m = 3, 4, …, 10, có 8 giá trị.
+b Đáp án: 8
+
+# I-8#5
+h Phân tích mẫu thành nhân tử và rút gọn trước; nghiệm của mẫu bị triệt tiêu không cho tiệm cận đứng.
+y x = x₀ là tiệm cận đứng khi giới hạn một phía tại x₀ là vô cực.
+y y = b là tiệm cận ngang khi giới hạn tại ±∞ bằng b.
+b x² − 3x + 2 = (x − 1)(x − 2), nên với x ≠ 1 thì y = 1/(x − 2).
+b Khi x → 1, y → −1 (hữu hạn) nên x = 1 không là tiệm cận đứng; x = 2 là tiệm cận đứng.
+b Khi x → ±∞, y → 0 nên y = 0 là tiệm cận ngang. Có 2 đường tiệm cận.
+b Đáp án: 2
+
+# I-9#5
+h Đặt điều kiện, gộp tổng hai lôgarit cùng cơ số rồi đưa về bất phương trình bậc hai.
+y logₐu + logₐv = logₐ(uv) với u, v > 0.
+y Cơ số 2 > 1: log₂u ≤ 3 ⇔ 0 < u ≤ 8.
+b Điều kiện: x > 1.
+b Bất phương trình ⇔ log₂(x² − 1) ≤ 3 ⇔ x² − 1 ≤ 8 ⇔ −3 ≤ x ≤ 3.
+b Kết hợp điều kiện: 1 < x ≤ 3, nghiệm nguyên là 2 và 3.
+b Đáp án: 2
+
+# I-10#4
+h Chia hai số hạng đã biết để tìm công bội, rồi tính u₁ và dùng công thức tổng.
+y uₙ = u₁qⁿ⁻¹; Sₙ = u₁(qⁿ − 1)/(q − 1) với q ≠ 1.
+b u₅/u₂ = q³ = 162/6 = 27, nên q = 3 và u₁ = 6/3 = 2.
+b S₅ = 2(3⁵ − 1)/(3 − 1) = 2·242/2 = 242.
+b Đáp án: 242
+
+# I-11#4
+h Giải phương trình sin cơ bản theo 2x, chia cho 2, rồi đếm nghiệm trong đoạn.
+y sin u = sin α ⇔ u = α + k2π hoặc u = π − α + k2π.
+b sin 2x = sin(π/6) ⇔ 2x = π/6 + k2π hoặc 2x = 5π/6 + k2π ⇔ x = π/12 + kπ hoặc x = 5π/12 + kπ.
+b Trên [0; 2π]: π/12, 13π/12, 5π/12, 17π/12.
+b Có 4 nghiệm.
+b Đáp án: 4
+
+# I-12#6
+h Xác định góc giữa SC và đáy là góc SCA, tính SA từ tam giác vuông SAC rồi tính thể tích.
+y SA ⊥ (ABCD) nên AC là hình chiếu của SC trên đáy; góc giữa SC và đáy là góc SCA.
+y V = (1/3)·S_đáy·h.
+b AC = a√2 (đường chéo hình vuông).
+b SA = AC·tan 60° = a√2·√3 = a√6.
+b V = (1/3)·a²·a√6 = a³√6/3.
+b Đáp án: a³√6/3
+
+# II-1#5
+h Tính P'(x), lập bảng xét dấu trên [0; 10]; dùng bảng để xét đồng biến, giá trị lớn nhất và dấu của P tại các số nguyên.
+y Hàm số đồng biến trên khoảng mà P'(x) > 0.
+y Giá trị lớn nhất trên đoạn: so sánh giá trị tại đầu mút và điểm cực trị.
+b a) P'(x) = −3x² + 18x + 21: đúng.
+b b) P'(x) = −3(x + 1)(x − 7) < 0 khi 7 < x ≤ 10, nên P không đồng biến trên (0; 8): sai.
+b c) P(0) = −50, P(7) = −343 + 441 + 147 − 50 = 195, P(10) = 60. Lợi nhuận lớn nhất là 195 triệu đồng: sai.
+b d) P(1) = −21 < 0, P(2) = 20 > 0; P tăng trên [2; 7], giảm trên [7; 10] và P(10) = 60 > 0, nên P(x) > 0 với x = 2, 3, …, 10: có 9 giá trị, đúng.
+b Kết luận: a Đúng, b Sai, c Sai, d Đúng.
+
+# II-2#5
+h Vận tốc là nguyên hàm của gia tốc; quãng đường là tích phân của vận tốc (vận tốc không âm).
+y v(t) = ∫a(t)dt, dùng v(0) = 0 để tìm hằng số.
+y Vật chuyển động một chiều thì quãng đường từ t₁ đến t₂ là ∫v(t)dt.
+b a) v(t) = 6t − t² + C, v(0) = 0 nên C = 0: đúng.
+b b) v(t) = 9 − (t − 3)² ≤ 9, bằng 9 khi t = 3: đúng.
+b c) ∫₀³(6t − t²)dt = 27 − 9 = 18 m, không phải 27 m: sai.
+b d) ∫₅⁶(6t − t²)dt = 3(36 − 25) − (216 − 125)/3 = 33 − 91/3 = 8/3 ≈ 2,67 < 3: đúng.
+b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
+
+# II-3#5
+h Đặt biến cố theo dây chuyền và phế phẩm; dùng công thức xác suất toàn phần cho ý c và công thức Bayes cho ý d.
+y P(F) = P(I)·P(F | I) + P(II)·P(F | II).
+y P(I | F) = P(I)·P(F | I)/P(F).
+b a) P(I) = 0,6: đúng.
+b b) P(F | II) = 0,05: đúng.
+b c) P(F) = 0,6·0,03 + 0,4·0,05 = 0,018 + 0,02 = 0,038: đúng.
+b d) P(I | F) = 0,018/0,038 = 9/19 ≈ 0,47 < 0,5: sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# II-4#5
+h Viết phương trình tham số đường bay, biểu diễn bình phương khoảng cách tới O theo t rồi xét giá trị nhỏ nhất và miền t để khoảng cách không quá 50.
+y M thuộc AB: M(−40 + t; 30; 10) với 0 ≤ t ≤ 100.
+y OM² = x² + y² + z².
+b a) AB = (60 − (−40); 30 − 30; 10 − 10) = (100; 0; 0): đúng.
+b b) Đường thẳng qua A, vectơ chỉ phương (1; 0; 0): x = −40 + t, y = 30, z = 10: đúng.
+b c) OM² = (t − 40)² + 900 + 100 ≥ 1000, nhỏ nhất tại t = 40, nên khoảng cách ngắn nhất là √1000 ≈ 31,6 km: sai.
+b d) OM ≤ 50 ⇔ (t − 40)² ≤ 1500 ⇔ 40 − √1500 ≤ t ≤ 40 + √1500 (nằm trong [0; 100]); quãng đường 2√1500 ≈ 77,5 km, không quá 80 km: sai.
+b Kết luận: a Đúng, b Đúng, c Sai, d Sai.
+
+# III-1#6
+h AB song song với (SCD) nên khoảng cách từ B bằng khoảng cách từ A; dựng đường cao từ A trong mặt phẳng (SAD).
+y Đường thẳng song song với mặt phẳng thì mọi điểm trên đường thẳng cách đều mặt phẳng.
+y Tam giác vuông: đường cao h = bc/√(b² + c²).
+b AB // CD nên AB // (SCD), suy ra d(B, (SCD)) = d(A, (SCD)).
+b CD ⊥ AD và CD ⊥ SA nên CD ⊥ (SAD). Kẻ AH ⊥ SD thì AH ⊥ (SCD).
+b AH = SA·AD/√(SA² + AD²) = 4/√8 = √2 ≈ 1,41.
+b Đáp án: 1,41
+
+# III-1#7
+h Áp dụng công thức thể tích khối chóp.
+y V = (1/3)·S_đáy·h.
+b S_đáy = 3² = 9.
+b V = (1/3)·9·4 = 12.
+b Đáp án: 12
+
+# III-2#5
+h Thể tích khối tròn xoay quanh Ox là π nhân tích phân bình phương hàm số; đổi dm³ sang lít.
+y V = π∫ₐᵇ f²(x)dx; 1 dm³ = 1 lít.
+b V = π∫₀⁹ (√x)²dx = π∫₀⁹ x dx = π·81/2.
+b V ≈ 127,23 dm³ ≈ 127 lít.
+b Đáp án: 127
+
+# III-2#6
+h Hàm y = x² không âm trên [0; 3], nên diện tích bằng tích phân của nó.
+y S = ∫ₐᵇ |f(x)|dx.
+b S = ∫₀³ x²dx = [x³/3] từ 0 đến 3 = 9.
+b Đáp án: 9
+
+# III-3#5
+h Gọi cạnh hình vuông cắt đi là x, biểu diễn thể tích theo x rồi tìm giá trị lớn nhất bằng đạo hàm.
+y Hộp có đáy là hình vuông cạnh 60 − 2x, chiều cao x, với 0 < x < 30.
+y 1 lít = 1000 cm³.
+b V(x) = x(60 − 2x)².
+b V'(x) = (60 − 2x)² − 4x(60 − 2x) = (60 − 2x)(60 − 6x), bằng 0 tại x = 10 trên (0; 30).
+b V' > 0 trên (0; 10), V' < 0 trên (10; 30), nên V lớn nhất bằng V(10) = 10·40² = 16000 cm³ = 16 lít.
+b Đáp án: 16
+
+# III-3#6
+h Doanh thu bằng giá nhân số lượng bán; đó là hàm bậc hai theo p.
+y Hàm bậc hai ap² + bp + c với a < 0 đạt lớn nhất tại p = −b/(2a).
+b R(p) = p(100 − 2p) = −2p² + 100p.
+b R lớn nhất tại p = −100/(2·(−2)) = 25.
+b Đáp án: 25
+
+# III-4#5
+h Gọi số bàn, số ghế, lập hệ bất phương trình từ giới hạn giờ làm, rồi so sánh tiền lãi tại các đỉnh miền nghiệm.
+y Giá trị lớn nhất của biểu thức bậc nhất trên miền đa giác đạt tại một đỉnh.
+b Gọi x, y là số bàn, số ghế: 2x + y ≤ 100, x + y ≤ 80, x ≥ 0, y ≥ 0.
+b Các đỉnh: (0; 0), (50; 0), (20; 60), (0; 80).
+b Lãi L = 0,6x + 0,4y (triệu đồng): 0; 30; 36; 32.
+b Đáp án: 36
+
+# III-4#6
+h Vẽ miền nghiệm (tam giác), tính F tại các đỉnh.
+y Giá trị lớn nhất của biểu thức bậc nhất trên miền đa giác đạt tại một đỉnh.
+b Các đỉnh: (0; 0), (4; 0), (0; 4).
+b F lần lượt bằng 0; 4; 8.
+b Đáp án: 8
+
+# III-5#6
+h Số chia hết cho 5 tận cùng là 0 hoặc 5; chia hai trường hợp vì chữ số 0 không đứng đầu.
+y Quy tắc nhân; quy tắc cộng cho các trường hợp rời nhau.
+b Tận cùng 0: ba chữ số đầu chọn có thứ tự từ 6 chữ số còn lại: 6·5·4 = 120.
+b Tận cùng 5: chữ số đầu có 5 cách (khác 0 và 5), hai chữ số giữa: 5·4 = 20 cách; được 5·20 = 100.
+b Tổng: 120 + 100 = 220.
+b Đáp án: 220
+
+# III-5#7
+h Hai chức vụ khác nhau nên thứ tự chọn có ý nghĩa: dùng chỉnh hợp.
+y Số chỉnh hợp chập k của n: Aₙᵏ = n!/(n − k)!.
+b A₁₀² = 10·9 = 90.
+b Đáp án: 90
+
+# III-6#5
+h Đây là xác suất có điều kiện; tính xác suất viên thứ hai màu đỏ bằng công thức xác suất toàn phần.
+y P(A | B) = P(A ∩ B)/P(B).
+b P(B) = (5/9)(4/8) + (4/9)(5/8) = 20/72 + 20/72 = 5/9.
+b P(A ∩ B) = (4/9)(5/8) = 5/18.
+b P(A | B) = (5/18) : (5/9) = 1/2 = 0,5.
+b Đáp án: 0,5
+
+# III-6#6
+h Đếm số kết quả có tổng bằng 8 trong 36 kết quả đồng khả năng.
+y P(A) = n(A)/n(Ω).
+b n(Ω) = 6·6 = 36.
+b Tổng bằng 8: (2; 6), (3; 5), (4; 4), (5; 3), (6; 2), có 5 kết quả.
+b P = 5/36 ≈ 0,14.
+b Đáp án: 0,14

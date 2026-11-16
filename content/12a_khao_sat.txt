@@ -1,0 +1,596 @@
+# 12-I-1#d
+h Câu hỏi về mối liên hệ giữa dấu đạo hàm và chiều biến thiên trên một khoảng.
+y Định lí: nếu f'(x) > 0 với mọi x thuộc khoảng K thì f đồng biến trên K; nếu f'(x) < 0 thì f nghịch biến trên K.
+y Chú ý: dấu đạo hàm trên khoảng mở không cho biết giá trị lớn nhất tại đầu mút.
+b f'(x) > 0 trên (1; 4) nên áp dụng trực tiếp định lí: f đồng biến trên (1; 4).
+b Phương án nói f(1) lớn nhất sai vì f tăng nên giá trị tại 1 là nhỏ hơn; phương án nghịch biến trái dấu.
+b Đáp án: f đồng biến trên (1; 4)
+
+# 12-I-1#0
+h Tìm khoảng đồng biến: tính y', giải y' > 0 rồi đối chiếu các khoảng trong phương án.
+y Hàm đa thức xác định trên ℝ; f đồng biến trên khoảng mà f'(x) > 0 (dấu bằng chỉ tại hữu hạn điểm).
+y Lập bảng xét dấu tam thức bậc hai: cùng dấu hệ số a ở ngoài khoảng hai nghiệm.
+b y' = 3x² − 3 = 3(x − 1)(x + 1).
+b y' > 0 ⇔ x < −1 hoặc x > 1; y' < 0 ⇔ −1 < x < 1.
+b Trong các phương án, chỉ (1; +∞) nằm trọn trong miền y' > 0.
+b Đáp án: (1; +∞)
+
+# 12-I-1#1
+h Đếm số điểm cực trị bằng cách đếm số nghiệm mà tại đó y' đổi dấu.
+y x₀ là điểm cực trị khi f'(x₀) = 0 (hoặc không xác định) và f' đổi dấu khi đi qua x₀.
+y Nghiệm đơn của f' luôn làm f' đổi dấu.
+b y' = 3x² − 3 = 0 ⇔ x = 1 hoặc x = −1, đều là nghiệm đơn.
+b y' đổi dấu từ + sang − tại x = −1 (cực đại) và từ − sang + tại x = 1 (cực tiểu).
+b Đáp án: 2
+
+# 12-I-1#2
+h Lập bảng biến thiên của hàm bậc ba rồi kiểm tra từng ý: đạo hàm, khoảng nghịch biến, cực đại, cực tiểu.
+y Quy trình: tính y', giải y' = 0, xét dấu y', suy ra chiều biến thiên và cực trị.
+y Giá trị cực trị là y(x₀), không phải x₀.
+b a) y' = 3x² − 6x. Đúng.
+b b) y' = 3x(x − 2) < 0 ⇔ 0 < x < 2, nên hàm nghịch biến trên (0; 2). Đúng.
+b c) y' đổi dấu + sang − tại x = 0, y(0) = 2: cực đại tại x = 0, giá trị cực đại 2. Đúng.
+b d) Cực tiểu tại x = 2: y(2) = 8 − 12 + 2 = −2 ≠ 0. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-I-1#3
+h Tìm điểm cực tiểu từ dấu của y', rồi thay vào hàm số để được giá trị cực tiểu.
+y Cực tiểu: y' đổi dấu từ − sang + khi đi qua x₀.
+y Có thể dùng dấu hiệu y''(x₀) > 0 để khẳng định cực tiểu.
+b y' = 3x² − 6x = 3x(x − 2) = 0 ⇔ x = 0 hoặc x = 2.
+b y'' = 6x − 6; y''(2) = 6 > 0 nên x = 2 là điểm cực tiểu.
+b y(2) = 8 − 12 + 2 = −2.
+b Đáp án: −2
+
+# 12-I-1#4
+h Tốc độ nước chảy vào bể là V'(t); cần tìm t làm V'(t) lớn nhất trên [0; 4], tức bài toán giá trị lớn nhất của hàm bậc hai.
+y Đạo hàm là tốc độ thay đổi tức thời của đại lượng.
+y Giá trị lớn nhất của g(t) trên đoạn: so sánh g tại điểm tới hạn và hai đầu mút.
+b Tốc độ chảy: g(t) = V'(t) = −3t² + 12t.
+b g'(t) = −6t + 12 = 0 ⇔ t = 2 ∈ [0; 4].
+b g(0) = 0, g(2) = 12, g(4) = 0 nên g lớn nhất tại t = 2.
+b Đáp án: 2
+
+# 12-I-2#d
+h Hàm bậc hai có hệ số a < 0 đạt giá trị lớn nhất tại đỉnh parabol.
+y Đỉnh của y = ax² + bx + c có hoành độ x = −b/(2a).
+y Hoặc dùng đạo hàm: y' = 0 tại điểm cực đại duy nhất.
+b a = −1 < 0 nên hàm có giá trị lớn nhất tại đỉnh x = −4/(2·(−1)) = 2.
+b y(2) = −4 + 8 = 4.
+b Đáp án: 4
+
+# 12-I-2#0
+h Tìm giá trị nhỏ nhất trên đoạn: so sánh giá trị tại điểm tới hạn trong đoạn và tại hai đầu mút.
+y Quy tắc: tìm các điểm x thuộc đoạn có f'(x) = 0, tính f tại các điểm đó và tại hai đầu mút, số nhỏ nhất là min.
+b y' = 2x − 2 = 0 ⇔ x = 1 ∈ [0; 3].
+b y(0) = 0, y(1) = −1, y(3) = 3.
+b Giá trị nhỏ nhất là −1, đạt tại x = 1.
+b Đáp án: −1
+
+# 12-I-2#1
+h Bài toán giá trị lớn nhất trên đoạn của hàm bậc ba: dùng quy tắc so sánh điểm tới hạn và đầu mút.
+y Chỉ xét các nghiệm của y' nằm trong đoạn đang xét.
+b y' = 3x² − 3 = 0 ⇔ x = ±1; trong [0; 2] chỉ lấy x = 1.
+b y(0) = 0, y(1) = −2, y(2) = 8 − 6 = 2.
+b Giá trị lớn nhất là 2, đạt tại x = 2.
+b Đáp án: 2
+
+# 12-I-2#2
+h Áp dụng quy trình tìm giá trị lớn nhất, nhỏ nhất trên đoạn [1; 4] rồi đối chiếu từng ý.
+y (1/x)' = −1/x².
+y So sánh f tại điểm tới hạn trong đoạn và tại hai đầu mút.
+b a) f'(x) = 1 − 4/x². Đúng.
+b b) f'(x) = 0 ⇔ x² = 4 ⇔ x = 2 (x = −2 không thuộc đoạn). Đúng.
+b c) f(1) = 5, f(2) = 4, f(4) = 5 nên min = 4. Đúng.
+b d) max = 5, không phải 6. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-I-2#3
+h Mô hình hóa thể tích hộp theo x, tìm điều kiện của x rồi tìm giá trị lớn nhất bằng đạo hàm.
+y Hộp có đáy là hình vuông cạnh 12 − 2x, chiều cao x; điều kiện 0 < x < 6.
+y Giá trị lớn nhất trên khoảng: lập bảng biến thiên, nếu chỉ có một cực đại thì đó là max.
+b V(x) = x(12 − 2x)², 0 < x < 6.
+b V'(x) = (12 − 2x)² − 4x(12 − 2x) = (12 − 2x)(12 − 6x).
+b V'(x) = 0 ⇔ x = 2 (x = 6 loại); V' đổi dấu + sang − tại x = 2.
+b V(2) = 2·8² = 128.
+b Đáp án: 128
+
+# 12-I-2#4
+h Lợi nhuận là hàm bậc hai với hệ số âm, đạt lớn nhất tại đỉnh (hoặc nơi P'(x) = 0).
+y P'(x) = 0 cho điểm cực đại duy nhất của hàm bậc hai có a < 0.
+b P'(x) = −2x + 40 = 0 ⇔ x = 20.
+b P(20) = −400 + 800 − 300 = 100.
+b Đáp án: 100
+
+# 12-I-3#d
+h Tiệm cận đứng của hàm phân thức là đường x = x₀ với x₀ làm mẫu bằng 0 mà tử khác 0.
+y Đường x = x₀ là tiệm cận đứng nếu lim y = ±∞ khi x → x₀⁺ hoặc x → x₀⁻.
+b Mẫu x − 1 = 0 ⇔ x = 1; tử tại x = 1 bằng 3 ≠ 0.
+b Khi x → 1⁺ thì y → +∞, nên x = 1 là tiệm cận đứng.
+b Đáp án: x = 1
+
+# 12-I-3#0
+h Hàm phân thức bậc nhất trên bậc nhất y = (ax + b)/(cx + d) có tiệm cận ngang y = a/c.
+y Đường y = y₀ là tiệm cận ngang nếu lim y = y₀ khi x → +∞ hoặc x → −∞.
+b Chia tử và mẫu cho x: y = (2 + 1/x)/(1 − 1/x) → 2 khi x → ±∞.
+b Đáp án: y = 2
+
+# 12-I-3#1
+h Xét lần lượt tiệm cận đứng và tiệm cận ngang của y = 1/x.
+y Tiệm cận đứng tại nghiệm của mẫu; tiệm cận ngang là giới hạn của y ở vô cực.
+b Khi x → 0⁺ thì y → +∞ nên x = 0 là tiệm cận đứng.
+b Khi x → ±∞ thì y → 0 nên y = 0 là tiệm cận ngang.
+b Đáp án: 2
+
+# 12-I-3#2
+h Xác định hai tiệm cận và giao điểm với trục tung, rồi kiểm tra từng ý.
+y y = (ax + b)/(cx + d): tiệm cận đứng x = −d/c, tiệm cận ngang y = a/c.
+y Giao với trục tung: cho x = 0.
+b a) Mẫu bằng 0 tại x = 2, tử bằng 5 ≠ 0: tiệm cận đứng x = 2. Đúng.
+b b) a/c = 1/1: tiệm cận ngang y = 1. Đúng.
+b c) x = 0 cho y = 3/(−2) = −1,5. Đúng.
+b d) Giao hai tiệm cận là (2; 1), không phải (1; 2). Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-I-3#3
+h Đọc nhanh hai tiệm cận của hàm phân thức bậc nhất trên bậc nhất rồi cộng.
+y Tiệm cận đứng x = −d/c; tiệm cận ngang y = a/c.
+b Mẫu x + 2 = 0 ⇔ x = −2, tử tại −2 bằng −7 ≠ 0, nên a = −2.
+b Tiệm cận ngang y = 3/1 = 3, nên b = 3.
+b a + b = −2 + 3 = 1.
+b Đáp án: 1
+
+# 12-I-3#4
+h "Sản xuất rất nhiều" nghĩa là x → +∞; cần tìm giới hạn của C(x), tức tiệm cận ngang.
+y lim (2x + 50)/x = lim (2 + 50/x) khi x → +∞.
+y Ý nghĩa: chi phí cố định 50 được chia cho nhiều sản phẩm nên dần không đáng kể.
+b C(x) = 2 + 50/x.
+b Khi x → +∞, 50/x → 0 nên C(x) → 2.
+b Đáp án: 2
+
+# 12-I-4#d
+h Xét dáng điệu đồ thị hàm bậc ba ở vô cực theo dấu hệ số a.
+y Với a > 0: y → +∞ khi x → +∞ và y → −∞ khi x → −∞.
+y Hàm bậc ba không có tiệm cận; có thể có 0 hoặc 2 cực trị.
+b Khi x → +∞, ax³ chiếm ưu thế và a > 0 nên y → +∞.
+b Các phương án khác sai: không có tiệm cận ngang, không phải lúc nào cũng có hai cực trị.
+b Đáp án: y → +∞ khi x → +∞
+
+# 12-I-4#0
+h Giao điểm với trục tung có hoành độ bằng 0.
+y Đồ thị cắt Oy tại (0; f(0)).
+b f(0) = 0 − 0 + 1 = 1.
+b Đáp án: (0; 1)
+
+# 12-I-4#1
+h Đồ thị hàm phân thức bậc nhất trên bậc nhất nhận giao điểm hai tiệm cận làm tâm đối xứng.
+y Tiệm cận đứng x = −d/c, tiệm cận ngang y = a/c.
+b Tiệm cận đứng x = 1, tiệm cận ngang y = 1/1 = 1.
+b Tâm đối xứng là I(1; 1).
+b Đáp án: (1; 1)
+
+# 12-I-4#2
+h Khảo sát hàm bậc ba lẻ: kiểm tra đi qua O, tính đối xứng, cực trị, giao với trục hoành.
+y Hàm lẻ (f(−x) = −f(x)) có đồ thị đối xứng qua gốc tọa độ.
+y Giao với Ox: giải f(x) = 0.
+b a) y(0) = 0 nên đồ thị đi qua O. Đúng.
+b b) f(−x) = x³ − 3x = −f(x): hàm lẻ, đồ thị đối xứng qua O. Đúng.
+b c) y' = −3x² + 3 đổi dấu + sang − tại x = 1: cực đại tại x = 1. Đúng.
+b d) −x³ + 3x = 0 ⇔ x = 0, x = ±√3: ba giao điểm. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-I-4#3
+h Số giao điểm với trục hoành bằng số nghiệm của phương trình y = 0.
+y Đặt nhân tử chung để giải phương trình bậc ba.
+b x³ − 3x = 0 ⇔ x(x² − 3) = 0.
+b x = 0 hoặc x = ±√3: ba nghiệm phân biệt.
+b Đáp án: 3
+
+# 12-I-4#4
+h Số nghiệm của f(x) = m bằng số giao điểm của đồ thị y = f(x) với đường thẳng y = m; dùng bảng biến thiên.
+y Với hàm bậc ba có cực đại y_CĐ và cực tiểu y_CT: nếu m > y_CĐ hoặc m < y_CT thì có đúng 1 nghiệm.
+b f(x) = x³ − 3x, f' = 3x² − 3 = 0 ⇔ x = ±1.
+b Cực đại f(−1) = 2, cực tiểu f(1) = −2.
+b m = 3 > 2 nên đường thẳng y = 3 chỉ cắt nhánh tăng bên phải một lần.
+b Đáp án: 1
+
+# 12-I-5#d
+h Lượng nước tăng khi V'(t) > 0; xét dấu đạo hàm trên [0; 6].
+y Hàm số đồng biến trên khoảng mà đạo hàm dương.
+b V'(t) = −3t² + 12t = 3t(4 − t).
+b Trên (0; 6): V'(t) > 0 ⇔ 0 < t < 4.
+b Đáp án: 0 < t < 4
+
+# 12-I-5#0
+h Độ cao lớn nhất khi vận tốc s'(t) bằng 0 (vật đổi từ đi lên sang rơi xuống).
+y Vận tốc là đạo hàm của quãng đường (độ cao) theo thời gian.
+b s'(t) = 20 − 10t = 0 ⇔ t = 2.
+b s' > 0 khi t < 2, s' < 0 khi t > 2 nên s lớn nhất tại t = 2.
+b Đáp án: t = 2
+
+# 12-I-5#1
+h R(x) là hàm bậc hai có hệ số âm; tìm x làm R'(x) = 0.
+y R(x) = 100x − x²; điểm dừng duy nhất là cực đại.
+b R'(x) = 100 − 2x = 0 ⇔ x = 50.
+b R' đổi dấu + sang − tại 50 nên R lớn nhất tại x = 50.
+b Đáp án: x = 50
+
+# 12-I-5#2
+h Đọc ý nghĩa: N'(t) là tốc độ tăng dân số, N''(t) cho biết lúc tốc độ đó lớn nhất; lập bảng biến thiên trên [0; 25].
+y Dân số tăng khi N'(t) > 0, lớn nhất tại nơi N' đổi dấu + sang −.
+y Tốc độ tăng N'(t) lớn nhất khi N''(t) = 0 và đổi dấu + sang −.
+b a) N'(t) = 60t − 3t². Đúng.
+b b) N'(t) = 3t(20 − t) > 0 ⇔ 0 < t < 20. Đúng.
+b c) N''(t) = 60 − 6t = 0 ⇔ t = 10, đổi dấu + sang −: tốc độ lớn nhất tại t = 10. Đúng.
+b d) Trên [20; 25] N giảm, nên N lớn nhất tại t = 20 chứ không phải 25. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-I-5#3
+h Dùng bảng biến thiên của N(t) trên [0; 25]: N tăng rồi giảm nên lớn nhất tại điểm cực đại.
+y N'(t) = 3t(20 − t) dương trên (0; 20), âm trên (20; 25).
+b Điểm cực đại t = 20.
+b N(20) = 1000 + 30·400 − 8000 = 1000 + 12000 − 8000 = 5000.
+b So sánh: N(0) = 1000, N(25) = 1000 + 18750 − 15625 = 4125 đều nhỏ hơn.
+b Đáp án: 5000
+
+# 12-I-5#4
+h Đặt ẩn là cạnh vuông góc với tường, biểu diễn diện tích rồi tìm giá trị lớn nhất.
+y Hai cạnh vuông góc tường dài x, cạnh song song tường dài 40 − 2x (0 < x < 20).
+y Hàm bậc hai có a < 0 lớn nhất tại đỉnh.
+b S(x) = x(40 − 2x) = 40x − 2x².
+b S'(x) = 40 − 4x = 0 ⇔ x = 10.
+b S(10) = 10·20 = 200.
+b Đáp án: 200
+
+# 12-II-6#d
+h Cộng ba vectơ chung gốc theo ba cạnh của hình hộp: dùng quy tắc hình hộp.
+y Quy tắc hình hộp: AB + AD + AA' = AC' (đường chéo xuất phát từ A).
+y Có thể cộng dần: AB + AD = AC (quy tắc hình bình hành), AC + AA' = AC'.
+b AB + AD = AC (đáy ABCD là hình bình hành).
+b AC + AA' = AC + CC' = AC' (vì AA' = CC').
+b Đáp án: Vectơ AC'
+
+# 12-II-6#0
+h Nhớ định nghĩa trọng tâm tứ diện dưới dạng đẳng thức vectơ.
+y G là trọng tâm tứ diện ABCD ⇔ GA + GB + GC + GD = 0.
+y Tương tự trọng tâm tam giác: GA + GB + GC = 0.
+b So sánh với định nghĩa, chỉ đẳng thức tổng bốn vectơ bằng vectơ không là đúng.
+b GA = GB = GC = GD là điều kiện tâm mặt cầu ngoại tiếp, không phải trọng tâm.
+b Đáp án: GA + GB + GC + GD = 0
+
+# 12-II-6#1
+h Tính đường chéo hình lập phương bằng định lí Pythagore hai lần (hoặc |AC'|² = AB² + AD² + AA'²).
+y Đường chéo hình lập phương cạnh a bằng a√3.
+b AC² = 1² + 1² = 2 (đường chéo mặt đáy).
+b AC'² = AC² + CC'² = 2 + 1 = 3, nên AC' = √3.
+b Đáp án: √3
+
+# 12-II-6#2
+h Dùng tính chất hình hộp: các cạnh song song, cùng hướng, cùng độ dài thì bằng nhau dưới dạng vectơ; quy tắc hình bình hành.
+y Hai vectơ bằng nhau khi cùng hướng và cùng độ dài.
+y |u + v| ≤ |u| + |v|, dấu bằng chỉ khi các vectơ cùng hướng.
+b a) AB và D'C' cùng hướng, cùng độ dài (ABC'D' là hình bình hành). Đúng.
+b b) ABCD là hình bình hành nên AB + AD = AC. Đúng.
+b c) AA'C'C là hình bình hành nên AA' = CC'. Đúng.
+b d) Ba vectơ không cùng hướng nên |AB + AD + AA'| = AC' < AB + AD + AA'. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-II-6#3
+h Phân tích AC' theo ba vectơ cạnh rồi dùng tính chất các cạnh đôi một vuông góc.
+y AC' = AB + AD + AA' (quy tắc hình hộp).
+y Hai vectơ vuông góc có tích vô hướng bằng 0; u·u = |u|².
+b AB·AC' = AB·AB + AB·AD + AB·AA'.
+b AB ⊥ AD, AB ⊥ AA' nên hai tích sau bằng 0.
+b AB·AC' = AB² = 2² = 4.
+b Đáp án: 4
+
+# 12-II-6#4
+h Đường chéo hình lập phương cạnh a dài a√3; tính rồi làm tròn.
+y AC'² = AB² + AD² + AA'² vì ba cạnh đôi một vuông góc.
+b AC'² = 1 + 1 + 1 = 3.
+b AC' = √3 ≈ 1,732.
+b Làm tròn đến hàng phần trăm: 1,73.
+b Đáp án: 1,73
+
+# 12-II-7#d
+h Tọa độ của vectơ OM chính là tọa độ điểm M.
+y Định nghĩa: M(x; y; z) ⇔ OM = xi + yj + zk.
+b OM = 1·i − 2·j + 3·k.
+b Đáp án: (1; −2; 3)
+
+# 12-II-7#0
+h Hình chiếu vuông góc lên mặt phẳng (Oxy) giữ nguyên x, y và cho z = 0.
+y Hình chiếu của M(x; y; z) lên (Oxy) là (x; y; 0); lên (Oyz) là (0; y; z); lên (Oxz) là (x; 0; z).
+b Giữ x = 1, y = 2, cho z = 0.
+b Đáp án: (1; 2; 0)
+
+# 12-II-7#1
+h Đọc hệ số của i, j, k; thành phần nào vắng mặt thì bằng 0.
+y u = ai + bj + ck ⇔ u = (a; b; c).
+b u = 2i + 0j − 3k.
+b Đáp án: (2; 0; −3)
+
+# 12-II-7#2
+h Kiểm tra từng ý bằng các quy tắc tọa độ: mặt phẳng tọa độ, hình chiếu lên trục, độ dài, đối xứng qua O.
+y Điểm thuộc (Oxz) khi y = 0; hình chiếu lên Ox là (x; 0; 0).
+y OA = √(x² + y² + z²); đối xứng qua O đổi dấu cả ba tọa độ.
+b a) y = 0 nên A ∈ (Oxz). Đúng.
+b b) Hình chiếu lên Ox là (1; 0; 0). Đúng.
+b c) OA = √(1 + 0 + 4) = √5. Đúng.
+b d) Đối xứng qua O là (−1; 0; −2), không phải (−1; 0; 2). Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-II-7#3
+h Khoảng cách từ M đến O là độ dài vectơ OM.
+y OM = √(x² + y² + z²).
+b OM = √(9 + 16 + 144) = √169.
+b Đáp án: 13
+
+# 12-II-7#4
+h Khoảng cách từ M đến trục Oz là khoảng cách từ M đến hình chiếu H(0; 0; z) của nó trên Oz.
+y d(M, Oz) = MH = √(x² + y²).
+b H(0; 0; 5), MH = √(3² + 4² + 0) = √25.
+b Đáp án: 5
+
+# 12-II-8#d
+h Tính độ dài vectơ theo tọa độ.
+y |a| = √(a₁² + a₂² + a₃²).
+b |a| = √(1 + 4 + 4) = √9 = 3.
+b Đáp án: 3
+
+# 12-II-8#0
+h Tính tích vô hướng trước: nếu bằng 0 thì hai vectơ vuông góc.
+y a·b = a₁b₁ + a₂b₂ + a₃b₃; cos(a, b) = a·b/(|a|·|b|).
+b a·b = 1·2 + 2·0 + (−1)·2 = 0.
+b cos(a, b) = 0 nên góc bằng 90°.
+b Đáp án: 90°
+
+# 12-II-8#1
+h Tọa độ trung điểm là trung bình cộng tọa độ hai đầu mút.
+y I((x_A + x_B)/2; (y_A + y_B)/2; (z_A + z_B)/2).
+b x = (1 + 3)/2 = 2, y = (2 + 0)/2 = 1, z = (3 − 1)/2 = 1.
+b Đáp án: (2; 1; 1)
+
+# 12-II-8#2
+h Tính lần lượt vectơ AB, AC, trọng tâm, tích vô hướng và độ dài để kiểm tra từng ý.
+y AB = (x_B − x_A; y_B − y_A; z_B − z_A); trọng tâm G là trung bình cộng tọa độ ba đỉnh.
+y Tích vô hướng và độ dài theo tọa độ.
+b a) AB = (0 − 1; 2 − 0; 0 − 0) = (−1; 2; 0). Đúng.
+b b) G = ((1 + 0 + 0)/3; (0 + 2 + 0)/3; (0 + 0 + 3)/3) = (1/3; 2/3; 1). Đúng.
+b c) AC = (−1; 0; 3); AB·AC = 1 + 0 + 0 = 1. Đúng.
+b d) |AC| = √(1 + 0 + 9) = √10 ≠ √8. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-II-8#3
+h Độ dài đoạn AB bằng độ dài vectơ AB.
+y AB = √((x_B − x_A)² + (y_B − y_A)² + (z_B − z_A)²).
+b AB = (3; 4; 0).
+b AB = √(9 + 16 + 0) = 5.
+b Đáp án: 5
+
+# 12-II-8#4
+h Quãng đường thẳng là độ dài đoạn OM trong không gian.
+y OM = √(x² + y² + z²).
+b OM² = 30² + 40² + 120² = 900 + 1600 + 14400 = 16900.
+b OM = 130 m.
+b Đáp án: 130
+
+# 12-III-9#d
+h Khoảng biến thiên của mẫu ghép nhóm = đầu mút phải của nhóm cuối − đầu mút trái của nhóm đầu.
+y R = a_k+1 − a₁ (các nhóm đầu và cuối có tần số dương).
+b Nhóm đầu bắt đầu ở 10, nhóm cuối kết thúc ở 30.
+b R = 30 − 10 = 20.
+b Đáp án: 20
+
+# 12-III-9#0
+h Nhớ định nghĩa khoảng tứ phân vị.
+y Δ_Q = Q₃ − Q₁.
+b Hiệu giá trị lớn nhất và nhỏ nhất là khoảng biến thiên, không phải khoảng tứ phân vị.
+b Đáp án: Q₃ − Q₁
+
+# 12-III-9#1
+h Khoảng tứ phân vị đo độ rộng của phần số liệu nằm giữa Q₁ và Q₃.
+y Từ Q₁ đến Q₃ chứa khoảng 50% số liệu ở giữa mẫu, ít bị ảnh hưởng bởi giá trị bất thường.
+b 25% số liệu dưới Q₁, 25% trên Q₃, còn lại 50% nằm giữa.
+b Đáp án: 50% số liệu ở giữa
+
+# 12-III-9#2
+h Tính cỡ mẫu, khoảng biến thiên, rồi xác định nhóm chứa Q₁, Q₃ bằng tần số tích lũy.
+y Q₁ thuộc nhóm đầu tiên có tần số tích lũy ≥ n/4; Q₃ thuộc nhóm đầu tiên có tần số tích lũy ≥ 3n/4.
+b a) n = 5 + 10 + 15 + 12 = 42. Đúng.
+b b) R = 40 − 0 = 40. Đúng.
+b c) n/4 = 10,5; tần số tích lũy 5, 15, … nên Q₁ thuộc [10; 20). Đúng.
+b d) 3n/4 = 31,5; tích lũy đến hết [20; 30) là 30 < 31,5 nên Q₃ thuộc [30; 40). Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-III-9#3
+h Xác định nhóm chứa Q₁ rồi áp dụng công thức nội suy.
+y Q₁ = u_m + (n/4 − C)/n_m·(u_m+1 − u_m), với C là tần số tích lũy trước nhóm, n_m là tần số nhóm.
+b n/4 = 10,5; nhóm chứa Q₁ là [10; 20), C = 5, n_m = 10.
+b Q₁ = 10 + (10,5 − 5)/10·10 = 10 + 5,5 = 15,5.
+b Đáp án: 15,5
+
+# 12-III-9#4
+h Tính Q₁ và Q₃ bằng công thức nội suy rồi lấy hiệu.
+y Q₃ = u_m + (3n/4 − C)/n_m·h, với nhóm chứa Q₃ là nhóm đầu tiên có tích lũy ≥ 3n/4.
+b Q₁ = 15,5 (nhóm [10; 20)).
+b 3n/4 = 31,5; nhóm [30; 40), C = 30, n_m = 12: Q₃ = 30 + 1,5/12·10 = 31,25.
+b Δ_Q = 31,25 − 15,5 = 15,75 ≈ 15,8.
+b Đáp án: 15,8
+
+# 12-III-10#d
+h Nhớ quan hệ giữa phương sai và độ lệch chuẩn.
+y s = √(s²): độ lệch chuẩn có cùng đơn vị với số liệu.
+b Độ lệch chuẩn là căn bậc hai của phương sai.
+b Đáp án: Căn bậc hai của phương sai
+
+# 12-III-10#0
+h Nhớ định nghĩa phương sai.
+y s² = (1/n)Σ nᵢ(xᵢ − x̄)², trong đó xᵢ là giá trị đại diện (giá trị giữa) của nhóm.
+b Phương sai là trung bình cộng của bình phương các độ lệch so với số trung bình.
+b Đáp án: Trung bình cộng bình phương độ lệch so với số trung bình
+
+# 12-III-10#1
+h Hai mẫu cùng số trung bình: mẫu nào có độ lệch chuẩn nhỏ hơn thì số liệu tập trung hơn.
+y Độ lệch chuẩn đo mức phân tán quanh số trung bình; nhỏ hơn nghĩa là đồng đều hơn.
+b 0,8 < 1,6 nên điểm lớp A ít phân tán hơn.
+b Cùng trung bình nên không kết luận lớp nào giỏi hơn.
+b Đáp án: Điểm lớp A đồng đều hơn
+
+# 12-III-10#2
+h Dùng giá trị đại diện 1, 3, 5 để tính trung bình, phương sai, độ lệch chuẩn rồi đối chiếu.
+y x̄ = Σnᵢxᵢ/n; s² = Σnᵢ(xᵢ − x̄)²/n; s = √(s²).
+b a) x̄ = (2·1 + 6·3 + 2·5)/10 = 30/10 = 3. Đúng.
+b b) s² = (2·4 + 6·0 + 2·4)/10 = 1,6. Đúng.
+b c) s = √1,6 ≈ 1,265 ≈ 1,26. Đúng.
+b d) 1,6 là phương sai, không phải độ lệch chuẩn. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-III-10#3
+h Tìm số trung bình với giá trị đại diện của nhóm, rồi tính phương sai.
+y Giá trị đại diện là trung điểm nhóm: 1, 3, 5.
+y s² = Σnᵢ(xᵢ − x̄)²/n.
+b x̄ = (2 + 18 + 10)/10 = 3.
+b s² = [2(1 − 3)² + 6(3 − 3)² + 2(5 − 3)²]/10 = 16/10.
+b Đáp án: 1,6
+
+# 12-III-10#4
+h Tính phương sai rồi lấy căn bậc hai.
+y s = √(s²).
+b x̄ = 3; s² = (2·4 + 0 + 2·4)/10 = 1,6.
+b s = √1,6 ≈ 1,2649 ≈ 1,26.
+b Đáp án: 1,26
+
+# 12-IV-11#d
+h Tìm hàm có đạo hàm bằng 2x.
+y ∫xⁿdx = xⁿ⁺¹/(n + 1) + C; ∫k·f(x)dx = k∫f(x)dx.
+b ∫2x dx = 2·x²/2 + C = x² + C.
+b Kiểm tra: (x²)' = 2x.
+b Đáp án: x² + C
+
+# 12-IV-11#0
+h Dùng bảng nguyên hàm của hàm lượng giác.
+y ∫cos x dx = sin x + C; ∫sin x dx = −cos x + C.
+b Vì (sin x)' = cos x nên ∫cos x dx = sin x + C.
+b Đáp án: sin x + C
+
+# 12-IV-11#1
+h Hàm eˣ có đạo hàm chính nó, nên nguyên hàm cũng là chính nó.
+y ∫eˣdx = eˣ + C.
+b (eˣ)' = eˣ nên ∫eˣdx = eˣ + C.
+b Đáp án: eˣ + C
+
+# 12-IV-11#2
+h Tìm họ nguyên hàm, dùng điều kiện F(0) = 2 để xác định hằng số, rồi kiểm tra từng ý.
+y ∫(3x² + 1)dx = x³ + x + C.
+y F'(x) = f(x) theo định nghĩa nguyên hàm.
+b a) F(x) = x³ + x + C. Đúng.
+b b) F(0) = C = 2. Đúng.
+b c) F(1) = 1 + 1 + 2 = 4. Đúng.
+b d) F'(x) = 3x² + 1 ≠ 6x. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-IV-11#3
+h Quãng đường là một nguyên hàm của vận tốc; dùng s(0) = 0 xác định hằng số rồi thay t = 2.
+y s'(t) = v(t) nên s(t) = ∫v(t)dt.
+b s(t) = ∫(3t² + 2)dt = t³ + 2t + C.
+b s(0) = 0 nên C = 0.
+b s(2) = 8 + 4 = 12.
+b Đáp án: 12
+
+# 12-IV-11#4
+h Nguyên hàm của 1/x trên (0; +∞) là ln x + C; tìm C rồi tính F(e²).
+y ∫(1/x)dx = ln|x| + C; ln e^k = k.
+b F(x) = ln x + C; F(1) = 0 nên C = 0.
+b F(e²) = ln e² = 2.
+b Đáp án: 2
+
+# 12-IV-12#d
+h Tính tích phân bằng công thức Newton – Leibniz.
+y ∫ₐᵇ f(x)dx = F(b) − F(a), với F là một nguyên hàm của f.
+b Nguyên hàm của x² là x³/3.
+b ∫₀¹ x²dx = 1/3 − 0 = 1/3.
+b Đáp án: 1/3
+
+# 12-IV-12#0
+h Tìm nguyên hàm của sin x là −cos x rồi thay cận.
+y ∫ₐᵇ f(x)dx = F(b) − F(a); cos π = −1, cos 0 = 1.
+b ∫₀^π sin x dx = [−cos x]₀^π = −cos π + cos 0.
+b = 1 + 1 = 2.
+b Đáp án: 2
+
+# 12-IV-12#1
+h Lấy nguyên hàm từng hạng tử rồi thay cận.
+y Nguyên hàm của 2x + 1 là x² + x.
+b [x² + x]₁² = (4 + 2) − (1 + 1) = 6 − 2.
+b Đáp án: 4
+
+# 12-IV-12#2
+h Dùng các tính chất tuyến tính và đổi cận của tích phân; nhận ra tính chất không tồn tại.
+y ∫(f + g) = ∫f + ∫g; ∫k·f = k∫f; ∫ₐᵇ f = −∫ᵦₐ f.
+y Không có quy tắc ∫f·g = ∫f·∫g.
+b a) 5 + 3 = 8. Đúng.
+b b) 2·5 = 10. Đúng.
+b c) Đổi cận đổi dấu: −5. Đúng.
+b d) Tích phân của tích không bằng tích các tích phân (ví dụ f = g = 1 trên [0; 2] cho ∫f·g = 2 nhưng ∫f·∫g = 4). Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-IV-12#3
+h Tính trực tiếp bằng nguyên hàm từng hạng tử.
+y Nguyên hàm của 3x² − 2x là x³ − x².
+b [x³ − x²]₀² = (8 − 4) − 0.
+b Đáp án: 4
+
+# 12-IV-12#4
+h Tìm thời điểm dừng (v = 0), quãng đường là tích phân của vận tốc từ lúc phanh đến lúc dừng.
+y Quãng đường s = ∫ v(t)dt khi v ≥ 0 trên đoạn đó.
+b v(t) = 0 ⇔ 20 − 5t = 0 ⇔ t = 4.
+b s = ∫₀⁴ (20 − 5t)dt = [20t − 5t²/2]₀⁴ = 80 − 40.
+b Đáp án: 40
+
+# 12-IV-13#d
+h Nhớ công thức diện tích hình phẳng giới hạn bởi đồ thị và trục hoành.
+y S = ∫ₐᵇ |f(x)|dx (lấy trị tuyệt đối vì phần dưới trục hoành cho tích phân âm).
+y Công thức có π và f² là thể tích khối tròn xoay.
+b Diện tích luôn không âm nên phải tích phân |f(x)|.
+b Đáp án: ∫ₐᵇ |f(x)|dx
+
+# 12-IV-13#0
+h y = x² ≥ 0 trên [0; 3] nên diện tích bằng tích phân thường.
+y S = ∫ₐᵇ |f(x)|dx, bỏ trị tuyệt đối khi f ≥ 0.
+b S = ∫₀³ x²dx = [x³/3]₀³ = 27/3.
+b Đáp án: 9
+
+# 12-IV-13#1
+h Áp dụng công thức thể tích khối tròn xoay quanh trục Ox.
+y V = π∫ₐᵇ f²(x)dx.
+b f²(x) = x.
+b V = π∫₀¹ x dx = π·[x²/2]₀¹ = π/2.
+b Đáp án: π/2
+
+# 12-IV-13#2
+h Tìm hoành độ giao điểm, xác định hàm nằm trên, rồi tính diện tích giữa hai đường.
+y S = ∫ₐᵇ |f(x) − g(x)|dx, với a, b là nghiệm của f(x) = g(x).
+y Trên (0; 1): x > x².
+b a) x² = x ⇔ x = 0 hoặc x = 1. Đúng.
+b b) Trên [0; 1], x ≥ x² nên S = ∫₀¹ (x − x²)dx. Đúng.
+b c) S = 1/2 − 1/3 = 1/6. Đúng.
+b d) 1/3 ≠ 1/6. Sai.
+b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
+
+# 12-IV-13#3
+h Tìm giao điểm với Ox để có cận, nhận thấy hàm không âm giữa hai cận, rồi tích phân.
+y Parabol y = 4 − x² cắt Ox tại x = ±2 và nằm trên Ox giữa hai giao điểm.
+y Có thể dùng tính chẵn: S = 2∫₀² (4 − x²)dx.
+b 4 − x² = 0 ⇔ x = ±2.
+b S = ∫₋₂² (4 − x²)dx = 2[4x − x³/3]₀² = 2(8 − 8/3) = 32/3.
+b 32/3 ≈ 10,67 ≈ 10,7.
+b Đáp án: 10,7
+
+# 12-IV-13#4
+h Khối nón tạo bởi quay đường thẳng y = x quanh Ox; tính bằng công thức thể tích khối tròn xoay (hoặc công thức khối nón).
+y V = π∫ₐᵇ f²(x)dx.
+y Kiểm tra: khối nón bán kính 3, chiều cao 3 có V = ⅓π·9·3 = 9π.
+b V = π∫₀³ x²dx = π·27/3 = 9π.
+b 9π ≈ 28,27 ≈ 28.
+b Đáp án: 28

@@ -1,0 +1,169 @@
+# I-1#6
+h Số vi khuẩn N(t) là nguyên hàm của N′(t); dùng N(0) = 2000 để tìm hằng số.
+y ∫e^(kt)dt = e^(kt)/k + C.
+b N(t) = 2000e^(0,1t) + C; N(0) = 2000 ⇒ C = 0.
+b N(10) = 2000e ≈ 5437.
+b Đáp án: 5437
+
+# I-2#6
+h Đặt parabol y = 4,5 − x²/2 (hai chân tại x = ±3) rồi tích phân.
+y S = ∫ₐᵇ f(x)dx với f ≥ 0.
+b S = ∫₋₃³ (4,5 − x²/2)dx = 27 − 9 = 18 m².
+b Đáp án: 18 m²
+
+# I-3#6
+h Tìm Q₁ ở vị trí 7,5 và Q₃ ở vị trí 22,5 bằng công thức nội suy.
+y Qₖ = a + (kn/4 − C)/m·h.
+b Q₁ thuộc [10; 12): 10 + (7,5 − 6)/12·2 = 10,25.
+b Q₃ thuộc [12; 14): 12 + (22,5 − 18)/9·2 = 13.
+b ΔQ = 2,75.
+b Đáp án: 2,75
+
+# I-4#5
+h Dùng giá trị đại diện là trung điểm mỗi nhóm.
+y x̄ = Σmᵢxᵢ/n.
+b x̄ = (8·10 + 12·30 + 7·50 + 3·70)/30 = 1000/30 ≈ 33,3.
+b Đáp án: 33,3
+
+# I-5#5
+h Viết phương trình tham số của tia, tìm t để z = 0.
+y Đường thẳng qua A, chỉ phương u: M = A + t·u.
+b z = 3 − 3t = 0 ⇔ t = 1.
+b Điểm chạm: (1 + 2; 2 − 1; 0) = (3; 1; 0).
+b Đáp án: (3; 1; 0)
+
+# I-6#5
+h Viết phương trình mặt phẳng theo đoạn chắn rồi dùng công thức khoảng cách.
+y Mặt phẳng đoạn chắn: x/a + y/b + z/c = 1.
+b (ABC): x/2 + y/3 + z/1,5 = 1 ⇔ 3x + 2y + 4z − 6 = 0.
+b d(O) = 6/√29 ≈ 1,11 m.
+b Đáp án: 6/√29
+
+# I-7#6
+h Xét dấu N′(t) trên [0; 12].
+y N′ > 0 trên khoảng thì N đồng biến.
+b N′(t) = −3t² + 18t + 48 = −3(t − 8)(t + 2).
+b Trên [0; 12]: N′ > 0 khi 0 < t < 8.
+b Đáp án: (0; 8)
+
+# I-8#6
+h Tính đạo hàm A′(x) rồi giải phương trình với x > 0.
+y (1/x)′ = −1/x².
+b A′(x) = 0,4 − 360/x².
+b A′(x) = 0 ⇔ x² = 900 ⇔ x = 30 (x > 0).
+b Đáp án: 30
+
+# I-9#6
+h Giải bất phương trình mũ e^(0,2t) > 8 bằng cách lấy ln hai vế.
+y e^u > c ⇔ u > ln c (c > 0).
+b e^(0,2t) > 8 ⇔ t > 5·ln 8 ≈ 10,4.
+b t nguyên nhỏ nhất là 11.
+b Đáp án: 11
+
+# I-10#5
+h Giá các mét lập cấp số nhân u₁ = 100, q = 1,07; tính tổng 20 số hạng đầu.
+y Sₙ = u₁(qⁿ − 1)/(q − 1).
+b S₂₀ = 100(1,07²⁰ − 1)/0,07 ≈ 100·(3,8697 − 1)/0,07 ≈ 4099,5 nghìn đồng.
+b Khoảng 4,1 triệu đồng.
+b Đáp án: 4,1 triệu đồng
+
+# I-11#5
+h Giải phương trình cos(πt/6) = −1/2 rồi đếm nghiệm trên [0; 24].
+y cos u = −1/2 ⇔ u = ±2π/3 + k2π.
+b πt/6 = 2π/3 + k2π ⇒ t = 4 + 12k; πt/6 = 4π/3 + k2π ⇒ t = 8 + 12k.
+b Trên [0; 24]: t = 4, 8, 16, 20.
+b Đáp án: 4
+
+# I-12#7
+h Từ V = (1/3)·a²·h tìm a².
+y V chóp = (1/3)·S đáy·h.
+b a²·2/3 = 12 ⇔ a² = 18.
+b a = 3√2 m.
+b Đáp án: 3√2 m
+
+# II-1#6
+h Tính P′(t), xét dấu để biết tăng giảm, tìm giá trị lớn nhất; tốc độ giảm v = −P′ là hàm bậc hai.
+y Hàm số đồng biến khi đạo hàm dương, nghịch biến khi đạo hàm âm.
+y Hàm bậc hai at² + bt + c (a < 0) lớn nhất tại đỉnh.
+b a) P′(t) = t² − 18t + 72: đúng.
+b b) P′(t) = (t − 6)(t − 12) < 0 trên (6; 12) nên P nghịch biến, không đồng biến: sai.
+b c) P lớn nhất trên [0; 12] tại t = 6: P(6) = 72 − 324 + 432 + 50 = 230: đúng.
+b d) v(t) = −t² + 18t − 72 lớn nhất tại t = 9: đúng.
+b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
+
+# II-2#6
+h Đổi đơn vị, lập v(t), tìm thời điểm còn 5 m/s, tích phân vận tốc; cộng quãng đường phản xạ.
+y s = ∫ v(t)dt; 1 m/s = 3,6 km/h.
+b a) 72 km/h = 20 m/s nên v(t) = 20 − 2,5t: đúng.
+b b) 20 − 2,5t = 5 ⇔ t = 6 giây: đúng.
+b c) s = ∫₀⁶ (20 − 2,5t)dt = 120 − 45 = 75 m, không phải 80 m: sai.
+b d) Tổng quãng đường 2·20 + 75 = 115 m, còn cách trạm 85 m, không phải 95 m: sai.
+b Kết luận: a Đúng, b Đúng, c Sai, d Sai.
+
+# II-3#6
+h Lập sơ đồ cây: M (mưa), B (báo mưa); dùng công thức xác suất toàn phần và Bayes.
+y P(B) = P(M)P(B|M) + P(M̄)P(B|M̄).
+y P(M|B) = P(M)P(B|M)/P(B).
+b a) P(B) = 0,3·0,85 + 0,7·0,1 = 0,325, không phải 0,255: sai.
+b b) P(M|B) = 0,255/0,325 ≈ 0,785: đúng.
+b c) P(B̄) = 0,675, P(M ∩ B̄) = 0,3·0,15 = 0,045, P(M|B̄) ≈ 0,067 < 0,07: đúng.
+b d) Dự báo đúng: 0,255 + 0,7·0,9 = 0,885, không phải 0,9: sai.
+b Kết luận: a Sai, b Đúng, c Đúng, d Sai.
+
+# II-4#6
+h Viết tọa độ hai máy bay theo t (phút), lập AB² là hàm bậc hai của t rồi tìm giá trị nhỏ nhất.
+y Tốc độ = độ dài vectơ dịch chuyển mỗi đơn vị thời gian.
+y Hàm bậc hai at² + bt + c (a > 0) nhỏ nhất tại t = −b/(2a).
+b a) Tốc độ A: √(144 + 81) = 15 km/phút = 900 km/h: đúng.
+b b) Tốc độ B: √(36 + 64) = 10 km/phút = 600 km/h, nhỏ hơn A: sai.
+b c) A(12t; 9t; 8), B(150 − 6t; 8t; 10): AB² = (18t − 150)² + t² + 4, nhỏ nhất tại t = 5400/650 ≈ 8,31: đúng.
+b d) AB nhỏ nhất ≈ √73,23 ≈ 8,56 km, không nhỏ hơn 8 km: sai.
+b Kết luận: a Đúng, b Sai, c Đúng, d Sai.
+
+# III-1#8
+h Biểu diễn chiều cao theo cạnh đáy a từ thể tích, viết diện tích xung quanh theo a, tìm giá trị nhỏ nhất.
+y V = a²h/3; diện tích xung quanh S = 4·(1/2)·a·d với trung đoạn d = √(h² + a²/4).
+y Cô-si cho ba số dương: x + y + z ≥ 3∛(xyz).
+b h = 36/a², S = 2a√(1296/a⁴ + a²/4) = 2√(1296/a² + a⁴/4).
+b 1296/a² + a⁴/4 = 648/a² + 648/a² + a⁴/4 ≥ 3∛(648²/4) ≈ 141,5, dấu bằng khi a⁶ = 2592 (a ≈ 3,71 m).
+b S nhỏ nhất ≈ 2√141,5 ≈ 23,79 m², chi phí ≈ 0,4·23,79 ≈ 9,5 triệu đồng.
+b Đáp án: 9,5
+
+# III-2#7
+h Thể tích khối xuyến = (diện tích hình tròn mặt cắt)·(độ dài đường tròn do tâm hình tròn vạch ra) (Pappus), hoặc tích phân thể tích khối tròn xoay.
+y Hình tròn bán kính r, tâm cách trục R quay quanh trục: V = 2π²Rr².
+y Tích phân: V = π∫[(R + √(r² − y²))² − (R − √(r² − y²))²]dy = 2π²Rr².
+b Bán kính ngoài 30, trong 18: r = (30 − 18)/2 = 6 cm, R = 24 cm.
+b V = 2π²·24·36 = 1728π² ≈ 17 054,6 cm³.
+b Khối lượng ≈ 0,04·17 054,6 ≈ 682 g ≈ 0,68 kg.
+b Đáp án: 0,68
+
+# III-3#7
+h Thời gian chạy t = 12000/(200x) = 60/x giờ; lập C(x) rồi tìm giá trị nhỏ nhất với x nguyên dương.
+y Hàm ax + b/x (a, b > 0) nhỏ nhất tại x = √(b/a).
+b C(x) = 10x + 0,08·x·(60/x) + 6·(60/x) = 10x + 4,8 + 360/x.
+b Nhỏ nhất tại x = √36 = 6 (nguyên): C(6) = 60 + 4,8 + 60 = 124,8 triệu đồng.
+b Đáp án: 125
+
+# III-4#7
+h Lập hệ bất phương trình cho x ha ngô, y ha đậu; lợi nhuận lớn nhất tại một đỉnh của miền nghiệm.
+y Giá trị lớn nhất của F = ax + by trên miền đa giác đạt tại đỉnh.
+b Hệ: x, y ≥ 0; x + y ≤ 12; 15x + 30y ≤ 270 ⇔ x + 2y ≤ 18; 25x + 15y ≤ 255 ⇔ 5x + 3y ≤ 51.
+b Các đỉnh: (0; 0), (10,2; 0), (7,5; 4,5), (6; 6), (0; 9).
+b F = 40x + 50y: 0; 408; 525; 540; 450. Lớn nhất 540 triệu đồng tại (6; 6).
+b Đáp án: 540
+
+# III-5#8
+h Đếm phần bù: tổng số tam giác trừ tam giác vuông và tam giác tù.
+y Tam giác nội tiếp vuông khi có một cạnh là đường kính; tù khi ba đỉnh nằm trên một nửa đường tròn mở.
+b Tổng: C(20, 3) = 1140. Vuông: 10 đường kính × 18 đỉnh còn lại = 180.
+b Tù: chọn đỉnh góc “đầu tiên” theo chiều kim đồng hồ (20 cách), hai đỉnh còn lại trong 9 đỉnh kế tiếp: C(9, 2) = 36, tổng 720.
+b Nhọn: 1140 − 180 − 720 = 240.
+b Đáp án: 240
+
+# III-6#7
+h Đếm số bộ (a; a + d; a + 2d) trong {1; …; 20} theo từng công sai d.
+y Ba số a < b < c lập cấp số cộng ⇔ a + c = 2b.
+b Với công sai d (1 ≤ d ≤ 9), a nhận 20 − 2d giá trị: tổng Σ(20 − 2d) = 180 − 90 = 90.
+b |Ω| = C(20, 3) = 1140, P = 90/1140 ≈ 0,079.
+b Đáp án: 0,08
