@@ -360,15 +360,16 @@ def _():
 
 @fig("chop_vuong_B")
 def _():
-    A, B = (0, 0, 0), (math.sqrt(3), -1, 0); C = (B[0] + math.sqrt(2), B[1] + math.sqrt(6), 0); S = (0, 0, 2.0)
-    sb = [B[i] - S[i] for i in range(3)]; t = sum((A[i] - S[i])*sb[i] for i in range(3))/sum(v*v for v in sb)
-    Hh = tuple(S[i] + t*sb[i] for i in range(3))
+    # Tọa độ vẽ chọn trực tiếp (y = 0 nên solid3 chỉ tịnh tiến/tỉ lệ): SA đứng, AB chếch xuống (rút ngắn), BC chếch lên.
+    # Vì SA = AB nên H là trung điểm SB (phép chiếu xiên bảo toàn trung điểm).
+    A, B, C, S = (0, 0, 0), (1.5, 0, -0.9), (3.4, 0, -0.35), (0, 0, 2.9)
+    Hh = tuple((S[i] + B[i])/2 for i in range(3))
     P = {"S": S, "A": A, "B": B, "C": C, "H": Hh}
     E = [("S", "A"), ("S", "B"), ("S", "C"), ("A", "B"), ("B", "C"), ("A", "C"), ("A", "H")]
     def ex(F, p, c, P_):
         F.right_angle(p["A"], p["S"], p["B"], 8); F.right_angle(p["B"], p["A"], p["C"], 8); F.right_angle(p["H"], p["A"], p["S"], 7)
         F.side(p["S"], p["A"], "2", c); F.side(p["A"], p["B"], "2", c); F.side(p["B"], p["C"], "2√2", c)
-    return solid3(P, E, [("A", "C")], extra=ex, s=56)
+    return solid3(P, E, [("A", "C")], extra=ex, s=50)
 
 
 def pyr_sq2(a, h, a_lb=None, h_lb=None, edges_add=(), hid_add=(), acc=(), acch=(), add=None, extra=None, s=None):
@@ -701,7 +702,7 @@ def _():
     I = P(1.5, 1.5, 1.5); r = 1.5*s
     F.circle(I, r, "sh"); F.circle(I, r, "ln"); F.dot(I, 3); F.text(I, "I", "end", -6, -6)
     F.line(I, (I[0] + r, I[1]), "thin"); F.text((I[0] + r/2, I[1]), "1,5", "middle", 0, -9)
-    F.text(P(0, 0, 0), "O", "end", -8, 12)
+    F.text(P(0, 0, 0), "O", "middle", 12, -12, fixed=True)  # trong góc giữa trục Oy và Oz, cách mọi nét ≥ 6 đơn vị
     return F
 
 
