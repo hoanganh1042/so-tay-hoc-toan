@@ -1,7 +1,7 @@
 // Service worker của app Sổ tay học Toán: lưu sẵn các file để mở được khi không có mạng.
 // File của app: lấy từ mạng trước (luôn có bản mới khi online), mất mạng thì dùng bản đã lưu.
 // Chỉ xử lý yêu cầu GET cùng nguồn gốc, kể cả phông chữ tự lưu. Đổi VER khi muốn xóa bộ nhớ đệm cũ.
-const VER = 'sotay-v16';
+const VER = 'sotay-v17';
 const SHELL = [
   './', './WebApp_So_tay_hoc_Toan.html', './manifest.webmanifest',
   './app.css', './boot.js', './db.js', './app.js', './congthuc.js', './view_congthuc.js',
