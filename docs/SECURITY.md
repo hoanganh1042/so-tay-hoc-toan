@@ -23,7 +23,7 @@ Phông chữ (Be Vietnam Pro, giấy phép OFL) được phát từ chính ứng
 | Tệp sao lưu độc hại do người khác gửi | Tương tự dòng trên, đi qua cùng một đường làm sạch | Giới hạn 5 MB, kiểm tra `app` và `schema`, `sanitize()` |
 | Dữ liệu hỏng làm app không mở được | Từng xảy ra khi rà soát | `route()` bắt lỗi và hiện màn hình khôi phục có nút xuất tệp và xóa dữ liệu |
 | Nội dung bị sửa trên đường truyền | Máy chủ chỉ phục vụ qua HTTPS, có HSTS | Cấu hình máy chủ |
-| Trang khác nhúng app vào khung để lừa bấm | `frame-ancestors 'none'`, `X-Frame-Options: DENY`; nút xóa dữ liệu cần bấm hai lần | `netlify.toml` |
+| Trang khác nhúng app vào khung để lừa bấm | Trên GitHub Pages không đặt được `frame-ancestors`; nút xóa dữ liệu cần bấm hai lần nên lừa bấm một lần không xóa được gì | Nút hai bước; `netlify.toml` nếu triển khai trên Netlify |
 | Người đóng góp chèn mã vào tệp dữ liệu hoặc hình SVG | Tệp dữ liệu là mã JavaScript và hình được chèn nguyên văn, nên phải duyệt kỹ mọi thay đổi | Kiểm thử chặn `<script>`, `on...=`, `javascript:`, `<foreignObject>` trong hình; duyệt mã trước khi gộp |
 
 Ngoài phạm vi: người có quyền dùng máy và mở công cụ lập trình của trình duyệt luôn đọc và sửa được dữ liệu của chính trình duyệt đó. Ứng dụng không mã hóa dữ liệu lưu trên máy.
@@ -40,7 +40,6 @@ connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; fram
 
 - Chỉ chạy mã từ các tệp của chính trang. Không có mã nội tuyến, không có `on...=`, không `eval`. Vì vậy kể cả khi một chuỗi bẩn lọt vào trang, trình duyệt không chạy nó.
 - `style-src-attr 'unsafe-inline'` là thỏa hiệp duy nhất: thanh tiến độ và độ rộng hình vẽ dùng thuộc tính `style`. Thuộc tính kiểu dáng không chạy được mã.
-- Bản triển khai trên Netlify có thêm hai mã băm `sha256-…` trong `script-src` và `style-src`: đó là mã của huy hiệu "Powered by Netlify" mà gói miễn phí bắt buộc hiển thị. Chỉ đúng hai khối mã đó được phép chạy.
 - Chính sách có ở hai nơi: thẻ `<meta>` trong trang (áp dụng ở mọi máy chủ) và tiêu đề HTTP trong `netlify.toml` (thêm `frame-ancestors`). Kiểm thử bảo đảm hai nơi trùng nhau.
 - Bản một tệp nhúng mã vào trang; `tools/dong_goi.py` thay `'self'` bằng mã băm SHA-256 của từng khối, nên bản đó cũng không cần `unsafe-inline` cho mã.
 
@@ -51,7 +50,7 @@ connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; fram
 3. Tại chỗ chèn vào trang: văn bản qua `esc()`, số được ép kiểu trước khi định dạng.
 4. Tra bảng theo khóa từ bên ngoài dùng kiểm tra sở hữu, không dính thuộc tính kế thừa như `constructor`.
 
-### 3. Tiêu đề HTTP (Netlify)
+### 3. Tiêu đề HTTP (chỉ khi triển khai trên Netlify)
 
 `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `Referrer-Policy: no-referrer`, `Permissions-Policy` tắt camera, micro, vị trí, thanh toán, `Cross-Origin-Opener-Policy: same-origin`, `Strict-Transport-Security`.
 
@@ -70,6 +69,7 @@ Chỉ xử lý yêu cầu GET cùng nguồn gốc (kể cả phông chữ tự l
 
 - **Phông chữ bên thứ ba.** Đã xử lý: phông Be Vietnam Pro được lưu trong `web/fonts/` và CSP đặt `font-src 'self'`, nên ứng dụng không còn kết nối nào ra ngoài khi mở trang.
 - **Nguồn gốc dùng chung.** Nếu đặt app ở `ten.github.io/kho/`, mọi trang khác của cùng tài khoản GitHub dùng chung nguồn gốc và đọc, ghi được dữ liệu của app. Nên dùng tên miền con riêng (như bản Netlify hiện tại).
-- **GitHub Pages không đặt được tiêu đề HTTP**, nên ở đó chỉ còn lớp CSP trong thẻ `<meta>` và không có `frame-ancestors`.
+- **GitHub Pages không đặt được tiêu đề HTTP**, nên bản chính chỉ có lớp CSP trong thẻ `<meta>`, không có `frame-ancestors`, `X-Frame-Options`, `Permissions-Policy`. GitHub Pages vẫn bắt buộc HTTPS.
+- **Nguồn gốc của bản chính** là `hoanganh1042.github.io`. Hiện tài khoản này không có trang Pages nào khác; nếu sau này thêm, các trang đó dùng chung nguồn gốc với app (xem dòng trên).
 - **Dữ liệu không mã hóa** trên máy và trong tệp sao lưu. Tệp sao lưu chứa câu trả lời phiếu thói quen; học sinh nên giữ tệp cho riêng mình.
 - **Chưa có kiểm thử tự động trên trình duyệt thật** cho IndexedDB; phần này được kiểm tra bằng tay.

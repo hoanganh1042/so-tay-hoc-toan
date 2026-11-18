@@ -23,7 +23,7 @@ flowchart LR
     data --> test["tests/, tools/kiemtra*.js<br/>(kiểm thử)"]
     test --> pack["tools/dong_goi.py<br/>(đóng gói)"]
   end
-  pack --> host["Máy chủ tệp tĩnh<br/>(Netlify)"]
+  pack --> host["Máy chủ tệp tĩnh<br/>(GitHub Pages)"]
   subgraph client["Trình duyệt của học sinh"]
     sw["Service worker<br/>(bộ nhớ đệm ngoại tuyến)"]
     ui["Giao diện<br/>app.js, view_congthuc.js"]

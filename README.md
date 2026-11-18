@@ -2,7 +2,7 @@
 
 Web app giúp học sinh lớp 11 và 12 tự tìm ra bài học mình đang hổng, ôn đúng bài đó, rồi tự kiểm tra bằng đề thi thử tốt nghiệp THPT theo cấu trúc mới. Sản phẩm của đề tài nghiên cứu khoa học học sinh, Trường THPT Lagi, năm 2026.
 
-**Dùng thử:** <https://so-tay-hoc-toan-lagi.netlify.app>
+**Dùng thử:** <https://hoanganh1042.github.io/so-tay-hoc-toan/>
 
 Ứng dụng chạy hoàn toàn trên trình duyệt: không cần tài khoản, không có máy chủ, không thu thập họ tên. Mở một lần khi có mạng, sau đó dùng được cả khi mất mạng.
 
@@ -53,7 +53,7 @@ docs/       tài liệu thiết kế
 
 ## Triển khai
 
-Trang là web tĩnh, không có bước build. `netlify.toml` khai báo thư mục phát hành là `web/` cùng các tiêu đề bảo mật. Với máy chủ khác, chỉ cần phục vụ thư mục `web/` qua HTTPS.
+Trang là web tĩnh, không có bước build. Mỗi lần đẩy lên nhánh `main`, `.github/workflows/pages.yml` chạy kiểm thử rồi đưa thư mục `web/` lên GitHub Pages. `netlify.toml` là cấu hình dự phòng nếu muốn đặt trên Netlify (có thêm tiêu đề bảo mật HTTP). Với máy chủ khác, chỉ cần phục vụ thư mục `web/` qua HTTPS.
 
 Mỗi lần phát hành, tăng hằng số `VER` trong `web/sw.js` để máy học sinh nhận bản mới.
 

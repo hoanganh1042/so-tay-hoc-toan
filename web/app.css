@@ -581,8 +581,6 @@ header.nav::before{content:"";position:absolute;inset:0;z-index:-1;background:co
 
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{transition-property:opacity,color,background-color,border-color!important;animation:none!important}html{scroll-behavior:auto}}
 /* Netlify's free plan shows a fixed badge (about 64px tall) at the bottom right. Keep the tab bar and page end clear of it. */
-.nf-badge body{padding-bottom:calc(var(--tabbar,0px) + 64px)}
-@media (max-width:719px){.nf-badge nav.tabs{bottom:64px}.nf-badge nav.tabs::after{content:"";position:absolute;left:0;right:0;top:100%;height:64px;background:var(--bg)}}
 
 /* Bảng "Dữ liệu của bạn": biểu đồ 7 ngày và các nút sao lưu. */
 .data-panel{display:flex;flex-direction:column;gap:14px}

@@ -1,0 +1,54 @@
+name: Triển khai GitHub Pages
+
+# Mỗi lần đẩy lên main: chạy kiểm thử, rồi đưa nguyên thư mục web/ lên GitHub Pages.
+# Trang là web tĩnh, không có bước build.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  test:
+    name: Kiểm thử
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Kiểm thử tự động
+        run: node --test "tests/*.test.js"
+      - name: Kiểm tra nội dung
+        run: node tools/kiemtra.js
+
+  deploy:
+    name: Đưa lên Pages
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - id: deployment
+        uses: actions/deploy-pages@v4

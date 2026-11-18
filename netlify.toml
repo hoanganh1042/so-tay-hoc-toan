@@ -1,4 +1,5 @@
-# Cấu hình triển khai trên Netlify. Trang là web tĩnh, không có bước build: thư mục web/ được đưa lên nguyên trạng.
+# Cấu hình dự phòng nếu triển khai trên Netlify. Bản chính chạy trên GitHub Pages (.github/workflows/pages.yml).
+# Trang là web tĩnh, không có bước build: thư mục web/ được đưa lên nguyên trạng.
 [build]
   publish = "web"
 
@@ -9,12 +10,10 @@
 
 # Tiêu đề bảo mật cho mọi tệp. Chính sách CSP ở đây trùng với thẻ <meta> trong trang, thêm frame-ancestors
 # (không cho trang khác nhúng app vào khung) vì chỉ thị đó không đặt được bằng thẻ <meta>.
-# Hai mã băm sha256 trong script-src và style-src là của huy hiệu "Powered by Netlify" (bắt buộc ở gói miễn phí).
-# Nếu Netlify đổi mã huy hiệu, bảng điều khiển trình duyệt sẽ báo mã băm mới; cập nhật ở đây và ở thẻ <meta> trong trang.
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-BkKP2XO6WOEc3kXOiLr2ZoY83hamalKjPY9xBcbXVuw='; style-src 'self' 'sha256-YTN2KNwP/dL0fL4vc8FEYgUIAY35P5/DcrgsR5B83cY='; style-src-attr 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     Referrer-Policy = "no-referrer"

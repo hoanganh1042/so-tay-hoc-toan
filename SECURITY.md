@@ -8,9 +8,9 @@ Trong báo cáo nên có: phiên bản hoặc địa chỉ trang bạn thử, c�
 
 ## Phạm vi
 
-Trong phạm vi: mã trong `web/`, cấu hình triển khai (`netlify.toml`), công cụ trong `tools/` và `content/`.
+Trong phạm vi: mã trong `web/`, cấu hình triển khai (`.github/workflows/`, `netlify.toml`), công cụ trong `tools/` và `content/`.
 
-Ngoài phạm vi: việc người có quyền dùng máy tự sửa dữ liệu trong trình duyệt của chính họ, và các dịch vụ bên thứ ba (Netlify, GitHub).
+Ngoài phạm vi: việc người có quyền dùng máy tự sửa dữ liệu trong trình duyệt của chính họ, và các dịch vụ bên thứ ba (GitHub Pages, Netlify).
 
 ## Thiết kế
 
