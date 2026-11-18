@@ -44,6 +44,8 @@ function checkState(){
 
 // ---------- data helpers ----------
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+// Văn bản toán: thoát ký tự rồi dựng phân số đứng và dấu căn (phanso.js). Không dùng cho thuộc tính HTML.
+const mt = s => window.KHKT_FRAC ? window.KHKT_FRAC(esc(s)) : esc(s);
 const ALLCH = {}; const ALLLE = {};
 Object.entries(DATA).forEach(([g, chs]) => chs.forEach(ch => { ch.g = +g; ALLCH[ch.id] = ch; ch.lessons.forEach(l => { l.ch = ch.id; ALLLE[l.id] = l; }); }));
 // Bài tập bổ sung và mức độ từng câu: N Nhận biết, T Thông hiểu, V Vận dụng; câu đúng/sai gồm cả ba mức.
@@ -83,13 +85,13 @@ const TF_LEVEL = ['B','H','H','VD'];
 function solHTML(key, e){
   const s = LG[key];
   if (!s) return `<div class="sol"><div class="sol-sec"><span class="sol-k">Lời giải</span><p>${esc(e.g)}</p></div></div>`;
-  return `<div class="sol"><div class="sol-sec"><span class="sol-k">1. Hướng đi</span><p>${esc(s.h)}</p></div>
-    <div class="sol-sec"><span class="sol-k">2. Kiến thức và ý tưởng</span><ul>${s.y.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
-    <div class="sol-sec"><span class="sol-k">3. Các bước giải</span><ol>${s.b.map((x,i) => `<li class="${i===s.b.length-1?'ans':''}">${esc(x)}</li>`).join('')}</ol></div></div>`;
+  return `<div class="sol"><div class="sol-sec"><span class="sol-k">1. Hướng đi</span><p>${mt(s.h)}</p></div>
+    <div class="sol-sec"><span class="sol-k">2. Kiến thức và ý tưởng</span><ul>${s.y.map(x => `<li>${mt(x)}</li>`).join('')}</ul></div>
+    <div class="sol-sec"><span class="sol-k">3. Các bước giải</span><ol>${s.b.map((x,i) => `<li class="${i===s.b.length-1?'ans':''}">${mt(x)}</li>`).join('')}</ol></div></div>`;
 }
 function hintHTML(key){
   const s = LG[key]; if (!s) return '';
-  return `<div class="hint" hidden><div><span class="sol-k">Hướng đi</span><p>${esc(s.h)}</p></div><div><span class="sol-k">Kiến thức và ý tưởng</span><ul>${s.y.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div></div>`;
+  return `<div class="hint" hidden><div><span class="sol-k">Hướng đi</span><p>${mt(s.h)}</p></div><div><span class="sol-k">Kiến thức và ý tưởng</span><ul>${s.y.map(x => `<li>${mt(x)}</li>`).join('')}</ul></div></div>`;
 }
 function diagChapters(){
   const own = chaptersOf(S.grade).filter(c => S.done.has(c.id)).map(c => c.id);
@@ -311,8 +313,8 @@ function stepQuiz(){
   const ids = diagChapters();
   return `<div class="stack"><h2>Bài chẩn đoán</h2><p class="muted measure">Mỗi câu ứng với một bài. Không chắc thì chọn <b>Chưa biết cách làm</b>, đừng đoán.</p></div>
   ${ids.map(id => { const ch = ALLCH[id]; return `<div class="group-head"><h3>${esc(chName(ch))}</h3>${FOUND[S.grade].includes(id)?'<span class="label">Kiến thức nền của lớp dưới</span>':''}</div>
-    ${ch.lessons.map(l => { const q = l.d, v = S.ans[l.id], key = l.id + '#d'; return `<div class="q"><div class="row"><span class="tag">${esc(leT(l, ch).split('.')[0])}</span><span class="muted small">${esc(shortLe(l))}</span></div><div class="qtitle">${esc(q.q)}</div>${figHTML(key)}
-      <div class="choices">${order(key, q).map((oi,pos) => `<label class="choice ${v===oi?'sel':''}"><input type="radio" name="a-${l.id}" id="a-${l.id}-${oi}" value="${oi}" ${v===oi?'checked':''} data-a="${l.id}"><span>${LETTER(pos)}. ${esc(q.o[oi])}</span></label>`).join('')}<label class="choice idk ${v===-1?'sel':''}"><input type="radio" name="a-${l.id}" id="a-${l.id}-x" value="-1" ${v===-1?'checked':''} data-a="${l.id}"><span>Chưa biết cách làm</span></label></div></div>`; }).join('')}`; }).join('')}
+    ${ch.lessons.map(l => { const q = l.d, v = S.ans[l.id], key = l.id + '#d'; return `<div class="q"><div class="row"><span class="tag">${esc(leT(l, ch).split('.')[0])}</span><span class="muted small">${esc(shortLe(l))}</span></div><div class="qtitle">${mt(q.q)}</div>${figHTML(key)}
+      <div class="choices">${order(key, q).map((oi,pos) => `<label class="choice ${v===oi?'sel':''}"><input type="radio" name="a-${l.id}" id="a-${l.id}-${oi}" value="${oi}" ${v===oi?'checked':''} data-a="${l.id}"><span>${LETTER(pos)}. ${mt(q.o[oi])}</span></label>`).join('')}<label class="choice idk ${v===-1?'sel':''}"><input type="radio" name="a-${l.id}" id="a-${l.id}-x" value="-1" ${v===-1?'checked':''} data-a="${l.id}"><span>Chưa biết cách làm</span></label></div></div>`; }).join('')}`; }).join('')}
   ${errLine()}
   <div class="actions"><button class="btn" type="button" id="b-back2">Quay lại</button><button class="btn primary" type="button" id="b-next2">Tạo sổ tay của tôi ${ARROW}</button></div>`;
 }
@@ -344,14 +346,14 @@ function exHTML(key, label, link){
   const R = resolveKey(key); if (!R) return '';
   const e = R.it, st = S.prac[key], q = S.rv[key];
   let body = '';
-  if (e.t === 'mc') body = `<div class="choices">${order(key, e).map((oi,pos) => `<label class="choice"><input type="radio" name="p-${esc(key)}" value="${oi}"><span>${LETTER(pos)}. ${esc(e.o[oi])}</span></label>`).join('')}</div>`;
-  if (e.t === 'tf') body = `<div>${e.s.map((s,si) => `<div class="tfrow" data-row="${si}"><span class="ix">${'abcd'[si]})<i class="lvm" title="${['Nhận biết','Thông hiểu','Thông hiểu','Vận dụng'][si]}">${TF_TAG[si]}</i></span><span>${esc(s[0])}</span><span class="tfbtn"><label><input type="radio" name="p-${esc(key)}-${si}" value="1">Đúng</label><label><input type="radio" name="p-${esc(key)}-${si}" value="0">Sai</label></span></div>`).join('')}</div>`;
+  if (e.t === 'mc') body = `<div class="choices">${order(key, e).map((oi,pos) => `<label class="choice"><input type="radio" name="p-${esc(key)}" value="${oi}"><span>${LETTER(pos)}. ${mt(e.o[oi])}</span></label>`).join('')}</div>`;
+  if (e.t === 'tf') body = `<div>${e.s.map((s,si) => `<div class="tfrow" data-row="${si}"><span class="ix">${'abcd'[si]})<i class="lvm" title="${['Nhận biết','Thông hiểu','Thông hiểu','Vận dụng'][si]}">${TF_TAG[si]}</i></span><span>${mt(s[0])}</span><span class="tfbtn"><label><input type="radio" name="p-${esc(key)}-${si}" value="1">Đúng</label><label><input type="radio" name="p-${esc(key)}-${si}" value="0">Sai</label></span></div>`).join('')}</div>`;
   if (e.t === 'sa') body = `<div class="row"><input type="text" inputmode="decimal" id="p-${esc(key)}" placeholder="Ví dụ 2,5" aria-label="Đáp án"> ${e.r?`<span class="muted small">${esc(e.r)}</span>`:''}</div>`;
   const stTag = st ? `<span class="tag ${st.ok && !st.hint ? 'good' : 'warn'}">${st.ok ? (st.hint ? 'Đúng nhờ gợi ý' : 'Đúng') : 'Chưa đúng'}</span>` : '';
   const qTag = q ? `<span class="tag">${q.due <= Date.now() ? 'Ôn lại hôm nay' : 'Ôn lại ' + fmtShort(q.due)}</span>` : '';
   const head = label || stTag || qTag ? `<div class="row">${label ? `<span class="tag">${esc(label)}</span>` : ''}${stTag}${qTag}</div>` : '';
   const lk = link && R.l ? `<a class="lk small" style="align-self:flex-start" href="#on-tap-${chOf(R.l)}" data-jump="${R.l.id}">Xem lại bài: ${esc(shortLe(R.l))}</a>` : '';
-  return `<div class="ex" data-key="${esc(key)}">${head}<div class="qtitle">${esc(e.q)}</div>${figHTML(key)}${srcHTML(e)}${body}${hintHTML(key)}<div class="row"><button type="button" class="btn sm" data-check>Kiểm tra</button>${LG[key]?'<button type="button" class="btn sm" data-hint>Gợi ý</button>':''}<span class="res" aria-live="polite"></span></div><div class="solbox" hidden></div>${lk}</div>`;
+  return `<div class="ex" data-key="${esc(key)}">${head}<div class="qtitle">${mt(e.q)}</div>${figHTML(key)}${srcHTML(e)}${body}${hintHTML(key)}<div class="row"><button type="button" class="btn sm" data-check>Kiểm tra</button>${LG[key]?'<button type="button" class="btn sm" data-hint>Gợi ý</button>':''}<span class="res" aria-live="polite"></span></div><div class="solbox" hidden></div>${lk}</div>`;
 }
 function leTags(l){
   const st = leStatus(l.id), p = lessonProg(l);
@@ -515,11 +517,11 @@ function viewExam(){
     <section class="stack" aria-labelledby="h-struct"><h2 id="h-struct">Cấu trúc đề và cách tính điểm</h2>${examStructure()}</section></div>`; }
   const part = (title, list, kind) => `<section class="panel" id="part-${kind[1]}"><h2>${title}</h2>${list.map((x,qi) => { const k = kind+qi, e = x.it, v = E.ans[k]; const res = E.submitted ? examMark(kind, e, v) : null;
     let body = '';
-    if (kind==='p1') body = `<div class="choices">${order(x.key, e).map((oi,pos) => `<label class="choice ${E.submitted ? (oi===e.a?'right':(v===oi?'wrong':'')) : (v===oi?'sel':'')}"><input type="radio" name="x-${k}" value="${oi}" ${v===oi?'checked':''} ${E.submitted?'disabled':''} data-x="${k}"><span>${LETTER(pos)}. ${esc(e.o[oi])}</span></label>`).join('')}</div>`;
-    if (kind==='p2') body = `<div>${e.s.map((s,si) => { const vv = (v||{})[si]; const cls = E.submitted ? (vv===undefined?'wrong':((vv===1)===s[1]?'right':'wrong')) : ''; return `<div class="tfrow ${cls}"><span class="ix">${'abcd'[si]})</span><span>${esc(s[0])}${E.submitted?` <span class="muted small">(${s[1]?'Đúng':'Sai'})</span>`:''}</span><span class="tfbtn"><label class="${vv===1?'sel':''}"><input type="radio" name="x-${k}-${si}" value="1" ${vv===1?'checked':''} ${E.submitted?'disabled':''} data-x="${k}" data-si="${si}">Đúng</label><label class="${vv===0?'sel':''}"><input type="radio" name="x-${k}-${si}" value="0" ${vv===0?'checked':''} ${E.submitted?'disabled':''} data-x="${k}" data-si="${si}">Sai</label></span></div>`; }).join('')}</div>`;
-    if (kind==='p3') body = `<div class="row"><input type="text" inputmode="decimal" id="x-${k}" value="${esc(v||'')}" ${E.submitted?'disabled':''} data-x="${k}" aria-label="Đáp án câu ${qi+1}"> ${e.r?`<span class="muted small">${esc(e.r)}</span>`:''}${E.submitted?` <span class="${res.full?'ok':'no'}">Đáp án: ${esc(e.a)}</span>`:''}</div>`;
+    if (kind==='p1') body = `<div class="choices">${order(x.key, e).map((oi,pos) => `<label class="choice ${E.submitted ? (oi===e.a?'right':(v===oi?'wrong':'')) : (v===oi?'sel':'')}"><input type="radio" name="x-${k}" value="${oi}" ${v===oi?'checked':''} ${E.submitted?'disabled':''} data-x="${k}"><span>${LETTER(pos)}. ${mt(e.o[oi])}</span></label>`).join('')}</div>`;
+    if (kind==='p2') body = `<div>${e.s.map((s,si) => { const vv = (v||{})[si]; const cls = E.submitted ? (vv===undefined?'wrong':((vv===1)===s[1]?'right':'wrong')) : ''; return `<div class="tfrow ${cls}"><span class="ix">${'abcd'[si]})</span><span>${mt(s[0])}${E.submitted?` <span class="muted small">(${s[1]?'Đúng':'Sai'})</span>`:''}</span><span class="tfbtn"><label class="${vv===1?'sel':''}"><input type="radio" name="x-${k}-${si}" value="1" ${vv===1?'checked':''} ${E.submitted?'disabled':''} data-x="${k}" data-si="${si}">Đúng</label><label class="${vv===0?'sel':''}"><input type="radio" name="x-${k}-${si}" value="0" ${vv===0?'checked':''} ${E.submitted?'disabled':''} data-x="${k}" data-si="${si}">Sai</label></span></div>`; }).join('')}</div>`;
+    if (kind==='p3') body = `<div class="row"><input type="text" inputmode="decimal" id="x-${k}" value="${esc(v||'')}" ${E.submitted?'disabled':''} data-x="${k}" aria-label="Đáp án câu ${qi+1}"> ${e.r?`<span class="muted small">${esc(e.r)}</span>`:''}${E.submitted?` <span class="${res.full?'ok':'no'}">Đáp án: ${mt(e.a)}</span>`:''}</div>`;
     const cr = critOf(x, kind);
-    return `<div class="q"><div class="row"><span class="tag">Câu ${qi+1}</span><span class="muted small">${x.slot ? esc(x.slot.ten) : esc(chName(ALLCH[x.l.ch]).split(' · ')[0]) + ' · ' + esc(shortLe(x.l))}</span>${E.submitted?`<span class="tag ${res.full?'good':'warn'}">${res.pts.toLocaleString('vi-VN')} điểm</span><span class="tag">${kind==='p2'?'Biết → Vận dụng':esc((AN.chuan.mucDo[cr.muc]||{}).ten||'')} · ${esc(cr.nl)}</span>`:''}</div><div class="qtitle">${esc(e.q)}</div>${figHTML(x.key)}${body}${E.submitted?`${srcHTML(e)}${solHTML(x.key, e)}${res.full ? '' : errPick(x.key)}<a class="lk small" style="align-self:flex-start" href="#on-tap-${chOf(x.l)}" data-jump="${x.l.id}">Ôn ${esc(leNo(x.l).toLowerCase())}: ${esc(shortLe(x.l))}</a>`:''}</div>`; }).join('')}</section>`;
+    return `<div class="q"><div class="row"><span class="tag">Câu ${qi+1}</span><span class="muted small">${x.slot ? esc(x.slot.ten) : esc(chName(ALLCH[x.l.ch]).split(' · ')[0]) + ' · ' + esc(shortLe(x.l))}</span>${E.submitted?`<span class="tag ${res.full?'good':'warn'}">${res.pts.toLocaleString('vi-VN')} điểm</span><span class="tag">${kind==='p2'?'Biết → Vận dụng':esc((AN.chuan.mucDo[cr.muc]||{}).ten||'')} · ${esc(cr.nl)}</span>`:''}</div><div class="qtitle">${mt(e.q)}</div>${figHTML(x.key)}${body}${E.submitted?`${srcHTML(e)}${solHTML(x.key, e)}${res.full ? '' : errPick(x.key)}<a class="lk small" style="align-self:flex-start" href="#on-tap-${chOf(x.l)}" data-jump="${x.l.id}">Ôn ${esc(leNo(x.l).toLowerCase())}: ${esc(shortLe(x.l))}</a>`:''}</div>`; }).join('')}</section>`;
   const sc = E.submitted ? E.score : null;
   const pr = examProgress(E), fmt = v => v.toLocaleString('vi-VN', {maximumFractionDigits:2});
   const bar = `<div class="exam-bar" id="exam-bar" role="region" aria-label="Thời gian và tiến độ làm bài">

@@ -17,14 +17,15 @@
       <p class="lead measure muted">Chọn một chương để xem công thức của chương đó, hoặc gõ từ khóa để tìm trong tất cả các chương.</p></div>`;
     if (!CT || !Array.isArray(CT.cb) || !Array.isArray(CT.nc))
       return `<div class="page ct-page">${head}<div class="panel"><p class="err">Không tải được dữ liệu công thức (congthuc.js).</p></div></div>`;
+    const mt = s => window.KHKT_FRAC ? window.KHKT_FRAC(esc(s)) : esc(s);   // phân số đứng, dấu căn (phanso.js)
     const list = nc ? CT.nc : CT.cb;
     const cur = Math.min(last[mode] || 0, list.length - 1);
     const label = c => nc ? 'Nâng cao' : `Lớp ${+c.g}`;
 
     const item = (m, k) => `<article class="ct-item" data-t="${esc(fold([m.ten].concat(m.ct, m.dk || '', m.gc || '').join(' ')))}">
         <h3><span class="ct-no">${k + 1}</span>${esc(m.ten)}</h3>
-        <div class="ct-body"><ul class="ct-f">${m.ct.map(f => `<li>${esc(f)}</li>`).join('')}</ul>
-        ${m.dk ? `<p class="ct-dk"><span class="ct-k">Điều kiện</span>${esc(m.dk)}</p>` : ''}${m.gc ? `<p class="ct-gc"><span class="ct-k">Lưu ý</span>${esc(m.gc)}</p>` : ''}</div></article>`;
+        <div class="ct-body"><ul class="ct-f">${m.ct.map(f => `<li>${mt(f)}</li>`).join('')}</ul>
+        ${m.dk ? `<p class="ct-dk"><span class="ct-k">Điều kiện</span>${mt(m.dk)}</p>` : ''}${m.gc ? `<p class="ct-gc"><span class="ct-k">Lưu ý</span>${mt(m.gc)}</p>` : ''}</div></article>`;
     const section = (c, i) => {
       const ch = !nc && chapter(c.ch), id = `ct-${mode}-${i}`;
       return `<section class="ct-ch" data-i="${i}" aria-labelledby="${id}"${i === cur ? '' : ' hidden'}>

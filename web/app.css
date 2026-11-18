@@ -653,3 +653,12 @@ header.nav::before{content:"";position:absolute;inset:0;z-index:-1;background:co
   .ct-pager .btn{max-width:none;width:100%}
 }
 @media print{header.nav,footer.site,.ct-bar,.ct-toc,.ct-pick,.ct-pager,.welcome{display:none!important}.ct-layout{display:block}.ct-page .ct-ch[hidden]{display:flex!important}.ct-ch{break-before:page}.ct-item{break-inside:avoid}body{padding:0}}
+/* Phân số đứng và dấu căn (dựng bởi phanso.js). Dấu "/" và ngoặc gốc vẫn có trong trang để đọc và sao chép đúng. */
+.fr{display:inline-flex;flex-direction:column;align-items:stretch;vertical-align:middle;margin:0 .12em;font-size:.9em;line-height:1.2;text-align:center;white-space:nowrap}
+.fr .fr{font-size:.92em}
+.fr-n{padding:0 .2em .08em;border-bottom:.07em solid currentColor}
+.fr-d{padding:.1em .2em 0}
+.fr-s{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.rt{display:inline-flex;align-items:flex-start;white-space:nowrap}
+.rt-s{line-height:1;padding-top:.06em}
+.rt-b{border-top:.07em solid currentColor;padding:.04em .12em 0 .04em;margin-top:.12em;line-height:1.2}
