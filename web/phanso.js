@@ -102,6 +102,8 @@
         const m = s.slice(i + 1).match(c === '→' ? VEC : ANG);
         if (m) { out += `<span class="${c === '→' ? 'vec' : 'ang'}"><span class="fr-s">${c}</span>${m[0]}</span>`; i += 1 + m[0].length; continue; }
       }
+      // Dấu nhân "·" viết liền (2·3): bọc lại để CSS nới khoảng hai bên. Dấu "×" đã có dấu cách nên giữ nguyên.
+      if (c === '·') { out += '<span class="mul">·</span>'; i++; continue; }
       if (c === '√' || c === '∛') {
         const k = i + 1;
         if (s[k] === '(') { const j = matchFwd(s, k); if (j > k) { out += root(c, render(s.slice(k + 1, j)), true); i = j + 1; continue; } }
@@ -117,7 +119,7 @@
   // Dấu căn có gạch ngang phủ hết biểu thức dưới căn. Cặp ngoặc gốc vẫn giữ (ẩn) để sao chép ra đúng "√(…)".
   const root = (sign, body, paren) => `<span class="rt"><span class="rt-s">${sign}</span><span class="rt-b">${paren ? '<span class="fr-s">(</span>' : ''}${body}${paren ? '<span class="fr-s">)</span>' : ''}</span></span>`;
 
-  const frac = s => /[/√∛→∠]/.test(String(s)) ? render(String(s)) : String(s);
+  const frac = s => /[/√∛→∠·]/.test(String(s)) ? render(String(s)) : String(s);
   if (typeof window !== 'undefined') window.KHKT_FRAC = frac;
   if (typeof module !== 'undefined') module.exports = { frac };
 })();

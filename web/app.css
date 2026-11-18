@@ -667,3 +667,5 @@ header.nav::before{content:"";position:absolute;inset:0;z-index:-1;background:co
 .vec::before{content:"";position:absolute;left:.04em;right:.1em;top:.2em;height:.065em;background:currentColor}
 .vec::after{content:"";position:absolute;right:.06em;top:.07em;width:.25em;height:.25em;border-top:.065em solid currentColor;border-right:.065em solid currentColor;transform:rotate(45deg);box-sizing:border-box}
 .ang::before{content:"";position:absolute;left:50%;top:.18em;width:.32em;height:.32em;border-top:.06em solid currentColor;border-left:.06em solid currentColor;box-sizing:border-box;transform:translateX(-50%) scaleX(2.4) rotate(45deg);transform-origin:center}
+/* Dấu nhân "·": nới khoảng hai bên và làm đậm để không dính vào chữ số. */
+.mul{display:inline-block;margin:0 .2em;font-weight:700;transform:scale(1.15)}

@@ -46,3 +46,7 @@ test('không thêm gì ngoài thẻ span cố định', () => {
   assert.equal(out.replace(/<\/?span[^>]*>/g, ''), '&lt;b&gt;/x &amp; 1/2');
   assert.ok(!/<(?!\/?span[ >])/.test(out));
 });
+
+test('dấu nhân được nới khoảng', () => {
+  assert.equal(frac('2·3'), '2<span class="mul">·</span>3');
+});
