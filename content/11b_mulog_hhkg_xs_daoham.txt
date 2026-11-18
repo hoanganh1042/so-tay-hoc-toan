@@ -181,7 +181,7 @@ b Đáp án: 90°
 h Thay A'D' bằng AD (song song) để đưa hai đường về cùng mặt đáy.
 y Góc (a, b) = góc (a, b') nếu b' // b; đường chéo hình vuông tạo với cạnh góc 45°.
 b A'D' // AD.
-b Góc (AC, A'D') = góc (AC, AD) = góc CAD = 45°.
+b Góc (AC, A'D') = góc (AC, AD) = ∠CAD = 45°.
 b Đáp án: 45°
 
 # 11-VII-22#2
@@ -206,7 +206,7 @@ b Đáp án: 90
 h Nhận ra A'C', BC', A'B đều là đường chéo của các mặt hình lập phương.
 y Các đường chéo mặt hình lập phương cạnh a đều dài a√2.
 b A'C' = BC' = A'B = a√2 nên tam giác A'BC' đều.
-b Góc giữa A'C' và BC' là góc A'C'B = 60°.
+b Góc giữa A'C' và BC' là ∠A'C'B = 60°.
 b Đáp án: 60
 
 # 11-VII-23#d
@@ -255,8 +255,8 @@ b Đáp án: 3,46
 # 11-VII-24#d
 h Góc giữa đường thẳng và mặt phẳng là góc giữa đường thẳng và hình chiếu của nó trên mặt phẳng.
 y SA ⊥ (ABCD) nên hình chiếu của S là A, hình chiếu của SC là AC.
-b Góc (SC, (ABCD)) = góc giữa SC và AC = góc SCA.
-b Đáp án: Góc SCA
+b Góc (SC, (ABCD)) = góc giữa SC và AC = ∠SCA.
+b Đáp án: ∠SCA
 
 # 11-VII-24#0
 h Hình chiếu vuông góc của một điểm là chân đường vuông góc hạ từ điểm đó.
@@ -265,32 +265,32 @@ b Chân đường vuông góc từ S xuống đáy là A.
 b Đáp án: A
 
 # 11-VII-24#1
-h Xác định góc SCA rồi tính trong tam giác vuông SAC.
-y tan góc SCA = SA/AC; đường chéo hình vuông cạnh a là a√2.
+h Xác định ∠SCA rồi tính trong tam giác vuông SAC.
+y tan ∠SCA = SA/AC; đường chéo hình vuông cạnh a là a√2.
 b AC = a√2 = SA.
-b tan SCA = 1 nên góc bằng 45°.
+b tan ∠SCA = 1 nên góc bằng 45°.
 b Đáp án: 45°
 
 # 11-VII-24#2
-h Hình chiếu của SB lên đáy là AB; tính góc SBA trong tam giác vuông SAB.
-y Góc (SB, (ABC)) = góc SBA; tan SBA = SA/AB.
+h Hình chiếu của SB lên đáy là AB; tính ∠SBA trong tam giác vuông SAB.
+y Góc (SB, (ABC)) = ∠SBA; tan ∠SBA = SA/AB.
 b a) Hình chiếu của S là A, của B là B: hình chiếu của SB là AB. Đúng.
-b b) Góc giữa SB và (ABC) là góc SBA. Đúng.
-b c) tan SBA = 2/2 = 1 nên góc bằng 45°. Đúng.
+b b) Góc giữa SB và (ABC) là ∠SBA. Đúng.
+b c) tan ∠SBA = 2/2 = 1 nên góc bằng 45°. Đúng.
 b d) tan = 1, không phải 2. Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # 11-VII-24#3
-h Hình chiếu của AC' trên đáy là AC; tính góc C'AC.
-y tan góc C'AC = CC'/AC.
+h Hình chiếu của AC' trên đáy là AC; tính ∠C'AC.
+y tan ∠C'AC = CC'/AC.
 b Với cạnh a: CC' = a, AC = a√2.
 b tan = 1/√2, góc ≈ 35,26°.
 b Làm tròn: 35.
 b Đáp án: 35
 
 # 11-VII-24#4
-h Góc giữa SB và đáy là góc SBA; tính bằng tan.
-y tan SBA = SA/AB.
+h Góc giữa SB và đáy là ∠SBA; tính bằng tan.
+y tan ∠SBA = SA/AB.
 b tan = 1/√3.
 b Góc bằng 30°.
 b Đáp án: 30
@@ -320,14 +320,14 @@ y Góc phẳng nhị diện [S, CD, A]: hai tia trong hai mặt cùng vuông gó
 y CD ⊥ (SAD) ⇒ CD ⊥ SD và CD ⊥ AD.
 b a) (SAD) chứa SA ⊥ (ABCD). Đúng.
 b b) AB ⊥ AD, AB ⊥ SA ⇒ AB ⊥ (SAD); (SAB) chứa AB nên (SAB) ⊥ (SAD). Đúng.
-b c) DS ⊥ CD và DA ⊥ CD tại D nên góc phẳng là góc SDA. Đúng.
-b d) tan SDA = SA/AD = 2/2 = 1 nên góc bằng 45°. Sai.
+b c) DS ⊥ CD và DA ⊥ CD tại D nên góc phẳng là ∠SDA. Đúng.
+b d) tan ∠SDA = SA/AD = 2/2 = 1 nên góc bằng 45°. Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # 11-VII-25#3
 h Giao tuyến là BC; tìm hai đường vuông góc với BC trong hai mặt để có góc phẳng nhị diện.
-y BC ⊥ (SAB) ⇒ BC ⊥ SB và BC ⊥ AB; góc giữa (SBC) và đáy là góc SBA.
-b tan SBA = SA/AB = 2√3/2 = √3.
+y BC ⊥ (SAB) ⇒ BC ⊥ SB và BC ⊥ AB; góc giữa (SBC) và đáy là ∠SBA.
+b tan ∠SBA = SA/AB = 2√3/2 = √3.
 b Góc bằng 60°.
 b Đáp án: 60
 

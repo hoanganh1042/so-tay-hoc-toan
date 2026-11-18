@@ -132,20 +132,20 @@ b Đáp án: 6,83
 h Phương trình chính tắc: vectơ chỉ phương là bộ mẫu số.
 y (x − x₀)/a = (y − y₀)/b = (z − z₀)/c có vectơ chỉ phương (a; b; c).
 b Các mẫu số 2; −1; 4.
-b Đáp án: u = (2; −1; 4)
+b Đáp án: →u = (2; −1; 4)
 
 # I-5#1
 h Phương trình tham số: điểm đi qua là hằng số, vectơ chỉ phương là hệ số của t.
 y x = x₀ + at, y = y₀ + bt, z = z₀ + ct.
-b Thay M(1; −2; 3), u = (2; 1; −1).
+b Thay M(1; −2; 3), →u = (2; 1; −1).
 b x = 1 + 2t, y = −2 + t, z = 3 − t.
 b Đáp án: x = 1 + 2t, y = −2 + t, z = 3 − t
 
 # I-5#2
-h Đường thẳng qua hai điểm nhận vectơ AB làm vectơ chỉ phương.
-y AB = (x_B − x_A; y_B − y_A; z_B − z_A).
-b AB = (3 − 1; 1 − 2; 2 + 1) = (2; −1; 3).
-b Đáp án: u = (2; −1; 3)
+h Đường thẳng qua hai điểm nhận vectơ →AB làm vectơ chỉ phương.
+y →AB = (x_B − x_A; y_B − y_A; z_B − z_A).
+b →AB = (3 − 1; 1 − 2; 2 + 1) = (2; −1; 3).
+b Đáp án: →u = (2; −1; 3)
 
 # I-5#3
 h Thay từng điểm vào phương trình tham số: tìm t từ một tọa độ rồi kiểm tra hai tọa độ còn lại.
@@ -156,9 +156,9 @@ b Đáp án: (1; 3; 4)
 
 # I-6#0
 h Vectơ pháp tuyến đọc từ hệ số của x, y, z.
-y ax + by + cz + d = 0 có n = (a; b; c).
-b n = (2; −1; 3).
-b Đáp án: n = (2; −1; 3)
+y ax + by + cz + d = 0 có →n = (a; b; c).
+b →n = (2; −1; 3).
+b Đáp án: →n = (2; −1; 3)
 
 # I-6#1
 h Mặt phẳng qua một điểm, biết vectơ pháp tuyến.
@@ -350,10 +350,10 @@ b Đáp án: (A'B'C'D')
 
 # I-12#2
 h Hai vectơ nối đuôi nhau: quy tắc ba điểm.
-y AB + BC' = AC' (điểm cuối của vectơ đầu là điểm đầu của vectơ sau).
-b Vectơ AB kết thúc tại B, vectơ BC' bắt đầu tại B nên hai vectơ nối đuôi nhau.
+y →AB + →BC' = →AC' (điểm cuối của vectơ đầu là điểm đầu của vectơ sau).
+b Vectơ →AB kết thúc tại B, vectơ →BC' bắt đầu tại B nên hai vectơ nối đuôi nhau.
 b Tổng là vectơ đi từ điểm đầu A đến điểm cuối C'.
-b Đáp án: Vectơ AC'
+b Đáp án: Vectơ →AC'
 
 # I-12#3
 h Áp dụng công thức thể tích khối chóp.
@@ -364,8 +364,8 @@ b Đáp án: 10
 # I-12#4
 h Nhân vectơ với số rồi trừ theo từng tọa độ.
 y k(a₁; a₂; a₃) = (ka₁; ka₂; ka₃).
-b 2a = (2; −4; 6).
-b 2a − b = (2 − 2; −4 − 0; 6 + 1) = (0; −4; 7).
+b 2→a = (2; −4; 6).
+b 2→a − →b = (2 − 2; −4 − 0; 6 + 1) = (0; −4; 7).
 b Đáp án: (0; −4; 7)
 
 # I-12#5
@@ -514,12 +514,12 @@ b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # II-4#0
 h Đọc vị trí theo t, tốc độ là độ dài vectơ dời mỗi giây, khoảng cách nhỏ nhất là khoảng cách từ C đến đường bay.
-y Chuyển động thẳng đều M = A + t·u: tốc độ |u|.
-y d(C, Δ) = |[AC, u]|/|u| (tích có hướng), kiểm tra chân đường vuông góc ứng với t ≥ 0.
+y Chuyển động thẳng đều M = A + t·→u: tốc độ |→u|.
+y d(C, Δ) = |[→AC, →u]|/|→u| (tích có hướng), kiểm tra chân đường vuông góc ứng với t ≥ 0.
 b a) t = 2: (6; 8; 10). Đúng.
-b b) u = (3; 4; 0), |u| = 5 m/s. Sai.
+b b) →u = (3; 4; 0), |→u| = 5 m/s. Sai.
 b c) Theo vị trí M(3t; 4t; 10). Đúng.
-b d) AC = (10; 0; 0), [AC, u] = (0; 0; 40), d = 40/5 = 8 (ứng với t = 1,2 > 0). Đúng.
+b d) →AC = (10; 0; 0), [→AC, →u] = (0; 0; 40), d = 40/5 = 8 (ứng với t = 1,2 > 0). Đúng.
 b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
 
 # II-4#1
@@ -532,28 +532,28 @@ b d) d(I, (Oxy)) = 1, r = √(25 − 1) = 2√6. Đúng.
 b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
 
 # II-4#2
-h Tính vectơ AB, nhận xét cao độ không đổi; khoảng cách gần nhất từ O đến đoạn thẳng AB.
-y Điểm M trên AB: M = A + t·AB, t ∈ [0; 1]; OM² là hàm bậc hai của t.
-b a) AB = (−10; 10; 0). Đúng.
-b b) Thành phần z của AB bằng 0 nên z luôn bằng 6. Đúng.
-b c) |AB| = √(100 + 100) = 10√2. Đúng.
+h Tính vectơ →AB, nhận xét cao độ không đổi; khoảng cách gần nhất từ O đến đoạn thẳng AB.
+y Điểm M trên AB: M = A + t·→AB, t ∈ [0; 1]; OM² là hàm bậc hai của t.
+b a) →AB = (−10; 10; 0). Đúng.
+b b) Thành phần z của →AB bằng 0 nên z luôn bằng 6. Đúng.
+b c) |→AB| = √(100 + 100) = 10√2. Đúng.
 b d) M(10 − 10t; 10t; 6), OM² = (10 − 10t)² + 100t² + 36 nhỏ nhất tại t = ½: OM = √86 ≈ 9,27 > 9. Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # II-4#3
 h Hình chiếu lên mặt đất cho z = 0; tính vectơ, độ dài, và góc giữa đường thẳng với mặt phẳng (Oxy) bằng sin.
-y sin(CD, (Oxy)) = |u·k|/|u| với k = (0; 0; 1).
+y sin(CD, (Oxy)) = |→u·→k|/|→u| với →k = (0; 0; 1).
 b a) (2; 3; 0). Đúng.
-b b) CD = D − C = (−4; 3; 2). Đúng.
-b c) |CD| = √(16 + 9 + 4) = √29. Đúng.
+b b) →CD = D − C = (−4; 3; 2). Đúng.
+b c) |→CD| = √(16 + 9 + 4) = √29. Đúng.
 b d) sin φ = 2/√29 ≈ 0,371 < sin 30° = 0,5 nên φ ≈ 21,8° < 30°. Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # II-4#4
 h Vị trí theo t: độ cao là tọa độ z; tốc độ là độ dài vectơ dời mỗi giờ.
-y M = A + t·u với u = (2; 2; 1); AM = t·|u|.
+y M = A + t·→u với →u = (2; 2; 1); AM = t·|→u|.
 b a) t = 1: z = 2. Đúng.
-b b) |u| = √(4 + 4 + 1) = 3 km/h. Đúng.
+b b) |→u| = √(4 + 4 + 1) = 3 km/h. Đúng.
 b c) t = 2 cho (5; 6; 3). Đúng.
 b d) z = 1 + t = 4 ⇔ t = 3; AM = 3·3 = 9 km, không phải 6. Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.

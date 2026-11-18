@@ -24,8 +24,8 @@ window.KHKT_MUC = {
 window.KHKT_EX_ADD = {
   // Vận dụng
   '10-III-5': [{t:'sa', m:'V', q:'Cho sin α = 3/5 với 90° < α < 180°. Tính tan α − cos α.', a:'0,05', r:''}],
-  '10-IV-7': [{t:'sa', m:'V', q:'Cho lục giác đều ABCDEF tâm O. Có bao nhiêu vectơ khác vectơ-không, cùng phương với vectơ OA, có điểm đầu và điểm cuối là hai trong bảy điểm A, B, C, D, E, F, O?', a:'10', r:''}],
-  '10-IV-9': [{t:'sa', m:'V', q:'Cho tam giác ABC, điểm M thuộc cạnh BC sao cho BM = 2MC. Biết vectơ AM = x·vectơ AB + y·vectơ AC. Tính 3x + 6y.', a:'5', r:''}],
+  '10-IV-7': [{t:'sa', m:'V', q:'Cho lục giác đều ABCDEF tâm O. Có bao nhiêu vectơ khác vectơ-không, cùng phương với vectơ →OA, có điểm đầu và điểm cuối là hai trong bảy điểm A, B, C, D, E, F, O?', a:'10', r:''}],
+  '10-IV-9': [{t:'sa', m:'V', q:'Cho tam giác ABC, điểm M thuộc cạnh BC sao cho BM = 2MC. Biết vectơ →AM = x·vectơ →AB + y·vectơ →AC. Tính 3x + 6y.', a:'5', r:''}],
   '10-IV-10': [{t:'sa', m:'V', q:'Cho A(1; 2), B(3; −1), C(−2; 4). Điểm D(a; b) làm cho ABCD là hình bình hành. Tính a + b.', a:'3', r:''}],
   '10-IV-11': [{t:'sa', m:'V', q:'Một người kéo thùng hàng bằng một lực có độ lớn 50 N, hướng hợp với phương ngang góc 30°, làm thùng dịch chuyển 20 m theo phương ngang. Tính công của lực (J).', a:'866', r:'Làm tròn đến hàng đơn vị'}],
   '10-IX-26': [{t:'sa', m:'V', q:'Hộp có 10 thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên đồng thời 2 thẻ. Tính xác suất tích hai số trên thẻ là số chẵn.', a:'0,78', r:'Làm tròn đến hàng phần trăm'}],

@@ -66,7 +66,7 @@ b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 h Gọi P là trung điểm AC; PM ∥ AB, PN ∥ CD nên góc cần tìm là góc giữa PM và PN.
 y Đường trung bình: PM ∥ AB, PM = AB/2; PN ∥ CD, PN = CD/2.
 y Góc giữa hai đường thẳng thuộc [0°; 90°].
-b PM = PN = 3; cos MPN = (9 + 9 − 27)/(2·3·3) = −1/2 nên góc MPN = 120°.
+b PM = PN = 3; cos ∠MPN = (9 + 9 − 27)/(2·3·3) = −1/2 nên ∠MPN = 120°.
 b Góc giữa AB và CD bằng 180° − 120° = 60°.
 b Đáp án: 60°
 
@@ -75,25 +75,25 @@ h Chứng minh BC vuông góc với hai đường cắt nhau trong (SAB); từ �
 y d ⊥ hai đường thẳng cắt nhau trong (P) thì d ⊥ (P).
 y SA ⊥ (ABC) ⇒ SA vuông góc với mọi đường trong (ABC).
 b a) BC ⊥ AB, BC ⊥ SA nên BC ⊥ (SAB): đúng.
-b b) Nếu AB ⊥ SC thì cùng với AB ⊥ SA ta có AB ⊥ (SAC), suy ra AB ⊥ AC, vô lí vì góc BAC nhọn: sai.
+b b) Nếu AB ⊥ SC thì cùng với AB ⊥ SA ta có AB ⊥ (SAC), suy ra AB ⊥ AC, vô lí vì ∠BAC nhọn: sai.
 b c) AH ⊂ (SAB) nên AH ⊥ BC; lại có AH ⊥ SB nên AH ⊥ (SBC): đúng.
 b d) AC² = 4 + 8 = 12, SC = √(4 + 12) = 4: đúng.
 b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
 
 # 11-VII-24#6
-h Tìm hình chiếu vuông góc của C trên (SAB) (chính là B), góc cần tìm là góc CSB.
+h Tìm hình chiếu vuông góc của C trên (SAB) (chính là B), góc cần tìm là ∠CSB.
 y BC ⊥ AB, BC ⊥ SA ⇒ BC ⊥ (SAB).
 y Góc giữa SC và (SAB) là góc giữa SC và hình chiếu SB.
-b BC ⊥ (SAB) nên hình chiếu của C trên (SAB) là B; góc cần tìm là góc CSB.
-b SB = √(9 + 16) = 5; tam giác SBC vuông tại B: tan CSB = BC/SB = 3/5.
-b Góc CSB ≈ 30,96°, làm tròn được 31°.
+b BC ⊥ (SAB) nên hình chiếu của C trên (SAB) là B; góc cần tìm là ∠CSB.
+b SB = √(9 + 16) = 5; tam giác SBC vuông tại B: tan ∠CSB = BC/SB = 3/5.
+b ∠CSB ≈ 30,96°, làm tròn được 31°.
 b Đáp án: 31
 
 # 11-VII-25#6
-h Gọi M là trung điểm BC; góc phẳng nhị diện là góc SMO.
-y OM ⊥ BC, SM ⊥ BC ⇒ góc SMO là góc phẳng của nhị diện [S, BC, A].
+h Gọi M là trung điểm BC; góc phẳng nhị diện là ∠SMO.
+y OM ⊥ BC, SM ⊥ BC ⇒ ∠SMO là góc phẳng của nhị diện [S, BC, A].
 b OM = AB/2 = 1, SO = √3.
-b tan SMO = SO/OM = √3 nên góc SMO = 60°.
+b tan ∠SMO = SO/OM = √3 nên ∠SMO = 60°.
 b Đáp án: 60°
 
 # 11-VII-26#6
@@ -122,10 +122,10 @@ b V = (1/3)·4·3·2√3 = 8√3 ≈ 13,86.
 b Đáp án: 13,9
 
 # 11-VII-27#7
-h Góc giữa A′C và đáy là góc A′CA; từ đó tìm AA′ rồi tính thể tích.
+h Góc giữa A′C và đáy là ∠A′CA; từ đó tìm AA′ rồi tính thể tích.
 y AA′ ⊥ (ABC) nên hình chiếu của A′C trên đáy là AC.
 y V = S_đáy·h.
-b AC = √(9 + 16) = 5; góc A′CA = 45° nên AA′ = AC = 5.
+b AC = √(9 + 16) = 5; ∠A′CA = 45° nên AA′ = AC = 5.
 b V = (1/2)·3·4·5 = 30.
 b Đáp án: 30
 

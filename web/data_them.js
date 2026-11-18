@@ -14,17 +14,17 @@
           'Chuyển đổi giữa hai dạng phương trình; vận dụng vào bài toán thực tế có quan hệ bậc nhất.'
         ],
         kt: [
-          'Vectơ pháp tuyến n = (a; b) ≠ 0 vuông góc với đường thẳng; vectơ chỉ phương u = (u₁; u₂) ≠ 0 song song hoặc nằm trên đường thẳng.',
-          'Nếu n = (a; b) thì u = (−b; a) là một vectơ chỉ phương, và ngược lại.',
-          'Đi qua M(x₀; y₀), có pháp tuyến n = (a; b): a(x − x₀) + b(y − y₀) = 0, đưa về ax + by + c = 0.',
-          'Đi qua M(x₀; y₀), có chỉ phương u = (u₁; u₂): x = x₀ + u₁t, y = y₀ + u₂t (t ∈ ℝ).',
-          'Đường thẳng qua hai điểm A, B nhận AB làm vectơ chỉ phương.'
+          'Vectơ pháp tuyến →n = (a; b) ≠ →0 vuông góc với đường thẳng; vectơ chỉ phương →u = (u₁; u₂) ≠ →0 song song hoặc nằm trên đường thẳng.',
+          'Nếu →n = (a; b) thì →u = (−b; a) là một vectơ chỉ phương, và ngược lại.',
+          'Đi qua M(x₀; y₀), có pháp tuyến →n = (a; b): a(x − x₀) + b(y − y₀) = 0, đưa về ax + by + c = 0.',
+          'Đi qua M(x₀; y₀), có chỉ phương →u = (u₁; u₂): x = x₀ + u₁t, y = y₀ + u₂t (t ∈ ℝ).',
+          'Đường thẳng qua hai điểm A, B nhận →AB làm vectơ chỉ phương.'
         ],
-        d: {t: 'mc', q: 'Đường thẳng Δ: 2x − 3y + 1 = 0 có một vectơ pháp tuyến là', o: ['n = (2; −3)', 'n = (3; 2)', 'n = (2; 3)', 'n = (−3; 2)'], a: 0, g: 'Hệ số của x và y.'},
+        d: {t: 'mc', q: 'Đường thẳng Δ: 2x − 3y + 1 = 0 có một vectơ pháp tuyến là', o: ['→n = (2; −3)', '→n = (3; 2)', '→n = (2; 3)', '→n = (−3; 2)'], a: 0, g: 'Hệ số của x và y.'},
         ex: [
-          {t: 'mc', q: 'Phương trình tổng quát của đường thẳng đi qua A(1; 2) và có vectơ pháp tuyến n = (3; −1) là', o: ['3x − y − 1 = 0', '3x − y + 1 = 0', 'x + 2y − 5 = 0', '3x + y − 5 = 0'], a: 0, g: '3(x − 1) − (y − 2) = 0.'},
-          {t: 'mc', q: 'Đường thẳng đi qua hai điểm A(1; 1) và B(3; 5) có phương trình tham số là', o: ['x = 1 + t, y = 1 + 2t', 'x = 1 + 2t, y = 1 − t', 'x = 3 + t, y = 1 + 2t', 'x = 1 + 2t, y = 5 + t'], a: 0, g: 'AB = (2; 4) cùng phương với (1; 2).'},
-          {t: 'tf', q: 'Cho đường thẳng d: x = 2 + t, y = −1 + 3t (t ∈ ℝ).', s: [['d có một vectơ chỉ phương là u = (1; 3)', true], ['Điểm M(3; 2) thuộc d', true], ['d có một vectơ pháp tuyến là n = (1; 3)', false], ['Phương trình tổng quát của d là 3x − y − 7 = 0', true]], g: 'Pháp tuyến là (3; −1).'},
+          {t: 'mc', q: 'Phương trình tổng quát của đường thẳng đi qua A(1; 2) và có vectơ pháp tuyến →n = (3; −1) là', o: ['3x − y − 1 = 0', '3x − y + 1 = 0', 'x + 2y − 5 = 0', '3x + y − 5 = 0'], a: 0, g: '3(x − 1) − (y − 2) = 0.'},
+          {t: 'mc', q: 'Đường thẳng đi qua hai điểm A(1; 1) và B(3; 5) có phương trình tham số là', o: ['x = 1 + t, y = 1 + 2t', 'x = 1 + 2t, y = 1 − t', 'x = 3 + t, y = 1 + 2t', 'x = 1 + 2t, y = 5 + t'], a: 0, g: '→AB = (2; 4) cùng phương với (1; 2).'},
+          {t: 'tf', q: 'Cho đường thẳng d: x = 2 + t, y = −1 + 3t (t ∈ ℝ).', s: [['d có một vectơ chỉ phương là →u = (1; 3)', true], ['Điểm M(3; 2) thuộc d', true], ['d có một vectơ pháp tuyến là →n = (1; 3)', false], ['Phương trình tổng quát của d là 3x − y − 7 = 0', true]], g: 'Pháp tuyến là (3; −1).'},
           {t: 'sa', q: 'Đường thẳng d: 2x + y − 6 = 0 cắt trục Ox, Oy lần lượt tại A và B. Tính diện tích tam giác OAB.', a: '9', g: 'A(3; 0), B(0; 6).', r: ''},
           {t: 'sa', q: 'Cước taxi gồm 12 nghìn đồng phí mở cửa và 15 nghìn đồng cho mỗi km. Số tiền y (nghìn đồng) khi đi x km có đồ thị là một đường thẳng. Đi bao nhiêu km thì phải trả 192 nghìn đồng?', a: '12', g: 'y = 15x + 12.', r: ''}
         ]
@@ -39,7 +39,7 @@
           'Đường tròn tâm I(a; b), bán kính R: (x − a)² + (y − b)² = R².',
           'Phương trình x² + y² − 2ax − 2by + c = 0 là đường tròn khi a² + b² − c > 0; khi đó tâm I(a; b), R = √(a² + b² − c).',
           'Vị trí điểm M: IM < R (trong), IM = R (trên), IM > R (ngoài) đường tròn.',
-          'Tiếp tuyến tại M thuộc đường tròn nhận IM làm vectơ pháp tuyến; đường thẳng Δ tiếp xúc đường tròn ⇔ d(I, Δ) = R.'
+          'Tiếp tuyến tại M thuộc đường tròn nhận →IM làm vectơ pháp tuyến; đường thẳng Δ tiếp xúc đường tròn ⇔ d(I, Δ) = R.'
         ],
         d: {t: 'mc', q: 'Đường tròn (C): (x − 2)² + (y + 1)² = 16 có tâm I và bán kính R là', o: ['I(2; −1), R = 4', 'I(−2; 1), R = 4', 'I(2; −1), R = 16', 'I(2; 1), R = 4'], a: 0, g: 'a = 2, b = −1, R² = 16.'},
         ex: [

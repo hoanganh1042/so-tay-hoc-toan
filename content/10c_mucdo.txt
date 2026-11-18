@@ -8,35 +8,35 @@ b tan α − cos α = −0,75 + 0,8 = 0,05.
 b Đáp án: 0,05
 
 # 10-IV-7#5
-h Vectơ cùng phương với OA nằm trên đường thẳng AD hoặc trên đường thẳng song song với AD; đếm các đường như vậy đi qua ít nhất hai điểm.
+h Vectơ cùng phương với →OA nằm trên đường thẳng AD hoặc trên đường thẳng song song với AD; đếm các đường như vậy đi qua ít nhất hai điểm.
 y Hai vectơ cùng phương khi giá của chúng song song hoặc trùng nhau.
 y Trong lục giác đều ABCDEF tâm O: A, O, D thẳng hàng và BC // AD // FE.
 b Trên đường thẳng AD có 3 điểm A, O, D: số vectơ là 3·2 = 6.
-b Trên đường thẳng BC có 2 vectơ BC, CB; trên đường thẳng FE có 2 vectơ FE, EF.
+b Trên đường thẳng BC có 2 vectơ →BC, →CB; trên đường thẳng FE có 2 vectơ →FE, →EF.
 b Tổng cộng 6 + 2 + 2 = 10 vectơ.
 b Đáp án: 10
 
 # 10-IV-9#5
-h Biểu diễn vectơ AM qua AB và BC bằng quy tắc ba điểm, rồi thay BC = AC − AB.
-y BM = 2MC nên vectơ BM = (2/3)·vectơ BC.
-y Quy tắc ba điểm: AM = AB + BM; quy tắc hiệu: BC = AC − AB.
-b AM = AB + (2/3)(AC − AB) = (1/3)AB + (2/3)AC.
+h Biểu diễn vectơ →AM qua →AB và →BC bằng quy tắc ba điểm, rồi thay →BC = →AC − →AB.
+y BM = 2MC nên vectơ →BM = (2/3)·vectơ →BC.
+y Quy tắc ba điểm: →AM = →AB + →BM; quy tắc hiệu: →BC = →AC − →AB.
+b →AM = →AB + (2/3)(→AC − →AB) = (1/3)→AB + (2/3)→AC.
 b Vậy x = 1/3, y = 2/3.
 b 3x + 6y = 1 + 4 = 5.
 b Đáp án: 5
 
 # 10-IV-10#5
-h ABCD là hình bình hành khi vectơ AB = vectơ DC; giải ra tọa độ D.
-y Tứ giác ABCD là hình bình hành ⇔ vectơ AB = vectơ DC.
+h ABCD là hình bình hành khi vectơ →AB = vectơ →DC; giải ra tọa độ D.
+y Tứ giác ABCD là hình bình hành ⇔ vectơ →AB = vectơ →DC.
 y Hai vectơ bằng nhau khi có tọa độ bằng nhau.
-b Vectơ AB = (2; −3); vectơ DC = (−2 − a; 4 − b).
+b Vectơ →AB = (2; −3); vectơ →DC = (−2 − a; 4 − b).
 b −2 − a = 2 ⇒ a = −4; 4 − b = −3 ⇒ b = 7.
 b a + b = −4 + 7 = 3.
 b Đáp án: 3
 
 # 10-IV-11#5
 h Công của lực là tích vô hướng của vectơ lực và vectơ dịch chuyển.
-y A = F·d = |F|·|d|·cos(F, d).
+y A = →F·→d = |→F|·|→d|·cos(→F, →d).
 b Góc giữa lực và hướng dịch chuyển là 30°.
 b A = 50·20·cos 30° = 1000·(√3/2) ≈ 866,03 (J).
 b Đáp án: 866

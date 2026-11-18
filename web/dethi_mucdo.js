@@ -24,7 +24,7 @@ window.KHKT_EXAM_LV = {
   'II-3': [{lv: 'kho', t: 'tf', q: 'Một nhà máy có hai dây chuyền. Dây chuyền I làm ra 60% sản phẩm với tỉ lệ phế phẩm 3%; dây chuyền II làm ra 40% sản phẩm với tỉ lệ phế phẩm 5%. Lấy ngẫu nhiên một sản phẩm của nhà máy.',
     s: [['Xác suất sản phẩm do dây chuyền I làm ra là 0,6.', true], ['Xác suất sản phẩm là phế phẩm, biết nó do dây chuyền II làm ra, là 0,05.', true], ['Xác suất sản phẩm là phế phẩm bằng 0,038.', true], ['Biết sản phẩm lấy ra là phế phẩm, xác suất nó do dây chuyền I làm ra lớn hơn 0,5.', false]]}],
   'II-4': [{lv: 'kho', t: 'tf', q: 'Trong không gian Oxyz (đơn vị km), một trạm radar đặt tại gốc O, phát hiện được vật thể cách nó không quá 50 km. Một máy bay bay thẳng từ A(−40; 30; 10) đến B(60; 30; 10).',
-    s: [['Vectơ AB = (100; 0; 0).', true], ['Đường bay AB có phương trình x = −40 + t, y = 30, z = 10 (t ∈ ℝ).', true], ['Khoảng cách ngắn nhất từ máy bay đến trạm radar bằng 30 km.', false], ['Quãng đường máy bay bay trong vùng radar phát hiện được dài hơn 80 km.', false]]}],
+    s: [['Vectơ →AB = (100; 0; 0).', true], ['Đường bay AB có phương trình x = −40 + t, y = 30, z = 10 (t ∈ ℝ).', true], ['Khoảng cách ngắn nhất từ máy bay đến trạm radar bằng 30 km.', false], ['Quãng đường máy bay bay trong vùng radar phát hiện được dài hơn 80 km.', false]]}],
   // ---------- Phần III: mức khó và mức dễ ----------
   'III-1': [
     {lv: 'kho', muc: 'VD', t: 'sa', q: 'Cho hình chóp S.ABCD có đáy là hình vuông cạnh 2, SA vuông góc với đáy và SA = 2. Tính khoảng cách từ B đến mặt phẳng (SCD).', a: '1,41', r: 'Làm tròn đến hàng phần trăm'},

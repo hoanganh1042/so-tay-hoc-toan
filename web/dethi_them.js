@@ -57,7 +57,7 @@ window.KHKT_EXAM_ADD = {
     {t: 'mc', q: 'Điểm kiểm tra của 40 học sinh: [4; 5): 3; [5; 6): 7; [6; 7): 12; [7; 8): 10; [8; 9): 8. Trung vị của mẫu số liệu ghép nhóm (làm tròn đến hàng phần trăm) là', o: ['6,83', '6,50', '7,20', '6,92'], a: 0, g: 'Mₑ = 6 + (20 − 10)/12·1.'}
   ],
   'I-5': [
-    {t: 'mc', q: 'Trong không gian Oxyz, đường thẳng đi qua hai điểm A(1; 2; −1) và B(3; 1; 2) có một vectơ chỉ phương là', o: ['u = (2; −1; 3)', 'u = (4; 3; 1)', 'u = (1; 2; −1)', 'u = (2; 1; 3)'], a: 0, g: 'u = AB.'},
+    {t: 'mc', q: 'Trong không gian Oxyz, đường thẳng đi qua hai điểm A(1; 2; −1) và B(3; 1; 2) có một vectơ chỉ phương là', o: ['→u = (2; −1; 3)', '→u = (4; 3; 1)', '→u = (1; 2; −1)', '→u = (2; 1; 3)'], a: 0, g: '→u = →AB.'},
     {t: 'mc', q: 'Trong không gian Oxyz, điểm nào sau đây thuộc đường thẳng d: x = 2 − t, y = 1 + 2t, z = 3 + t?', o: ['(2; 1; 4)', '(1; 3; 4)', '(1; 2; 3)', '(3; −1; 3)'], a: 1, g: 't = 1.'}
   ],
   'I-6': [
@@ -85,7 +85,7 @@ window.KHKT_EXAM_ADD = {
     {t: 'mc', q: 'Với mọi số thực a, b, khẳng định nào sau đây đúng?', o: ['cos(a − b) = cos a cos b − sin a sin b', 'cos(a − b) = cos a cos b + sin a sin b', 'sin(a − b) = sin a cos b + cos a sin b', 'sin 2a = 2sin a'], a: 1, g: 'Công thức cộng.', le: '11-I-2'}
   ],
   'I-12': [
-    {t: 'mc', q: 'Trong không gian Oxyz, cho a = (1; −2; 3) và b = (2; 0; −1). Tọa độ của vectơ 2a − b là', o: ['(0; −4; 7)', '(3; −2; 2)', '(0; −4; 5)', '(4; −4; 5)'], a: 0, g: '2a = (2; −4; 6).', tp: 'vecto-oxyz', le: '12-II-8'},
+    {t: 'mc', q: 'Trong không gian Oxyz, cho →a = (1; −2; 3) và →b = (2; 0; −1). Tọa độ của vectơ 2→a − →b là', o: ['(0; −4; 7)', '(3; −2; 2)', '(0; −4; 5)', '(4; −4; 5)'], a: 0, g: '2→a = (2; −4; 6).', tp: 'vecto-oxyz', le: '12-II-8'},
     {t: 'mc', q: 'Khối lăng trụ đứng có đáy là hình vuông cạnh 3 và chiều cao 4 có thể tích bằng', o: ['12', '36', '48', '24'], a: 1, g: 'V = B·h.', tp: 'the-tich', le: '11-VII-27'}
   ],
   'II-1': [
@@ -101,8 +101,8 @@ window.KHKT_EXAM_ADD = {
     {t: 'tf', q: 'Hộp I có 3 bi đỏ và 2 bi xanh; hộp II có 4 bi đỏ và 1 bi xanh. Lấy ngẫu nhiên 1 bi từ hộp I bỏ sang hộp II, rồi lấy ngẫu nhiên 1 bi từ hộp II.', s: [['Xác suất bi chuyển sang hộp II là bi đỏ bằng 0,6', true], ['Biết bi chuyển sang là bi đỏ, xác suất lấy được bi đỏ từ hộp II bằng 5/6', true], ['Xác suất lấy được bi đỏ từ hộp II bằng 23/30', true], ['Biết bi lấy từ hộp II là bi đỏ, xác suất bi chuyển sang là bi xanh lớn hơn 0,4', false]], g: 'P(đỏ) = 0,6·5/6 + 0,4·4/6 = 23/30; P(xanh chuyển | đỏ) = 8/23 ≈ 0,35.'}
   ],
   'II-4': [
-    {t: 'tf', q: 'Trong không gian Oxyz (đơn vị mét), mặt đất là mặt phẳng (Oxy). Một chiếc đèn treo tại điểm D(2; 3; 6), một camera đặt tại điểm C(6; 0; 4).', s: [['Hình chiếu vuông góc của D lên mặt đất là điểm (2; 3; 0)', true], ['CD = (−4; 3; 2)', true], ['Khoảng cách từ camera đến đèn bằng √29 m', true], ['Góc giữa đường thẳng CD và mặt đất lớn hơn 30°', false]], g: 'sin φ = 2/√29 ≈ 0,37 nên φ ≈ 21,8°.'},
-    {t: 'tf', q: 'Trong không gian Oxyz (đơn vị km), mặt đất là mặt phẳng (Oxy). Một khinh khí cầu bay thẳng đều từ A(1; 2; 1); sau t giờ nó ở vị trí M(1 + 2t; 2 + 2t; 1 + t).', s: [['Sau 1 giờ, khinh khí cầu ở độ cao 2 km', true], ['Tốc độ của khinh khí cầu là 3 km/h', true], ['Khinh khí cầu đi qua điểm (5; 6; 3)', true], ['Khi ở độ cao 4 km, khinh khí cầu cách A đúng 6 km', false]], g: 'Mỗi giờ dời theo u = (2; 2; 1), |u| = 3; độ cao 4 km khi t = 3, AM = 9 km.'}
+    {t: 'tf', q: 'Trong không gian Oxyz (đơn vị mét), mặt đất là mặt phẳng (Oxy). Một chiếc đèn treo tại điểm D(2; 3; 6), một camera đặt tại điểm C(6; 0; 4).', s: [['Hình chiếu vuông góc của D lên mặt đất là điểm (2; 3; 0)', true], ['→CD = (−4; 3; 2)', true], ['Khoảng cách từ camera đến đèn bằng √29 m', true], ['Góc giữa đường thẳng CD và mặt đất lớn hơn 30°', false]], g: 'sin φ = 2/√29 ≈ 0,37 nên φ ≈ 21,8°.'},
+    {t: 'tf', q: 'Trong không gian Oxyz (đơn vị km), mặt đất là mặt phẳng (Oxy). Một khinh khí cầu bay thẳng đều từ A(1; 2; 1); sau t giờ nó ở vị trí M(1 + 2t; 2 + 2t; 1 + t).', s: [['Sau 1 giờ, khinh khí cầu ở độ cao 2 km', true], ['Tốc độ của khinh khí cầu là 3 km/h', true], ['Khinh khí cầu đi qua điểm (5; 6; 3)', true], ['Khi ở độ cao 4 km, khinh khí cầu cách A đúng 6 km', false]], g: 'Mỗi giờ dời theo →u = (2; 2; 1), |→u| = 3; độ cao 4 km khi t = 3, AM = 9 km.'}
   ],
   'III-1': [
     {t: 'sa', q: 'Cho hình lập phương ABCD.A\'B\'C\'D\' có cạnh bằng 6. Tính khoảng cách từ điểm A đến mặt phẳng (A\'BD).', a: '3,46', g: 'Tứ diện AA\'BD có ba cạnh đôi một vuông góc tại A: 1/d² = 3/36.', r: 'Làm tròn đến hàng phần trăm'},

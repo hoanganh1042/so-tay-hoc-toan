@@ -1,9 +1,9 @@
 # 12-II-7#5
 h Viết tọa độ ba hình chiếu, rồi tính thể tích tứ diện có một đỉnh ở gốc bằng tích có hướng.
 y Hình chiếu của M(x; y; z) lên (Oxy), (Oyz), (Ozx) lần lượt là (x; y; 0), (0; y; z), (x; 0; z).
-y Thể tích tứ diện OABC bằng |[OA, OB]·OC|/6.
+y Thể tích tứ diện OABC bằng |[→OA, →OB]·→OC|/6.
 b A₁(1; 2; 0), A₂(0; 2; 3), A₃(1; 0; 3).
-b [OA₁, OA₂] = (2·3 − 0·2; 0·0 − 1·3; 1·2 − 2·0) = (6; −3; 2).
+b [→OA₁, →OA₂] = (2·3 − 0·2; 0·0 − 1·3; 1·2 − 2·0) = (6; −3; 2).
 b (6; −3; 2)·(1; 0; 3) = 6 + 0 + 6 = 12, nên V = 12/6 = 2.
 b Đáp án: 2
 

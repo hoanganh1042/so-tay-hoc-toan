@@ -49,7 +49,7 @@ le('10-III-5', 'Một vòng đu quay có tâm O cao 55 m so với mặt đất, 
    ['Điểm M trên đường tròn tâm O bán kính R, góc xOM = α thì M(R cos α; R sin α).', 'sin 135° = sin 45° = √2/2.'],
    ['Tung độ của M so với tâm: 50·sin 135° = 25√2 ≈ 35,36 m.', 'Độ cao so với mặt đất: 55 + 35,36 ≈ 90,36 m.'],
    v=55 + 50*sin(radians(135)), nd=1, r=R1)
-le('10-III-6', 'Hai trạm quan sát A, B trên bờ biển cách nhau 500 m cùng nhìn thấy một hòn đảo C, đo được góc CAB = 70° và góc CBA = 60°. Khoảng cách từ trạm A đến hòn đảo là bao nhiêu mét?', '565',
+le('10-III-6', 'Hai trạm quan sát A, B trên bờ biển cách nhau 500 m cùng nhìn thấy một hòn đảo C, đo được ∠CAB = 70° và ∠CBA = 60°. Khoảng cách từ trạm A đến hòn đảo là bao nhiêu mét?', '565',
    'Biết một cạnh và hai góc kề: tính góc còn lại rồi dùng định lí sin.',
    ['Định lí sin: a/sin A = b/sin B = c/sin C.', 'Tổng ba góc của tam giác bằng 180°.'],
    ['Góc C = 180° − 70° − 60° = 50°.', 'AC/sin B = AB/sin C nên AC = 500·sin 60°/sin 50° ≈ 500·0,8660/0,7660 ≈ 565,3 m.'],
@@ -61,23 +61,23 @@ le('10-IV-7', 'Trên mặt hồ có bốn ca nô chuyển động: A đi về h�
    v=comb(3, 2), src=('HP13', 'III.5'))
 le('10-IV-8', 'Hai sợi dây cáp cùng kéo một vật với hai lực có cùng độ lớn 320 N, góc giữa hai dây là 60°. Độ lớn của hợp lực tác dụng lên vật là bao nhiêu newton?', '554',
    'Hợp lực là tổng hai vectơ lực; dựng hình bình hành (ở đây là hình thoi) rồi tính đường chéo.',
-   ['Quy tắc hình bình hành: F = F₁ + F₂ là đường chéo hình bình hành dựng trên F₁, F₂.', 'Hình thoi cạnh a, góc 60° có đường chéo dài a√3.'],
-   ['Hai lực cùng độ lớn nên hình bình hành là hình thoi cạnh 320, góc 60°.', 'Đường chéo ứng với tổng: |F| = 2·320·cos 30° = 320√3 ≈ 554,3 N.'],
+   ['Quy tắc hình bình hành: →F = →F₁ + →F₂ là đường chéo hình bình hành dựng trên →F₁, →F₂.', 'Hình thoi cạnh a, góc 60° có đường chéo dài a√3.'],
+   ['Hai lực cùng độ lớn nên hình bình hành là hình thoi cạnh 320, góc 60°.', 'Đường chéo ứng với tổng: |→F| = 2·320·cos 30° = 320√3 ≈ 554,3 N.'],
    v=2*320*cos(radians(30)), r=R0, src=('NA', 'II.4'))
-le('10-IV-9', 'Ba cột đèn A, B, C tạo thành tam giác có AB = AC = 50 m, BC = 60 m. Một cột phát sóng đặt tại điểm G thỏa mãn GA + GB + GC = 0 (tổng ba vectơ). Khoảng cách từ G đến cột A là bao nhiêu mét?', '26,7',
+le('10-IV-9', 'Ba cột đèn A, B, C tạo thành tam giác có AB = AC = 50 m, BC = 60 m. Một cột phát sóng đặt tại điểm G thỏa mãn →GA + →GB + →GC = →0 (tổng ba vectơ). Khoảng cách từ G đến cột A là bao nhiêu mét?', '26,7',
    'Nhận ra G là trọng tâm tam giác, rồi dùng AG = (2/3)·AM với M là trung điểm BC.',
-   ['GA + GB + GC = 0 ⇔ G là trọng tâm tam giác ABC.', 'Trọng tâm nằm trên trung tuyến AM và AG = (2/3)AM.'],
+   ['→GA + →GB + →GC = →0 ⇔ G là trọng tâm tam giác ABC.', 'Trọng tâm nằm trên trung tuyến AM và AG = (2/3)AM.'],
    ['Tam giác cân tại A nên trung tuyến AM cũng là đường cao: AM = √(50² − 30²) = 40 m.', 'AG = (2/3)·40 ≈ 26,67 m.'],
    v=2/3*40, nd=1, r=R1)
-le('10-IV-10', 'Trên bản đồ có hệ tọa độ Oxy (đơn vị km), một tàu xuất phát từ O với vectơ vận tốc v = (12; 5) (km/h). Sau 2 giờ tàu cách đảo I(30; 4) bao nhiêu kilômét?', '8,5',
+le('10-IV-10', 'Trên bản đồ có hệ tọa độ Oxy (đơn vị km), một tàu xuất phát từ O với vectơ vận tốc →v = (12; 5) (km/h). Sau 2 giờ tàu cách đảo I(30; 4) bao nhiêu kilômét?', '8,5',
    'Tọa độ tàu sau t giờ bằng tọa độ ban đầu cộng t lần vectơ vận tốc; sau đó tính độ dài vectơ.',
-   ['Chuyển động thẳng đều: M(t) = O + t·v.', 'AB = √((x₂ − x₁)² + (y₂ − y₁)²).'],
+   ['Chuyển động thẳng đều: M(t) = O + t·→v.', 'AB = √((x₂ − x₁)² + (y₂ − y₁)²).'],
    ['Sau 2 giờ tàu ở M = (24; 10).', 'MI = √((30 − 24)² + (4 − 10)²) = √72 ≈ 8,49 km.'],
    v=sqrt(72), nd=1, r=R1, src=('HP13', 'III.5'))
 le('10-IV-11', 'Tay cầm D của một máy tập có tọa độ D(0; 1), hai sợi dây cáp nối D với hai ròng rọc A(−3; 5) và B(4; 5) (đơn vị dm). Góc giữa hai sợi dây DA và DB bằng bao nhiêu độ?', '82',
-   'Góc giữa hai dây là góc giữa hai vectơ DA, DB; tính bằng tích vô hướng.',
-   ['cos(u, v) = (u·v)/(|u|·|v|), với u·v = x₁x₂ + y₁y₂.'],
-   ['DA = (−3; 4), DB = (4; 4).', 'DA·DB = −12 + 16 = 4; |DA| = 5, |DB| = 4√2.', 'cos ADB = 4/(20√2) ≈ 0,1414 nên góc ADB ≈ 81,87°.'],
+   'Góc giữa hai dây là góc giữa hai vectơ →DA, →DB; tính bằng tích vô hướng.',
+   ['cos(→u, →v) = (→u·→v)/(|→u|·|→v|), với →u·→v = x₁x₂ + y₁y₂.'],
+   ['→DA = (−3; 4), →DB = (4; 4).', '→DA·→DB = −12 + 16 = 4; |→DA| = 5, |→DB| = 4√2.', 'cos ∠ADB = 4/(20√2) ≈ 0,1414 nên ∠ADB ≈ 81,87°.'],
    v=degrees(acos(4/(5*sqrt(32)))), r=R0, src=('NA', 'II.4'))
 le('10-VI-15', 'Giá cước một hãng taxi: 1 km đầu 12 nghìn đồng; từ km thứ 2 đến km thứ 30 là 15 nghìn đồng/km; từ km thứ 31 trở đi là 11 nghìn đồng/km. Một khách đi 40 km phải trả bao nhiêu nghìn đồng?', '557',
    'Viết hàm cước theo từng khoảng quãng đường rồi thay x = 40 vào đúng công thức.',
@@ -103,7 +103,7 @@ le('10-VI-18', 'Đảo A cách bờ biển thẳng 3 km, H là hình chiếu c�
 le('10-VII-19', 'Trong hệ tọa độ Oxy (đơn vị km), một con tàu đi thẳng từ A(−3; 10) đến B(9; 1). Ngọn hải đăng đặt tại I(4; 3). Trên hành trình, tàu đi qua vị trí gần hải đăng nhất cách hải đăng bao nhiêu kilômét?', '1,4',
    'Lập phương trình đường thẳng AB, tính khoảng cách từ I đến AB và kiểm tra chân đường vuông góc nằm trên đoạn AB.',
    ['Khoảng cách từ M(x₀; y₀) đến ax + by + c = 0 là |ax₀ + by₀ + c|/√(a² + b²).'],
-   ['AB = (12; −9) cùng phương (4; −3), vectơ pháp tuyến (3; 4): AB: 3x + 4y − 31 = 0.', 'd(I, AB) = |12 + 12 − 31|/5 = 7/5 = 1,4.',
+   ['→AB = (12; −9) cùng phương (4; −3), vectơ pháp tuyến (3; 4): AB: 3x + 4y − 31 = 0.', 'd(I, AB) = |12 + 12 − 31|/5 = 7/5 = 1,4.',
     'Hình chiếu của I lên AB ứng với tham số 9,8/15 ∈ [0; 1] nên nằm trên đoạn AB.'],
    v=abs(3*4 + 4*3 - 31)/5, nd=1, src=('NA', 'III.3'))
 le('10-VII-21', 'Một trạm phát sóng đặt tại I(2; 1) phủ sóng trong bán kính 5 km (đơn vị trên trục là km). Một con đường thẳng có phương trình x − y + 4 = 0. Đoạn đường nằm trong vùng phủ sóng dài bao nhiêu kilômét?', '7,1',
@@ -256,7 +256,7 @@ le('11-VI-21', 'Dân số một tỉnh là 1,2 triệu người, tăng đều 1,
 le('11-VII-22', 'Một căn phòng dạng hình hộp chữ nhật ABCD.A′B′C′D′ có AB = 8 m, AD = 6 m, AA′ = 4 m. Góc giữa hai đường thẳng BD và A′C′ bằng bao nhiêu độ?', '74',
    'A′C′ song song với AC nên góc cần tìm bằng góc giữa hai đường chéo AC, BD của đáy.',
    ['Góc giữa a và b bằng góc giữa a′ ∥ a và b.', 'Góc giữa hai đường thẳng thuộc [0°; 90°].'],
-   ['A′C′ ∥ AC nên góc (BD, A′C′) = góc (BD, AC).', 'Đặt A(0; 0), C(8; 6), B(8; 0), D(0; 6): AC = (8; 6), BD = (−8; 6), cos = |−64 + 36|/100 = 0,28.', 'Góc ≈ 73,74°.'],
+   ['A′C′ ∥ AC nên góc (BD, A′C′) = góc (BD, AC).', 'Đặt A(0; 0), C(8; 6), B(8; 0), D(0; 6): →AC = (8; 6), →BD = (−8; 6), cos = |−64 + 36|/100 = 0,28.', 'Góc ≈ 73,74°.'],
    v=degrees(acos(0.28)), r=R0, src=('TH', 'III.6'))
 le('11-VII-23', 'Cột cờ SO vuông góc với mặt đất, cao 8 m. Ba dây néo dài 10 m nối S với ba điểm A, B, C trên mặt đất tạo thành tam giác đều. Cạnh của tam giác ABC dài bao nhiêu mét?', '10,4',
    'SO vuông góc mặt đất nên OA = OB = OC: O là tâm đường tròn ngoại tiếp tam giác đều ABC.',
@@ -343,7 +343,7 @@ le('12-I-5', 'Một tuyến xe khách dài 300 km chạy với vận tốc v (km
    v=sqrt(320/0.05), src=('NA', 'III.2'))
 le('12-II-6', 'Một đèn chùm nặng 60 N được treo bởi 3 sợi xích giống nhau, mỗi sợi tạo với phương thẳng đứng góc 30°, các lực căng có độ lớn bằng nhau. Độ lớn lực căng mỗi sợi xích là bao nhiêu newton?', '23,1',
    'Đèn cân bằng: tổng ba lực căng cân bằng với trọng lực; thành phần nằm ngang triệt tiêu, thành phần thẳng đứng cộng lại bằng 60 N.',
-   ['Vật cân bằng: tổng các vectơ lực bằng 0.', 'Thành phần thẳng đứng của lực F tạo với phương thẳng đứng góc α là F·cos α.'],
+   ['Vật cân bằng: tổng các vectơ lực bằng →0.', 'Thành phần thẳng đứng của lực F tạo với phương thẳng đứng góc α là F·cos α.'],
    ['3·T·cos 30° = 60.', 'T = 20/cos 30° = 40/√3 ≈ 23,09 N.'],
    v=20/cos(radians(30)), nd=1, r=R1, src=('NA', 'II.4'))
 le('12-II-7', 'Đặt hệ trục Oxyz tại một góc sàn của căn phòng hình hộp chữ nhật: Ox dọc tường dài 6 m, Oy dọc tường dài 5 m, Oz hướng lên trần cao 3 m (đơn vị mét). Một bóng đèn treo thẳng dưới tâm trần nhà, thấp hơn trần 0,5 m, có tọa độ (a; b; c). Tính a + b + c.', '8',
@@ -352,9 +352,9 @@ le('12-II-7', 'Đặt hệ trục Oxyz tại một góc sàn của căn phòng h
    ['Tâm trần: (3; 2,5; 3). Bóng đèn: (3; 2,5; 2,5).', 'a + b + c = 3 + 2,5 + 2,5 = 8.'],
    v=3 + 2.5 + 2.5, src=('HP13', 'II.1'))
 le('12-II-8', 'Trong không gian Oxyz (đơn vị mét), tay cầm của máy kéo cáp ở D(0; 0,7; 1,2), hai sợi cáp nối D với hai ròng rọc A(−1,5; 0; 2) và B(1,5; 0; 2). Góc giữa hai sợi cáp DA và DB bằng bao nhiêu độ?', '109',
-   'Tính hai vectơ DA, DB theo tọa độ rồi dùng công thức cos góc giữa hai vectơ.',
-   ['cos(u, v) = (x₁x₂ + y₁y₂ + z₁z₂)/(|u|·|v|).'],
-   ['DA = (−1,5; −0,7; 0,8), DB = (1,5; −0,7; 0,8).', 'DA·DB = −2,25 + 0,49 + 0,64 = −1,12; |DA|² = |DB|² = 3,38.', 'cos = −1,12/3,38 ≈ −0,331 ⇒ góc ≈ 109,4°.'],
+   'Tính hai vectơ →DA, →DB theo tọa độ rồi dùng công thức cos góc giữa hai vectơ.',
+   ['cos(→u, →v) = (x₁x₂ + y₁y₂ + z₁z₂)/(|→u|·|→v|).'],
+   ['→DA = (−1,5; −0,7; 0,8), →DB = (1,5; −0,7; 0,8).', '→DA·→DB = −2,25 + 0,49 + 0,64 = −1,12; |→DA|² = |→DB|² = 3,38.', 'cos = −1,12/3,38 ≈ −0,331 ⇒ góc ≈ 109,4°.'],
    v=degrees(acos(-1.12/3.38)), r=R0, src=('NA', 'II.4'))
 le('12-III-9', 'Tuổi thọ (năm) của 40 con rùa trong một vườn thú: [10; 20): 5; [20; 30): 12; [30; 40): 14; [40; 50): 6; [50; 60): 3. Tính khoảng tứ phân vị của mẫu số liệu ghép nhóm.', '15,1',
    'Tìm Q₁ (vị trí n/4 = 10) và Q₃ (vị trí 3n/4 = 30) bằng công thức nội suy trong nhóm chứa chúng.',
@@ -388,13 +388,13 @@ le('12-V-14', 'Trong không gian Oxyz (đơn vị mét), một mặt mái nhà n
    v=abs(12 + 8 - 40)/5, src=('HP13', 'II.1'))
 le('12-V-15', 'Trong không gian Oxyz (đơn vị km), một khinh khí cầu bay thẳng từ A(0; 0; 1) theo hướng đi qua B(4; 2; 3). Trạm quan sát đặt tại gốc O. Khoảng cách gần nhất từ trạm đến đường bay là bao nhiêu kilômét?', '0,91',
    'Khoảng cách từ O đến đường thẳng AB tính bằng tích có hướng.',
-   ['d(M, Δ) = |[AM, u]|/|u|, u là vectơ chỉ phương của Δ.'],
-   ['u = AB = (4; 2; 2), AO = (0; 0; −1).', '[AO, u] = (2; −4; 0), độ dài √20.', 'd = √20/√24 ≈ 0,913 km.'],
+   ['d(M, Δ) = |[→AM, →u]|/|→u|, →u là vectơ chỉ phương của Δ.'],
+   ['→u = →AB = (4; 2; 2), →AO = (0; 0; −1).', '[→AO, →u] = (2; −4; 0), độ dài √20.', 'd = √20/√24 ≈ 0,913 km.'],
    v=sqrt(20)/sqrt(24), nd=2, r=R2, src=('NA', 'III.3'))
 le('12-V-16', 'Trong không gian Oxyz, mặt đất là mặt phẳng (Oxy), một tấm pin mặt trời nằm trong mặt phẳng (P): 2x + y + 2z − 8 = 0. Góc nghiêng của tấm pin so với mặt đất bằng bao nhiêu độ?', '48,2',
    'Góc giữa hai mặt phẳng tính qua hai vectơ pháp tuyến.',
-   ['cos((P), (Q)) = |n₁·n₂|/(|n₁|·|n₂|).'],
-   ['n(P) = (2; 1; 2), n(Oxy) = (0; 0; 1).', 'cos φ = 2/3 ⇒ φ ≈ 48,19°.'],
+   ['cos((P), (Q)) = |→n₁·→n₂|/(|→n₁|·|→n₂|).'],
+   ['→n(P) = (2; 1; 2), →n(Oxy) = (0; 0; 1).', 'cos φ = 2/3 ⇒ φ ≈ 48,19°.'],
    v=degrees(acos(2/3)), nd=1, r=R1)
 le('12-V-17', 'Trong không gian Oxyz (đơn vị km), mặt đất là mặt phẳng (Oxy). Vùng phủ sóng của một trạm phát đặt trên đỉnh tháp là khối cầu tâm I(0; 0; 5), bán kính 13. Vùng phủ sóng trên mặt đất là hình tròn có bán kính bao nhiêu kilômét?', '12',
    'Giao của mặt cầu với mặt phẳng là đường tròn có bán kính r = √(R² − d²).',
@@ -437,9 +437,9 @@ ex('I-4', 'mc', 'Lượng mưa (mm) trong 30 ngày tại một trạm: [0; 20): 
    ['x̄ = Σmᵢxᵢ/n.'],
    ['x̄ = (8·10 + 12·30 + 7·50 + 3·70)/30 = 1000/30 ≈ 33,3.'],
    o=['30', '35', '31,7', '33,3'], a=3, v=1000/30, g='Tổng 1000, chia 30.', src=('HP13', 'I.8'))
-ex('I-5', 'mc', 'Trong không gian Oxyz (đơn vị mét), một tia laser phát ra từ A(1; 2; 3) theo hướng u = (2; −1; −3). Tia laser chạm sàn nhà (mặt phẳng Oxy) tại điểm',
+ex('I-5', 'mc', 'Trong không gian Oxyz (đơn vị mét), một tia laser phát ra từ A(1; 2; 3) theo hướng →u = (2; −1; −3). Tia laser chạm sàn nhà (mặt phẳng Oxy) tại điểm',
    'Viết phương trình tham số của tia, tìm t để z = 0.',
-   ['Đường thẳng qua A, chỉ phương u: M = A + t·u.'],
+   ['Đường thẳng qua A, chỉ phương →u: M = A + t·→u.'],
    ['z = 3 − 3t = 0 ⇔ t = 1.', 'Điểm chạm: (1 + 2; 2 − 1; 0) = (3; 1; 0).'],
    o=['(3; 1; 0)', '(−1; 3; 6)', '(3; 1; 6)', '(1; 2; 0)'], a=0, v=None, g='t = 1.', src=('NA', 'III.3'))
 ex('I-6', 'mc', 'Trong không gian Oxyz (đơn vị mét), một tấm che nắng nằm trong mặt phẳng đi qua A(2; 0; 0), B(0; 3; 0), C(0; 0; 1,5). Khoảng cách từ gốc O đến mặt phẳng đó bằng',

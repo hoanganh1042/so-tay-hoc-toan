@@ -5,18 +5,18 @@ b Mẫu bằng 0 khi x = 3, tử khác 0: tiệm cận đứng x = 3.
 b Đáp án: x = 3
 
 # 12-II-7#7
-h Hệ số của i, j, k là tọa độ của vectơ.
-y u = xi + yj + zk ⇔ u = (x; y; z).
-b u = (1; 2; −1).
+h Hệ số của →i, →j, →k là tọa độ của vectơ.
+y →u = x→i + y→j + z→k ⇔ →u = (x; y; z).
+b →u = (1; 2; −1).
 b Đáp án: (1; 2; −1)
 
 # 12-II-8#7
 h Áp dụng biểu thức tọa độ của tổng, độ dài, tích vô hướng và côsin góc.
-y a·b = x₁x₂ + y₁y₂ + z₁z₂; cos(a, b) = a·b/(|a||b|).
+y →a·→b = x₁x₂ + y₁y₂ + z₁z₂; cos(→a, →b) = →a·→b/(|→a||→b|).
 b a) Cộng từng tọa độ: đúng.
-b b) |a| = √(1 + 4 + 4) = 3: đúng.
-b c) a·b = 2 + 0 − 2 = 0: sai.
-b d) a·d = 2 + 4 − 2 = 4, |d| = 3: cos = 4/9, đúng.
+b b) |→a| = √(1 + 4 + 4) = 3: đúng.
+b c) →a·→b = 2 + 0 − 2 = 0: sai.
+b d) →a·→d = 2 + 4 − 2 = 4, |→d| = 3: cos = 4/9, đúng.
 b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
 
 # 12-III-9#6
@@ -81,8 +81,8 @@ b Đáp án: (1; 0; 0)
 
 # 12-V-15#6
 h Hệ số của t là tọa độ vectơ chỉ phương.
-y x = x₀ + at, y = y₀ + bt, z = z₀ + ct có u = (a; b; c).
-b u = (2; −1; 1).
+y x = x₀ + at, y = y₀ + bt, z = z₀ + ct có →u = (a; b; c).
+b →u = (2; −1; 1).
 b Đáp án: (2; −1; 1)
 
 # 12-V-17#6

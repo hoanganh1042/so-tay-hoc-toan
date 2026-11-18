@@ -157,7 +157,7 @@ h A′C′ song song với AC nên góc cần tìm bằng góc giữa hai đư�
 y Góc giữa a và b bằng góc giữa a′ ∥ a và b.
 y Góc giữa hai đường thẳng thuộc [0°; 90°].
 b A′C′ ∥ AC nên góc (BD, A′C′) = góc (BD, AC).
-b Đặt A(0; 0), C(8; 6), B(8; 0), D(0; 6): AC = (8; 6), BD = (−8; 6), cos = |−64 + 36|/100 = 0,28.
+b Đặt A(0; 0), C(8; 6), B(8; 0), D(0; 6): →AC = (8; 6), →BD = (−8; 6), cos = |−64 + 36|/100 = 0,28.
 b Góc ≈ 73,74°.
 b Đáp án: 74
 

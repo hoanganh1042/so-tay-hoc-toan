@@ -27,6 +27,15 @@ test('dấu căn phủ hết biểu thức dưới căn', () => {
   assert.equal(plain(frac('√3x')), '√⟨3⟩x');
 });
 
+test('vectơ và góc', () => {
+  const v = n => `<span class="vec"><span class="fr-s">→</span>${n}</span>`;
+  assert.equal(frac('→AB + →BC = →AC'), `${v('AB')} + ${v('BC')} = ${v('AC')}`);
+  assert.equal(frac("→u₁ = (1; 2), →A'B'"), `${v('u₁')} = (1; 2), ${v("A'B'")}`);
+  assert.equal(frac('∠BAC = 60°'), '<span class="ang"><span class="fr-s">∠</span>BAC</span> = 60°');
+  assert.equal(frac('x → +∞, A → B'), 'x → +∞, A → B');   // mũi tên thường có dấu cách: giữ nguyên
+  assert.match(frac('(→a·→b)/(|→a|·|→b|)'), /^<span class="fr"><span class="fr-n"><span class="vec">/);
+});
+
 test('không đổi chữ thường, đơn vị, dấu cách', () => {
   for (const s of ['60 km/h', 'và/hoặc', 'đồng/giờ', 'nam/nữ', 'a / b', 'https://example.org/a/b'])
     assert.equal(frac(s), s, s);

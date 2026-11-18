@@ -62,8 +62,8 @@ def sa(k, m, q, a, r, h, y, b, v, nd, f=None, src=None, tt=0):
 _h = 30*sin(radians(35))*sin(radians(50))/sin(radians(15))
 sa('10-III-6', 'V', 'Để đo chiều cao một tháp truyền hình, hai bạn đứng tại hai điểm A, B trên mặt đất, thẳng hàng với chân tháp H và cùng phía đối với H, AB = 30 m (B gần tháp hơn). Góc nâng nhìn đỉnh tháp T từ A là 35°, từ B là 50° (hình). Bỏ qua chiều cao người đo, tháp cao bao nhiêu mét?', '51', R0,
    'Xét tam giác ATB: biết cạnh AB và hai góc, dùng định lí sin tính BT, rồi tính TH trong tam giác vuông BHT.',
-   ['Góc ngoài của tam giác bằng tổng hai góc trong không kề với nó.', 'Định lí sin: BT/sin A = AB/sin(ATB).', 'Tam giác BHT vuông tại H: TH = BT·sin(TBH).'],
-   ['Góc TBH = 50° là góc ngoài của tam giác ATB nên góc ATB = 50° − 35° = 15°.',
+   ['Góc ngoài của tam giác bằng tổng hai góc trong không kề với nó.', 'Định lí sin: BT/sin A = AB/sin(∠ATB).', 'Tam giác BHT vuông tại H: TH = BT·sin(∠TBH).'],
+   ['∠TBH = 50° là góc ngoài của tam giác ATB nên ∠ATB = 50° − 35° = 15°.',
     'Định lí sin: BT = AB·sin 35°/sin 15° = 30·0,5736/0,2588 ≈ 66,49 m.',
     'TH = BT·sin 50° ≈ 66,49·0,7660 ≈ 50,93 m, làm tròn được 51 m.'],
    _h, 0, f='thap_hai_goc', tt=1)
@@ -88,31 +88,31 @@ mc('10-III-5', 'N', 'Trên nửa đường tròn đơn vị tâm O, điểm M th
    chk=isclose(cos(radians(150)), -sqrt(3)/2) and isclose(sin(radians(150)), 0.5), f='nua_dtron_150')
 
 # --- Vectơ
-mc('10-IV-8', 'T', 'Cho hình chữ nhật ABCD có AB = 6, AD = 8 (hình). Độ dài của vectơ AB + AC (tổng hai vectơ) bằng', ['4√13', '16', '10', '2√13'], 0,
-   'Gọi M là trung điểm BC, dùng AB + AC = 2AM (vectơ) rồi tính AM bằng định lí Pythagore.',
-   ['M là trung điểm BC ⇔ AB + AC = 2AM (vectơ).', 'Tam giác ABM vuông tại B.'],
-   ['BM = BC/2 = 4, AM = √(6² + 4²) = √52 = 2√13.', '|AB + AC| = 2AM = 4√13 ≈ 14,42.'],
+mc('10-IV-8', 'T', 'Cho hình chữ nhật ABCD có AB = 6, AD = 8 (hình). Độ dài của vectơ →AB + →AC (tổng hai vectơ) bằng', ['4√13', '16', '10', '2√13'], 0,
+   'Gọi M là trung điểm BC, dùng →AB + →AC = 2→AM (vectơ) rồi tính AM bằng định lí Pythagore.',
+   ['M là trung điểm BC ⇔ →AB + →AC = 2→AM (vectơ).', 'Tam giác ABM vuông tại B.'],
+   ['BM = BC/2 = 4, AM = √(6² + 4²) = √52 = 2√13.', '|→AB + →AC| = 2AM = 4√13 ≈ 14,42.'],
    chk=isclose(sqrt((6 + 6)**2 + 8**2), 4*sqrt(13)), f='hcn_vecto')
 
-sa('10-IV-9', 'T', 'Cho tam giác ABC, M là trung điểm BC, N là điểm trên cạnh AC sao cho AN = 2NC (hình). Biết vectơ MN = x·vectơ AB + y·vectơ AC. Tính 2x + 9y.', '0,5', '',
-   'Phân tích MN = AN − AM rồi biểu diễn AN, AM theo AB, AC.',
-   ['M là trung điểm BC ⇒ AM = (AB + AC)/2 (vectơ).', 'AN = 2NC và N nằm giữa A, C ⇒ AN = (2/3)AC (vectơ).'],
-   ['MN = AN − AM = (2/3)AC − (1/2)AB − (1/2)AC = −(1/2)AB + (1/6)AC.', 'x = −1/2, y = 1/6 nên 2x + 9y = −1 + 1,5 = 0,5.'],
+sa('10-IV-9', 'T', 'Cho tam giác ABC, M là trung điểm BC, N là điểm trên cạnh AC sao cho AN = 2NC (hình). Biết vectơ →MN = x·vectơ →AB + y·vectơ →AC. Tính 2x + 9y.', '0,5', '',
+   'Phân tích →MN = →AN − →AM rồi biểu diễn →AN, →AM theo →AB, →AC.',
+   ['M là trung điểm BC ⇒ →AM = (→AB + →AC)/2 (vectơ).', 'AN = 2NC và N nằm giữa A, C ⇒ →AN = (2/3)→AC (vectơ).'],
+   ['→MN = →AN − →AM = (2/3)→AC − (1/2)→AB − (1/2)→AC = −(1/2)→AB + (1/6)→AC.', 'x = −1/2, y = 1/6 nên 2x + 9y = −1 + 1,5 = 0,5.'],
    2*(-1/2) + 9*(2/3 - 1/2), 1, f='tg_vecto_mn')
 
-mc('10-IV-10', 'N', 'Trên mặt phẳng tọa độ Oxy (mỗi ô vuông cạnh 1 đơn vị) cho hai điểm A, B như hình. Tọa độ của vectơ AB là', ['(6; −2)', '(2; 4)', '(−6; 2)', '(6; 2)'], 0,
+mc('10-IV-10', 'N', 'Trên mặt phẳng tọa độ Oxy (mỗi ô vuông cạnh 1 đơn vị) cho hai điểm A, B như hình. Tọa độ của vectơ →AB là', ['(6; −2)', '(2; 4)', '(−6; 2)', '(6; 2)'], 0,
    'Đọc tọa độ A, B trên lưới rồi lấy tọa độ điểm cuối trừ tọa độ điểm đầu.',
-   ['AB = (x_B − x_A; y_B − y_A).'],
-   ['Đọc trên hình: A(−2; 3), B(4; 1).', 'AB = (4 − (−2); 1 − 3) = (6; −2).'],
+   ['→AB = (x_B − x_A; y_B − y_A).'],
+   ['Đọc trên hình: A(−2; 3), B(4; 1).', '→AB = (4 − (−2); 1 − 3) = (6; −2).'],
    chk=(4 - (-2), 1 - 3) == (6, -2), f='luoi_ab')
 
 _AB, _AC = (4, 1), (1, 4)
 tf('10-IV-11', 'Trong mặt phẳng Oxy cho tam giác ABC với A(1; 1), B(5; 2), C(2; 5) (hình).',
-   [['AB·AC = 8 (tích vô hướng hai vectơ).', True], ['Tam giác ABC cân tại A.', True],
-    ['Góc BAC là góc tù.', False], ['Diện tích tam giác ABC bằng 8.', False]],
-   'Tính tọa độ AB, AC; dùng tích vô hướng, độ dài và công thức diện tích theo tọa độ.',
-   ['u·v = x₁x₂ + y₁y₂; cos(u, v) = u·v/(|u|·|v|).', 'S = (1/2)|x₁y₂ − x₂y₁| với AB = (x₁; y₁), AC = (x₂; y₂).'],
-   ['a) AB = (4; 1), AC = (1; 4): AB·AC = 4 + 4 = 8: đúng.', 'b) AB = AC = √17: đúng.',
+   [['→AB·→AC = 8 (tích vô hướng hai vectơ).', True], ['Tam giác ABC cân tại A.', True],
+    ['∠BAC là góc tù.', False], ['Diện tích tam giác ABC bằng 8.', False]],
+   'Tính tọa độ →AB, →AC; dùng tích vô hướng, độ dài và công thức diện tích theo tọa độ.',
+   ['→u·→v = x₁x₂ + y₁y₂; cos(→u, →v) = →u·→v/(|→u|·|→v|).', 'S = (1/2)|x₁y₂ − x₂y₁| với →AB = (x₁; y₁), →AC = (x₂; y₂).'],
+   ['a) →AB = (4; 1), →AC = (1; 4): →AB·→AC = 4 + 4 = 8: đúng.', 'b) AB = AC = √17: đúng.',
     'c) cos A = 8/17 > 0 nên góc A nhọn: sai.', 'd) S = (1/2)|4·4 − 1·1| = 7,5: sai.'],
    chk=[_AB[0]*_AC[0] + _AB[1]*_AC[1] == 8, _AB[0]**2 + _AB[1]**2 == _AC[0]**2 + _AC[1]**2, _AB[0]*_AC[0] + _AB[1]*_AC[1] < 0, abs(_AB[0]*_AC[1] - _AB[1]*_AC[0])/2 == 8],
    f='luoi_tam_giac')
@@ -140,10 +140,10 @@ mc('10-VII-21', 'N', 'Đường tròn (C) trên mặt phẳng tọa độ có t�
 tf('10-VII-21', 'Cho đường tròn (C): (x + 1)² + (y − 2)² = 25 và điểm A(2; 6) (hình).',
    [['(C) có tâm I(−1; 2).', True], ['(C) có bán kính bằng 5.', True],
     ['Điểm B(3; −1) nằm bên trong đường tròn (C).', False], ['Tiếp tuyến của (C) tại A có phương trình 3x + 4y − 30 = 0.', True]],
-   'Đọc tâm, bán kính; so sánh IB với R; tiếp tuyến tại A nhận IA làm vectơ pháp tuyến.',
+   'Đọc tâm, bán kính; so sánh IB với R; tiếp tuyến tại A nhận →IA làm vectơ pháp tuyến.',
    ['(x − a)² + (y − b)² = R² có tâm I(a; b), bán kính R.', 'M nằm trong đường tròn ⇔ IM < R.', 'Tiếp tuyến tại A vuông góc với IA.'],
    ['a) Tâm I(−1; 2): đúng.', 'b) R = √25 = 5: đúng.', 'c) IB² = 16 + 9 = 25 nên IB = R, B nằm trên (C): sai.',
-    'd) IA = (3; 4), tiếp tuyến: 3(x − 2) + 4(y − 6) = 0 ⇔ 3x + 4y − 30 = 0: đúng.'],
+    'd) →IA = (3; 4), tiếp tuyến: 3(x − 2) + 4(y − 6) = 0 ⇔ 3x + 4y − 30 = 0: đúng.'],
    chk=[True, True, (3 + 1)**2 + (-1 - 2)**2 < 25, 3*2 + 4*6 - 30 == 0 and (2 + 1)**2 + (6 - 2)**2 == 25], f='dtron_tiep_tuyen')
 
 sa('10-VII-22', 'T', 'Một đường chạy có dạng elip với trục lớn dài 100 m, trục nhỏ dài 60 m. Người ta cắm hai cột cờ tại hai tiêu điểm của elip (hình). Hai cột cờ cách nhau bao nhiêu mét?', '80', '',
@@ -233,28 +233,28 @@ _cosMPN = (9 + 9 - 27)/18
 mc('11-VII-22', 'V', 'Cho tứ diện ABCD có AB = CD = 6. Gọi M, N lần lượt là trung điểm của BC và AD, biết MN = 3√3 (hình). Góc giữa hai đường thẳng AB và CD bằng', ['60°', '120°', '30°', '90°'], 0,
    'Gọi P là trung điểm AC; PM ∥ AB, PN ∥ CD nên góc cần tìm là góc giữa PM và PN.',
    ['Đường trung bình: PM ∥ AB, PM = AB/2; PN ∥ CD, PN = CD/2.', 'Góc giữa hai đường thẳng thuộc [0°; 90°].'],
-   ['PM = PN = 3; cos MPN = (9 + 9 − 27)/(2·3·3) = −1/2 nên góc MPN = 120°.', 'Góc giữa AB và CD bằng 180° − 120° = 60°.'],
+   ['PM = PN = 3; cos ∠MPN = (9 + 9 − 27)/(2·3·3) = −1/2 nên ∠MPN = 120°.', 'Góc giữa AB và CD bằng 180° − 120° = 60°.'],
    chk=isclose(180 - degrees(acos(_cosMPN)), 60), f='tdien_goc', src=('TN', 'I.1'))
 
 tf('11-VII-23', 'Cho hình chóp S.ABC có SA ⊥ (ABC), tam giác ABC vuông tại B, SA = AB = 2, BC = 2√2. Gọi H là hình chiếu vuông góc của A trên SB (hình).',
    [['BC ⊥ (SAB).', True], ['AB ⊥ SC.', False], ['AH ⊥ (SBC).', True], ['SC = 4.', True]],
    'Chứng minh BC vuông góc với hai đường cắt nhau trong (SAB); từ đó suy ra AH vuông góc với BC.',
    ['d ⊥ hai đường thẳng cắt nhau trong (P) thì d ⊥ (P).', 'SA ⊥ (ABC) ⇒ SA vuông góc với mọi đường trong (ABC).'],
-   ['a) BC ⊥ AB, BC ⊥ SA nên BC ⊥ (SAB): đúng.', 'b) Nếu AB ⊥ SC thì cùng với AB ⊥ SA ta có AB ⊥ (SAC), suy ra AB ⊥ AC, vô lí vì góc BAC nhọn: sai.',
+   ['a) BC ⊥ AB, BC ⊥ SA nên BC ⊥ (SAB): đúng.', 'b) Nếu AB ⊥ SC thì cùng với AB ⊥ SA ta có AB ⊥ (SAC), suy ra AB ⊥ AC, vô lí vì ∠BAC nhọn: sai.',
     'c) AH ⊂ (SAB) nên AH ⊥ BC; lại có AH ⊥ SB nên AH ⊥ (SBC): đúng.', 'd) AC² = 4 + 8 = 12, SC = √(4 + 12) = 4: đúng.'],
    chk=[True, False, True, isclose(sqrt(4 + 4 + 8), 4)], f='chop_vuong_B', src=('LS', 'I.10'))
 
 sa('11-VII-24', 'V', 'Cho hình chóp S.ABCD có đáy là hình vuông cạnh 3, SA ⊥ (ABCD) và SA = 4 (hình). Góc giữa đường thẳng SC và mặt phẳng (SAB) bằng bao nhiêu độ?', '31', R0,
-   'Tìm hình chiếu vuông góc của C trên (SAB) (chính là B), góc cần tìm là góc CSB.',
+   'Tìm hình chiếu vuông góc của C trên (SAB) (chính là B), góc cần tìm là ∠CSB.',
    ['BC ⊥ AB, BC ⊥ SA ⇒ BC ⊥ (SAB).', 'Góc giữa SC và (SAB) là góc giữa SC và hình chiếu SB.'],
-   ['BC ⊥ (SAB) nên hình chiếu của C trên (SAB) là B; góc cần tìm là góc CSB.', 'SB = √(9 + 16) = 5; tam giác SBC vuông tại B: tan CSB = BC/SB = 3/5.',
-    'Góc CSB ≈ 30,96°, làm tròn được 31°.'],
+   ['BC ⊥ (SAB) nên hình chiếu của C trên (SAB) là B; góc cần tìm là ∠CSB.', 'SB = √(9 + 16) = 5; tam giác SBC vuông tại B: tan ∠CSB = BC/SB = 3/5.',
+    '∠CSB ≈ 30,96°, làm tròn được 31°.'],
    degrees(atan(3/5)), 0, f='chop_vuong_34', src=('TQ', 'I.1'))
 
 mc('11-VII-25', 'T', 'Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2 và chiều cao SO = √3 (hình). Số đo của góc nhị diện [S, BC, A] bằng', ['60°', '30°', '45°', '75°'], 0,
-   'Gọi M là trung điểm BC; góc phẳng nhị diện là góc SMO.',
-   ['OM ⊥ BC, SM ⊥ BC ⇒ góc SMO là góc phẳng của nhị diện [S, BC, A].'],
-   ['OM = AB/2 = 1, SO = √3.', 'tan SMO = SO/OM = √3 nên góc SMO = 60°.'],
+   'Gọi M là trung điểm BC; góc phẳng nhị diện là ∠SMO.',
+   ['OM ⊥ BC, SM ⊥ BC ⇒ ∠SMO là góc phẳng của nhị diện [S, BC, A].'],
+   ['OM = AB/2 = 1, SO = √3.', 'tan ∠SMO = SO/OM = √3 nên ∠SMO = 60°.'],
    chk=isclose(degrees(atan(sqrt(3)/1)), 60), f='chop_deu_nhi_dien', src=('BN', 'I.12'))
 
 _n = (-6, -6, -8); _d1 = abs(_n[0]*(-2) + _n[1]*0 + _n[2]*3)/sqrt(sum(t*t for t in _n))
@@ -277,9 +277,9 @@ sa('11-VII-27', 'V', 'Cho hình chóp S.ABCD có đáy là hình chữ nhật v�
    12*2*sqrt(3)/3, 1, f='chop_sab_deu', src=('THO', 'III.1'))
 
 mc('11-VII-27', 'T', 'Cho lăng trụ đứng ABC.A′B′C′ có đáy là tam giác ABC vuông tại B, AB = 3, BC = 4; đường thẳng A′C tạo với mặt đáy một góc 45° (hình). Thể tích khối lăng trụ bằng', ['30', '10', '60', '20'], 0,
-   'Góc giữa A′C và đáy là góc A′CA; từ đó tìm AA′ rồi tính thể tích.',
+   'Góc giữa A′C và đáy là ∠A′CA; từ đó tìm AA′ rồi tính thể tích.',
    ['AA′ ⊥ (ABC) nên hình chiếu của A′C trên đáy là AC.', 'V = S_đáy·h.'],
-   ['AC = √(9 + 16) = 5; góc A′CA = 45° nên AA′ = AC = 5.', 'V = (1/2)·3·4·5 = 30.'],
+   ['AC = √(9 + 16) = 5; ∠A′CA = 45° nên AA′ = AC = 5.', 'V = (1/2)·3·4·5 = 30.'],
    chk=0.5*3*4*5*tan(radians(45)) - 30 < 1e-9, f='lt_dung_45', src=('TN', 'I.5'))
 
 # --- Xác suất
@@ -357,10 +357,10 @@ mc('12-I-4', 'T', 'Đường cong trong hình là đồ thị của hàm số n�
     'Hai điểm cực trị tại x = 0 và x = 2: y′ = −3x² + 6x có nghiệm 0 và 2, khớp với y = −x³ + 3x² − 1 (y(2) = 3).'],
    chk=-8 + 12 - 1 == 3 and -0 + 0 - 1 == -1, f='nhan_dang_bac3', src=('BN', 'I.9'))
 
-mc('12-II-6', 'N', 'Cho hình hộp ABCD.A′B′C′D′ (hình). Tổng ba vectơ AB + AD + AA′ bằng vectơ', ['AC′', 'AC', 'A′C', 'BD′'], 0,
-   'Dùng quy tắc hình bình hành cho AB + AD rồi quy tắc hình bình hành lần nữa với AA′.',
-   ['Quy tắc hình hộp: AB + AD + AA′ = AC′ (vectơ).'],
-   ['AB + AD = AC (hình bình hành ABCD).', 'AC + AA′ = AC′ (hình bình hành ACC′A′).'],
+mc('12-II-6', 'N', 'Cho hình hộp ABCD.A′B′C′D′ (hình). Tổng ba vectơ →AB + →AD + →AA′ bằng vectơ', ['→AC′', '→AC', '→A′C', '→BD′'], 0,
+   'Dùng quy tắc hình bình hành cho →AB + →AD rồi quy tắc hình bình hành lần nữa với →AA′.',
+   ['Quy tắc hình hộp: →AB + →AD + →AA′ = →AC′ (vectơ).'],
+   ['→AB + →AD = →AC (hình bình hành ABCD).', '→AC + →AA′ = →AC′ (hình bình hành ACC′A′).'],
    chk=True, f='hop_vecto', src=('HN', 'I.1'))
 
 mc('12-II-7', 'N', 'Trong không gian Oxyz, cho hình hộp chữ nhật OABC.O′A′B′C′ có A(3; 0; 0), C(0; 4; 0), O′(0; 0; 2) (hình). Tọa độ tâm I của hình hộp (giao điểm các đường chéo) là', ['(1,5; 2; 1)', '(3; 4; 2)', '(1,5; 2; 2)', '(2; 1,5; 1)'], 0,
@@ -371,12 +371,12 @@ mc('12-II-7', 'N', 'Trong không gian Oxyz, cho hình hộp chữ nhật OABC.O�
 
 _SA, _SC = (-2, -2, -3), (2, 2, -3)
 tf('12-II-8', 'Một chiếc lều có dạng hình chóp tứ giác đều S.ABCD. Chọn hệ trục Oxyz (đơn vị mét) sao cho A(0; 0; 0), B(4; 0; 0), D(0; 4; 0) và S(2; 2; 3) (hình).',
-   [['Điểm C có tọa độ (4; 4; 0).', True], ['Vectơ SC có tọa độ (2; 2; 3).', False],
-    ['Cạnh bên SA dài √17 m.', True], ['Góc giữa hai vectơ SA và SC là góc tù.', False]],
+   [['Điểm C có tọa độ (4; 4; 0).', True], ['Vectơ →SC có tọa độ (2; 2; 3).', False],
+    ['Cạnh bên SA dài √17 m.', True], ['Góc giữa hai vectơ →SA và →SC là góc tù.', False]],
    'Dùng ABCD là hình vuông để tìm C; tính tọa độ vectơ, độ dài, tích vô hướng.',
-   ['AB + AD = AC (vectơ).', 'u·v > 0 ⇒ góc (u, v) nhọn.'],
-   ['a) AC = AB + AD = (4; 4; 0) nên C(4; 4; 0): đúng.', 'b) SC = (4 − 2; 4 − 2; 0 − 3) = (2; 2; −3): sai.',
-    'c) SA = (−2; −2; −3), |SA| = √(4 + 4 + 9) = √17: đúng.', 'd) SA·SC = −4 − 4 + 9 = 1 > 0 nên góc nhọn: sai.'],
+   ['→AB + →AD = →AC (vectơ).', '→u·→v > 0 ⇒ góc (→u, →v) nhọn.'],
+   ['a) →AC = →AB + →AD = (4; 4; 0) nên C(4; 4; 0): đúng.', 'b) →SC = (4 − 2; 4 − 2; 0 − 3) = (2; 2; −3): sai.',
+    'c) →SA = (−2; −2; −3), |→SA| = √(4 + 4 + 9) = √17: đúng.', 'd) →SA·→SC = −4 − 4 + 9 = 1 > 0 nên góc nhọn: sai.'],
    chk=[True, False, sum(t*t for t in _SA) == 17, sum(a*b for a, b in zip(_SA, _SC)) < 0], f='leu_oxyz', src=('THO', 'II.4'), tt=1)
 
 # --- Thống kê
@@ -433,22 +433,22 @@ mc('12-V-14', 'T', 'Trong không gian Oxyz, mặt phẳng (ABC) cắt các trụ
 _u = (3, 4, 0); _TA = (10, 0, 0)
 _cr = (_TA[1]*_u[2] - _TA[2]*_u[1], _TA[2]*_u[0] - _TA[0]*_u[2], _TA[0]*_u[1] - _TA[1]*_u[0])
 _dT = sqrt(sum(t*t for t in _cr))/5; _s = sum(a*b for a, b in zip(_TA, _u))/25
-tf('12-V-15', 'Trong không gian Oxyz (đơn vị km), một drone giao hàng xuất phát từ A(0; 0; 1) bay thẳng theo hướng vectơ u = (3; 4; 0) với tốc độ không đổi 0,5 km/phút. Một trạm kiểm soát đặt tại T(10; 0; 1).',
+tf('12-V-15', 'Trong không gian Oxyz (đơn vị km), một drone giao hàng xuất phát từ A(0; 0; 1) bay thẳng theo hướng vectơ →u = (3; 4; 0) với tốc độ không đổi 0,5 km/phút. Một trạm kiểm soát đặt tại T(10; 0; 1).',
    [['Đường bay có phương trình x = 3t, y = 4t, z = 1 (t ∈ ℝ).', True], ['Sau 10 phút, drone ở vị trí (3; 4; 1).', True],
     ['Khoảng cách từ T đến đường bay bằng 8 km.', True], ['Drone ở gần trạm T nhất vào thời điểm sau 10 phút kể từ lúc xuất phát.', False]],
    'Viết phương trình tham số; quãng đường bay bằng tốc độ nhân thời gian; tìm điểm trên đường bay gần T nhất bằng hình chiếu vuông góc.',
-   ['d(T, d) = |[AT, u]|/|u|.', 'Hình chiếu H của T lên d thỏa mãn TH ⊥ u.'],
-   ['a) Qua A(0; 0; 1), vectơ chỉ phương (3; 4; 0): đúng.', 'b) Sau 10 phút bay 5 km = |u| nên ở A + u = (3; 4; 1): đúng.',
-    'c) AT = (10; 0; 0), [AT, u] = (0; 0; 40), d = 40/5 = 8 km: đúng.',
-    'd) H(3t; 4t; 1) với TH·u = 0: 9t − 30 + 16t = 0 ⇒ t = 1,2, H(3,6; 4,8; 1), AH = 6 km, mất 12 phút: sai.'],
+   ['d(T, d) = |[→AT, →u]|/|→u|.', 'Hình chiếu H của T lên d thỏa mãn →TH ⊥ →u.'],
+   ['a) Qua A(0; 0; 1), vectơ chỉ phương (3; 4; 0): đúng.', 'b) Sau 10 phút bay 5 km = |→u| nên ở A + →u = (3; 4; 1): đúng.',
+    'c) →AT = (10; 0; 0), [→AT, →u] = (0; 0; 40), d = 40/5 = 8 km: đúng.',
+    'd) H(3t; 4t; 1) với →TH·→u = 0: 9t − 30 + 16t = 0 ⇒ t = 1,2, H(3,6; 4,8; 1), AH = 6 km, mất 12 phút: sai.'],
    chk=[True, True, isclose(_dT, 8), isclose(_s*5/0.5, 10)], src=('DN', 'II.4'), tt=1)
 
 _AM, _BM = (4, 3, -6), (-4, 3, -6)
 _ang = degrees(acos(sum(a*b for a, b in zip(_AM, _BM))/61))
 sa('12-V-16', 'V', 'Trên một sân khấu, chọn hệ trục Oxyz (đơn vị mét) với mặt sàn là mặt phẳng (Oxy). Hai đèn chiếu đặt tại A(0; 0; 6) và B(8; 0; 6) cùng chiếu vào điểm M(4; 3; 0) trên sàn (hình). Góc giữa hai tia sáng AM và BM bằng bao nhiêu độ?', '62', R0,
-   'Tính tọa độ hai vectơ AM, BM rồi dùng công thức côsin góc giữa hai vectơ.',
-   ['cos(u, v) = u·v/(|u|·|v|).'],
-   ['AM = (4; 3; −6), BM = (−4; 3; −6); |AM| = |BM| = √61.', 'AM·BM = −16 + 9 + 36 = 29, cos AMB = 29/61.', 'Góc AMB ≈ 61,6°, làm tròn được 62°.'],
+   'Tính tọa độ hai vectơ →AM, →BM rồi dùng công thức côsin góc giữa hai vectơ.',
+   ['cos(→u, →v) = →u·→v/(|→u|·|→v|).'],
+   ['→AM = (4; 3; −6), →BM = (−4; 3; −6); |→AM| = |→BM| = √61.', '→AM·→BM = −16 + 9 + 36 = 29, cos ∠AMB = 29/61.', '∠AMB ≈ 61,6°, làm tròn được 62°.'],
    _ang, 0, f='den_san_khau', src=('VL', 'III.1'), tt=1)
 
 mc('12-V-17', 'T', 'Đặt hệ trục Oxyz tại một góc phòng: (Oxy) là mặt sàn, (Oxz) và (Oyz) là hai bức tường (đơn vị dm). Một quả bóng bán kính 1,5 dm nằm sát góc phòng, tiếp xúc với sàn và cả hai bức tường (hình). Mặt cầu biên của quả bóng có phương trình', ['(x − 1,5)² + (y − 1,5)² + (z − 1,5)² = 2,25', '(x − 1,5)² + (y − 1,5)² + (z − 1,5)² = 1,5', '(x + 1,5)² + (y + 1,5)² + (z + 1,5)² = 2,25', 'x² + y² + (z − 1,5)² = 2,25'], 0,

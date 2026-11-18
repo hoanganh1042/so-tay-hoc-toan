@@ -19,11 +19,11 @@ window.KHKT_CT = {
       ] },
     { g: 10, ch: "10-IV", ten: "Vectơ",
       muc: [
-        { ten: "Tổng và hiệu hai vectơ", ct: ["Quy tắc ba điểm: AB + BC = AC", "Quy tắc hình bình hành ABCD: AB + AD = AC", "Quy tắc hiệu: OB − OA = AB", "Vectơ đối: −AB = BA; a − b = a + (−b)"], gc: "Trong chương này AB, a, b, … là các vectơ; 0 là vectơ-không." },
-        { ten: "Trung điểm, trọng tâm", ct: ["I là trung điểm AB ⇔ IA + IB = 0 ⇔ MA + MB = 2·MI (với mọi M)", "G là trọng tâm tam giác ABC ⇔ GA + GB + GC = 0 ⇔ MA + MB + MC = 3·MG (với mọi M)"] },
-        { ten: "Tích của vectơ với một số", ct: ["k·a cùng hướng a nếu k > 0, ngược hướng a nếu k < 0; |k·a| = |k|·|a|", "b cùng phương a (a ≠ 0) ⇔ có số k để b = k·a", "A, B, C thẳng hàng ⇔ có số k ≠ 0 để AB = k·AC"] },
-        { ten: "Tọa độ của vectơ", ct: ["A(x₁; y₁), B(x₂; y₂) ⇒ AB = (x₂ − x₁; y₂ − y₁), AB = √((x₂ − x₁)² + (y₂ − y₁)²)", "a ± b = (a₁ ± b₁; a₂ ± b₂); k·a = (ka₁; ka₂)", "Trung điểm I((x₁ + x₂)/2; (y₁ + y₂)/2)", "Trọng tâm G((x₁ + x₂ + x₃)/3; (y₁ + y₂ + y₃)/3)", "a = (a₁; a₂), b = (b₁; b₂) cùng phương ⇔ a₁b₂ − a₂b₁ = 0"] },
-        { ten: "Tích vô hướng", ct: ["a·b = |a|·|b|·cos(a, b)", "a·b = a₁b₁ + a₂b₂; |a| = √(a₁² + a₂²)", "cos(a, b) = (a₁b₁ + a₂b₂)/(√(a₁² + a₂²)·√(b₁² + b₂²))", "a ⊥ b ⇔ a·b = 0 ⇔ a₁b₁ + a₂b₂ = 0", "a² = |a|²; (a + b)² = a² + 2a·b + b²", "Công của lực F làm vật dời theo vectơ d: A = F·d"] }
+        { ten: "Tổng và hiệu hai vectơ", ct: ["Quy tắc ba điểm: →AB + →BC = →AC", "Quy tắc hình bình hành ABCD: →AB + →AD = →AC", "Quy tắc hiệu: →OB − →OA = →AB", "Vectơ đối: −→AB = →BA; →a − →b = →a + (−→b)"], gc: "→0 là vectơ-không." },
+        { ten: "Trung điểm, trọng tâm", ct: ["I là trung điểm AB ⇔ →IA + →IB = →0 ⇔ →MA + →MB = 2·→MI (với mọi M)", "G là trọng tâm tam giác ABC ⇔ →GA + →GB + →GC = →0 ⇔ →MA + →MB + →MC = 3·→MG (với mọi M)"] },
+        { ten: "Tích của vectơ với một số", ct: ["k·→a cùng hướng →a nếu k > 0, ngược hướng →a nếu k < 0; |k·→a| = |k|·|→a|", "→b cùng phương →a (→a ≠ →0) ⇔ có số k để →b = k·→a", "A, B, C thẳng hàng ⇔ có số k ≠ 0 để →AB = k·→AC"] },
+        { ten: "Tọa độ của vectơ", ct: ["A(x₁; y₁), B(x₂; y₂) ⇒ →AB = (x₂ − x₁; y₂ − y₁), AB = √((x₂ − x₁)² + (y₂ − y₁)²)", "→a ± →b = (a₁ ± b₁; a₂ ± b₂); k·→a = (ka₁; ka₂)", "Trung điểm I((x₁ + x₂)/2; (y₁ + y₂)/2)", "Trọng tâm G((x₁ + x₂ + x₃)/3; (y₁ + y₂ + y₃)/3)", "→a = (a₁; a₂), →b = (b₁; b₂) cùng phương ⇔ a₁b₂ − a₂b₁ = 0"] },
+        { ten: "Tích vô hướng", ct: ["→a·→b = |→a|·|→b|·cos(→a, →b)", "→a·→b = a₁b₁ + a₂b₂; |→a| = √(a₁² + a₂²)", "cos(→a, →b) = (a₁b₁ + a₂b₂)/(√(a₁² + a₂²)·√(b₁² + b₂²))", "→a ⊥ →b ⇔ →a·→b = 0 ⇔ a₁b₁ + a₂b₂ = 0", "→a² = |→a|²; (→a + →b)² = →a² + 2→a·→b + →b²", "Công của lực →F làm vật dời theo vectơ →d: A = →F·→d"] }
       ] },
     { g: 10, ch: "10-VI", ten: "Hàm số, đồ thị và ứng dụng",
       muc: [
@@ -35,9 +35,9 @@ window.KHKT_CT = {
       ] },
     { g: 10, ch: "10-VII", ten: "Phương pháp tọa độ trong mặt phẳng",
       muc: [
-        { ten: "Phương trình đường thẳng", ct: ["Qua M(x₀; y₀), pháp tuyến n = (a; b): a(x − x₀) + b(y − y₀) = 0; dạng tổng quát ax + by + c = 0", "Qua M(x₀; y₀), chỉ phương u = (u₁; u₂): x = x₀ + u₁t, y = y₀ + u₂t (t ∈ ℝ)", "Pháp tuyến n = (a; b) thì một chỉ phương là u = (−b; a), và ngược lại", "Qua A(a; 0), B(0; b) với ab ≠ 0 (đoạn chắn): x/a + y/b = 1", "Qua M(x₀; y₀), hệ số góc k: y = k(x − x₀) + y₀"] },
+        { ten: "Phương trình đường thẳng", ct: ["Qua M(x₀; y₀), pháp tuyến →n = (a; b): a(x − x₀) + b(y − y₀) = 0; dạng tổng quát ax + by + c = 0", "Qua M(x₀; y₀), chỉ phương →u = (u₁; u₂): x = x₀ + u₁t, y = y₀ + u₂t (t ∈ ℝ)", "Pháp tuyến →n = (a; b) thì một chỉ phương là →u = (−b; a), và ngược lại", "Qua A(a; 0), B(0; b) với ab ≠ 0 (đoạn chắn): x/a + y/b = 1", "Qua M(x₀; y₀), hệ số góc k: y = k(x − x₀) + y₀"] },
         { ten: "Vị trí tương đối của hai đường thẳng", ct: ["Δ₁: a₁x + b₁y + c₁ = 0 và Δ₂: a₂x + b₂y + c₂ = 0: số điểm chung bằng số nghiệm của hệ hai phương trình", "Δ₁ cắt Δ₂ ⇔ a₁b₂ − a₂b₁ ≠ 0", "Δ₁ ⊥ Δ₂ ⇔ a₁a₂ + b₁b₂ = 0", "y = k₁x + m₁ vuông góc y = k₂x + m₂ ⇔ k₁·k₂ = −1; song song ⇔ k₁ = k₂ và m₁ ≠ m₂"] },
-        { ten: "Góc giữa hai đường thẳng", ct: ["cos(Δ₁, Δ₂) = |a₁a₂ + b₁b₂|/(√(a₁² + b₁²)·√(a₂² + b₂²))", "Theo chỉ phương: cos(Δ₁, Δ₂) = |u₁·u₂|/(|u₁|·|u₂|)"], gc: "Góc giữa hai đường thẳng luôn thuộc [0°; 90°] nên có dấu giá trị tuyệt đối." },
+        { ten: "Góc giữa hai đường thẳng", ct: ["cos(Δ₁, Δ₂) = |a₁a₂ + b₁b₂|/(√(a₁² + b₁²)·√(a₂² + b₂²))", "Theo chỉ phương: cos(Δ₁, Δ₂) = |→u₁·→u₂|/(|→u₁|·|→u₂|)"], gc: "Góc giữa hai đường thẳng luôn thuộc [0°; 90°] nên có dấu giá trị tuyệt đối." },
         { ten: "Khoảng cách từ điểm đến đường thẳng", ct: ["d(M, Δ) = |ax₀ + by₀ + c|/√(a² + b²) với M(x₀; y₀), Δ: ax + by + c = 0"] },
         { ten: "Đường tròn", ct: ["Tâm I(a; b), bán kính R: (x − a)² + (y − b)² = R²", "x² + y² − 2ax − 2by + c = 0 là đường tròn ⇔ a² + b² − c > 0; tâm I(a; b), R = √(a² + b² − c)", "Tiếp tuyến tại M₀(x₀; y₀) thuộc đường tròn: (x₀ − a)(x − x₀) + (y₀ − b)(y − y₀) = 0", "Δ tiếp xúc đường tròn ⇔ d(I, Δ) = R; Δ cắt đường tròn tại hai điểm ⇔ d(I, Δ) < R"] },
         { ten: "Elip", ct: ["x²/a² + y²/b² = 1 (a > b > 0), c² = a² − b²", "Tiêu điểm F₁(−c; 0), F₂(c; 0); M thuộc elip ⇔ MF₁ + MF₂ = 2a", "Đỉnh (±a; 0), (0; ±b); trục lớn 2a, trục nhỏ 2b, tiêu cự 2c"] },
@@ -123,7 +123,7 @@ window.KHKT_CT = {
       muc: [
         { ten: "Hai đường thẳng vuông góc", ct: ["Góc giữa a và b là góc giữa a′ và b′ cùng qua một điểm, lần lượt song song (hoặc trùng) với a và b; góc thuộc [0°; 90°]", "a ⊥ b ⇔ góc giữa a và b bằng 90°", "a // b và c ⊥ a ⇒ c ⊥ b"] },
         { ten: "Đường thẳng vuông góc với mặt phẳng", ct: ["d vuông góc với hai đường thẳng cắt nhau nằm trong (P) ⇒ d ⊥ (P)", "d ⊥ (P) ⇒ d vuông góc với mọi đường thẳng nằm trong (P)", "Hai đường thẳng phân biệt cùng vuông góc với một mặt phẳng thì song song", "Hai mặt phẳng phân biệt cùng vuông góc với một đường thẳng thì song song", "Định lí ba đường vuông góc: a nằm trong (P), b′ là hình chiếu của b trên (P): a ⊥ b ⇔ a ⊥ b′"] },
-        { ten: "Góc giữa đường thẳng và mặt phẳng", ct: ["Góc giữa d và (P) là góc giữa d và hình chiếu d′ của d trên (P); d ⊥ (P) thì góc bằng 90°", "SA ⊥ (P), B thuộc (P): góc giữa SB và (P) là góc SBA, tan SBA = SA/AB"] },
+        { ten: "Góc giữa đường thẳng và mặt phẳng", ct: ["Góc giữa d và (P) là góc giữa d và hình chiếu d′ của d trên (P); d ⊥ (P) thì góc bằng 90°", "SA ⊥ (P), B thuộc (P): góc giữa SB và (P) là ∠SBA, tan ∠SBA = SA/AB"] },
         { ten: "Hai mặt phẳng vuông góc, góc nhị diện", ct: ["(P) chứa một đường thẳng vuông góc với (Q) ⇒ (P) ⊥ (Q)", "(P) ⊥ (Q), a nằm trong (P), a vuông góc với giao tuyến ⇒ a ⊥ (Q)", "Hai mặt phẳng cắt nhau cùng vuông góc với (R) thì giao tuyến của chúng vuông góc với (R)", "Góc phẳng nhị diện: từ một điểm trên cạnh, kẻ trong mỗi mặt một tia vuông góc với cạnh; góc giữa hai tia là góc phẳng nhị diện"] },
         { ten: "Khoảng cách", ct: ["d(M, (P)) = MH với H là hình chiếu vuông góc của M trên (P)", "a // (P): d(a, (P)) = d(M, (P)) với M bất kì thuộc a; (P) // (Q): d((P), (Q)) = d(M, (Q)) với M thuộc (P)", "Khoảng cách giữa hai đường thẳng chéo nhau là độ dài đoạn vuông góc chung", "Tam giác vuông tại A, đường cao AH: 1/AH² = 1/AB² + 1/AC²", "Đường thẳng MN cắt (P) tại I: d(M, (P))/d(N, (P)) = IM/IN"] },
         { ten: "Hình chóp đều, lăng trụ đứng", ct: ["Hình chóp đều: đáy là đa giác đều, chân đường cao trùng tâm đáy; các cạnh bên bằng nhau và tạo với đáy các góc bằng nhau", "Lăng trụ đứng: cạnh bên vuông góc với đáy; lăng trụ đều là lăng trụ đứng có đáy là đa giác đều"] },
@@ -158,11 +158,11 @@ window.KHKT_CT = {
       ] },
     { g: 12, ch: "12-II", ten: "Vectơ và hệ trục tọa độ trong không gian",
       muc: [
-        { ten: "Quy tắc vectơ trong không gian", ct: ["Quy tắc hình hộp ABCD.A′B′C′D′: AB + AD + AA′ = AC′", "G là trọng tâm tứ diện ABCD ⇔ GA + GB + GC + GD = 0", "a·b = |a|·|b|·cos(a, b); a ⊥ b ⇔ a·b = 0"], gc: "AB, a, b, … là vectơ. Các quy tắc ba điểm, hình bình hành, trung điểm, trọng tâm tam giác vẫn đúng trong không gian." },
-        { ten: "Tọa độ điểm và vectơ", ct: ["M(x; y; z) ⇔ OM = x·i + y·j + z·k", "A(x₁; y₁; z₁), B(x₂; y₂; z₂) ⇒ AB = (x₂ − x₁; y₂ − y₁; z₂ − z₁)", "Hình chiếu của M(x; y; z) lên (Oxy), (Oyz), (Ozx): (x; y; 0), (0; y; z), (x; 0; z); lên Ox, Oy, Oz: (x; 0; 0), (0; y; 0), (0; 0; z)", "Đối xứng qua O: (−x; −y; −z); qua (Oxy): (x; y; −z); qua trục Ox: (x; −y; −z)"] },
-        { ten: "Biểu thức tọa độ các phép toán", ct: ["a ± b = (a₁ ± b₁; a₂ ± b₂; a₃ ± b₃); k·a = (ka₁; ka₂; ka₃)", "a·b = a₁b₁ + a₂b₂ + a₃b₃; |a| = √(a₁² + a₂² + a₃²)", "cos(a, b) = (a₁b₁ + a₂b₂ + a₃b₃)/(|a|·|b|)", "a ⊥ b ⇔ a₁b₁ + a₂b₂ + a₃b₃ = 0", "AB = √((x₂ − x₁)² + (y₂ − y₁)² + (z₂ − z₁)²)"] },
+        { ten: "Quy tắc vectơ trong không gian", ct: ["Quy tắc hình hộp ABCD.A′B′C′D′: →AB + →AD + →AA′ = →AC′", "G là trọng tâm tứ diện ABCD ⇔ →GA + →GB + →GC + →GD = →0", "→a·→b = |→a|·|→b|·cos(→a, →b); →a ⊥ →b ⇔ →a·→b = 0"], gc: "Các quy tắc ba điểm, hình bình hành, trung điểm, trọng tâm tam giác vẫn đúng trong không gian." },
+        { ten: "Tọa độ điểm và vectơ", ct: ["M(x; y; z) ⇔ →OM = x·→i + y·→j + z·→k", "A(x₁; y₁; z₁), B(x₂; y₂; z₂) ⇒ →AB = (x₂ − x₁; y₂ − y₁; z₂ − z₁)", "Hình chiếu của M(x; y; z) lên (Oxy), (Oyz), (Ozx): (x; y; 0), (0; y; z), (x; 0; z); lên Ox, Oy, Oz: (x; 0; 0), (0; y; 0), (0; 0; z)", "Đối xứng qua O: (−x; −y; −z); qua (Oxy): (x; y; −z); qua trục Ox: (x; −y; −z)"] },
+        { ten: "Biểu thức tọa độ các phép toán", ct: ["→a ± →b = (a₁ ± b₁; a₂ ± b₂; a₃ ± b₃); k·→a = (ka₁; ka₂; ka₃)", "→a·→b = a₁b₁ + a₂b₂ + a₃b₃; |→a| = √(a₁² + a₂² + a₃²)", "cos(→a, →b) = (a₁b₁ + a₂b₂ + a₃b₃)/(|→a|·|→b|)", "→a ⊥ →b ⇔ a₁b₁ + a₂b₂ + a₃b₃ = 0", "AB = √((x₂ − x₁)² + (y₂ − y₁)² + (z₂ − z₁)²)"] },
         { ten: "Trung điểm, trọng tâm", ct: ["Trung điểm AB: ((x₁ + x₂)/2; (y₁ + y₂)/2; (z₁ + z₂)/2)", "Trọng tâm tam giác: trung bình cộng tọa độ ba đỉnh", "Trọng tâm tứ diện: trung bình cộng tọa độ bốn đỉnh"] },
-        { ten: "Hai vectơ cùng phương", ct: ["b cùng phương a (a ≠ 0) ⇔ có số k để b = k·a", "A, B, C thẳng hàng ⇔ AB và AC cùng phương"] }
+        { ten: "Hai vectơ cùng phương", ct: ["→b cùng phương →a (→a ≠ →0) ⇔ có số k để →b = k·→a", "A, B, C thẳng hàng ⇔ →AB và →AC cùng phương"] }
       ] },
     { g: 12, ch: "12-III", ten: "Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm",
       muc: [
@@ -182,12 +182,12 @@ window.KHKT_CT = {
       ] },
     { g: 12, ch: "12-V", ten: "Phương pháp tọa độ trong không gian",
       muc: [
-        { ten: "Phương trình mặt phẳng", ct: ["Qua M(x₀; y₀; z₀), pháp tuyến n = (A; B; C): A(x − x₀) + B(y − y₀) + C(z − z₀) = 0", "Dạng tổng quát: Ax + By + Cz + D = 0 (A² + B² + C² > 0), pháp tuyến n = (A; B; C)", "Cặp chỉ phương a, b không cùng phương ⇒ pháp tuyến n = (a₂b₃ − a₃b₂; a₃b₁ − a₁b₃; a₁b₂ − a₂b₁) (tích có hướng [a, b])", "Đoạn chắn qua A(a; 0; 0), B(0; b; 0), C(0; 0; c) (abc ≠ 0): x/a + y/b + z/c = 1", "Mặt phẳng tọa độ: (Oxy): z = 0; (Oyz): x = 0; (Ozx): y = 0"] },
+        { ten: "Phương trình mặt phẳng", ct: ["Qua M(x₀; y₀; z₀), pháp tuyến →n = (A; B; C): A(x − x₀) + B(y − y₀) + C(z − z₀) = 0", "Dạng tổng quát: Ax + By + Cz + D = 0 (A² + B² + C² > 0), pháp tuyến →n = (A; B; C)", "Cặp chỉ phương →a, →b không cùng phương ⇒ pháp tuyến →n = (a₂b₃ − a₃b₂; a₃b₁ − a₁b₃; a₁b₂ − a₂b₁) (tích có hướng [→a, →b])", "Đoạn chắn qua A(a; 0; 0), B(0; b; 0), C(0; 0; c) (abc ≠ 0): x/a + y/b + z/c = 1", "Mặt phẳng tọa độ: (Oxy): z = 0; (Oyz): x = 0; (Ozx): y = 0"] },
         { ten: "Vị trí tương đối của hai mặt phẳng", ct: ["(P): Ax + By + Cz + D = 0 và (Q): A′x + B′y + C′z + D′ = 0", "(P) // (Q) ⇔ (A; B; C) = k(A′; B′; C′) và D ≠ kD′; trùng nhau ⇔ thêm D = kD′", "(P) cắt (Q) ⇔ hai pháp tuyến không cùng phương", "(P) ⊥ (Q) ⇔ AA′ + BB′ + CC′ = 0"] },
         { ten: "Khoảng cách từ điểm đến mặt phẳng", ct: ["d(M, (P)) = |Ax₀ + By₀ + Cz₀ + D|/√(A² + B² + C²)", "Hai mặt phẳng song song Ax + By + Cz + D = 0 và Ax + By + Cz + D′ = 0: khoảng cách |D − D′|/√(A² + B² + C²)"] },
-        { ten: "Phương trình đường thẳng", ct: ["Qua M(x₀; y₀; z₀), chỉ phương u = (a; b; c): x = x₀ + at, y = y₀ + bt, z = z₀ + ct (t ∈ ℝ)", "Chính tắc (abc ≠ 0): (x − x₀)/a = (y − y₀)/b = (z − z₀)/c", "Qua hai điểm A, B: chỉ phương u = AB"] },
-        { ten: "Vị trí tương đối của đường thẳng", ct: ["d₁ (qua M₁, chỉ phương u₁), d₂ (qua M₂, chỉ phương u₂): u₁, u₂ cùng phương thì d₁ // d₂ (M₁ không thuộc d₂) hoặc trùng nhau (M₁ thuộc d₂)", "u₁, u₂ không cùng phương: hệ phương trình tham số có nghiệm thì d₁ cắt d₂, vô nghiệm thì d₁ và d₂ chéo nhau", "d₁ ⊥ d₂ ⇔ u₁·u₂ = 0", "d (qua M₀, chỉ phương u) và (P) (pháp tuyến n): u·n ≠ 0 ⇔ d cắt (P); u·n = 0 và M₀ không thuộc (P) ⇔ d // (P); u·n = 0 và M₀ thuộc (P) ⇔ d nằm trong (P)", "d ⊥ (P) ⇔ u cùng phương n"] },
-        { ten: "Góc trong không gian", ct: ["Hai đường thẳng: cos φ = |u₁·u₂|/(|u₁|·|u₂|)", "Đường thẳng và mặt phẳng: sin φ = |u·n|/(|u|·|n|)", "Hai mặt phẳng: cos φ = |n₁·n₂|/(|n₁|·|n₂|)"], gc: "Các góc này đều thuộc [0°; 90°]. Chú ý góc giữa đường thẳng và mặt phẳng dùng sin." },
+        { ten: "Phương trình đường thẳng", ct: ["Qua M(x₀; y₀; z₀), chỉ phương →u = (a; b; c): x = x₀ + at, y = y₀ + bt, z = z₀ + ct (t ∈ ℝ)", "Chính tắc (abc ≠ 0): (x − x₀)/a = (y − y₀)/b = (z − z₀)/c", "Qua hai điểm A, B: chỉ phương →u = →AB"] },
+        { ten: "Vị trí tương đối của đường thẳng", ct: ["d₁ (qua M₁, chỉ phương →u₁), d₂ (qua M₂, chỉ phương →u₂): →u₁, →u₂ cùng phương thì d₁ // d₂ (M₁ không thuộc d₂) hoặc trùng nhau (M₁ thuộc d₂)", "→u₁, →u₂ không cùng phương: hệ phương trình tham số có nghiệm thì d₁ cắt d₂, vô nghiệm thì d₁ và d₂ chéo nhau", "d₁ ⊥ d₂ ⇔ →u₁·→u₂ = 0", "d (qua M₀, chỉ phương →u) và (P) (pháp tuyến →n): →u·→n ≠ 0 ⇔ d cắt (P); →u·→n = 0 và M₀ không thuộc (P) ⇔ d // (P); →u·→n = 0 và M₀ thuộc (P) ⇔ d nằm trong (P)", "d ⊥ (P) ⇔ →u cùng phương →n"] },
+        { ten: "Góc trong không gian", ct: ["Hai đường thẳng: cos φ = |→u₁·→u₂|/(|→u₁|·|→u₂|)", "Đường thẳng và mặt phẳng: sin φ = |→u·→n|/(|→u|·|→n|)", "Hai mặt phẳng: cos φ = |→n₁·→n₂|/(|→n₁|·|→n₂|)"], gc: "Các góc này đều thuộc [0°; 90°]. Chú ý góc giữa đường thẳng và mặt phẳng dùng sin." },
         { ten: "Mặt cầu", ct: ["Tâm I(a; b; c), bán kính R: (x − a)² + (y − b)² + (z − c)² = R²", "x² + y² + z² − 2ax − 2by − 2cz + d = 0 là mặt cầu ⇔ a² + b² + c² − d > 0; tâm I(a; b; c), R = √(a² + b² + c² − d)", "h = d(I, (P)): h > R thì không cắt; h = R thì (P) tiếp xúc mặt cầu tại hình chiếu của I; h < R thì cắt theo đường tròn bán kính r = √(R² − h²)"] }
       ] },
     { g: 12, ch: "12-VI", ten: "Xác suất có điều kiện",
@@ -246,12 +246,12 @@ window.KHKT_CT = {
       ] },
     { ten: "Tọa độ trong không gian",
       muc: [
-        { ten: "Diện tích tam giác, hình bình hành bằng tích có hướng", ct: ["S(ABC) = ½·|[AB, AC]|", "Hình bình hành ABCD: S = |[AB, AD]|"], dk: "[a, b] = (a₂b₃ − a₃b₂; a₃b₁ − a₁b₃; a₁b₂ − a₂b₁) là tích có hướng; AB, AC, AD là vectơ.", gc: "Tích có hướng chỉ được giới thiệu để tìm pháp tuyến; các ứng dụng này ngoài sách giáo khoa." },
-        { ten: "Thể tích tứ diện, hình hộp bằng tích hỗn tạp", ct: ["V(ABCD) = (1/6)·|[AB, AC]·AD|", "Hình hộp ABCD.A′B′C′D′: V = |[AB, AD]·AA′|", "Ba vectơ a, b, c đồng phẳng ⇔ [a, b]·c = 0"], dk: "AB, AC, AD, AA′ là vectơ; [a, b] là tích có hướng." },
-        { ten: "Khoảng cách từ điểm đến đường thẳng trong không gian", ct: ["d(M, Δ) = |[AM, u]|/|u|"], dk: "Δ đi qua A và có chỉ phương u ≠ 0." },
-        { ten: "Khoảng cách giữa hai đường thẳng chéo nhau", ct: ["d(d₁, d₂) = |[u₁, u₂]·M₁M₂|/|[u₁, u₂]|"], dk: "d₁ qua M₁ có chỉ phương u₁; d₂ qua M₂ có chỉ phương u₂; u₁, u₂ không cùng phương.", gc: "Kết quả bằng 0 nghĩa là hai đường thẳng cắt nhau." },
+        { ten: "Diện tích tam giác, hình bình hành bằng tích có hướng", ct: ["S(ABC) = ½·|[→AB, →AC]|", "Hình bình hành ABCD: S = |[→AB, →AD]|"], dk: "[→a, →b] = (a₂b₃ − a₃b₂; a₃b₁ − a₁b₃; a₁b₂ − a₂b₁) là tích có hướng.", gc: "Tích có hướng chỉ được giới thiệu để tìm pháp tuyến; các ứng dụng này ngoài sách giáo khoa." },
+        { ten: "Thể tích tứ diện, hình hộp bằng tích hỗn tạp", ct: ["V(ABCD) = (1/6)·|[→AB, →AC]·→AD|", "Hình hộp ABCD.A′B′C′D′: V = |[→AB, →AD]·→AA′|", "Ba vectơ →a, →b, →c đồng phẳng ⇔ [→a, →b]·→c = 0"], dk: "[→a, →b] là tích có hướng." },
+        { ten: "Khoảng cách từ điểm đến đường thẳng trong không gian", ct: ["d(M, Δ) = |[→AM, →u]|/|→u|"], dk: "Δ đi qua A và có chỉ phương →u ≠ →0." },
+        { ten: "Khoảng cách giữa hai đường thẳng chéo nhau", ct: ["d(d₁, d₂) = |[→u₁, →u₂]·→M₁M₂|/|[→u₁, →u₂]|"], dk: "d₁ qua M₁ có chỉ phương →u₁; d₂ qua M₂ có chỉ phương →u₂; →u₁, →u₂ không cùng phương.", gc: "Kết quả bằng 0 nghĩa là hai đường thẳng cắt nhau." },
         { ten: "Hình chiếu và điểm đối xứng qua mặt phẳng", ct: ["Hình chiếu của M(x₀; y₀; z₀) lên (P): Ax + By + Cz + D = 0 là H(x₀ − A·t; y₀ − B·t; z₀ − C·t) với t = (Ax₀ + By₀ + Cz₀ + D)/(A² + B² + C²)", "Điểm đối xứng của M qua (P): M′(x₀ − 2A·t; y₀ − 2B·t; z₀ − 2C·t)"], dk: "A² + B² + C² > 0." },
-        { ten: "Giá trị nhỏ nhất của αMA² + βMB² trên mặt phẳng", ct: ["Lấy I với α·IA + β·IB = 0, tức I = (α·A + β·B)/(α + β) theo tọa độ", "αMA² + βMB² = (α + β)MI² + αIA² + βIB², nhỏ nhất khi M là hình chiếu của I lên (P)"], dk: "α + β > 0, M chạy trên mặt phẳng (P). Nếu α + β < 0 thì biểu thức đạt giá trị lớn nhất tại cùng điểm đó.", gc: "Trường hợp hay gặp α = β = 1: I là trung điểm AB." }
+        { ten: "Giá trị nhỏ nhất của αMA² + βMB² trên mặt phẳng", ct: ["Lấy I với α·→IA + β·→IB = →0, tức I = (α·A + β·B)/(α + β) theo tọa độ", "αMA² + βMB² = (α + β)MI² + αIA² + βIB², nhỏ nhất khi M là hình chiếu của I lên (P)"], dk: "α + β > 0, M chạy trên mặt phẳng (P). Nếu α + β < 0 thì biểu thức đạt giá trị lớn nhất tại cùng điểm đó.", gc: "Trường hợp hay gặp α = β = 1: I là trung điểm AB." }
       ] },
     { ten: "Nguyên hàm và tích phân",
       muc: [
@@ -266,7 +266,7 @@ window.KHKT_CT = {
     { ten: "Bất đẳng thức",
       muc: [
         { ten: "Bất đẳng thức AM–GM (Cô-si)", ct: ["(a + b)/2 ≥ √(ab), dấu bằng ⇔ a = b", "(a + b + c)/3 ≥ ∛(abc), dấu bằng ⇔ a = b = c", "x + y = S không đổi thì xy ≤ S²/4; xy = P không đổi thì x + y ≥ 2√P"], dk: "Các số a, b, c, x, y không âm.", gc: "Luôn kiểm tra dấu bằng xảy ra được thì mới kết luận giá trị lớn nhất, nhỏ nhất." },
-        { ten: "Bất đẳng thức Cauchy–Schwarz (Bu-nhi-a-cốp-xki)", ct: ["(a₁b₁ + a₂b₂)² ≤ (a₁² + a₂²)(b₁² + b₂²)", "(a₁b₁ + a₂b₂ + a₃b₃)² ≤ (a₁² + a₂² + a₃²)(b₁² + b₂² + b₃²)", "Dấu bằng ⇔ (a₁; a₂; a₃) và (b₁; b₂; b₃) tỉ lệ"], dk: "Đúng với mọi số thực.", gc: "Dạng vectơ: |u·v| ≤ |u|·|v|." },
+        { ten: "Bất đẳng thức Cauchy–Schwarz (Bu-nhi-a-cốp-xki)", ct: ["(a₁b₁ + a₂b₂)² ≤ (a₁² + a₂²)(b₁² + b₂²)", "(a₁b₁ + a₂b₂ + a₃b₃)² ≤ (a₁² + a₂² + a₃²)(b₁² + b₂² + b₃²)", "Dấu bằng ⇔ (a₁; a₂; a₃) và (b₁; b₂; b₃) tỉ lệ"], dk: "Đúng với mọi số thực.", gc: "Dạng vectơ: |→u·→v| ≤ |→u|·|→v|." },
         { ten: "Bất đẳng thức cộng mẫu (Engel)", ct: ["a²/x + b²/y ≥ (a + b)²/(x + y)", "a²/x + b²/y + c²/z ≥ (a + b + c)²/(x + y + z)", "1/x + 1/y ≥ 4/(x + y)"], dk: "x, y, z > 0; a, b, c thực.", gc: "Dấu bằng ⇔ a/x = b/y (= c/z)." },
         { ten: "Một số bất đẳng thức hay dùng", ct: ["a² + b² ≥ 2ab; (a + b)² ≥ 4ab", "a² + b² + c² ≥ ab + bc + ca; (a + b + c)² ≥ 3(ab + bc + ca)", "|a| + |b| ≥ |a + b|, dấu bằng ⇔ ab ≥ 0", "(1 + x)ⁿ ≥ 1 + nx (Bernoulli)"], dk: "Ba dòng đầu đúng với mọi số thực; Bernoulli cần x ≥ −1 và n nguyên dương." }
       ] },

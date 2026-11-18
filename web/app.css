@@ -662,3 +662,8 @@ header.nav::before{content:"";position:absolute;inset:0;z-index:-1;background:co
 .rt{display:inline-flex;align-items:flex-start;white-space:nowrap}
 .rt-s{line-height:1;padding-top:.06em}
 .rt-b{border-top:.07em solid currentColor;padding:.04em .12em 0 .04em;margin-top:.12em;line-height:1.2}
+/* Vectơ: mũi tên phía trên tên vectơ. Góc: dấu mũ phía trên tên góc. Vẽ bằng CSS, không cần phông toán. */
+.vec,.ang{position:relative;display:inline-block;padding-top:.38em;line-height:1.1;white-space:nowrap}
+.vec::before{content:"";position:absolute;left:.04em;right:.1em;top:.2em;height:.065em;background:currentColor}
+.vec::after{content:"";position:absolute;right:.06em;top:.07em;width:.25em;height:.25em;border-top:.065em solid currentColor;border-right:.065em solid currentColor;transform:rotate(45deg);box-sizing:border-box}
+.ang::before{content:"";position:absolute;left:50%;top:.18em;width:.32em;height:.32em;border-top:.06em solid currentColor;border-left:.06em solid currentColor;box-sizing:border-box;transform:translateX(-50%) scaleX(2.4) rotate(45deg);transform-origin:center}

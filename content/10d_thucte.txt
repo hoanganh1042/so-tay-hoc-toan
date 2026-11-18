@@ -42,15 +42,15 @@ b Đáp án: 3
 
 # 10-IV-8#5
 h Hợp lực là tổng hai vectơ lực; dựng hình bình hành (ở đây là hình thoi) rồi tính đường chéo.
-y Quy tắc hình bình hành: F = F₁ + F₂ là đường chéo hình bình hành dựng trên F₁, F₂.
+y Quy tắc hình bình hành: →F = →F₁ + →F₂ là đường chéo hình bình hành dựng trên →F₁, →F₂.
 y Hình thoi cạnh a, góc 60° có đường chéo dài a√3.
 b Hai lực cùng độ lớn nên hình bình hành là hình thoi cạnh 320, góc 60°.
-b Đường chéo ứng với tổng: |F| = 2·320·cos 30° = 320√3 ≈ 554,3 N.
+b Đường chéo ứng với tổng: |→F| = 2·320·cos 30° = 320√3 ≈ 554,3 N.
 b Đáp án: 554
 
 # 10-IV-9#6
 h Nhận ra G là trọng tâm tam giác, rồi dùng AG = (2/3)·AM với M là trung điểm BC.
-y GA + GB + GC = 0 ⇔ G là trọng tâm tam giác ABC.
+y →GA + →GB + →GC = →0 ⇔ G là trọng tâm tam giác ABC.
 y Trọng tâm nằm trên trung tuyến AM và AG = (2/3)AM.
 b Tam giác cân tại A nên trung tuyến AM cũng là đường cao: AM = √(50² − 30²) = 40 m.
 b AG = (2/3)·40 ≈ 26,67 m.
@@ -58,18 +58,18 @@ b Đáp án: 26,7
 
 # 10-IV-10#6
 h Tọa độ tàu sau t giờ bằng tọa độ ban đầu cộng t lần vectơ vận tốc; sau đó tính độ dài vectơ.
-y Chuyển động thẳng đều: M(t) = O + t·v.
+y Chuyển động thẳng đều: M(t) = O + t·→v.
 y AB = √((x₂ − x₁)² + (y₂ − y₁)²).
 b Sau 2 giờ tàu ở M = (24; 10).
 b MI = √((30 − 24)² + (4 − 10)²) = √72 ≈ 8,49 km.
 b Đáp án: 8,5
 
 # 10-IV-11#6
-h Góc giữa hai dây là góc giữa hai vectơ DA, DB; tính bằng tích vô hướng.
-y cos(u, v) = (u·v)/(|u|·|v|), với u·v = x₁x₂ + y₁y₂.
-b DA = (−3; 4), DB = (4; 4).
-b DA·DB = −12 + 16 = 4; |DA| = 5, |DB| = 4√2.
-b cos ADB = 4/(20√2) ≈ 0,1414 nên góc ADB ≈ 81,87°.
+h Góc giữa hai dây là góc giữa hai vectơ →DA, →DB; tính bằng tích vô hướng.
+y cos(→u, →v) = (→u·→v)/(|→u|·|→v|), với →u·→v = x₁x₂ + y₁y₂.
+b →DA = (−3; 4), →DB = (4; 4).
+b →DA·→DB = −12 + 16 = 4; |→DA| = 5, |→DB| = 4√2.
+b cos ∠ADB = 4/(20√2) ≈ 0,1414 nên ∠ADB ≈ 81,87°.
 b Đáp án: 82
 
 # 10-VI-15#5
@@ -108,7 +108,7 @@ b Đáp án: 1,25
 # 10-VII-19#5
 h Lập phương trình đường thẳng AB, tính khoảng cách từ I đến AB và kiểm tra chân đường vuông góc nằm trên đoạn AB.
 y Khoảng cách từ M(x₀; y₀) đến ax + by + c = 0 là |ax₀ + by₀ + c|/√(a² + b²).
-b AB = (12; −9) cùng phương (4; −3), vectơ pháp tuyến (3; 4): AB: 3x + 4y − 31 = 0.
+b →AB = (12; −9) cùng phương (4; −3), vectơ pháp tuyến (3; 4): AB: 3x + 4y − 31 = 0.
 b d(I, AB) = |12 + 12 − 31|/5 = 7/5 = 1,4.
 b Hình chiếu của I lên AB ứng với tham số 9,8/15 ∈ [0; 1] nên nằm trên đoạn AB.
 b Đáp án: 1,4

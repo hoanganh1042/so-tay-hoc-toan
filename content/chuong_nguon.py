@@ -101,7 +101,7 @@ mc('10-VI-16', 'N', 'Đồ thị hàm số y = x² − 4x + 3 có trục đối 
 
 # --- Chương VII. Phương pháp tọa độ trong mặt phẳng
 mc('10-VII-19', 'N', 'Đường thẳng 2x − 3y + 5 = 0 có một vectơ pháp tuyến là', ['(3; 2)', '(2; −3)', '(−3; 2)', '(2; 3)'], 1,
-   'Hệ số của x và y là tọa độ một vectơ pháp tuyến.', ['ax + by + c = 0 có vectơ pháp tuyến n = (a; b).'], ['n = (2; −3).'])
+   'Hệ số của x và y là tọa độ một vectơ pháp tuyến.', ['ax + by + c = 0 có vectơ pháp tuyến →n = (a; b).'], ['→n = (2; −3).'])
 mc('10-VII-21', 'N', 'Đường tròn (x − 1)² + (y + 2)² = 9 có tâm I và bán kính R là', ['I(−1; 2), R = 3', 'I(1; −2), R = 9', 'I(1; −2), R = 3', 'I(−1; 2), R = 9'], 2,
    'So sánh với dạng (x − a)² + (y − b)² = R².', ['Tâm I(a; b), bán kính R.'], ['a = 1, b = −2, R² = 9 nên R = 3.'])
 mc('10-VII-22', 'N', 'Elip x²/25 + y²/9 = 1 có độ dài trục lớn bằng', ['5', '6', '25', '10'], 3,
@@ -254,11 +254,11 @@ tf('11-IX-33', 'Cho hàm số f(x) = x³ − 3x² + 2.',
 
 # ===================== Lớp 12 =====================
 mc('12-I-3', 'N', 'Đồ thị hàm số y = (x + 1)/(x − 3) có tiệm cận đứng là đường thẳng', ['x = −1', 'x = 3', 'y = 1', 'y = 3'], 1, 'Tiệm cận đứng tại nghiệm của mẫu (không là nghiệm của tử).', ['y = (ax + b)/(cx + d) có tiệm cận đứng x = −d/c.'], ['Mẫu bằng 0 khi x = 3, tử khác 0: tiệm cận đứng x = 3.'])
-mc('12-II-7', 'N', 'Trong không gian Oxyz, tọa độ của vectơ u = i + 2j − k là', ['(1; −2; 1)', '(2; 1; −1)', '(1; 2; −1)', '(−1; 2; 1)'], 2, 'Hệ số của i, j, k là tọa độ của vectơ.', ['u = xi + yj + zk ⇔ u = (x; y; z).'], ['u = (1; 2; −1).'])
-tf('12-II-8', 'Trong không gian Oxyz, cho a = (1; 2; −2), b = (2; 0; 1) và d = (2; 2; 1).',
-   [['a + b = (3; 2; −1).', True], ['|a| = 3.', True], ['a·b = 1.', False], ['cos(a, d) = 4/9.', True]],
-   'Áp dụng biểu thức tọa độ của tổng, độ dài, tích vô hướng và côsin góc.', ['a·b = x₁x₂ + y₁y₂ + z₁z₂; cos(a, b) = a·b/(|a||b|).'],
-   ['a) Cộng từng tọa độ: đúng.', 'b) |a| = √(1 + 4 + 4) = 3: đúng.', 'c) a·b = 2 + 0 − 2 = 0: sai.', 'd) a·d = 2 + 4 − 2 = 4, |d| = 3: cos = 4/9, đúng.'],
+mc('12-II-7', 'N', 'Trong không gian Oxyz, tọa độ của vectơ →u = →i + 2→j − →k là', ['(1; −2; 1)', '(2; 1; −1)', '(1; 2; −1)', '(−1; 2; 1)'], 2, 'Hệ số của →i, →j, →k là tọa độ của vectơ.', ['→u = x→i + y→j + z→k ⇔ →u = (x; y; z).'], ['→u = (1; 2; −1).'])
+tf('12-II-8', 'Trong không gian Oxyz, cho →a = (1; 2; −2), →b = (2; 0; 1) và →d = (2; 2; 1).',
+   [['→a + →b = (3; 2; −1).', True], ['|→a| = 3.', True], ['→a·→b = 1.', False], ['cos(→a, →d) = 4/9.', True]],
+   'Áp dụng biểu thức tọa độ của tổng, độ dài, tích vô hướng và côsin góc.', ['→a·→b = x₁x₂ + y₁y₂ + z₁z₂; cos(→a, →b) = →a·→b/(|→a||→b|).'],
+   ['a) Cộng từng tọa độ: đúng.', 'b) |→a| = √(1 + 4 + 4) = 3: đúng.', 'c) →a·→b = 2 + 0 − 2 = 0: sai.', 'd) →a·→d = 2 + 4 − 2 = 4, |→d| = 3: cos = 4/9, đúng.'],
    chk=[True, sqrt(9) == 3, 2 + 0 - 2 == 1, isclose(4/(3*3), 4/9)])
 mc('12-III-9', 'N', 'Mẫu số liệu ghép nhóm có nhóm đầu tiên [10; 15) và nhóm cuối cùng [30; 35). Khoảng biến thiên của mẫu là', ['20', '25', '35', '10'], 1, 'R = đầu mút phải nhóm cuối − đầu mút trái nhóm đầu.', ['R = aₖ₊₁ − a₁.'], ['R = 35 − 10 = 25.'])
 mc('12-III-10', 'N', 'Độ lệch chuẩn của một mẫu số liệu bằng', ['bình phương của phương sai', 'phương sai chia 2', 'căn bậc hai số học của phương sai', 'nghịch đảo của phương sai'], 2, 'Nhớ định nghĩa độ lệch chuẩn.', ['s = √s².'], ['Độ lệch chuẩn là căn bậc hai số học của phương sai.'])
@@ -277,7 +277,7 @@ mc('12-IV-11', 'N', '∫2x dx bằng', ['2x² + C', 'x²/2 + C', 'x² + C', '2 +
 mc('12-IV-12', 'N', 'Với f liên tục, tích phân ∫ₐᵃ f(x)dx bằng', ['2f(a)', '0', 'f(a)', '1'], 1, 'Tích phân có hai cận bằng nhau.', ['∫ₐᵃ f(x)dx = F(a) − F(a) = 0.'], ['Bằng 0.'])
 mc('12-IV-13', 'N', 'Diện tích hình phẳng giới hạn bởi đồ thị y = f(x) liên tục, trục Ox và hai đường thẳng x = a, x = b (a < b) là', ['π∫ₐᵇ f²(x)dx', '∫ₐᵇ f²(x)dx', '∫ᵦᵃ f(x)dx', '∫ₐᵇ |f(x)|dx'], 3, 'Diện tích luôn dương: lấy trị tuyệt đối của f.', ['S = ∫ₐᵇ |f(x)|dx.'], ['S = ∫ₐᵇ |f(x)|dx.'])
 mc('12-V-14', 'N', 'Mặt phẳng (P): x − 2y + 3z − 1 = 0 đi qua điểm nào sau đây?', ['(0; 1; 0)', '(1; 0; 0)', '(1; 1; 1)', '(0; 0; 1)'], 1, 'Thay tọa độ từng điểm vào phương trình.', ['M ∈ (P) khi tọa độ thỏa mãn phương trình.'], ['(1; 0; 0): 1 − 1 = 0, thỏa mãn.'], chk=1 - 0 + 0 - 1 == 0)
-mc('12-V-15', 'N', 'Đường thẳng x = 1 + 2t, y = −t, z = 3 + t có một vectơ chỉ phương là', ['(1; 0; 3)', '(1; −1; 1)', '(2; 1; 1)', '(2; −1; 1)'], 3, 'Hệ số của t là tọa độ vectơ chỉ phương.', ['x = x₀ + at, y = y₀ + bt, z = z₀ + ct có u = (a; b; c).'], ['u = (2; −1; 1).'])
+mc('12-V-15', 'N', 'Đường thẳng x = 1 + 2t, y = −t, z = 3 + t có một vectơ chỉ phương là', ['(1; 0; 3)', '(1; −1; 1)', '(2; 1; 1)', '(2; −1; 1)'], 3, 'Hệ số của t là tọa độ vectơ chỉ phương.', ['x = x₀ + at, y = y₀ + bt, z = z₀ + ct có →u = (a; b; c).'], ['→u = (2; −1; 1).'])
 mc('12-V-17', 'N', 'Mặt cầu x² + y² + z² = 16 có bán kính bằng', ['16', '8', '4', '2'], 2, 'Dạng x² + y² + z² = R².', ['R = √16.'], ['R = 4.'])
 mc('12-VI-18', 'N', 'Với P(B) > 0, xác suất của A với điều kiện B là', ['P(AB)/P(A)', 'P(AB)/P(B)', 'P(A)·P(B)', 'P(A)/P(B)'], 1, 'Nhớ định nghĩa xác suất có điều kiện.', ['P(A|B) = P(AB)/P(B).'], ['P(A|B) = P(AB)/P(B).'])
 mc('12-VI-18', 'N', 'Nếu A, B độc lập và P(B) > 0 thì P(A|B) bằng', ['P(B)', 'P(AB)', 'P(A)', '1'], 2, 'Độc lập: P(AB) = P(A)P(B).', ['P(A|B) = P(A)P(B)/P(B).'], ['P(A|B) = P(A).'])
@@ -324,7 +324,7 @@ tf('10-VI-18', 'Cho phương trình √(x + 7) = x + 1.',
 sa('10-VI-18', 'Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng 7 m và đường chéo dài 13 m, tức là √(x² + (x + 7)²) = 13 với x là chiều rộng. Chiều rộng mảnh vườn là bao nhiêu mét?', '5', '',
    'Bình phương hai vế phương trình chứa căn, chọn nghiệm dương.', ['√A = b (b > 0) ⇔ A = b².'],
    ['x² + (x + 7)² = 169 ⇔ x² + 7x − 60 = 0 ⇔ x = 5 hoặc x = −12.', 'x > 0 nên x = 5.'], 5, 0)
-mc('10-IV-9', 'N', 'Cho M là trung điểm đoạn AB và O là điểm bất kì. Khi đó OA + OB (tổng hai vectơ) bằng', ['OM', 'AB', '2OM', '0'], 2, 'Tính chất trung điểm.', ['M là trung điểm AB ⇔ OA + OB = 2OM với mọi O.'], ['OA + OB = 2OM.'])
+mc('10-IV-9', 'N', 'Cho M là trung điểm đoạn AB và O là điểm bất kì. Khi đó →OA + →OB (tổng hai vectơ) bằng', ['→OM', '→AB', '2→OM', '→0'], 2, 'Tính chất trung điểm.', ['M là trung điểm AB ⇔ →OA + →OB = 2→OM với mọi O.'], ['→OA + →OB = 2→OM.'])
 
 # ---------------------------------------------------------------- xuất
 for x in IT:

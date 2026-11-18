@@ -34,7 +34,7 @@ b Đáp án: 62
 
 # I-5#4
 h Đường thẳng vuông góc với (P) nhận vectơ pháp tuyến của (P) làm vectơ chỉ phương; thay tham số vào phương trình (P) để tìm giao điểm.
-y d ⊥ (P) thì vectơ chỉ phương của d là n = (1; 2; 2).
+y d ⊥ (P) thì vectơ chỉ phương của d là →n = (1; 2; 2).
 b d: x = 1 + t, y = 2 + 2t, z = 3 + 2t.
 b Thay vào (P): (1 + t) + 2(2 + 2t) + 2(3 + 2t) − 2 = 9 + 9t = 0 ⇔ t = −1.
 b H(0; 0; 1), nên a + b + c = 1.
@@ -90,8 +90,8 @@ b Có 4 nghiệm.
 b Đáp án: 4
 
 # I-12#6
-h Xác định góc giữa SC và đáy là góc SCA, tính SA từ tam giác vuông SAC rồi tính thể tích.
-y SA ⊥ (ABCD) nên AC là hình chiếu của SC trên đáy; góc giữa SC và đáy là góc SCA.
+h Xác định góc giữa SC và đáy là ∠SCA, tính SA từ tam giác vuông SAC rồi tính thể tích.
+y SA ⊥ (ABCD) nên AC là hình chiếu của SC trên đáy; góc giữa SC và đáy là ∠SCA.
 y V = (1/3)·S_đáy·h.
 b AC = a√2 (đường chéo hình vuông).
 b SA = AC·tan 60° = a√2·√3 = a√6.
@@ -132,7 +132,7 @@ b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 h Viết phương trình tham số đường bay, biểu diễn bình phương khoảng cách tới O theo t rồi xét giá trị nhỏ nhất và miền t để khoảng cách không quá 50.
 y M thuộc AB: M(−40 + t; 30; 10) với 0 ≤ t ≤ 100.
 y OM² = x² + y² + z².
-b a) AB = (60 − (−40); 30 − 30; 10 − 10) = (100; 0; 0): đúng.
+b a) →AB = (60 − (−40); 30 − 30; 10 − 10) = (100; 0; 0): đúng.
 b b) Đường thẳng qua A, vectơ chỉ phương (1; 0; 0): x = −40 + t, y = 30, z = 10: đúng.
 b c) OM² = (t − 40)² + 900 + 100 ≥ 1000, nhỏ nhất tại t = 40, nên khoảng cách ngắn nhất là √1000 ≈ 31,6 km: sai.
 b d) OM ≤ 50 ⇔ (t − 40)² ≤ 1500 ⇔ 40 − √1500 ≤ t ≤ 40 + √1500 (nằm trong [0; 100]); quãng đường 2√1500 ≈ 77,5 km, không quá 80 km: sai.

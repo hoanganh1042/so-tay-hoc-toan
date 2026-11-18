@@ -1,4 +1,4 @@
-// Hiển thị phân số dạng đứng: "a/b" thành tử ở trên, mẫu ở dưới.
+// Hiển thị ký hiệu toán: phân số đứng ("a/b" thành tử trên, mẫu dưới), dấu căn, mũi tên vectơ (→AB), dấu góc (∠ABC).
 // Đầu vào là chuỗi ĐÃ thoát ký tự HTML (không chứa thẻ). Hàm chỉ chèn thêm các thẻ <span> cố định,
 // tử và mẫu vẫn là văn bản đã thoát, nên không mở thêm đường chèn mã.
 // Dấu "/" vẫn nằm trong trang (ẩn bằng CSS) để trình đọc màn hình đọc đúng và khi sao chép vẫn ra "a/b".
@@ -10,7 +10,9 @@
 // Không đổi khi có dấu cách quanh "/", khi hai bên là chữ tiếng Việt ("và/hoặc") hay đơn vị ("km/h").
 (() => {
   'use strict';
-  const ATOM = /[A-Za-z0-9Α-Ωα-ω₀-ₜᵢ-ᵪⱼ²³¹⁰-ⁿᴬ-ᵡʰ-˿̄'′″°∞!√∛]/;
+  const VEC = /^(?:[A-Z][₀-₉]*[′']?[A-Z][₀-₉]*[′']?|[A-Za-z0][₀-ₜ]*[′']?)(?![A-Za-z])/;
+  const ANG = /^[A-Z][′']?(?:[A-Z][′']?[A-Z][′']?)?(?![A-Za-z])/;
+  const ATOM = /[→∠A-Za-z0-9Α-Ωα-ω₀-ₜᵢ-ᵪⱼ²³¹⁰-ⁿᴬ-ᵡʰ-˿̄'′″°∞!√∛]/;
   const SUP = /[²³¹⁰-ⁿᴬ-ᵡʰ-˿'′″!]/;
   const OPEN = { ')': '(', ']': '[' }, CLOSE = { '(': ')', '[': ']' };
   const LETTER = /\p{L}/u;
@@ -95,6 +97,11 @@
     let out = '', i = 0;
     while (i < s.length) {
       const c = s[i];
+      // Vectơ: →AB, →A'B', →a, →u₁, →0. Góc: ∠ABC, ∠A. Ký tự gốc vẫn giữ (ẩn) để sao chép ra đúng.
+      if (c === '→' || c === '∠') {
+        const m = s.slice(i + 1).match(c === '→' ? VEC : ANG);
+        if (m) { out += `<span class="${c === '→' ? 'vec' : 'ang'}"><span class="fr-s">${c}</span>${m[0]}</span>`; i += 1 + m[0].length; continue; }
+      }
       if (c === '√' || c === '∛') {
         const k = i + 1;
         if (s[k] === '(') { const j = matchFwd(s, k); if (j > k) { out += root(c, render(s.slice(k + 1, j)), true); i = j + 1; continue; } }
@@ -110,7 +117,7 @@
   // Dấu căn có gạch ngang phủ hết biểu thức dưới căn. Cặp ngoặc gốc vẫn giữ (ẩn) để sao chép ra đúng "√(…)".
   const root = (sign, body, paren) => `<span class="rt"><span class="rt-s">${sign}</span><span class="rt-b">${paren ? '<span class="fr-s">(</span>' : ''}${body}${paren ? '<span class="fr-s">)</span>' : ''}</span></span>`;
 
-  const frac = s => /[/√∛]/.test(String(s)) ? render(String(s)) : String(s);
+  const frac = s => /[/√∛→∠]/.test(String(s)) ? render(String(s)) : String(s);
   if (typeof window !== 'undefined') window.KHKT_FRAC = frac;
   if (typeof module !== 'undefined') module.exports = { frac };
 })();

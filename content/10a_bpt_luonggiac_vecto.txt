@@ -179,21 +179,21 @@ b Làm tròn: 137.
 b Đáp án: 137
 
 # 10-IV-7#d
-h Tìm vectơ cùng hướng và cùng độ dài với AB trong hình bình hành.
+h Tìm vectơ cùng hướng và cùng độ dài với →AB trong hình bình hành.
 y Hai vectơ bằng nhau khi cùng hướng và cùng độ dài.
 b AB // DC, AB = DC, hướng từ A sang B trùng hướng từ D sang C.
-b Đáp án: Vectơ DC
+b Đáp án: Vectơ →DC
 
 # 10-IV-7#0
 h Mỗi cặp điểm cho hai vectơ ngược hướng.
-y Vectơ có hướng: AB khác BA.
+y Vectơ có hướng: →AB khác →BA.
 b Có 3 cặp điểm (AB, BC, CA).
 b Mỗi cặp cho 2 vectơ: 3·2 = 6.
 b Đáp án: 6
 
 # 10-IV-7#1
 h Nhớ định nghĩa hai vectơ bằng nhau.
-y a = b ⇔ a, b cùng hướng và |a| = |b|.
+y →a = →b ⇔ →a, →b cùng hướng và |→a| = |→b|.
 b Cùng độ dài chưa đủ, cần cùng hướng.
 b Đáp án: Chúng cùng hướng và cùng độ dài
 
@@ -201,111 +201,111 @@ b Đáp án: Chúng cùng hướng và cùng độ dài
 h Dùng tính chất lục giác đều: các cạnh đối song song, tâm O là trung điểm các đường chéo chính, cạnh bằng bán kính.
 y Lục giác đều tâm O gồm 6 tam giác đều chung đỉnh O.
 b a) ABDE là hình chữ nhật nên AB // ED, AB = ED và cùng hướng. Đúng.
-b b) O là trung điểm AD nên OA = DO (cùng hướng từ D về A). Đúng.
+b b) O là trung điểm AD nên →OA = →DO (cùng hướng từ D về A). Đúng.
 b c) Tam giác OAB đều nên AB = OA. Đúng.
 b d) AB và CD không song song (hợp góc 60°). Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # 10-IV-7#3
-h Độ dài vectơ AC là độ dài đường chéo hình vuông.
+h Độ dài vectơ →AC là độ dài đường chéo hình vuông.
 y Đường chéo hình vuông cạnh a bằng a√2.
-b |AC| = 4√2 ≈ 5,657.
+b |→AC| = 4√2 ≈ 5,657.
 b Làm tròn: 5,66.
 b Đáp án: 5,66
 
 # 10-IV-7#4
-h Độ dài vectơ BD là đường chéo hình chữ nhật; dùng Pythagore.
+h Độ dài vectơ →BD là đường chéo hình chữ nhật; dùng Pythagore.
 y BD² = AB² + AD².
 b BD = √(9 + 16) = 5.
 b Đáp án: 5
 
 # 10-IV-8#d
 h Dùng quy tắc trung điểm.
-y M là trung điểm BC ⇒ AB + AC = 2AM với mọi điểm A.
-b AB + AC = (AM + MB) + (AM + MC) = 2AM + (MB + MC) = 2AM.
-b Đáp án: 2·vectơ AM
+y M là trung điểm BC ⇒ →AB + →AC = 2→AM với mọi điểm A.
+b →AB + →AC = (→AM + →MB) + (→AM + →MC) = 2→AM + (→MB + →MC) = 2→AM.
+b Đáp án: 2·vectơ →AM
 
 # 10-IV-8#0
 h Quy tắc ba điểm (nối đuôi).
-y AB + BC = AC.
-b Điểm cuối của vectơ thứ nhất là điểm đầu của vectơ thứ hai nên tổng là AC.
-b Đáp án: Vectơ AC
+y →AB + →BC = →AC.
+b Điểm cuối của vectơ thứ nhất là điểm đầu của vectơ thứ hai nên tổng là →AC.
+b Đáp án: Vectơ →AC
 
 # 10-IV-8#1
 h Nhớ đẳng thức vectơ đặc trưng của trọng tâm.
-y G là trọng tâm tam giác ABC ⇔ GA + GB + GC = 0.
+y G là trọng tâm tam giác ABC ⇔ →GA + →GB + →GC = →0.
 b GA = GB = GC là tính chất tâm đường tròn ngoại tiếp.
-b Đáp án: GA + GB + GC = 0
+b Đáp án: →GA + →GB + →GC = →0
 
 # 10-IV-8#2
 h Dùng quy tắc hình bình hành cho tổng, quy tắc hiệu cho hiệu, rồi tính độ dài.
-y AB + AD = AC (hình bình hành); AB − AD = DB.
+y →AB + →AD = →AC (hình bình hành); →AB − →AD = →DB.
 y Đường chéo hình vuông cạnh a dài a√2.
 b a) Quy tắc hình bình hành. Đúng.
-b b) |AC| = 2√2. Đúng.
-b c) AB − AD = DA + AB = DB. Đúng.
-b d) |DB| = 2√2 ≠ 2. Sai.
+b b) |→AC| = 2√2. Đúng.
+b c) →AB − →AD = →DA + →AB = →DB. Đúng.
+b d) |→DB| = 2√2 ≠ 2. Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # 10-IV-8#3
-h Dùng quy tắc trung điểm: AB + AC = 2AM, M trung điểm BC.
+h Dùng quy tắc trung điểm: →AB + →AC = 2→AM, M trung điểm BC.
 y Đường trung tuyến của tam giác đều cạnh a dài a√3/2.
 b AM = 3√3/2.
-b |AB + AC| = 2AM = 3√3 ≈ 5,196.
+b |→AB + →AC| = 2AM = 3√3 ≈ 5,196.
 b Làm tròn: 5,2.
 b Đáp án: 5,2
 
 # 10-IV-8#4
 h Hiệu hai vectơ chung gốc là vectơ nối hai điểm cuối.
-y AB − AC = CB.
-b |CB| = 3 (cạnh tam giác đều).
+y →AB − →AC = →CB.
+b |→CB| = 3 (cạnh tam giác đều).
 b Đáp án: 3
 
 # 10-IV-9#d
 h Hai vectơ chung điểm đầu, cùng phương thì ba điểm thẳng hàng.
-y A, B, C thẳng hàng ⇔ AB = k·AC.
-b AB = −3AC nên AB, AC cùng phương và chung điểm A.
+y A, B, C thẳng hàng ⇔ →AB = k·→AC.
+b →AB = −3→AC nên →AB, →AC cùng phương và chung điểm A.
 b Vậy A, B, C thẳng hàng.
 b Đáp án: Thẳng hàng
 
 # 10-IV-9#0
 h Dùng tính chất trung điểm với điểm M bất kỳ.
-y I là trung điểm AB ⇔ MA + MB = 2MI với mọi M.
-b MA + MB = (MI + IA) + (MI + IB) = 2MI + (IA + IB) = 2MI.
-b Đáp án: 2·vectơ MI
+y I là trung điểm AB ⇔ →MA + →MB = 2→MI với mọi M.
+b →MA + →MB = (→MI + →IA) + (→MI + →IB) = 2→MI + (→IA + →IB) = 2→MI.
+b Đáp án: 2·vectơ →MI
 
 # 10-IV-9#1
-h Độ dài của k·a bằng |k|·|a|.
-y |ka| = |k|·|a|.
-b |−3a| = 3·2 = 6.
+h Độ dài của k·→a bằng |k|·|→a|.
+y |k→a| = |k|·|→a|.
+b |−3→a| = 3·2 = 6.
 b Đáp án: 6
 
 # 10-IV-9#2
-h Nhớ tính chất của vectơ k·a: cùng phương a, cùng hướng khi k > 0, độ dài |k|·|a|.
-y k > 0: ka cùng hướng a; k < 0: ngược hướng.
-b a) u = 2a cùng phương a. Đúng.
+h Nhớ tính chất của vectơ k·→a: cùng phương →a, cùng hướng khi k > 0, độ dài |k|·|→a|.
+y k > 0: k→a cùng hướng →a; k < 0: ngược hướng.
+b a) →u = 2→a cùng phương →a. Đúng.
 b b) k = 2 > 0 nên cùng hướng, không ngược hướng. Sai.
-b c) |u| = 2|a|. Đúng.
-b d) u − 2a = 0. Đúng.
+b c) |→u| = 2|→a|. Đúng.
+b d) →u − 2→a = →0. Đúng.
 b Kết luận: a Đúng, b Sai, c Đúng, d Đúng.
 
 # 10-IV-9#3
-h AM = (1/3)AB cho biết M nằm trên đoạn AB và AM bằng một phần ba AB.
-y AM = (1/3)AB ⇒ AM = AB/3 (độ dài), M nằm giữa A và B.
+h →AM = (1/3)→AB cho biết M nằm trên đoạn AB và AM bằng một phần ba AB.
+y →AM = (1/3)→AB ⇒ AM = AB/3 (độ dài), M nằm giữa A và B.
 b AM = 6/3 = 2.
 b MB = 6 − 2 = 4.
 b Đáp án: 4
 
 # 10-IV-9#4
 h C là trung điểm nên AC bằng nửa AB và cùng hướng.
-y AC = ½AB.
-b AB = 2AC nên k = 2.
+y →AC = ½→AB.
+b →AB = 2→AC nên k = 2.
 b Đáp án: 2
 
 # 10-IV-10#d
-h Tọa độ vectơ AB bằng tọa độ điểm cuối trừ điểm đầu.
-y AB = (x_B − x_A; y_B − y_A).
-b AB = (3 − 1; −4 − 2) = (2; −6).
+h Tọa độ vectơ →AB bằng tọa độ điểm cuối trừ điểm đầu.
+y →AB = (x_B − x_A; y_B − y_A).
+b →AB = (3 − 1; −4 − 2) = (2; −6).
 b Đáp án: (2; −6)
 
 # 10-IV-10#0
@@ -317,18 +317,18 @@ b Đáp án: (3; 1)
 # 10-IV-10#1
 h Nhân và cộng vectơ theo từng tọa độ.
 y k(x; y) = (kx; ky); (x₁; y₁) + (x₂; y₂) = (x₁ + x₂; y₁ + y₂).
-b 2b = (2; 6).
-b a + 2b = (2 + 2; −1 + 6) = (4; 5).
+b 2→b = (2; 6).
+b →a + 2→b = (2 + 2; −1 + 6) = (4; 5).
 b Đáp án: (4; 5)
 
 # 10-IV-10#2
 h Tính các vectơ, kiểm tra cùng phương để xét thẳng hàng, tính trọng tâm và độ dài.
-y A, B, C thẳng hàng ⇔ AC = k·AB.
+y A, B, C thẳng hàng ⇔ →AC = k·→AB.
 y |(x; y)| = √(x² + y²).
-b a) AB = (2; 2). Đúng.
-b b) AC = (4; 4) = 2AB nên A, B, C thẳng hàng. Đúng.
+b a) →AB = (2; 2). Đúng.
+b b) →AC = (4; 4) = 2→AB nên A, B, C thẳng hàng. Đúng.
 b c) Trung bình cộng tọa độ: ((0 + 2 + 4)/3; (1 + 3 + 5)/3) = (2; 3). Đúng.
-b d) |AB| = √8 = 2√2 ≠ 4. Sai.
+b d) |→AB| = √8 = 2√2 ≠ 4. Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # 10-IV-10#3
@@ -341,47 +341,47 @@ b Đáp án: 12
 
 # 10-IV-10#4
 h Hai vectơ cùng phương khi tọa độ tỉ lệ.
-y a = (a₁; a₂), b = (b₁; b₂) cùng phương ⇔ a₁b₂ − a₂b₁ = 0.
+y →a = (a₁; a₂), →b = (b₁; b₂) cùng phương ⇔ a₁b₂ − a₂b₁ = 0.
 b m·6 − 2·3 = 0.
 b m = 1.
 b Đáp án: 1
 
 # 10-IV-11#d
 h Công của lực là tích vô hướng của vectơ lực và vectơ dịch chuyển.
-y A = F·d = x₁x₂ + y₁y₂.
+y A = →F·→d = x₁x₂ + y₁y₂.
 b A = 3·5 + 4·0 = 15 (J).
 b Đáp án: 15 J
 
 # 10-IV-11#0
 h Tính tích vô hướng theo tọa độ; bằng 0 thì vuông góc.
-y a·b = a₁b₁ + a₂b₂; a ⊥ b ⇔ a·b = 0.
-b a·b = 1·4 + 2·(−2) = 0.
-b Đáp án: a ⊥ b
+y →a·→b = a₁b₁ + a₂b₂; →a ⊥ →b ⇔ →a·→b = 0.
+b →a·→b = 1·4 + 2·(−2) = 0.
+b Đáp án: →a ⊥ →b
 
 # 10-IV-11#1
 h Dùng định nghĩa tích vô hướng qua độ dài và góc.
-y a·b = |a|·|b|·cos(a, b).
-b a·b = 3·4·cos 60° = 12·½.
+y →a·→b = |→a|·|→b|·cos(→a, →b).
+b →a·→b = 3·4·cos 60° = 12·½.
 b Đáp án: 6
 
 # 10-IV-11#2
 h Tính tích vô hướng, độ dài, rồi côsin góc.
-y cos(a, b) = a·b/(|a|·|b|).
-b a) a·b = 1·1 + 1·0 = 1. Đúng.
-b b) |a| = √2. Đúng.
+y cos(→a, →b) = →a·→b/(|→a|·|→b|).
+b a) →a·→b = 1·1 + 1·0 = 1. Đúng.
+b b) |→a| = √2. Đúng.
 b c) cos = 1/(√2·1) = 1/√2 nên góc 45°. Đúng.
-b d) a·b = 1 ≠ 0 nên không vuông góc. Sai.
+b d) →a·→b = 1 ≠ 0 nên không vuông góc. Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # 10-IV-11#3
-h Hai vectơ AB, AC chung gốc A tạo góc 60°.
-y a·b = |a|·|b|·cos(a, b).
-b AB·AC = 2·2·cos 60° = 2.
+h Hai vectơ →AB, →AC chung gốc A tạo góc 60°.
+y →a·→b = |→a|·|→b|·cos(→a, →b).
+b →AB·→AC = 2·2·cos 60° = 2.
 b Đáp án: 2
 
 # 10-IV-11#4
 h Điều kiện vuông góc: tích vô hướng bằng 0.
-y a ⊥ b ⇔ a₁b₁ + a₂b₂ = 0.
+y →a ⊥ →b ⇔ a₁b₁ + a₂b₂ = 0.
 b 2m + 3·(−4) = 0.
 b m = 6.
 b Đáp án: 6
@@ -558,9 +558,9 @@ b Đáp án: 5
 
 # 10-VII-19#d
 h Vectơ pháp tuyến đọc từ hệ số của x và y trong phương trình tổng quát.
-y ax + by + c = 0 có vectơ pháp tuyến n = (a; b).
+y ax + by + c = 0 có vectơ pháp tuyến →n = (a; b).
 b a = 2, b = −3.
-b Đáp án: n = (2; −3)
+b Đáp án: →n = (2; −3)
 
 # 10-VII-19#0
 h Biết một điểm và vectơ pháp tuyến: dùng dạng a(x − x₀) + b(y − y₀) = 0.
@@ -570,16 +570,16 @@ b 3x − 3 − y + 2 = 0 ⇔ 3x − y − 1 = 0.
 b Đáp án: 3x − y − 1 = 0
 
 # 10-VII-19#1
-h Lấy AB làm vectơ chỉ phương (có thể rút gọn), điểm đi qua là A.
+h Lấy →AB làm vectơ chỉ phương (có thể rút gọn), điểm đi qua là A.
 y Phương trình tham số: x = x₀ + u₁t, y = y₀ + u₂t.
-b AB = (2; 4), cùng phương với u = (1; 2).
+b →AB = (2; 4), cùng phương với →u = (1; 2).
 b Qua A(1; 1): x = 1 + t, y = 1 + 2t.
 b Đáp án: x = 1 + t, y = 1 + 2t
 
 # 10-VII-19#2
 h Đọc vectơ chỉ phương, tìm vectơ pháp tuyến, kiểm tra điểm và lập phương trình tổng quát.
-y u = (u₁; u₂) ⇒ n = (u₂; −u₁) là một vectơ pháp tuyến.
-b a) Hệ số của t: u = (1; 3). Đúng.
+y →u = (u₁; u₂) ⇒ →n = (u₂; −u₁) là một vectơ pháp tuyến.
+b a) Hệ số của t: →u = (1; 3). Đúng.
 b b) t = 1 cho (3; 2). Đúng.
 b c) Pháp tuyến là (3; −1); (1; 3) là chỉ phương, không vuông góc với chính nó. Sai.
 b d) 3(x − 2) − (y + 1) = 0 ⇔ 3x − y − 7 = 0. Đúng.
@@ -622,12 +622,12 @@ b (x − 1)² + (y − 3)² = 25.
 b Đáp án: (x − 1)² + (y − 3)² = 25
 
 # 10-VII-21#2
-h Tìm tâm, bán kính; so sánh IA với R; tiếp tuyến tại A nhận IA làm pháp tuyến.
-y Tâm I(a; b), R = √(a² + b² − c); tiếp tuyến tại A ∈ (C) có pháp tuyến IA.
+h Tìm tâm, bán kính; so sánh IA với R; tiếp tuyến tại A nhận →IA làm pháp tuyến.
+y Tâm I(a; b), R = √(a² + b² − c); tiếp tuyến tại A ∈ (C) có pháp tuyến →IA.
 b a) −2a = −4, −2b = 6 nên I(2; −3). Đúng.
 b b) R = √(4 + 9 + 12) = 5. Đúng.
 b c) IA = √(9 + 16) = 5 = R nên A nằm trên (C). Sai.
-b d) IA = (3; 4): 3(x − 5) + 4(y − 1) = 0 ⇔ 3x + 4y − 19 = 0. Đúng.
+b d) →IA = (3; 4): 3(x − 5) + 4(y − 1) = 0 ⇔ 3x + 4y − 19 = 0. Đúng.
 b Kết luận: a Đúng, b Đúng, c Sai, d Đúng.
 
 # 10-VII-21#3

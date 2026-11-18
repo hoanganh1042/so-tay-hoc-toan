@@ -27,7 +27,7 @@ b Đáp án: 33,3
 
 # I-5#5
 h Viết phương trình tham số của tia, tìm t để z = 0.
-y Đường thẳng qua A, chỉ phương u: M = A + t·u.
+y Đường thẳng qua A, chỉ phương →u: M = A + t·→u.
 b z = 3 − 3t = 0 ⇔ t = 1.
 b Điểm chạm: (1 + 2; 2 − 1; 0) = (3; 1; 0).
 b Đáp án: (3; 1; 0)

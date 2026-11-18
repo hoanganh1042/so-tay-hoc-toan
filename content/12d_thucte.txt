@@ -38,7 +38,7 @@ b Đáp án: 80
 
 # 12-II-6#5
 h Đèn cân bằng: tổng ba lực căng cân bằng với trọng lực; thành phần nằm ngang triệt tiêu, thành phần thẳng đứng cộng lại bằng 60 N.
-y Vật cân bằng: tổng các vectơ lực bằng 0.
+y Vật cân bằng: tổng các vectơ lực bằng →0.
 y Thành phần thẳng đứng của lực F tạo với phương thẳng đứng góc α là F·cos α.
 b 3·T·cos 30° = 60.
 b T = 20/cos 30° = 40/√3 ≈ 23,09 N.
@@ -52,10 +52,10 @@ b a + b + c = 3 + 2,5 + 2,5 = 8.
 b Đáp án: 8
 
 # 12-II-8#6
-h Tính hai vectơ DA, DB theo tọa độ rồi dùng công thức cos góc giữa hai vectơ.
-y cos(u, v) = (x₁x₂ + y₁y₂ + z₁z₂)/(|u|·|v|).
-b DA = (−1,5; −0,7; 0,8), DB = (1,5; −0,7; 0,8).
-b DA·DB = −2,25 + 0,49 + 0,64 = −1,12; |DA|² = |DB|² = 3,38.
+h Tính hai vectơ →DA, →DB theo tọa độ rồi dùng công thức cos góc giữa hai vectơ.
+y cos(→u, →v) = (x₁x₂ + y₁y₂ + z₁z₂)/(|→u|·|→v|).
+b →DA = (−1,5; −0,7; 0,8), →DB = (1,5; −0,7; 0,8).
+b →DA·→DB = −2,25 + 0,49 + 0,64 = −1,12; |→DA|² = |→DB|² = 3,38.
 b cos = −1,12/3,38 ≈ −0,331 ⇒ góc ≈ 109,4°.
 b Đáp án: 109
 
@@ -107,16 +107,16 @@ b Đáp án: 4
 
 # 12-V-15#5
 h Khoảng cách từ O đến đường thẳng AB tính bằng tích có hướng.
-y d(M, Δ) = |[AM, u]|/|u|, u là vectơ chỉ phương của Δ.
-b u = AB = (4; 2; 2), AO = (0; 0; −1).
-b [AO, u] = (2; −4; 0), độ dài √20.
+y d(M, Δ) = |[→AM, →u]|/|→u|, →u là vectơ chỉ phương của Δ.
+b →u = →AB = (4; 2; 2), →AO = (0; 0; −1).
+b [→AO, →u] = (2; −4; 0), độ dài √20.
 b d = √20/√24 ≈ 0,913 km.
 b Đáp án: 0,91
 
 # 12-V-16#5
 h Góc giữa hai mặt phẳng tính qua hai vectơ pháp tuyến.
-y cos((P), (Q)) = |n₁·n₂|/(|n₁|·|n₂|).
-b n(P) = (2; 1; 2), n(Oxy) = (0; 0; 1).
+y cos((P), (Q)) = |→n₁·→n₂|/(|→n₁|·|→n₂|).
+b →n(P) = (2; 1; 2), →n(Oxy) = (0; 0; 1).
 b cos φ = 2/3 ⇒ φ ≈ 48,19°.
 b Đáp án: 48,2
 

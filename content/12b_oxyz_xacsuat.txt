@@ -1,13 +1,13 @@
 # 12-V-14#d
 h Viết phương trình mặt phẳng khi biết một điểm và vectơ pháp tuyến.
-y Mặt phẳng qua M(x₀; y₀; z₀), pháp tuyến n = (a; b; c): a(x − x₀) + b(y − y₀) + c(z − z₀) = 0.
+y Mặt phẳng qua M(x₀; y₀; z₀), pháp tuyến →n = (a; b; c): a(x − x₀) + b(y − y₀) + c(z − z₀) = 0.
 b 1(x − 1) + 1(y − 2) + 1(z − 3) = 0.
 b Khai triển: x + y + z − 6 = 0.
 b Đáp án: x + y + z − 6 = 0
 
 # 12-V-14#0
 h Vectơ pháp tuyến của ax + by + cz + d = 0 đọc từ hệ số của x, y, z.
-y Mặt phẳng ax + by + cz + d = 0 có một vectơ pháp tuyến n = (a; b; c).
+y Mặt phẳng ax + by + cz + d = 0 có một vectơ pháp tuyến →n = (a; b; c).
 b a = 2, b = −1, c = 3.
 b Đáp án: (2; −1; 3)
 
@@ -45,14 +45,14 @@ b Đáp án: 6
 
 # 12-V-15#d
 h Trong phương trình tham số, vectơ chỉ phương là bộ hệ số của t.
-y d: x = x₀ + at, y = y₀ + bt, z = z₀ + ct có vectơ chỉ phương u = (a; b; c).
+y d: x = x₀ + at, y = y₀ + bt, z = z₀ + ct có vectơ chỉ phương →u = (a; b; c).
 b Hệ số của t: x có 2, y có −1, z có 0 (z = 3 không chứa t).
 b Đáp án: (2; −1; 0)
 
 # 12-V-15#0
 h Viết phương trình chính tắc từ một điểm và vectơ chỉ phương có các tọa độ khác 0.
 y (x − x₀)/a = (y − y₀)/b = (z − z₀)/c với abc ≠ 0.
-b Thay A(1; 0; 2), u = (1; 1; 1).
+b Thay A(1; 0; 2), →u = (1; 1; 1).
 b Đáp án: (x − 1)/1 = y/1 = (z − 2)/1
 
 # 12-V-15#1
@@ -88,47 +88,47 @@ b Đáp án: 45,8
 
 # 12-V-16#d
 h Góc giữa hai mặt phẳng tính qua hai vectơ pháp tuyến, có trị tuyệt đối vì góc không vượt quá 90°.
-y cos((P), (Q)) = |n₁·n₂|/(|n₁|·|n₂|).
+y cos((P), (Q)) = |→n₁·→n₂|/(|→n₁|·|→n₂|).
 b Góc giữa hai mặt phẳng thuộc [0°; 90°] nên côsin không âm, cần trị tuyệt đối.
-b Đáp án: |n₁·n₂| / (|n₁|·|n₂|)
+b Đáp án: |→n₁·→n₂| / (|→n₁|·|→n₂|)
 
 # 12-V-16#0
 h Lấy hai vectơ pháp tuyến rồi áp dụng công thức côsin góc giữa hai mặt phẳng.
-y (Oxy) có pháp tuyến k = (0; 0; 1); x − z = 0 có pháp tuyến (1; 0; −1).
-y cos = |n₁·n₂|/(|n₁|·|n₂|).
-b n₁·n₂ = 0 + 0 − 1 = −1; |n₁| = √2, |n₂| = 1.
+y (Oxy) có pháp tuyến →k = (0; 0; 1); x − z = 0 có pháp tuyến (1; 0; −1).
+y cos = |→n₁·→n₂|/(|→n₁|·|→n₂|).
+b →n₁·→n₂ = 0 + 0 − 1 = −1; |→n₁| = √2, |→n₂| = 1.
 b cos = 1/√2 nên góc bằng 45°.
 b Đáp án: 45°
 
 # 12-V-16#1
 h So sánh vectơ chỉ phương của đường thẳng và vectơ pháp tuyến của mặt phẳng.
-y sin(d, (P)) = |u·n|/(|u|·|n|).
-y u cùng phương n ⇔ d ⊥ (P).
-b u = n = (1; 0; 0) nên sin = 1.
+y sin(d, (P)) = |→u·→n|/(|→u|·|→n|).
+y →u cùng phương →n ⇔ d ⊥ (P).
+b →u = →n = (1; 0; 0) nên sin = 1.
 b Góc bằng 90°.
 b Đáp án: 90°
 
 # 12-V-16#2
 h Tính tích vô hướng, độ dài rồi côsin góc giữa hai đường thẳng.
-y cos(d₁, d₂) = |u₁·u₂|/(|u₁|·|u₂|), góc thuộc [0°; 90°].
-b a) u₁·u₂ = 0 + 1 + 0 = 1. Đúng.
-b b) |u₁| = √(1 + 1 + 0) = √2. Đúng.
+y cos(d₁, d₂) = |→u₁·→u₂|/(|→u₁|·|→u₂|), góc thuộc [0°; 90°].
+b a) →u₁·→u₂ = 0 + 1 + 0 = 1. Đúng.
+b b) |→u₁| = √(1 + 1 + 0) = √2. Đúng.
 b c) cos = 1/(√2·√2) = 1/2. Đúng.
 b d) cos = 1/2 ứng với 60°, không phải 30°. Sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # 12-V-16#3
 h Góc giữa đường thẳng và mặt phẳng tính bằng sin qua vectơ chỉ phương và vectơ pháp tuyến.
-y sin(d, (P)) = |u·n|/(|u|·|n|); (Oxy) có n = (0; 0; 1).
-b u·n = 1; |u| = √2; |n| = 1.
+y sin(d, (P)) = |→u·→n|/(|→u|·|→n|); (Oxy) có →n = (0; 0; 1).
+b →u·→n = 1; |→u| = √2; |→n| = 1.
 b sin = 1/√2 nên góc bằng 45°.
 b Đáp án: 45
 
 # 12-V-16#4
 h Lấy pháp tuyến hai mặt phẳng rồi tính côsin góc.
-y x + y = 0 có n₁ = (1; 1; 0); y + z = 0 có n₂ = (0; 1; 1).
-y cos = |n₁·n₂|/(|n₁|·|n₂|).
-b n₁·n₂ = 1; |n₁| = |n₂| = √2.
+y x + y = 0 có →n₁ = (1; 1; 0); y + z = 0 có →n₂ = (0; 1; 1).
+y cos = |→n₁·→n₂|/(|→n₁|·|→n₂|).
+b →n₁·→n₂ = 1; |→n₁| = |→n₂| = √2.
 b cos = 1/2 nên góc bằng 60°.
 b Đáp án: 60
 

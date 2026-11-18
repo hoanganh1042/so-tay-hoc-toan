@@ -46,11 +46,11 @@ b Hai điểm cực trị tại x = 0 và x = 2: y′ = −3x² + 6x có nghiệ
 b Đáp án: y = −x³ + 3x² − 1
 
 # 12-II-6#6
-h Dùng quy tắc hình bình hành cho AB + AD rồi quy tắc hình bình hành lần nữa với AA′.
-y Quy tắc hình hộp: AB + AD + AA′ = AC′ (vectơ).
-b AB + AD = AC (hình bình hành ABCD).
-b AC + AA′ = AC′ (hình bình hành ACC′A′).
-b Đáp án: AC′
+h Dùng quy tắc hình bình hành cho →AB + →AD rồi quy tắc hình bình hành lần nữa với →AA′.
+y Quy tắc hình hộp: →AB + →AD + →AA′ = →AC′ (vectơ).
+b →AB + →AD = →AC (hình bình hành ABCD).
+b →AC + →AA′ = →AC′ (hình bình hành ACC′A′).
+b Đáp án: →AC′
 
 # 12-II-7#8
 h Tìm tọa độ B′ rồi lấy trung điểm của đường chéo OB′.
@@ -62,12 +62,12 @@ b Đáp án: (1,5; 2; 1)
 
 # 12-II-8#8
 h Dùng ABCD là hình vuông để tìm C; tính tọa độ vectơ, độ dài, tích vô hướng.
-y AB + AD = AC (vectơ).
-y u·v > 0 ⇒ góc (u, v) nhọn.
-b a) AC = AB + AD = (4; 4; 0) nên C(4; 4; 0): đúng.
-b b) SC = (4 − 2; 4 − 2; 0 − 3) = (2; 2; −3): sai.
-b c) SA = (−2; −2; −3), |SA| = √(4 + 4 + 9) = √17: đúng.
-b d) SA·SC = −4 − 4 + 9 = 1 > 0 nên góc nhọn: sai.
+y →AB + →AD = →AC (vectơ).
+y →u·→v > 0 ⇒ góc (→u, →v) nhọn.
+b a) →AC = →AB + →AD = (4; 4; 0) nên C(4; 4; 0): đúng.
+b b) →SC = (4 − 2; 4 − 2; 0 − 3) = (2; 2; −3): sai.
+b c) →SA = (−2; −2; −3), |→SA| = √(4 + 4 + 9) = √17: đúng.
+b d) →SA·→SC = −4 − 4 + 9 = 1 > 0 nên góc nhọn: sai.
 b Kết luận: a Đúng, b Sai, c Đúng, d Sai.
 
 # 12-III-9#9
@@ -130,20 +130,20 @@ b Đáp án: 2x + 3y + z − 6 = 0
 
 # 12-V-15#7
 h Viết phương trình tham số; quãng đường bay bằng tốc độ nhân thời gian; tìm điểm trên đường bay gần T nhất bằng hình chiếu vuông góc.
-y d(T, d) = |[AT, u]|/|u|.
-y Hình chiếu H của T lên d thỏa mãn TH ⊥ u.
+y d(T, d) = |[→AT, →u]|/|→u|.
+y Hình chiếu H của T lên d thỏa mãn →TH ⊥ →u.
 b a) Qua A(0; 0; 1), vectơ chỉ phương (3; 4; 0): đúng.
-b b) Sau 10 phút bay 5 km = |u| nên ở A + u = (3; 4; 1): đúng.
-b c) AT = (10; 0; 0), [AT, u] = (0; 0; 40), d = 40/5 = 8 km: đúng.
-b d) H(3t; 4t; 1) với TH·u = 0: 9t − 30 + 16t = 0 ⇒ t = 1,2, H(3,6; 4,8; 1), AH = 6 km, mất 12 phút: sai.
+b b) Sau 10 phút bay 5 km = |→u| nên ở A + →u = (3; 4; 1): đúng.
+b c) →AT = (10; 0; 0), [→AT, →u] = (0; 0; 40), d = 40/5 = 8 km: đúng.
+b d) H(3t; 4t; 1) với →TH·→u = 0: 9t − 30 + 16t = 0 ⇒ t = 1,2, H(3,6; 4,8; 1), AH = 6 km, mất 12 phút: sai.
 b Kết luận: a Đúng, b Đúng, c Đúng, d Sai.
 
 # 12-V-16#6
-h Tính tọa độ hai vectơ AM, BM rồi dùng công thức côsin góc giữa hai vectơ.
-y cos(u, v) = u·v/(|u|·|v|).
-b AM = (4; 3; −6), BM = (−4; 3; −6); |AM| = |BM| = √61.
-b AM·BM = −16 + 9 + 36 = 29, cos AMB = 29/61.
-b Góc AMB ≈ 61,6°, làm tròn được 62°.
+h Tính tọa độ hai vectơ →AM, →BM rồi dùng công thức côsin góc giữa hai vectơ.
+y cos(→u, →v) = →u·→v/(|→u|·|→v|).
+b →AM = (4; 3; −6), →BM = (−4; 3; −6); |→AM| = |→BM| = √61.
+b →AM·→BM = −16 + 9 + 36 = 29, cos ∠AMB = 29/61.
+b ∠AMB ≈ 61,6°, làm tròn được 62°.
 b Đáp án: 62
 
 # 12-V-17#7

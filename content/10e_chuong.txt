@@ -142,8 +142,8 @@ b Đáp án: x = 2
 
 # 10-VII-19#6
 h Hệ số của x và y là tọa độ một vectơ pháp tuyến.
-y ax + by + c = 0 có vectơ pháp tuyến n = (a; b).
-b n = (2; −3).
+y ax + by + c = 0 có vectơ pháp tuyến →n = (a; b).
+b →n = (2; −3).
 b Đáp án: (2; −3)
 
 # 10-VII-21#6
@@ -468,6 +468,6 @@ b Đáp án: 5
 
 # 10-IV-9#7
 h Tính chất trung điểm.
-y M là trung điểm AB ⇔ OA + OB = 2OM với mọi O.
-b OA + OB = 2OM.
-b Đáp án: 2OM
+y M là trung điểm AB ⇔ →OA + →OB = 2→OM với mọi O.
+b →OA + →OB = 2→OM.
+b Đáp án: 2→OM
